@@ -1,0 +1,32 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# tooling
+.codegraph/
+
+# manuscript sources and internal review trail: not part of the artifact release
+paper/
+docs/
+inputs/
+logs/
+
+# local archives and scratch
+*.tgz
+*.zip
+NEXT_SESSION_HANDOFF.md
+aeroconf2740_*.pdf
+
+# scratch: third-party PDFs, page renders, internal review trail
+tmp/

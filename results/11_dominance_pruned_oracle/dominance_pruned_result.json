@@ -1,0 +1,88 @@
+{
+  "method": "dominance_pruned_exact_extensive_form",
+  "exactness_scope": "enumerated finite burst-event library",
+  "master_scenarios": 1648,
+  "master_total_cost_M": 3581.093473035439,
+  "certified_total_cost_M": 3581.093473035439,
+  "certification_gap_M": 0.0,
+  "certification_gap_pct": 0.0,
+  "worst_unmet_tons": 300.0,
+  "worst_scenario_id": 1220,
+  "C_depot": [
+    600.0,
+    600.0
+  ],
+  "q_mode": [
+    350.0,
+    188.18695428865271,
+    208.33333333333334
+  ],
+  "master_solve_time_s": 30.773425340652466,
+  "maximal_set_certification_time_s": 5.523721933364868,
+  "pruning_time_s": 1.89180588722229,
+  "total_wall_time_s": 36.53810000419617,
+  "lp_status": "optimal",
+  "certification_status": "optimal",
+  "solution": {
+    "investment_cost": 69017473.03543915,
+    "worst_case_cost": 3512076000.0,
+    "total_cost": 3581093473.035439,
+    "worst_scenario_id_in_pruned_master": 13,
+    "worst_scenario_events": [
+      [
+        0,
+        0,
+        6
+      ],
+      [
+        1,
+        0,
+        6
+      ]
+    ]
+  },
+  "certification": {
+    "design_name": "dominance_pruned_exact",
+    "investment_cost": 69017473.03543915,
+    "sampled_total_cost": 3581093473.035439,
+    "sampled_worst_operating_cost": 3512076000.0,
+    "full_worst_operating_cost": 3512076000.0,
+    "full_total_cost": 3581093473.035439,
+    "certification_gap": 0.0,
+    "certification_gap_pct": 0.0,
+    "operating_gap": 0.0,
+    "worst": {
+      "scenario_id": 1220,
+      "events": [
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          6,
+          6
+        ]
+      ],
+      "operating_cost": 3512076000.0,
+      "unmet_tons": 300.0,
+      "unmet_by_commodity": [
+        200.0,
+        100.0
+      ],
+      "status": "optimal",
+      "solve_time_s": 0.004879951477050781,
+      "message": ""
+    },
+    "evaluated_scenarios": 1648,
+    "eval_time_s": 5.523721933364868,
+    "status": "optimal"
+  },
+  "comparison_to_existing_ccg": {
+    "objective_gap_M": -4.547473508864641e-13,
+    "C_max_abs_difference": 0.0,
+    "q_max_abs_difference": 3.524291969370097e-12,
+    "wall_time_ratio_existing_ccg_over_pruned": 7.874963148091235
+  }
+}

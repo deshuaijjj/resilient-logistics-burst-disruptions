@@ -1,0 +1,2 @@
+sample_size,total_cost_M,investment_cost_M,worst_operating_cost_M,C_depot_0,C_depot_1,q_mode_0,q_mode_1,q_mode_2,worst_scenario_id,num_worst_events,solve_time_s,wall_time_s,lp_status
+2000,3552.4103646277863,39.11795163584638,3513.2924129919397,600.0,100.0,300.0,182.7643432906623,241.66666666666666,355,2,43.98592782020569,44.25314784049988,optimal

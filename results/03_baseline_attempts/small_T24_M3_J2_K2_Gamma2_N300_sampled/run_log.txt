@@ -1,0 +1,108 @@
+================================================================================
+CORRECTED BASELINE EXPERIMENTS (N=500 sampled scenarios)
+================================================================================
+
+Instance: T=24, M=3, J=2, K=2, Gamma=2
+
+Generating scenarios...
+Generated 257 single-event scenarios
+Generated 29658 two-event scenarios
+Total scenarios: 29916
+Total burst scenarios available: 29916
+Using N=300 burst scenarios (deterministic sampling)
+Independent scenarios: 51
+
+[1/6] Nominal Strategy...
+  Definition: No disruptions, optimize both C and q
+
+============================================================
+Solving Robust Model (1 scenarios)
+============================================================
+Building LP with 534 variables, 1 scenarios...
+  Variables: 534
+  Inequality constraints: 193
+  Equality constraints: 96
+
+Solving LP...
+Running HiGHS 1.2.0 [date: 2021-07-09, git hash: n/a]
+Copyright (c) 2022 ERGO-Code under MIT licence terms
+Presolving model
+281 rows, 515 cols, 1274 nonzeros
+269 rows, 495 cols, 1226 nonzeros
+Presolve : Reductions: rows 269(-20); columns 495(-39); elements 1226(-503)
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     3.5000000000e+09 Pr: 45(8550) 0s
+        205     3.5440615000e+09 Pr: 0(0) 0s
+Solving the original LP from the solution after postsolve
+Model   status      : Optimal
+Simplex   iterations: 205
+Objective value     :  3.5440615000e+09
+HiGHS run time      :          0.00
+
+Solution found:
+  Total cost: $3,544,061,500
+  Investment cost: $36,860,000
+  Worst-case operating cost: $3,507,201,500
+  Depot capacity: [600. 100.]
+  Mode capacity: [358.33333333   0.           0.        ]
+  Solve time: 0.01s
+
+Worst scenario: #0
+  Events: []
+  Recourse cost: $3,507,201,500
+  Solve time: 0.01s
+  Total cost: $3544.06M
+
+[2/6] Independent Robust...
+  Budgeted uncertainty (51 scenarios)
+
+============================================================
+Solving Robust Model (51 scenarios)
+============================================================
+Building LP with 26934 variables, 51 scenarios...
+  Variables: 26934
+  Inequality constraints: 9843
+  Equality constraints: 4896
+
+Solving LP...
+Running HiGHS 1.2.0 [date: 2021-07-09, git hash: n/a]
+Copyright (c) 2022 ERGO-Code under MIT licence terms
+Presolving model
+13942 rows, 24868 cols, 82459 nonzeros
+13499 rows, 23912 cols, 79556 nonzeros
+Presolve : Reductions: rows 13499(-1240); columns 23912(-3022); elements 79556(-8323)
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Pr: 2346(1.8016e+09) 0s
+      11969     3.5447306762e+09 Pr: 0(0) 0s
+      11969     3.5447306762e+09 Pr: 0(0) 0s
+Solving the original LP from the solution after postsolve
+Model   status      : Optimal
+Simplex   iterations: 11969
+Objective value     :  3.5447306762e+09
+HiGHS run time      :          0.52
+
+Solution found:
+  Total cost: $3,544,730,676
+  Investment cost: $37,285,699
+  Worst-case operating cost: $3,507,444,977
+  Depot capacity: [600. 100.]
+  Mode capacity: [385.72688665  99.98739907   0.        ]
+  Solve time: 10.61s
+
+Worst scenario: #22
+  Events: [(2, 19, 1), (0, 0, 1), (2, 17, 1), (0, 10, 1), (0, 17, 1), (2, 9, 1)]
+  Recourse cost: $3,507,444,977
+  Solve time: 10.62s
+  Total cost: $3544.73M
+
+[3/6] Burst Robust (our model)...
+  Burst disruptions (300 scenarios)
+
+============================================================
+Solving Robust Model (300 scenarios)
+============================================================
+Building LP with 158406 variables, 300 scenarios...

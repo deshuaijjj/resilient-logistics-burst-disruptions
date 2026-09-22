@@ -1,0 +1,286 @@
+{
+  "nominal_start_maximal_separation": {
+    "iterations": [
+      {
+        "iteration": 1,
+        "master_scenarios": 1,
+        "added_scenario_id": 1220,
+        "lower_bound": 3573876500.0000005,
+        "upper_bound": 44403710666.666664,
+        "gap": 40829834166.666664,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          358.3333333333333,
+          0.0,
+          0.0
+        ],
+        "worst_scenario_id": 1220,
+        "worst_unmet_tons": 3783.3333333333335,
+        "master_solve_time_s": 0.006160259246826172,
+        "master_wall_time_s": 0.006605863571166992,
+        "separation_time_s": 3.741136074066162,
+        "separation_lps": 1648,
+        "converged": false
+      },
+      {
+        "iteration": 2,
+        "master_scenarios": 2,
+        "added_scenario_id": 21890,
+        "lower_bound": 3575539000.0,
+        "upper_bound": 23572851333.33333,
+        "gap": 19997312333.33333,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          116.66666666666669,
+          283.3333333333333,
+          0.0
+        ],
+        "worst_scenario_id": 21890,
+        "worst_unmet_tons": 2300.0,
+        "master_solve_time_s": 0.015020132064819336,
+        "master_wall_time_s": 0.015588998794555664,
+        "separation_time_s": 4.053375005722046,
+        "separation_lps": 1648,
+        "converged": false
+      },
+      {
+        "iteration": 3,
+        "master_scenarios": 3,
+        "added_scenario_id": 1295,
+        "lower_bound": 3575591141.4307165,
+        "upper_bound": 18323693383.805233,
+        "gap": 14748102242.374516,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          259.52024345726466,
+          283.3333333333333,
+          0.0
+        ],
+        "worst_scenario_id": 1295,
+        "worst_unmet_tons": 1550.0,
+        "master_solve_time_s": 0.029314041137695312,
+        "master_wall_time_s": 0.030106067657470703,
+        "separation_time_s": 3.5277929306030273,
+        "separation_lps": 1648,
+        "converged": false
+      },
+      {
+        "iteration": 4,
+        "master_scenarios": 4,
+        "added_scenario_id": null,
+        "lower_bound": 3581093473.035439,
+        "upper_bound": 3581093473.0354395,
+        "gap": 4.76837158203125e-07,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          350.0,
+          188.18695428865271,
+          208.33333333333334
+        ],
+        "worst_scenario_id": 1295,
+        "worst_unmet_tons": 300.0,
+        "master_solve_time_s": 0.03451275825500488,
+        "master_wall_time_s": 0.03545689582824707,
+        "separation_time_s": 3.7876880168914795,
+        "separation_lps": 1648,
+        "converged": true
+      }
+    ],
+    "num_iterations": 4,
+    "converged": true,
+    "active_ids_final": [
+      0,
+      1220,
+      1295,
+      21890
+    ],
+    "separation_scenarios_per_iteration": 1648,
+    "recourse_lps": 6592,
+    "master_solves": 4,
+    "total_cost": 3581093473.035439,
+    "worst_recourse": 3512076000.0,
+    "C": [
+      600.0,
+      600.0
+    ],
+    "q": [
+      350.0,
+      188.18695428865271,
+      208.33333333333334
+    ],
+    "investment_cost": 69017473.03543915,
+    "final_upper_bound": 3581093473.0354395,
+    "worst_scenario_id": 1295,
+    "worst_unmet_tons": 300.0,
+    "wall_time_s": 15.1978120803833,
+    "gap_tol_abs": 1.0,
+    "gap_tol_rel": 1e-08,
+    "max_iterations": 60,
+    "initial_ids": [
+      0
+    ],
+    "final_master_variables": 2118,
+    "max_master_variables": 2118,
+    "added_ids_in_order": [
+      1220,
+      21890,
+      1295
+    ],
+    "objective_minus_exact_optimum": 0.0,
+    "q_max_abs_difference_from_exact": 0.0
+  },
+  "nominal_start_all_encoding_separation": {
+    "iterations": [
+      {
+        "iteration": 1,
+        "master_scenarios": 1,
+        "added_scenario_id": 1220,
+        "lower_bound": 3573876500.0000005,
+        "upper_bound": 44403710666.666664,
+        "gap": 40829834166.666664,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          358.3333333333333,
+          0.0,
+          0.0
+        ],
+        "worst_scenario_id": 1220,
+        "worst_unmet_tons": 3783.3333333333335,
+        "master_solve_time_s": 0.004712104797363281,
+        "master_wall_time_s": 0.005057096481323242,
+        "separation_time_s": 64.6089699268341,
+        "separation_lps": 29916,
+        "converged": false
+      },
+      {
+        "iteration": 2,
+        "master_scenarios": 2,
+        "added_scenario_id": 21890,
+        "lower_bound": 3575539000.0,
+        "upper_bound": 23572851333.33333,
+        "gap": 19997312333.33333,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          116.66666666666669,
+          283.3333333333333,
+          0.0
+        ],
+        "worst_scenario_id": 21890,
+        "worst_unmet_tons": 2300.0,
+        "master_solve_time_s": 0.013447046279907227,
+        "master_wall_time_s": 0.013989686965942383,
+        "separation_time_s": 76.90610933303833,
+        "separation_lps": 29916,
+        "converged": false
+      },
+      {
+        "iteration": 3,
+        "master_scenarios": 3,
+        "added_scenario_id": 1295,
+        "lower_bound": 3575591141.4307165,
+        "upper_bound": 18323693383.805233,
+        "gap": 14748102242.374516,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          259.52024345726466,
+          283.3333333333333,
+          0.0
+        ],
+        "worst_scenario_id": 1295,
+        "worst_unmet_tons": 1550.0,
+        "master_solve_time_s": 0.02965688705444336,
+        "master_wall_time_s": 0.030393123626708984,
+        "separation_time_s": 66.24294185638428,
+        "separation_lps": 29916,
+        "converged": false
+      },
+      {
+        "iteration": 4,
+        "master_scenarios": 4,
+        "added_scenario_id": null,
+        "lower_bound": 3581093473.035439,
+        "upper_bound": 3581093473.0354395,
+        "gap": 4.76837158203125e-07,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          350.0,
+          188.18695428865271,
+          208.33333333333334
+        ],
+        "worst_scenario_id": 1295,
+        "worst_unmet_tons": 300.0,
+        "master_solve_time_s": 0.0341181755065918,
+        "master_wall_time_s": 0.03510785102844238,
+        "separation_time_s": 65.38743019104004,
+        "separation_lps": 29916,
+        "converged": true
+      }
+    ],
+    "num_iterations": 4,
+    "converged": true,
+    "active_ids_final": [
+      0,
+      1220,
+      1295,
+      21890
+    ],
+    "separation_scenarios_per_iteration": 29916,
+    "recourse_lps": 119664,
+    "master_solves": 4,
+    "total_cost": 3581093473.035439,
+    "worst_recourse": 3512076000.0,
+    "C": [
+      600.0,
+      600.0
+    ],
+    "q": [
+      350.0,
+      188.18695428865271,
+      208.33333333333334
+    ],
+    "investment_cost": 69017473.03543915,
+    "final_upper_bound": 3581093473.0354395,
+    "worst_scenario_id": 1295,
+    "worst_unmet_tons": 300.0,
+    "wall_time_s": 273.2300579547882,
+    "gap_tol_abs": 1.0,
+    "gap_tol_rel": 1e-08,
+    "max_iterations": 60,
+    "initial_ids": [
+      0
+    ],
+    "final_master_variables": 2118,
+    "max_master_variables": 2118,
+    "added_ids_in_order": [
+      1220,
+      21890,
+      1295
+    ],
+    "objective_minus_exact_optimum": 0.0,
+    "q_max_abs_difference_from_exact": 0.0
+  }
+}

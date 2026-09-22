@@ -1,0 +1,16 @@
+{
+  "dims": {
+    "variables": 15421302,
+    "inequalities": 4235017,
+    "equalities": 4205808,
+    "nonzeros": 50498905,
+    "scenarios": 29207
+  },
+  "build_time_s": 3.9531071186065674,
+  "solve_time_s": 21624.93089079857,
+  "method": "highs-ipm",
+  "status": 1,
+  "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)",
+  "success": false,
+  "scenario_set": "all distinct matrices"
+}

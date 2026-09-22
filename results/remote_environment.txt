@@ -1,0 +1,28 @@
+# Remote Experiment Environment
+Mon Jun  8 13:04:55 CST 2026
+
+## System
+ProductName:		macOS
+ProductVersion:		15.2
+BuildVersion:		24C101
+
+## Hardware
+model=Mac14,13
+machine=arm64
+ncpu=12
+mem_bytes=34359738368
+mem_gb=32.00
+
+## Disk
+Filesystem      Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s5   460Gi   155Gi   269Gi    37%    972k  2.8G    0%   /System/Volumes/Data
+
+## Python
+/Users/luiszhang/MCM/.venv/bin/python
+Python 3.9.6
+
+## Packages
+numpy 2.0.2
+scipy 1.13.1
+pandas 2.3.3
+matplotlib 3.9.4

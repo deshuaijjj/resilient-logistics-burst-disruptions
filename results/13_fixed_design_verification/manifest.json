@@ -1,0 +1,28 @@
+{
+  "files": {
+    "exact_scenario_costs.csv": "9b368837c79f743a14141997ea0b501f3d07ce3cc8ba55a702bf3eb35cf3837f",
+    "nominal_only_scenario_costs.csv": "3351eae48d0a62fdbf3019f8b3745762f018548872b867a7e68ab878a9fe717f",
+    "sampled_scenario_costs.csv": "bd6e31c2134e94bf829e706bcbe4f885880a0a8b281707eb490d2911a72d7fe9",
+    "verification_summary.json": "df69f5a67099a741e058388e863cd57407c9e1dcf778ddbc527d46264f7fa77f",
+    "verify_result.json": "b3c5ea5b3276ec82f7d9d092cdc0292d3f2852853dcc695b3ab8bb836a5e4c9b"
+  },
+  "environment": {
+    "timestamp": "2026-09-18T13:44:56.979564-04:00",
+    "python_version": "3.9.6",
+    "numpy_version": "2.0.2",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-15.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 12,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": null,
+    "hardware_model": "Mac14,13",
+    "memory_bytes": 34359738368
+  }
+}

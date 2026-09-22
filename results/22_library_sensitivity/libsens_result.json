@@ -1,0 +1,30 @@
+{
+  "summary_file": "library_sensitivity.json",
+  "checks": {
+    "baseline_reproduces_exact_optimum": true,
+    "closed_form_holds_in_every_variant": true,
+    "eta_matches_in_every_variant": true
+  },
+  "stage": "libsens",
+  "wall_time_s": 269.6775631904602,
+  "timing_protocol": "untimed: machine may be shared; no wall time from this stage is reported",
+  "environment": {
+    "timestamp": "2026-09-20T17:57:14.093675-04:00",
+    "python_version": "3.9.6",
+    "numpy_version": "2.0.2",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-15.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 12,
+    "thread_env": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "highs_version": null,
+    "git_commit": null,
+    "hardware_model": "Mac14,13",
+    "memory_bytes": 34359738368
+  }
+}

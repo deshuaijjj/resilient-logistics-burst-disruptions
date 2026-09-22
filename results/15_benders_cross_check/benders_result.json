@@ -1,0 +1,534 @@
+{
+  "benders": {
+    "iterations": [
+      {
+        "iteration": 1,
+        "lower_bound": 66000000.0,
+        "upper_bound": 84816041000.0,
+        "gap": 84750041000.0,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cuts_before": 0,
+        "worst_scenario_id": 1220,
+        "worst_recourse": 84750041000.0,
+        "master_time_s": 0.0005061626434326172,
+        "separation_time_s": 2.467794895172119,
+        "separation_lps": 1648
+      },
+      {
+        "iteration": 2,
+        "lower_bound": 66924613.95900929,
+        "upper_bound": 53386326576.89773,
+        "gap": 53319401962.93872,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          0.0,
+          256.83721083591274,
+          0.0
+        ],
+        "cuts_before": 1,
+        "worst_scenario_id": 20635,
+        "worst_recourse": 53319401962.93872,
+        "master_time_s": 0.00024819374084472656,
+        "separation_time_s": 3.3421261310577393,
+        "separation_lps": 1648
+      },
+      {
+        "iteration": 3,
+        "lower_bound": 67098217.614583895,
+        "upper_bound": 19536797185.50056,
+        "gap": 19469698967.88598,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          227.3465033074546,
+          153.49611295722278,
+          0.0
+        ],
+        "cuts_before": 2,
+        "worst_scenario_id": 3525,
+        "worst_recourse": 19469698967.88598,
+        "master_time_s": 0.00026106834411621094,
+        "separation_time_s": 3.2582600116729736,
+        "separation_lps": 1648
+      },
+      {
+        "iteration": 4,
+        "lower_bound": 67500228.4557437,
+        "upper_bound": 18323822710.285294,
+        "gap": 18256322481.82955,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          175.00446051312989,
+          300.0604862533879,
+          0.0
+        ],
+        "cuts_before": 3,
+        "worst_scenario_id": 1295,
+        "worst_recourse": 18256322481.82955,
+        "master_time_s": 0.00026607513427734375,
+        "separation_time_s": 3.075791835784912,
+        "separation_lps": 1648
+      },
+      {
+        "iteration": 5,
+        "lower_bound": 67971877.57010713,
+        "upper_bound": 9644670055.1141,
+        "gap": 9576698177.543993,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          37.576348357166715,
+          116.85137983220032,
+          202.92074536861298
+        ],
+        "cuts_before": 4,
+        "worst_scenario_id": 25055,
+        "worst_recourse": 9576698177.543993,
+        "master_time_s": 0.00026607513427734375,
+        "separation_time_s": 4.118699073791504,
+        "separation_lps": 1648
+      },
+      {
+        "iteration": 6,
+        "lower_bound": 68067645.51987982,
+        "upper_bound": 3915280931.0703998,
+        "gap": 3847213285.55052,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          88.36716932821051,
+          109.5967118515589,
+          202.91890983701433
+        ],
+        "cuts_before": 5,
+        "worst_scenario_id": 1295,
+        "worst_recourse": 3847213285.55052,
+        "master_time_s": 0.00027680397033691406,
+        "separation_time_s": 3.8370819091796875,
+        "separation_lps": 1648
+      },
+      {
+        "iteration": 7,
+        "lower_bound": 68221986.18241343,
+        "upper_bound": 3915280931.0703998,
+        "gap": 3847058944.887986,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          47.497189656771766,
+          51.20478337157247,
+          267.17440376382234
+        ],
+        "cuts_before": 6,
+        "worst_scenario_id": 29269,
+        "worst_recourse": 5442348745.1279745,
+        "master_time_s": 0.0002751350402832031,
+        "separation_time_s": 4.009789943695068,
+        "separation_lps": 1648
+      },
+      {
+        "iteration": 8,
+        "lower_bound": 68371213.53445913,
+        "upper_bound": 3594908884.8476963,
+        "gap": 3526537671.313237,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          126.77491554933357,
+          39.951628313052616,
+          267.10109377968615
+        ],
+        "cuts_before": 7,
+        "worst_scenario_id": 9840,
+        "worst_recourse": 3526537671.313237,
+        "master_time_s": 0.00029206275939941406,
+        "separation_time_s": 3.8564670085906982,
+        "separation_lps": 1648
+      },
+      {
+        "iteration": 9,
+        "lower_bound": 214501593.34167072,
+        "upper_bound": 3594908884.8476963,
+        "gap": 3380407291.506026,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          0.0,
+          40798.75142574766,
+          225.8455845804383
+        ],
+        "cuts_before": 8,
+        "worst_scenario_id": 20635,
+        "worst_recourse": 10416422283.582058,
+        "master_time_s": 0.0002770423889160156,
+        "separation_time_s": 2.4250240325927734,
+        "separation_lps": 1648
+      },
+      {
+        "iteration": 10,
+        "lower_bound": 214565054.12337285,
+        "upper_bound": 3594908884.8476963,
+        "gap": 3380343830.7243233,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          86.86316068796887,
+          40758.57473820988,
+          225.7935389119677
+        ],
+        "cuts_before": 9,
+        "worst_scenario_id": 20635,
+        "worst_recourse": 3517007056.830782,
+        "master_time_s": 0.0002799034118652344,
+        "separation_time_s": 2.9818851947784424,
+        "separation_lps": 1648
+      },
+      {
+        "iteration": 11,
+        "lower_bound": 265189204.25770214,
+        "upper_bound": 3594908884.8476963,
+        "gap": 3329719680.589994,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          69224.46693086649,
+          8779.873835846514,
+          200.40802980209992
+        ],
+        "cuts_before": 10,
+        "worst_scenario_id": 1295,
+        "worst_recourse": 3987301075.177008,
+        "master_time_s": 0.0002980232238769531,
+        "separation_time_s": 2.428698778152466,
+        "separation_lps": 1648
+      },
+      {
+        "iteration": 12,
+        "lower_bound": 265658273.43180683,
+        "upper_bound": 3594908884.8476963,
+        "gap": 3329250611.4158893,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          69223.2906042458,
+          8777.977857080656,
+          266.89662446202
+        ],
+        "cuts_before": 11,
+        "worst_scenario_id": 1295,
+        "worst_recourse": 3512004620.6751075,
+        "master_time_s": 0.000270843505859375,
+        "separation_time_s": 2.4276673793792725,
+        "separation_lps": 1648
+      },
+      {
+        "iteration": 13,
+        "lower_bound": 3580618484.2922177,
+        "upper_bound": 3581527510.586106,
+        "gap": 909026.293888092,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          185.2794690161012,
+          182.63318196447105,
+          208.33344450095464
+        ],
+        "cuts_before": 12,
+        "worst_scenario_id": 3525,
+        "worst_recourse": 3512925359.604988,
+        "master_time_s": 0.00028204917907714844,
+        "separation_time_s": 3.3583149909973145,
+        "separation_lps": 1648
+      },
+      {
+        "iteration": 14,
+        "lower_bound": 3580680334.5031037,
+        "upper_bound": 3581411502.553998,
+        "gap": 731168.0508942604,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          185.2794690161012,
+          199.81379609956838,
+          208.33344450095464
+        ],
+        "cuts_before": 13,
+        "worst_scenario_id": 3600,
+        "worst_recourse": 3512747501.361994,
+        "master_time_s": 0.0003020763397216797,
+        "separation_time_s": 3.3734169006347656,
+        "separation_lps": 1648
+      },
+      {
+        "iteration": 15,
+        "lower_bound": 3580814927.4628,
+        "upper_bound": 3581126960.7089524,
+        "gap": 312033.24615240097,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          261.8231026364485,
+          186.1716402681589,
+          208.33344450095464
+        ],
+        "cuts_before": 14,
+        "worst_scenario_id": 1295,
+        "worst_recourse": 3512328366.557253,
+        "master_time_s": 0.00031304359436035156,
+        "separation_time_s": 3.0953149795532227,
+        "separation_lps": 1648
+      },
+      {
+        "iteration": 16,
+        "lower_bound": 3580982095.060917,
+        "upper_bound": 3581126960.7089524,
+        "gap": 144865.64803552628,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          356.89208256229625,
+          169.2277642390388,
+          208.33344450095464
+        ],
+        "cuts_before": 15,
+        "worst_scenario_id": 1220,
+        "worst_recourse": 3512928725.018811,
+        "master_time_s": 0.0003120899200439453,
+        "separation_time_s": 2.8365399837493896,
+        "separation_lps": 1648
+      },
+      {
+        "iteration": 17,
+        "lower_bound": 3581052933.0209217,
+        "upper_bound": 3581098901.620132,
+        "gap": 45968.5992102623,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          356.28350902277936,
+          189.31069104444336,
+          208.33344450095464
+        ],
+        "cuts_before": 16,
+        "worst_scenario_id": 1295,
+        "worst_recourse": 3512062301.9103103,
+        "master_time_s": 0.00030493736267089844,
+        "separation_time_s": 2.8391499519348145,
+        "separation_lps": 1648
+      },
+      {
+        "iteration": 18,
+        "lower_bound": 3581083339.894489,
+        "upper_bound": 3581098901.620132,
+        "gap": 15561.725643157959,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          315.40262987278663,
+          187.49054542794858,
+          208.33119186792987
+        ],
+        "cuts_before": 17,
+        "worst_scenario_id": 1295,
+        "worst_recourse": 3512292300.357929,
+        "master_time_s": 0.0003209114074707031,
+        "separation_time_s": 2.8871140480041504,
+        "separation_lps": 1648
+      },
+      {
+        "iteration": 19,
+        "lower_bound": 3581083356.014416,
+        "upper_bound": 3581095811.0681267,
+        "gap": 12455.053710460663,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          315.4026285828758,
+          187.49055986829146,
+          208.3335410236916
+        ],
+        "cuts_before": 18,
+        "worst_scenario_id": 1295,
+        "worst_recourse": 3512163877.2486315,
+        "master_time_s": 0.0002980232238769531,
+        "separation_time_s": 2.891761302947998,
+        "separation_lps": 1648
+      },
+      {
+        "iteration": 20,
+        "lower_bound": 3581093431.273367,
+        "upper_bound": 3581093958.2875156,
+        "gap": 527.0141487121582,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          350.0,
+          188.17535371307437,
+          208.33333333333334
+        ],
+        "cuts_before": 19,
+        "worst_scenario_id": 1220,
+        "worst_recourse": 3512076527.0141487,
+        "master_time_s": 0.00031685829162597656,
+        "separation_time_s": 2.8248648643493652,
+        "separation_lps": 1648
+      },
+      {
+        "iteration": 21,
+        "lower_bound": 3581093473.035439,
+        "upper_bound": 3581093473.0354395,
+        "gap": 4.76837158203125e-07,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          350.0,
+          188.18695428865271,
+          208.33333333333334
+        ],
+        "cuts_before": 20,
+        "worst_scenario_id": 1295,
+        "worst_recourse": 3512076000.0000005,
+        "master_time_s": 0.00031280517578125,
+        "separation_time_s": 2.826115131378174,
+        "separation_lps": 1648
+      }
+    ],
+    "num_iterations": 21,
+    "num_cuts": 20,
+    "recourse_lps": 34608,
+    "lower_bound": 3581093473.035439,
+    "upper_bound": 3581093473.0354395,
+    "gap": 4.76837158203125e-07,
+    "C": [
+      600.0,
+      600.0
+    ],
+    "q": [
+      350.0,
+      188.18695428865271,
+      208.33333333333334
+    ],
+    "investment_cost": 69017473.03543915,
+    "worst_scenario_id": 1295,
+    "worst_unmet_tons": 300.0,
+    "optimal_face_minmax": [
+      [
+        600.0,
+        600.0000200039956
+      ],
+      [
+        600.0,
+        600.0000166688682
+      ],
+      [
+        349.9750959471962,
+        350.00343315235085
+      ],
+      [
+        188.18626357532054,
+        188.1872320663929
+      ],
+      [
+        208.33333333333334,
+        208.33333333333334
+      ]
+    ],
+    "optimal_face_max_width": 0.02833720515462801,
+    "wall_time_s": 65.1769449710846,
+    "tolerance_abs": 1.0,
+    "cuts_per_iteration": 1,
+    "separation_set": "componentwise-maximal matrices",
+    "final_complete_library_check": {
+      "complete_library_worst_recourse": 3512076000.0000005,
+      "complete_library_total_cost": 3581093473.0354395,
+      "worst_scenario_id": 1295,
+      "worst_unmet_tons": 300.0,
+      "evaluated_scenarios": 29916,
+      "eval_time_s": 50.3534049987793
+    },
+    "agreement_with_frozen": {
+      "objective_difference": 4.76837158203125e-07,
+      "C_max_abs_difference": 0.0,
+      "q_max_abs_difference": 0.0,
+      "objective_within_tolerance": true
+    }
+  },
+  "checks": {
+    "objective_ok": true,
+    "design_ok": true,
+    "complete_library_confirms": true,
+    "optimal_face_is_a_point": true
+  },
+  "all_checks_pass": true,
+  "stage": "benders",
+  "wall_time_s": 115.53573083877563,
+  "environment": {
+    "timestamp": "2026-09-18T13:42:08.871797-04:00",
+    "python_version": "3.9.6",
+    "numpy_version": "2.0.2",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-15.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 12,
+    "thread_env": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "highs_version": null,
+    "git_commit": null,
+    "hardware_model": "Mac14,13",
+    "memory_bytes": 34359738368
+  }
+}

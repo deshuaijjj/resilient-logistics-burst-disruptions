@@ -1,0 +1,19 @@
+{
+  "note": "Protocol-matched observations from one session on one machine; single observations, not statistics.  Do not divide these by the recorded June/August values.",
+  "reduced_ef": {
+    "pruning_time_s": 2.421844005584717,
+    "master_assembly_plus_lp_time_s": 23.983983993530273,
+    "maximal_set_certification_time_s": 2.9475529193878174,
+    "wall_time_excluding_pruning_s": 27.209967136383057,
+    "recourse_lps": 1648,
+    "master_solves": 1
+  },
+  "ccg_full_library_separation": {
+    "master_solve_time_total_s": 38.12195825576782,
+    "separation_time_total_s": 155.62131214141846,
+    "wall_time_s": 194.29921698570251,
+    "iterations": 3,
+    "recourse_lps": 89748,
+    "master_solves": 3
+  }
+}

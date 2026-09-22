@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "scenario_limit": 0,
+    "certification_scenarios": 29916,
+    "total_burst_scenarios_available": 29916,
+    "result_json": [
+      "/Users/zhangyuxin/Desktop/MCM/results/02_baselines/small_T24_M3_J2_K2_Gamma2_N1000_sampled/detailed_results.json",
+      "/Users/zhangyuxin/Desktop/MCM/results/06_fair_baselines/small_T24_M3_J2_K2_Gamma2_N1000_sampled/detailed_results.json"
+    ],
+    "strategies": "redundancy_only_nominal_C,budget_matched_inventory,budget_matched_redundancy"
+  },
+  "certifications": {
+    "redundancy_only_nominal_C": {
+      "design_name": "redundancy_only_nominal_C",
+      "investment_cost": 69020302.5210084,
+      "sampled_total_cost": 3578972950.9803925,
+      "sampled_worst_operating_cost": 3509952648.459384,
+      "full_worst_operating_cost": 8209664554.061625,
+      "full_total_cost": 8278684856.582633,
+      "certification_gap": 4699711905.602241,
+      "certification_gap_pct": 131.31454107008108,
+      "operating_gap": 4699711905.602241,
+      "worst": {
+        "scenario_id": 1295,
+        "events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ],
+        "operating_cost": 8209664554.061625,
+        "unmet_tons": 770.0,
+        "unmet_by_commodity": [
+          670.0,
+          100.0
+        ],
+        "status": "optimal",
+        "solve_time_s": 0.0019829273223876953,
+        "message": ""
+      },
+      "evaluated_scenarios": 29916,
+      "eval_time_s": 65.93468594551086,
+      "status": "optimal"
+    },
+    "budget_matched_inventory": {
+      "design_name": "budget_matched_inventory",
+      "investment_cost": 69020302.5210083,
+      "sampled_total_cost": 38406192421.94297,
+      "sampled_worst_operating_cost": 38337172119.42196,
+      "full_worst_operating_cost": 44336850666.666664,
+      "full_total_cost": 44405870969.187675,
+      "certification_gap": 5999678547.244705,
+      "certification_gap_pct": 15.621643721747464,
+      "operating_gap": 5999678547.244705,
+      "worst": {
+        "scenario_id": 1220,
+        "events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            6,
+            6
+          ]
+        ],
+        "operating_cost": 44336850666.666664,
+        "unmet_tons": 3783.3333333333335,
+        "unmet_by_commodity": [
+          2483.3333333333335,
+          1300.0
+        ],
+        "status": "optimal",
+        "solve_time_s": 0.0017969608306884766,
+        "message": ""
+      },
+      "evaluated_scenarios": 29916,
+      "eval_time_s": 71.86700701713562,
+      "status": "optimal"
+    },
+    "budget_matched_redundancy": {
+      "design_name": "budget_matched_redundancy",
+      "investment_cost": 69020302.5210083,
+      "sampled_total_cost": 3579241822.309569,
+      "sampled_worst_operating_cost": 3510221519.788561,
+      "full_worst_operating_cost": 6267729730.857842,
+      "full_total_cost": 6336750033.378851,
+      "certification_gap": 2757508211.069282,
+      "certification_gap_pct": 77.04168502618667,
+      "operating_gap": 2757508211.0692816,
+      "worst": {
+        "scenario_id": 1295,
+        "events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ],
+        "operating_cost": 6267729730.857842,
+        "unmet_tons": 575.7088641908715,
+        "unmet_by_commodity": [
+          475.7088641908715,
+          100.0
+        ],
+        "status": "optimal",
+        "solve_time_s": 0.0018889904022216797,
+        "message": ""
+      },
+      "evaluated_scenarios": 29916,
+      "eval_time_s": 70.19647574424744,
+      "status": "optimal"
+    }
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "designs": {
+    "nominal_only": {
+      "design": {
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          358.3333333333333,
+          0.0,
+          0.0
+        ],
+        "nominal_total_cost": 3573876500.0000005,
+        "source": "solve_robust_model on the nominal encoding only"
+      },
+      "investment_cost": 66860000.0,
+      "complete_library_worst_recourse": 44336850666.666664,
+      "complete_library_total_cost": 44403710666.666664,
+      "worst_scenario_id": 1220,
+      "worst_events": [
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          6,
+          6
+        ]
+      ],
+      "worst_unmet_tons": 3783.3333333333335,
+      "worst_unmet_by_commodity": [
+        2483.3333333333335,
+        1300.0
+      ],
+      "cost_maximizers_within_tolerance": [
+        1220
+      ],
+      "num_cost_maximizers_within_tolerance": 1,
+      "max_over_maximal_set": 44336850666.666664,
+      "maximal_equals_complete": true,
+      "evaluated_scenarios": 29916,
+      "lp_statuses": [
+        "optimal"
+      ],
+      "eval_time_s": 52.84960222244263,
+      "scenario_costs_csv": "nominal_only_scenario_costs.csv",
+      "monotonicity_audit": {
+        "dominated_matrices_checked": 27559,
+        "comparable_pairs_checked": 209418,
+        "violations": 0,
+        "violation_examples": [],
+        "max_excess_over_containing_maximal": 0.0,
+        "max_cost_spread_within_duplicate_groups": 0.0,
+        "tolerance": 1.0
+      }
+    },
+    "sampled": {
+      "design": {
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          418.45938375345594,
+          300.0,
+          130.0
+        ],
+        "source": "results/08_full_burst_certification/full_certification_summary.csv (burst row)"
+      },
+      "investment_cost": 69020302.5210083,
+      "complete_library_worst_recourse": 8209664554.061625,
+      "complete_library_total_cost": 8278684856.582633,
+      "worst_scenario_id": 1295,
+      "worst_events": [
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          1,
+          0,
+          6
+        ]
+      ],
+      "worst_unmet_tons": 770.0,
+      "worst_unmet_by_commodity": [
+        670.0,
+        100.0
+      ],
+      "cost_maximizers_within_tolerance": [
+        1295
+      ],
+      "num_cost_maximizers_within_tolerance": 1,
+      "max_over_maximal_set": 8209664554.061625,
+      "maximal_equals_complete": true,
+      "evaluated_scenarios": 29916,
+      "lp_statuses": [
+        "optimal"
+      ],
+      "eval_time_s": 51.01909399032593,
+      "scenario_costs_csv": "sampled_scenario_costs.csv",
+      "monotonicity_audit": {
+        "dominated_matrices_checked": 27559,
+        "comparable_pairs_checked": 209418,
+        "violations": 0,
+        "violation_examples": [],
+        "max_excess_over_containing_maximal": 4.76837158203125e-07,
+        "max_cost_spread_within_duplicate_groups": 0.0,
+        "tolerance": 1.0
+      }
+    },
+    "exact": {
+      "design": {
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          350.0,
+          188.18695428865271,
+          208.33333333333334
+        ],
+        "source": "results/11_dominance_pruned_oracle/dominance_pruned_result.json"
+      },
+      "investment_cost": 69017473.03543915,
+      "complete_library_worst_recourse": 3512076000.0000005,
+      "complete_library_total_cost": 3581093473.0354395,
+      "worst_scenario_id": 1295,
+      "worst_events": [
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          1,
+          0,
+          6
+        ]
+      ],
+      "worst_unmet_tons": 300.0,
+      "worst_unmet_by_commodity": [
+        200.0,
+        100.0
+      ],
+      "cost_maximizers_within_tolerance": [
+        1220,
+        1295
+      ],
+      "num_cost_maximizers_within_tolerance": 2,
+      "max_over_maximal_set": 3512076000.0000005,
+      "maximal_equals_complete": true,
+      "evaluated_scenarios": 29916,
+      "lp_statuses": [
+        "optimal"
+      ],
+      "eval_time_s": 52.538225173950195,
+      "scenario_costs_csv": "exact_scenario_costs.csv",
+      "monotonicity_audit": {
+        "dominated_matrices_checked": 27559,
+        "comparable_pairs_checked": 209418,
+        "violations": 0,
+        "violation_examples": [],
+        "max_excess_over_containing_maximal": 4.76837158203125e-07,
+        "max_cost_spread_within_duplicate_groups": 0.0,
+        "tolerance": 1.0
+      }
+    }
+  },
+  "checks": {
+    "sampled_worst_recourse_ok": true,
+    "exact_worst_recourse_ok": true,
+    "nominal_design_matches_e08_row": true,
+    "all_lp_optimal": true,
+    "monotonicity_zero_violations": true,
+    "maximal_set_equals_complete_for_all": true
+  },
+  "all_checks_pass": true,
+  "stage": "verify",
+  "wall_time_s": 164.98913598060608,
+  "environment": {
+    "timestamp": "2026-09-18T13:44:56.979564-04:00",
+    "python_version": "3.9.6",
+    "numpy_version": "2.0.2",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-15.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 12,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": null,
+    "hardware_model": "Mac14,13",
+    "memory_bytes": 34359738368
+  }
+}

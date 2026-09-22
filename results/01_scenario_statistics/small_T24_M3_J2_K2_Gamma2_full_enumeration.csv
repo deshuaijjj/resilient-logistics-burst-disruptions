@@ -1,0 +1,2 @@
+total_scenarios,single_event_scenarios,double_event_scenarios,total_events,avg_duration,min_duration,max_duration,mode_0_events,mode_1_events,mode_2_events,duration_1_count,duration_2_count,duration_3_count,duration_4_count,duration_5_count,duration_6_count
+29916,257,29658,59573,3.3861648733486645,1,6,23815,23815,11943,6122,16679,10172,9506,8860,8234

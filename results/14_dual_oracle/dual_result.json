@@ -1,0 +1,727 @@
+{
+  "designs": {
+    "sampled": {
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        418.45938375345594,
+        300.0,
+        130.0
+      ],
+      "source": "results/08_full_burst_certification/full_certification_summary.csv (burst row)"
+    },
+    "exact": {
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        350.0,
+        188.18695428865271,
+        208.33333333333334
+      ],
+      "source": "results/11_dominance_pruned_oracle/dominance_pruned_result.json"
+    },
+    "nominal_only": {
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        358.3333333333333,
+        0.0,
+        0.0
+      ],
+      "source": "solve_robust_model on the nominal encoding only"
+    }
+  },
+  "strong_duality": {
+    "nominal_only": [
+      {
+        "scenario_id": 0,
+        "events": [],
+        "primal": 3507016500.0,
+        "dual": 3507016500.0,
+        "cut_value_at_design": 3507016500.0,
+        "abs_gap": 0.0,
+        "rel_gap": 0.0,
+        "max_ineq_marginal": -0.0,
+        "min_ineq_marginal": -100.0
+      },
+      {
+        "scenario_id": 1295,
+        "events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ],
+        "primal": 19089009166.666664,
+        "dual": 19089009166.666668,
+        "cut_value_at_design": 19089009166.666668,
+        "abs_gap": 3.814697265625e-06,
+        "rel_gap": 1.998373636011578e-16,
+        "max_ineq_marginal": -0.0,
+        "min_ineq_marginal": -14999100.0
+      },
+      {
+        "scenario_id": 1220,
+        "events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            6,
+            6
+          ]
+        ],
+        "primal": 44336850666.666664,
+        "dual": 44336850666.666664,
+        "cut_value_at_design": 44336850666.666664,
+        "abs_gap": 0.0,
+        "rel_gap": 0.0,
+        "max_ineq_marginal": -0.0,
+        "min_ineq_marginal": -14999210.0
+      },
+      {
+        "scenario_id": 23123,
+        "events": [
+          [
+            1,
+            4,
+            6
+          ],
+          [
+            2,
+            13,
+            2
+          ]
+        ],
+        "primal": 3507016500.0,
+        "dual": 3507016500.0,
+        "cut_value_at_design": 3507016500.0,
+        "abs_gap": 0.0,
+        "rel_gap": 0.0,
+        "max_ineq_marginal": -0.0,
+        "min_ineq_marginal": -100.0
+      },
+      {
+        "scenario_id": 17788,
+        "events": [
+          [
+            0,
+            17,
+            6
+          ],
+          [
+            2,
+            18,
+            2
+          ]
+        ],
+        "primal": 12089845333.333338,
+        "dual": 12089845333.333344,
+        "cut_value_at_design": 12089845333.333336,
+        "abs_gap": 5.7220458984375e-06,
+        "rel_gap": 4.732935567555233e-16,
+        "max_ineq_marginal": -0.0,
+        "min_ineq_marginal": -9999170.0
+      },
+      {
+        "scenario_id": 28394,
+        "events": [
+          [
+            1,
+            18,
+            6
+          ],
+          [
+            2,
+            6,
+            2
+          ]
+        ],
+        "primal": 3507016500.0,
+        "dual": 3507016500.0,
+        "cut_value_at_design": 3507016500.0,
+        "abs_gap": 0.0,
+        "rel_gap": 0.0,
+        "max_ineq_marginal": -0.0,
+        "min_ineq_marginal": -100.0
+      }
+    ],
+    "sampled": [
+      {
+        "scenario_id": 0,
+        "events": [],
+        "primal": 3506997784.8739495,
+        "dual": 3506997784.8739495,
+        "cut_value_at_design": 3506997784.8739495,
+        "abs_gap": 0.0,
+        "rel_gap": 0.0,
+        "max_ineq_marginal": -0.0,
+        "min_ineq_marginal": -20.0
+      },
+      {
+        "scenario_id": 1295,
+        "events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ],
+        "primal": 8209664554.061625,
+        "dual": 8209664554.061625,
+        "cut_value_at_design": 8209664554.061625,
+        "abs_gap": 0.0,
+        "rel_gap": 0.0,
+        "max_ineq_marginal": -0.0,
+        "min_ineq_marginal": -9999040.0
+      },
+      {
+        "scenario_id": 1220,
+        "events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            6,
+            6
+          ]
+        ],
+        "primal": 3507735892.4369745,
+        "dual": 3507735892.436975,
+        "cut_value_at_design": 3507735892.436975,
+        "abs_gap": 4.76837158203125e-07,
+        "rel_gap": 1.359387288054477e-16,
+        "max_ineq_marginal": -0.0,
+        "min_ineq_marginal": -410.0
+      },
+      {
+        "scenario_id": 23123,
+        "events": [
+          [
+            1,
+            4,
+            6
+          ],
+          [
+            2,
+            13,
+            2
+          ]
+        ],
+        "primal": 3506997784.8739495,
+        "dual": 3506997784.8739495,
+        "cut_value_at_design": 3506997784.8739495,
+        "abs_gap": 0.0,
+        "rel_gap": 0.0,
+        "max_ineq_marginal": -0.0,
+        "min_ineq_marginal": -20.0
+      },
+      {
+        "scenario_id": 17788,
+        "events": [
+          [
+            0,
+            17,
+            6
+          ],
+          [
+            2,
+            18,
+            2
+          ]
+        ],
+        "primal": 3507296970.868347,
+        "dual": 3507296970.868347,
+        "cut_value_at_design": 3507296970.868347,
+        "abs_gap": 0.0,
+        "rel_gap": 0.0,
+        "max_ineq_marginal": -0.0,
+        "min_ineq_marginal": -220.0
+      },
+      {
+        "scenario_id": 28394,
+        "events": [
+          [
+            1,
+            18,
+            6
+          ],
+          [
+            2,
+            6,
+            2
+          ]
+        ],
+        "primal": 3506997784.8739495,
+        "dual": 3506997784.8739495,
+        "cut_value_at_design": 3506997784.8739495,
+        "abs_gap": 0.0,
+        "rel_gap": 0.0,
+        "max_ineq_marginal": -0.0,
+        "min_ineq_marginal": -20.0
+      }
+    ],
+    "exact": [
+      {
+        "scenario_id": 0,
+        "events": [],
+        "primal": 3507034000.0,
+        "dual": 3507034000.0,
+        "cut_value_at_design": 3507034000.0,
+        "abs_gap": 0.0,
+        "rel_gap": 0.0,
+        "max_ineq_marginal": -0.0,
+        "min_ineq_marginal": -200.0
+      },
+      {
+        "scenario_id": 1295,
+        "events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ],
+        "primal": 3512076000.0000005,
+        "dual": 3512076000.0,
+        "cut_value_at_design": 3512076000.0,
+        "abs_gap": 4.76837158203125e-07,
+        "rel_gap": 1.3577074021266196e-16,
+        "max_ineq_marginal": -0.0,
+        "min_ineq_marginal": -4110.0
+      },
+      {
+        "scenario_id": 1220,
+        "events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            6,
+            6
+          ]
+        ],
+        "primal": 3512076000.0,
+        "dual": 3512076000.0,
+        "cut_value_at_design": 3512076000.0,
+        "abs_gap": 0.0,
+        "rel_gap": 0.0,
+        "max_ineq_marginal": -0.0,
+        "min_ineq_marginal": -4040.0
+      },
+      {
+        "scenario_id": 23123,
+        "events": [
+          [
+            1,
+            4,
+            6
+          ],
+          [
+            2,
+            13,
+            2
+          ]
+        ],
+        "primal": 3507034000.0,
+        "dual": 3507034000.0,
+        "cut_value_at_design": 3507034000.0,
+        "abs_gap": 0.0,
+        "rel_gap": 0.0,
+        "max_ineq_marginal": -0.0,
+        "min_ineq_marginal": -200.0
+      },
+      {
+        "scenario_id": 17788,
+        "events": [
+          [
+            0,
+            17,
+            6
+          ],
+          [
+            2,
+            18,
+            2
+          ]
+        ],
+        "primal": 3507433403.697997,
+        "dual": 3507433403.697997,
+        "cut_value_at_design": 3507433403.697997,
+        "abs_gap": 0.0,
+        "rel_gap": 0.0,
+        "max_ineq_marginal": -0.0,
+        "min_ineq_marginal": -410.0
+      },
+      {
+        "scenario_id": 28394,
+        "events": [
+          [
+            1,
+            18,
+            6
+          ],
+          [
+            2,
+            6,
+            2
+          ]
+        ],
+        "primal": 3507036000.0,
+        "dual": 3507036000.0,
+        "cut_value_at_design": 3507036000.0,
+        "abs_gap": 0.0,
+        "rel_gap": 0.0,
+        "max_ineq_marginal": -0.0,
+        "min_ineq_marginal": -240.0
+      }
+    ]
+  },
+  "shadow_prices": {
+    "nominal_only": {
+      "1295": {
+        "subgradient_wrt_q_dollars_per_t_month": [
+          -19998580.0,
+          -19997580.0,
+          -109959990.0
+        ],
+        "min_lambda_dollars": -14999100.0,
+        "first_stage_price_dollars_per_t_month": [
+          2400,
+          3600,
+          7200
+        ],
+        "recourse_cost": 19089009166.666664,
+        "unmet_tons": 1633.3333333333335
+      },
+      "1220": {
+        "subgradient_wrt_q_dollars_per_t_month": [
+          -19998280.0,
+          -199983990.0,
+          -199930790.0
+        ],
+        "min_lambda_dollars": -14999210.0,
+        "first_stage_price_dollars_per_t_month": [
+          2400,
+          3600,
+          7200
+        ],
+        "recourse_cost": 44336850666.666664,
+        "unmet_tons": 3783.3333333333335
+      }
+    },
+    "sampled": {
+      "1295": {
+        "subgradient_wrt_q_dollars_per_t_month": [
+          -100.0,
+          0.0,
+          -59969920.0
+        ],
+        "min_lambda_dollars": -9999040.0,
+        "first_stage_price_dollars_per_t_month": [
+          2400,
+          3600,
+          7200
+        ],
+        "recourse_cost": 8209664554.061625,
+        "unmet_tons": 770.0
+      },
+      "1220": {
+        "subgradient_wrt_q_dollars_per_t_month": [
+          -60.0,
+          -1200.0,
+          0.0
+        ],
+        "min_lambda_dollars": -410.0,
+        "first_stage_price_dollars_per_t_month": [
+          2400,
+          3600,
+          7200
+        ],
+        "recourse_cost": 3507735892.4369745,
+        "unmet_tons": 300.0
+      }
+    },
+    "exact": {
+      "1295": {
+        "subgradient_wrt_q_dollars_per_t_month": [
+          -2180.0,
+          0.0,
+          -360.0
+        ],
+        "min_lambda_dollars": -4110.0,
+        "first_stage_price_dollars_per_t_month": [
+          2400,
+          3600,
+          7200
+        ],
+        "recourse_cost": 3512076000.0000005,
+        "unmet_tons": 300.0
+      },
+      "1220": {
+        "subgradient_wrt_q_dollars_per_t_month": [
+          -1280.0,
+          -45430.0,
+          -80.0
+        ],
+        "min_lambda_dollars": -4040.0,
+        "first_stage_price_dollars_per_t_month": [
+          2400,
+          3600,
+          7200
+        ],
+        "recourse_cost": 3512076000.0,
+        "unmet_tons": 300.0
+      }
+    }
+  },
+  "oracle": {
+    "nominal_only": {
+      "maximal_set_reference_worst_recourse": 44336850666.666664,
+      "maximal_set_reference_worst_id": 1220,
+      "runs": [
+        {
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "worst_recourse": 44336850666.66669,
+          "primal_recheck_recourse": 44336850666.666664,
+          "primal_recheck_unmet_tons": 3783.3333333333335,
+          "selected_events": [
+            [
+              0,
+              0,
+              6
+            ],
+            [
+              0,
+              6,
+              6
+            ]
+          ],
+          "selected_delta_cells": 12,
+          "min_lambda_M": -15.000000000000002,
+          "big_m_M": 15.0,
+          "bound_lambda": true,
+          "binaries": 257,
+          "time_s": 0.9327490329742432,
+          "mip_gap": 0.0,
+          "difference_vs_enumeration": 2.288818359375e-05,
+          "agrees_with_enumeration": true
+        },
+        {
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "worst_recourse": 44336850666.66678,
+          "primal_recheck_recourse": 44336850666.666664,
+          "primal_recheck_unmet_tons": 3783.3333333333335,
+          "selected_events": [
+            [
+              0,
+              0,
+              6
+            ],
+            [
+              0,
+              6,
+              6
+            ]
+          ],
+          "selected_delta_cells": 12,
+          "min_lambda_M": -1500.0,
+          "big_m_M": 1500.0,
+          "bound_lambda": true,
+          "binaries": 257,
+          "time_s": 0.9950289726257324,
+          "mip_gap": 0.0,
+          "difference_vs_enumeration": 0.00011444091796875,
+          "agrees_with_enumeration": true
+        }
+      ]
+    },
+    "sampled": {
+      "maximal_set_reference_worst_recourse": 8209664554.061625,
+      "maximal_set_reference_worst_id": 1295,
+      "runs": [
+        {
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "worst_recourse": 8209664554.061637,
+          "primal_recheck_recourse": 8209664554.061625,
+          "primal_recheck_unmet_tons": 770.0,
+          "selected_events": [
+            [
+              0,
+              0,
+              6
+            ],
+            [
+              1,
+              0,
+              6
+            ]
+          ],
+          "selected_delta_cells": 12,
+          "min_lambda_M": -15.0,
+          "big_m_M": 15.0,
+          "bound_lambda": true,
+          "binaries": 257,
+          "time_s": 2.610403060913086,
+          "mip_gap": 0.0,
+          "difference_vs_enumeration": 1.239776611328125e-05,
+          "agrees_with_enumeration": true
+        },
+        {
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "worst_recourse": 8209664554.061674,
+          "primal_recheck_recourse": 8209664554.061625,
+          "primal_recheck_unmet_tons": 770.0,
+          "selected_events": [
+            [
+              0,
+              0,
+              6
+            ],
+            [
+              1,
+              0,
+              6
+            ]
+          ],
+          "selected_delta_cells": 12,
+          "min_lambda_M": -1500.0,
+          "big_m_M": 1500.0,
+          "bound_lambda": true,
+          "binaries": 257,
+          "time_s": 4.80178689956665,
+          "mip_gap": 0.0,
+          "difference_vs_enumeration": 4.9591064453125e-05,
+          "agrees_with_enumeration": true
+        }
+      ]
+    },
+    "exact": {
+      "maximal_set_reference_worst_recourse": 3512076000.0000005,
+      "maximal_set_reference_worst_id": 1295,
+      "runs": [
+        {
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "worst_recourse": 3512076000.000091,
+          "primal_recheck_recourse": 3512076000.0,
+          "primal_recheck_unmet_tons": 300.0,
+          "selected_events": [
+            [
+              0,
+              0,
+              6
+            ],
+            [
+              0,
+              6,
+              6
+            ]
+          ],
+          "selected_delta_cells": 12,
+          "min_lambda_M": -15.0,
+          "big_m_M": 15.0,
+          "bound_lambda": true,
+          "binaries": 257,
+          "time_s": 42.014240026474,
+          "mip_gap": 0.0,
+          "difference_vs_enumeration": 9.059906005859375e-05,
+          "agrees_with_enumeration": true
+        },
+        {
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "worst_recourse": 3512076000.0001097,
+          "primal_recheck_recourse": 3512076000.0000005,
+          "primal_recheck_unmet_tons": 300.0,
+          "selected_events": [
+            [
+              0,
+              0,
+              6
+            ],
+            [
+              1,
+              0,
+              6
+            ]
+          ],
+          "selected_delta_cells": 12,
+          "min_lambda_M": -1500.0,
+          "big_m_M": 1500.0,
+          "bound_lambda": true,
+          "binaries": 257,
+          "time_s": 45.09910321235657,
+          "mip_gap": 0.0,
+          "difference_vs_enumeration": 0.00010919570922851562,
+          "agrees_with_enumeration": true
+        }
+      ]
+    }
+  },
+  "lemma_bound_P_dollars": 15000000.0,
+  "checks": {
+    "strong_duality_all_within_1e-6_rel": true,
+    "ineq_marginals_nonpositive": true,
+    "oracle_agrees_all": true,
+    "oracle_big_m_insensitive": true,
+    "capacity_multipliers_within_lemma_bound": true
+  },
+  "all_checks_pass": true,
+  "stage": "dual",
+  "wall_time_s": 105.26602578163147,
+  "environment": {
+    "timestamp": "2026-09-18T13:43:57.238871-04:00",
+    "python_version": "3.9.6",
+    "numpy_version": "2.0.2",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-15.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 12,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": null,
+    "hardware_model": "Mac14,13",
+    "memory_bytes": 34359738368
+  }
+}

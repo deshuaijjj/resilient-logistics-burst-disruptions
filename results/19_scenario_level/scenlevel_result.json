@@ -1,0 +1,29 @@
+{
+  "summary_file": "scenario_level_summary.json",
+  "checks": {
+    "exact_never_beyond_startup": true,
+    "sampled_unique_maximizer_is_1295": true
+  },
+  "stage": "scenlevel",
+  "wall_time_s": 0.6008491516113281,
+  "timing_protocol": "untimed: machine may be shared; no wall time from this stage is reported",
+  "environment": {
+    "timestamp": "2026-09-20T18:04:13.408266-04:00",
+    "python_version": "3.9.6",
+    "numpy_version": "2.0.2",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-15.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 12,
+    "thread_env": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": null,
+    "hardware_model": "Mac14,13",
+    "memory_bytes": 34359738368
+  }
+}

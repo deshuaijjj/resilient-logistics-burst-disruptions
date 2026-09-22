@@ -1,0 +1,26 @@
+{
+  "files": {
+    "dual_checks.json": "338c985f9b6e39408ff1b778b48730a7825e404945ad75d6f9850414b71be8b1",
+    "dual_result.json": "6ecaf4fadebc5e7c75e0c149c44a94251a3d9f360c3e0a404081d7122e96a492",
+    "oracle_results.json": "c859d6295e6c3c43e44f236f966a3a1d3f508639b9ff3c07fbe6dea34c9e9945"
+  },
+  "environment": {
+    "timestamp": "2026-09-18T13:43:57.238871-04:00",
+    "python_version": "3.9.6",
+    "numpy_version": "2.0.2",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-15.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 12,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": null,
+    "hardware_model": "Mac14,13",
+    "memory_bytes": 34359738368
+  }
+}

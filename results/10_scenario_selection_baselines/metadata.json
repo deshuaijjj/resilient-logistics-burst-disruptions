@@ -1,0 +1,31 @@
+{
+  "purpose": "external scenario-selection baselines; existing 08/09 are read-only",
+  "sample_size": 1002,
+  "methods": [
+    "maxsum_top"
+  ],
+  "seeds": [
+    0
+  ],
+  "full_event_sets": 29916,
+  "full_unique_disruption_matrices": 29207,
+  "matrix_sha256": "f05ad6cc2c731a5d6f66d034b247509807d4e4bb228b73a560f6aea1ed058ea4",
+  "scenario_limit": 0,
+  "python_version": "3.14.5",
+  "numpy_version": "2.4.6",
+  "scipy_version": "1.17.1",
+  "existing_ccg_reference": {
+    "source_path": "/Users/zhangyuxin/Desktop/MCM/results/09_burst_ccg/ccg_summary.csv",
+    "certified_total_cost_M": 3581.0934730354393,
+    "worst_unmet_tons": 300.0,
+    "iterations": 3,
+    "scenarios_used": 1002,
+    "total_wall_time_s": 287.736191034317
+  },
+  "literature_boundary": {
+    "random": "uniform scenario initialization baseline",
+    "maxsum_top": "deterministic ranking adaptation of Maxsum severity",
+    "maxsum_weighted": "squared-weight sampling adaptation of Goerigk-Kurtz Maxsum; binary disruption severity replaces objective-cost sum",
+    "kmeans": "generic clustering baseline; no Goerigk-Khosravi guarantee transfers"
+  }
+}

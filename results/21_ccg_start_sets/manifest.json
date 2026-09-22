@@ -1,0 +1,25 @@
+{
+  "files": {
+    "ccg_start_sets.json": "11e6a8a8aea96702a538ec03435df474aab22dfbaded701b561d62ba559e4d90",
+    "ccgstart_result.json": "d257d029b1d95ba040b7cff4bb6d638d68ea5a1aae68d4858984803fe4db5412"
+  },
+  "environment": {
+    "timestamp": "2026-09-20T17:52:44.352098-04:00",
+    "python_version": "3.9.6",
+    "numpy_version": "2.0.2",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-15.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 12,
+    "thread_env": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "highs_version": null,
+    "git_commit": null,
+    "hardware_model": "Mac14,13",
+    "memory_bytes": 34359738368
+  }
+}

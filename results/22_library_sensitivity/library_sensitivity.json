@@ -1,0 +1,487 @@
+{
+  "variants": [
+    {
+      "variant": "baseline",
+      "L_min": [
+        2,
+        2,
+        1
+      ],
+      "L_max": [
+        6,
+        6,
+        2
+      ],
+      "Gamma": 2,
+      "encodings": 29916,
+      "distinct_matrices": 29207,
+      "maximal_matrices": 1648,
+      "closed_form_equals_filter": true,
+      "total_cost": 3581093473.035439,
+      "investment_cost": 69017473.03543915,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        350.0,
+        188.18695428865271,
+        208.33333333333334
+      ],
+      "eta": 3512076000.0,
+      "maximal_set_evaluation": {
+        "evaluated": 1648,
+        "failed_solves": 0,
+        "worst_recourse": 3512076000.0000005,
+        "worst_scenario_id": 1295,
+        "worst_events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ],
+        "worst_unmet_tons": 300.0,
+        "cost_maximizers_within_tolerance": [
+          1220,
+          1295
+        ],
+        "max_unmet_tons_in_cost_min_solutions": 300.0,
+        "max_unmet_scenario_id": 1220
+      },
+      "eta_matches_evaluation": true,
+      "demand_window_months_2_to_Lplus2_tons": 2450.0,
+      "initial_stock_tons": 1200.0,
+      "q2_predicted_by_supply_window": 208.33333333333334,
+      "q2_minus_prediction": 0.0,
+      "ef_solve_time_s": 26.76237416267395
+    },
+    {
+      "variant": "mode2_cap_1",
+      "L_min": [
+        2,
+        2,
+        1
+      ],
+      "L_max": [
+        6,
+        6,
+        1
+      ],
+      "Gamma": 2,
+      "encodings": 24326,
+      "distinct_matrices": 23662,
+      "maximal_matrices": 1731,
+      "closed_form_equals_filter": true,
+      "total_cost": 3581093473.035439,
+      "investment_cost": 69017473.03543915,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        350.0,
+        188.18695428865271,
+        208.33333333333334
+      ],
+      "eta": 3512076000.0,
+      "maximal_set_evaluation": {
+        "evaluated": 1731,
+        "failed_solves": 0,
+        "worst_recourse": 3512076000.0000005,
+        "worst_scenario_id": 1180,
+        "worst_events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ],
+        "worst_unmet_tons": 300.0,
+        "cost_maximizers_within_tolerance": [
+          1105,
+          1180
+        ],
+        "max_unmet_tons_in_cost_min_solutions": 300.0,
+        "max_unmet_scenario_id": 1105
+      },
+      "eta_matches_evaluation": true,
+      "demand_window_months_2_to_Lplus2_tons": 2450.0,
+      "initial_stock_tons": 1200.0,
+      "q2_predicted_by_supply_window": 208.33333333333334,
+      "q2_minus_prediction": 0.0,
+      "ef_solve_time_s": 25.10816216468811
+    },
+    {
+      "variant": "mode2_cap_4",
+      "L_min": [
+        2,
+        2,
+        1
+      ],
+      "L_max": [
+        6,
+        6,
+        4
+      ],
+      "Gamma": 2,
+      "encodings": 41356,
+      "distinct_matrices": 40446,
+      "maximal_matrices": 1494,
+      "closed_form_equals_filter": true,
+      "total_cost": 3581093473.035439,
+      "investment_cost": 69017473.03543915,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        350.0,
+        188.18695428865271,
+        208.33333333333334
+      ],
+      "eta": 3512076000.0,
+      "maximal_set_evaluation": {
+        "evaluated": 1494,
+        "failed_solves": 0,
+        "worst_recourse": 3512076000.0000005,
+        "worst_scenario_id": 1510,
+        "worst_events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ],
+        "worst_unmet_tons": 300.0,
+        "cost_maximizers_within_tolerance": [
+          1435,
+          1510
+        ],
+        "max_unmet_tons_in_cost_min_solutions": 300.0,
+        "max_unmet_scenario_id": 1435
+      },
+      "eta_matches_evaluation": true,
+      "demand_window_months_2_to_Lplus2_tons": 2450.0,
+      "initial_stock_tons": 1200.0,
+      "q2_predicted_by_supply_window": 208.33333333333334,
+      "q2_minus_prediction": 0.0,
+      "ef_solve_time_s": 24.071497917175293
+    },
+    {
+      "variant": "mode2_cap_6",
+      "L_min": [
+        2,
+        2,
+        1
+      ],
+      "L_max": [
+        6,
+        6,
+        6
+      ],
+      "Gamma": 2,
+      "encodings": 52466,
+      "distinct_matrices": 51247,
+      "maximal_matrices": 1356,
+      "closed_form_equals_filter": true,
+      "total_cost": 3581165714.9643707,
+      "investment_cost": 69089714.96437055,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        350.0,
+        208.2541567695962,
+        208.33333333333334
+      ],
+      "eta": 3512076000.0,
+      "maximal_set_evaluation": {
+        "evaluated": 1356,
+        "failed_solves": 0,
+        "worst_recourse": 3512076000.0000005,
+        "worst_scenario_id": 1705,
+        "worst_events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ],
+        "worst_unmet_tons": 300.0,
+        "cost_maximizers_within_tolerance": [
+          1705,
+          1811
+        ],
+        "max_unmet_tons_in_cost_min_solutions": 300.47505938242284,
+        "max_unmet_scenario_id": 1811
+      },
+      "eta_matches_evaluation": true,
+      "demand_window_months_2_to_Lplus2_tons": 2450.0,
+      "initial_stock_tons": 1200.0,
+      "q2_predicted_by_supply_window": 208.33333333333334,
+      "q2_minus_prediction": 0.0,
+      "ef_solve_time_s": 16.999953031539917
+    },
+    {
+      "variant": "primary_cap_5",
+      "L_min": [
+        2,
+        2,
+        1
+      ],
+      "L_max": [
+        5,
+        5,
+        2
+      ],
+      "Gamma": 2,
+      "encodings": 22225,
+      "distinct_matrices": 21774,
+      "maximal_matrices": 1791,
+      "closed_form_equals_filter": true,
+      "total_cost": 3579715196.1121397,
+      "investment_cost": 68852696.11213964,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        350.0,
+        179.0822533721238,
+        190.0
+      ],
+      "eta": 3510862500.0,
+      "maximal_set_evaluation": {
+        "evaluated": 1791,
+        "failed_solves": 0,
+        "worst_recourse": 3510862500.0,
+        "worst_scenario_id": 844,
+        "worst_events": [
+          [
+            0,
+            0,
+            5
+          ],
+          [
+            0,
+            5,
+            5
+          ]
+        ],
+        "worst_unmet_tons": 300.0,
+        "cost_maximizers_within_tolerance": [
+          844,
+          910
+        ],
+        "max_unmet_tons_in_cost_min_solutions": 300.0,
+        "max_unmet_scenario_id": 844
+      },
+      "eta_matches_evaluation": true,
+      "demand_window_months_2_to_Lplus2_tons": 2150.0,
+      "initial_stock_tons": 1200.0,
+      "q2_predicted_by_supply_window": 190.0,
+      "q2_minus_prediction": 0.0,
+      "ef_solve_time_s": 33.17435693740845
+    },
+    {
+      "variant": "primary_cap_4",
+      "L_min": [
+        2,
+        2,
+        1
+      ],
+      "L_max": [
+        4,
+        4,
+        2
+      ],
+      "Gamma": 2,
+      "encodings": 15185,
+      "distinct_matrices": 14946,
+      "maximal_matrices": 1944,
+      "closed_form_equals_filter": true,
+      "total_cost": 3577541091.269841,
+      "investment_cost": 68494007.93650791,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        358.3333333333333,
+        203.89109347442155,
+        125.0
+      ],
+      "eta": 3509047083.3333335,
+      "maximal_set_evaluation": {
+        "evaluated": 1944,
+        "failed_solves": 0,
+        "worst_recourse": 3509047083.3333335,
+        "worst_scenario_id": 525,
+        "worst_events": [
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            4,
+            4
+          ]
+        ],
+        "worst_unmet_tons": 300.0,
+        "cost_maximizers_within_tolerance": [
+          525,
+          579
+        ],
+        "max_unmet_tons_in_cost_min_solutions": 300.0,
+        "max_unmet_scenario_id": 525
+      },
+      "eta_matches_evaluation": true,
+      "demand_window_months_2_to_Lplus2_tons": 1700.0,
+      "initial_stock_tons": 1200.0,
+      "q2_predicted_by_supply_window": 125.0,
+      "q2_minus_prediction": 0.0,
+      "ef_solve_time_s": 29.439968585968018
+    },
+    {
+      "variant": "primary_cap_2",
+      "L_min": [
+        2,
+        2,
+        1
+      ],
+      "L_max": [
+        2,
+        2,
+        2
+      ],
+      "Gamma": 2,
+      "encodings": 4260,
+      "distinct_matrices": 4215,
+      "maximal_matrices": 2280,
+      "closed_form_equals_filter": true,
+      "total_cost": 3574716584.0571856,
+      "investment_cost": 67285986.0918907,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        348.33719669702873,
+        124.99356106050766,
+        0.0
+      ],
+      "eta": 3507430597.965295,
+      "maximal_set_evaluation": {
+        "evaluated": 2280,
+        "failed_solves": 0,
+        "worst_recourse": 3507430597.9653006,
+        "worst_scenario_id": 94,
+        "worst_events": [
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            2,
+            2
+          ]
+        ],
+        "worst_unmet_tons": 300.02575575796936,
+        "cost_maximizers_within_tolerance": [
+          94,
+          1430
+        ],
+        "max_unmet_tons_in_cost_min_solutions": 300.02575575796936,
+        "max_unmet_scenario_id": 94
+      },
+      "eta_matches_evaluation": true,
+      "demand_window_months_2_to_Lplus2_tons": 1100.0,
+      "initial_stock_tons": 1200.0,
+      "q2_predicted_by_supply_window": 0.0,
+      "q2_minus_prediction": 0.0,
+      "ef_solve_time_s": 56.53025221824646
+    },
+    {
+      "variant": "single_event",
+      "L_min": [
+        2,
+        2,
+        1
+      ],
+      "L_max": [
+        6,
+        6,
+        2
+      ],
+      "Gamma": 1,
+      "encodings": 258,
+      "distinct_matrices": 258,
+      "maximal_matrices": 61,
+      "closed_form_equals_filter": true,
+      "total_cost": 3575119242.835811,
+      "investment_cost": 67469988.22325115,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        300.0,
+        208.33006201420912,
+        0.0
+      ],
+      "eta": 3507649254.61256,
+      "maximal_set_evaluation": {
+        "evaluated": 61,
+        "failed_solves": 0,
+        "worst_recourse": 3507649254.6125603,
+        "worst_scenario_id": 75,
+        "worst_events": [
+          [
+            0,
+            14,
+            6
+          ]
+        ],
+        "worst_unmet_tons": 300.0,
+        "cost_maximizers_within_tolerance": [
+          5,
+          75
+        ],
+        "max_unmet_tons_in_cost_min_solutions": 300.01962791474523,
+        "max_unmet_scenario_id": 5
+      },
+      "eta_matches_evaluation": true,
+      "demand_window_months_2_to_Lplus2_tons": 2450.0,
+      "initial_stock_tons": 1200.0,
+      "q2_predicted_by_supply_window": 0.0,
+      "q2_minus_prediction": 0.0,
+      "ef_solve_time_s": 0.5073530673980713
+    }
+  ]
+}

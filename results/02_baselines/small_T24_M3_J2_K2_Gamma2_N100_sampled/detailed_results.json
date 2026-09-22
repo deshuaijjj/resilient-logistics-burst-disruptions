@@ -1,0 +1,191 @@
+{
+  "nominal": {
+    "total_cost": 3544061500.0000005,
+    "investment_cost": 36860000.0,
+    "worst_case_cost": 3507201500.0000005,
+    "C_depot": [
+      600.0,
+      100.0
+    ],
+    "q_mode": [
+      358.3333333333333,
+      0.0,
+      0.0
+    ],
+    "worst_scenario_id": 0,
+    "worst_scenario_events": [],
+    "solve_time": 0.0072710514068603516,
+    "num_scenarios": 1,
+    "lp_status": "optimal"
+  },
+  "independent": {
+    "total_cost": 3544730676.230898,
+    "investment_cost": 37285699.16459532,
+    "worst_case_cost": 3507444977.066303,
+    "C_depot": [
+      600.0,
+      100.0
+    ],
+    "q_mode": [
+      385.72688664675474,
+      99.98739906753099,
+      0.0
+    ],
+    "worst_scenario_id": 22,
+    "worst_scenario_events": [
+      [
+        2,
+        19,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        17,
+        1
+      ],
+      [
+        0,
+        10,
+        1
+      ],
+      [
+        0,
+        17,
+        1
+      ],
+      [
+        2,
+        9,
+        1
+      ]
+    ],
+    "solve_time": 9.459359884262085,
+    "num_scenarios": 51,
+    "lp_status": "optimal"
+  },
+  "burst": {
+    "total_cost": 3550368332.774799,
+    "investment_cost": 39551260.0536193,
+    "worst_case_cost": 3510817072.7211795,
+    "C_depot": [
+      600.0,
+      100.0
+    ],
+    "q_mode": [
+      375.0,
+      311.4611260053619,
+      212.5
+    ],
+    "worst_scenario_id": 66,
+    "worst_scenario_events": [
+      [
+        0,
+        12,
+        6
+      ],
+      [
+        1,
+        10,
+        6
+      ]
+    ],
+    "solve_time": 35.25853681564331,
+    "num_scenarios": 100,
+    "lp_status": "optimal"
+  },
+  "inventory_only": {
+    "total_cost": 30056358833.33333,
+    "investment_cost": 51776666.666666664,
+    "worst_case_cost": 30004582166.66666,
+    "C_depot": [
+      658.3333333333333,
+      300.0
+    ],
+    "q_mode": [
+      358.3333333333333,
+      0.0,
+      0.0
+    ],
+    "worst_scenario_id": 33,
+    "worst_scenario_events": [
+      [
+        0,
+        7,
+        6
+      ],
+      [
+        0,
+        18,
+        6
+      ]
+    ],
+    "solve_time": 35.6829731464386,
+    "num_scenarios": 100,
+    "lp_status": "optimal"
+  },
+  "redundancy_only": {
+    "total_cost": 3550368332.774799,
+    "investment_cost": 39551260.0536193,
+    "worst_case_cost": 3510817072.7211795,
+    "C_depot": [
+      600.0,
+      100.0
+    ],
+    "q_mode": [
+      375.0,
+      311.4611260053619,
+      212.5
+    ],
+    "worst_scenario_id": 62,
+    "worst_scenario_events": [
+      [
+        0,
+        15,
+        5
+      ],
+      [
+        1,
+        16,
+        4
+      ]
+    ],
+    "solve_time": 36.04361295700073,
+    "num_scenarios": 100,
+    "lp_status": "optimal"
+  },
+  "joint": {
+    "total_cost": 3550368332.774799,
+    "investment_cost": 39551260.0536193,
+    "worst_case_cost": 3510817072.7211795,
+    "C_depot": [
+      600.0,
+      100.0
+    ],
+    "q_mode": [
+      375.0,
+      311.4611260053619,
+      212.5
+    ],
+    "worst_scenario_id": 66,
+    "worst_scenario_events": [
+      [
+        0,
+        12,
+        6
+      ],
+      [
+        1,
+        10,
+        6
+      ]
+    ],
+    "solve_time": 35.25853681564331,
+    "num_scenarios": 100,
+    "lp_status": "optimal"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "library": {
+    "event_set_count": 29916,
+    "unique_matrix_count": 29207,
+    "maximal_matrix_count": 1648,
+    "single_event_count": 257,
+    "canonical_sha256": "ac68a411a92f5d401c8b0e7f94b5aca8eb1188776ec4817edf2e306df4e02e0e",
+    "maximal_sha256": "010f5b5df4b27a886c0f36c69bf064090a907cb4b0b2f6920b3007da4dbe5b7a",
+    "prune_time_s": 2.421844005584717
+  },
+  "checks": {
+    "event_set_count_ok": true,
+    "unique_matrix_count_ok": true,
+    "maximal_matrix_count_ok": true,
+    "canonical_sha256_ok": true,
+    "maximal_sha256_ok": true,
+    "reduced_ef_objective_ok": true,
+    "reduced_ef_design_ok": true
+  },
+  "all_checks_pass": true,
+  "reduced_ef_rerun": {
+    "master_scenarios": 1648,
+    "master_total_cost": 3581093473.035439,
+    "certified_total_cost": 3581093473.0354395,
+    "certification_gap": 4.76837158203125e-07,
+    "C": [
+      600.0,
+      600.0
+    ],
+    "q": [
+      350.0,
+      188.18695428865271,
+      208.33333333333334
+    ],
+    "worst_scenario_id": 1295,
+    "worst_unmet_tons": 300.0,
+    "pruning_time_s": 2.421844005584717,
+    "master_assembly_plus_lp_time_s": 23.983983993530273,
+    "maximal_set_certification_time_s": 2.9475529193878174,
+    "wall_time_excluding_pruning_s": 27.209967136383057,
+    "agreement_with_frozen": {
+      "objective_difference": 4.76837158203125e-07,
+      "C_max_abs_difference": 0.0,
+      "q_max_abs_difference": 0.0,
+      "objective_within_tolerance": true
+    }
+  },
+  "frozen_reference": {
+    "event_set_count": 29916,
+    "unique_matrix_count": 29207,
+    "maximal_matrix_count": 1648,
+    "canonical_sha256": "ac68a411a92f5d401c8b0e7f94b5aca8eb1188776ec4817edf2e306df4e02e0e",
+    "maximal_sha256": "010f5b5df4b27a886c0f36c69bf064090a907cb4b0b2f6920b3007da4dbe5b7a",
+    "exact_total_cost": 3581093473.035439,
+    "exact_worst_recourse": 3512076000.0,
+    "exact_C": [
+      600.0,
+      600.0
+    ],
+    "exact_q": [
+      350.0,
+      188.18695428865271,
+      208.33333333333334
+    ],
+    "sampled_in_sample_total_cost": 3578972950.9803925,
+    "sampled_full_total_cost": 8278684856.582633,
+    "sampled_full_worst_recourse": 8209664554.061625,
+    "sampled_C": [
+      600.0,
+      600.0
+    ],
+    "sampled_q": [
+      418.45938375345594,
+      300.0,
+      130.0
+    ],
+    "sampled_worst_unmet_tons": 770.0,
+    "nominal_row_full_worst_recourse": 44336850666.666664,
+    "nominal_row_q": [
+      358.3333333333333,
+      0.0,
+      0.0
+    ],
+    "reference_worst_ids": [
+      1295,
+      1220
+    ]
+  },
+  "stage": "gate",
+  "wall_time_s": 27.221893787384033,
+  "environment": {
+    "timestamp": "2026-09-18T13:35:07.238135-04:00",
+    "python_version": "3.9.6",
+    "numpy_version": "2.0.2",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-15.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 12,
+    "thread_env": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "highs_version": null,
+    "git_commit": null,
+    "hardware_model": "Mac14,13",
+    "memory_bytes": 34359738368
+  }
+}

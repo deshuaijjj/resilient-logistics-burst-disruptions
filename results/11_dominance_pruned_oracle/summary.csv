@@ -1,0 +1,2 @@
+method,exactness_scope,master_scenarios,master_total_cost_M,certified_total_cost_M,certification_gap_M,certification_gap_pct,worst_unmet_tons,worst_scenario_id,master_solve_time_s,maximal_set_certification_time_s,pruning_time_s,total_wall_time_s,lp_status,certification_status
+dominance_pruned_exact_extensive_form,enumerated finite burst-event library,1648,3581.093473035439,3581.093473035439,0.0,0.0,300.0,1220,30.773425340652466,5.523721933364868,1.89180588722229,36.53810000419617,optimal,optimal

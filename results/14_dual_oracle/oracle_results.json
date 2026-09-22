@@ -1,0 +1,188 @@
+{
+  "nominal_only": {
+    "maximal_set_reference_worst_recourse": 44336850666.666664,
+    "maximal_set_reference_worst_id": 1220,
+    "runs": [
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "worst_recourse": 44336850666.66669,
+        "primal_recheck_recourse": 44336850666.666664,
+        "primal_recheck_unmet_tons": 3783.3333333333335,
+        "selected_events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            6,
+            6
+          ]
+        ],
+        "selected_delta_cells": 12,
+        "min_lambda_M": -15.000000000000002,
+        "big_m_M": 15.0,
+        "bound_lambda": true,
+        "binaries": 257,
+        "time_s": 0.9327490329742432,
+        "mip_gap": 0.0,
+        "difference_vs_enumeration": 2.288818359375e-05,
+        "agrees_with_enumeration": true
+      },
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "worst_recourse": 44336850666.66678,
+        "primal_recheck_recourse": 44336850666.666664,
+        "primal_recheck_unmet_tons": 3783.3333333333335,
+        "selected_events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            6,
+            6
+          ]
+        ],
+        "selected_delta_cells": 12,
+        "min_lambda_M": -1500.0,
+        "big_m_M": 1500.0,
+        "bound_lambda": true,
+        "binaries": 257,
+        "time_s": 0.9950289726257324,
+        "mip_gap": 0.0,
+        "difference_vs_enumeration": 0.00011444091796875,
+        "agrees_with_enumeration": true
+      }
+    ]
+  },
+  "sampled": {
+    "maximal_set_reference_worst_recourse": 8209664554.061625,
+    "maximal_set_reference_worst_id": 1295,
+    "runs": [
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "worst_recourse": 8209664554.061637,
+        "primal_recheck_recourse": 8209664554.061625,
+        "primal_recheck_unmet_tons": 770.0,
+        "selected_events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ],
+        "selected_delta_cells": 12,
+        "min_lambda_M": -15.0,
+        "big_m_M": 15.0,
+        "bound_lambda": true,
+        "binaries": 257,
+        "time_s": 2.610403060913086,
+        "mip_gap": 0.0,
+        "difference_vs_enumeration": 1.239776611328125e-05,
+        "agrees_with_enumeration": true
+      },
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "worst_recourse": 8209664554.061674,
+        "primal_recheck_recourse": 8209664554.061625,
+        "primal_recheck_unmet_tons": 770.0,
+        "selected_events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ],
+        "selected_delta_cells": 12,
+        "min_lambda_M": -1500.0,
+        "big_m_M": 1500.0,
+        "bound_lambda": true,
+        "binaries": 257,
+        "time_s": 4.80178689956665,
+        "mip_gap": 0.0,
+        "difference_vs_enumeration": 4.9591064453125e-05,
+        "agrees_with_enumeration": true
+      }
+    ]
+  },
+  "exact": {
+    "maximal_set_reference_worst_recourse": 3512076000.0000005,
+    "maximal_set_reference_worst_id": 1295,
+    "runs": [
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "worst_recourse": 3512076000.000091,
+        "primal_recheck_recourse": 3512076000.0,
+        "primal_recheck_unmet_tons": 300.0,
+        "selected_events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            6,
+            6
+          ]
+        ],
+        "selected_delta_cells": 12,
+        "min_lambda_M": -15.0,
+        "big_m_M": 15.0,
+        "bound_lambda": true,
+        "binaries": 257,
+        "time_s": 42.014240026474,
+        "mip_gap": 0.0,
+        "difference_vs_enumeration": 9.059906005859375e-05,
+        "agrees_with_enumeration": true
+      },
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "worst_recourse": 3512076000.0001097,
+        "primal_recheck_recourse": 3512076000.0000005,
+        "primal_recheck_unmet_tons": 300.0,
+        "selected_events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ],
+        "selected_delta_cells": 12,
+        "min_lambda_M": -1500.0,
+        "big_m_M": 1500.0,
+        "bound_lambda": true,
+        "binaries": 257,
+        "time_s": 45.09910321235657,
+        "mip_gap": 0.0,
+        "difference_vs_enumeration": 0.00010919570922851562,
+        "agrees_with_enumeration": true
+      }
+    ]
+  }
+}

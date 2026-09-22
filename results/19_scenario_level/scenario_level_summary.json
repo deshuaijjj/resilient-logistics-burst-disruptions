@@ -1,0 +1,866 @@
+{
+  "source": "results/13_fixed_design_verification/*_scenario_costs.csv",
+  "startup_unmet_tons": 300.0,
+  "startup_penalty_dollars": 3500000000.0,
+  "forced_depot_investment_dollars": 66000000.0,
+  "controllable_investment_dollars": {
+    "exact": 3017473.0354391485,
+    "sampled": 3020302.521008298,
+    "nominal_only": 860000.0
+  },
+  "designs": {
+    "exact": {
+      "encodings": 29916,
+      "all_optimal": true,
+      "investment_cost": 69017473.03543915,
+      "encodings_with_shortfall_beyond_startup": 0,
+      "share_with_shortfall_beyond_startup_pct": 0.0,
+      "max_unmet_tons": 300.0,
+      "min_unmet_tons": 300.0,
+      "worst_recourse": 3512076000.0000005,
+      "cost_maximizers_within_one_dollar": [
+        1220,
+        1295
+      ],
+      "nominal_scenario_recourse": 3507034000.0,
+      "nominal_scenario_total_net_of_startup": 76051473.03543901,
+      "complete_library_total_net_of_startup": 81093473.03543949,
+      "no_month_one_outage": {
+        "encodings": 27071,
+        "worst_recourse": 3511216455.5726757,
+        "worst_scenario_id": 2385,
+        "worst_events": [
+          [
+            0,
+            1,
+            6
+          ],
+          [
+            0,
+            7,
+            6
+          ]
+        ],
+        "worst_unmet_tons": 300.0,
+        "total_cost": 3580233928.6081147,
+        "increase_over_sampled_in_sample_pct": 0.035232946574151734
+      }
+    },
+    "sampled": {
+      "encodings": 29916,
+      "all_optimal": true,
+      "investment_cost": 69020302.5210083,
+      "encodings_with_shortfall_beyond_startup": 24,
+      "share_with_shortfall_beyond_startup_pct": 0.08022462896109106,
+      "max_unmet_tons": 770.0,
+      "min_unmet_tons": 300.0,
+      "worst_recourse": 8209664554.061625,
+      "cost_maximizers_within_one_dollar": [
+        1295
+      ],
+      "nominal_scenario_recourse": 3506997784.8739495,
+      "nominal_scenario_total_net_of_startup": 76018087.39495802,
+      "complete_library_total_net_of_startup": 4778684856.582633,
+      "no_month_one_outage": {
+        "encodings": 27071,
+        "worst_recourse": 5210240049.019608,
+        "worst_scenario_id": 15331,
+        "worst_events": [
+          [
+            0,
+            14,
+            6
+          ],
+          [
+            1,
+            14,
+            6
+          ]
+        ],
+        "worst_unmet_tons": 470.0,
+        "total_cost": 5279260351.540616,
+        "increase_over_sampled_in_sample_pct": 47.50769072156474
+      }
+    },
+    "nominal_only": {
+      "encodings": 29916,
+      "all_optimal": true,
+      "investment_cost": 66860000.0,
+      "encodings_with_shortfall_beyond_startup": 15941,
+      "share_with_shortfall_beyond_startup_pct": 53.285867094531355,
+      "max_unmet_tons": 3783.333333333334,
+      "min_unmet_tons": 300.0,
+      "worst_recourse": 44336850666.666664,
+      "cost_maximizers_within_one_dollar": [
+        1220
+      ],
+      "nominal_scenario_recourse": 3507016500.0,
+      "nominal_scenario_total_net_of_startup": 73876500.0,
+      "complete_library_total_net_of_startup": 40903710666.666664
+    }
+  },
+  "source_sha256": {
+    "exact_scenario_costs.csv": "9b368837c79f743a14141997ea0b501f3d07ce3cc8ba55a702bf3eb35cf3837f",
+    "sampled_scenario_costs.csv": "bd6e31c2134e94bf829e706bcbe4f885880a0a8b281707eb490d2911a72d7fe9",
+    "nominal_only_scenario_costs.csv": "3351eae48d0a62fdbf3019f8b3745762f018548872b867a7e68ab878a9fe717f"
+  },
+  "sampled_failures": {
+    "count": 24,
+    "share_pct": 0.08022462896109106,
+    "ids": [
+      1067,
+      1068,
+      1294,
+      1295,
+      1299,
+      1300,
+      2233,
+      2455,
+      2460,
+      3600,
+      4715,
+      5805,
+      6870,
+      7910,
+      8925,
+      9915,
+      10880,
+      11820,
+      12735,
+      13625,
+      14490,
+      15331,
+      16150,
+      16950
+    ],
+    "all_are_pairs_on_modes_0_and_1": true,
+    "min_event_duration_months": 5,
+    "min_months_both_primary_modes_out": 5,
+    "extra_unmet_tons_min": 51.540616246544005,
+    "extra_unmet_tons_max": 470.0,
+    "extra_unmet_tons_histogram": {
+      "51.54": 2,
+      "170.00": 18,
+      "300.00": 3,
+      "470.00": 1
+    },
+    "synchronized_six_month_pairs": 17,
+    "synchronized_start_months_one_based": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "synchronized_not_in_month_one": 16,
+    "synchronized_not_in_month_one_extra_unmet_tons": [
+      170.0
+    ],
+    "latest_failing_first_month_out": 17,
+    "encodings_above_in_sample_worst_recourse": 34,
+    "in_sample_worst_recourse": 3509952648.459384,
+    "encodings_above_exact_optimum_worst_recourse": 24,
+    "detail": [
+      {
+        "id": 1067,
+        "events": [
+          [
+            0,
+            0,
+            5
+          ],
+          [
+            1,
+            0,
+            5
+          ]
+        ],
+        "extra_unmet_tons": 300.0,
+        "cost": 6509314554.061625,
+        "modes": [
+          0,
+          1
+        ],
+        "durations": [
+          5,
+          5
+        ],
+        "months_both_primary_modes_out": 5,
+        "first_month_out": 1,
+        "synchronized_six_month_pair": false
+      },
+      {
+        "id": 1068,
+        "events": [
+          [
+            0,
+            0,
+            5
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ],
+        "extra_unmet_tons": 300.0,
+        "cost": 6509314554.061625,
+        "modes": [
+          0,
+          1
+        ],
+        "durations": [
+          5,
+          6
+        ],
+        "months_both_primary_modes_out": 5,
+        "first_month_out": 1,
+        "synchronized_six_month_pair": false
+      },
+      {
+        "id": 1294,
+        "events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            5
+          ]
+        ],
+        "extra_unmet_tons": 300.0,
+        "cost": 6509374554.061625,
+        "modes": [
+          0,
+          1
+        ],
+        "durations": [
+          6,
+          5
+        ],
+        "months_both_primary_modes_out": 5,
+        "first_month_out": 1,
+        "synchronized_six_month_pair": false
+      },
+      {
+        "id": 1295,
+        "events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ],
+        "extra_unmet_tons": 470.0,
+        "cost": 8209664554.061625,
+        "modes": [
+          0,
+          1
+        ],
+        "durations": [
+          6,
+          6
+        ],
+        "months_both_primary_modes_out": 6,
+        "first_month_out": 1,
+        "synchronized_six_month_pair": true
+      },
+      {
+        "id": 1299,
+        "events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            1,
+            5
+          ]
+        ],
+        "extra_unmet_tons": 170.0,
+        "cost": 5210050154.061625,
+        "modes": [
+          0,
+          1
+        ],
+        "durations": [
+          6,
+          5
+        ],
+        "months_both_primary_modes_out": 5,
+        "first_month_out": 1,
+        "synchronized_six_month_pair": false
+      },
+      {
+        "id": 1300,
+        "events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            1,
+            6
+          ]
+        ],
+        "extra_unmet_tons": 170.0,
+        "cost": 5210050154.061625,
+        "modes": [
+          0,
+          1
+        ],
+        "durations": [
+          6,
+          6
+        ],
+        "months_both_primary_modes_out": 5,
+        "first_month_out": 1,
+        "synchronized_six_month_pair": false
+      },
+      {
+        "id": 2233,
+        "events": [
+          [
+            0,
+            1,
+            5
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ],
+        "extra_unmet_tons": 51.54061624654406,
+        "cost": 4025529075.630707,
+        "modes": [
+          0,
+          1
+        ],
+        "durations": [
+          5,
+          6
+        ],
+        "months_both_primary_modes_out": 5,
+        "first_month_out": 1,
+        "synchronized_six_month_pair": false
+      },
+      {
+        "id": 2455,
+        "events": [
+          [
+            0,
+            1,
+            6
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ],
+        "extra_unmet_tons": 51.540616246544005,
+        "cost": 4025603752.941631,
+        "modes": [
+          0,
+          1
+        ],
+        "durations": [
+          6,
+          6
+        ],
+        "months_both_primary_modes_out": 5,
+        "first_month_out": 1,
+        "synchronized_six_month_pair": false
+      },
+      {
+        "id": 2460,
+        "events": [
+          [
+            0,
+            1,
+            6
+          ],
+          [
+            1,
+            1,
+            6
+          ]
+        ],
+        "extra_unmet_tons": 170.0,
+        "cost": 5210062139.495798,
+        "modes": [
+          0,
+          1
+        ],
+        "durations": [
+          6,
+          6
+        ],
+        "months_both_primary_modes_out": 6,
+        "first_month_out": 2,
+        "synchronized_six_month_pair": true
+      },
+      {
+        "id": 3600,
+        "events": [
+          [
+            0,
+            2,
+            6
+          ],
+          [
+            1,
+            2,
+            6
+          ]
+        ],
+        "extra_unmet_tons": 170.0,
+        "cost": 5210107693.277311,
+        "modes": [
+          0,
+          1
+        ],
+        "durations": [
+          6,
+          6
+        ],
+        "months_both_primary_modes_out": 6,
+        "first_month_out": 3,
+        "synchronized_six_month_pair": true
+      },
+      {
+        "id": 4715,
+        "events": [
+          [
+            0,
+            3,
+            6
+          ],
+          [
+            1,
+            3,
+            6
+          ]
+        ],
+        "extra_unmet_tons": 170.0,
+        "cost": 5210097608.963585,
+        "modes": [
+          0,
+          1
+        ],
+        "durations": [
+          6,
+          6
+        ],
+        "months_both_primary_modes_out": 6,
+        "first_month_out": 4,
+        "synchronized_six_month_pair": true
+      },
+      {
+        "id": 5805,
+        "events": [
+          [
+            0,
+            4,
+            6
+          ],
+          [
+            1,
+            4,
+            6
+          ]
+        ],
+        "extra_unmet_tons": 170.0,
+        "cost": 5210095855.742297,
+        "modes": [
+          0,
+          1
+        ],
+        "durations": [
+          6,
+          6
+        ],
+        "months_both_primary_modes_out": 6,
+        "first_month_out": 5,
+        "synchronized_six_month_pair": true
+      },
+      {
+        "id": 6870,
+        "events": [
+          [
+            0,
+            5,
+            6
+          ],
+          [
+            1,
+            5,
+            6
+          ]
+        ],
+        "extra_unmet_tons": 170.0,
+        "cost": 5210140870.868347,
+        "modes": [
+          0,
+          1
+        ],
+        "durations": [
+          6,
+          6
+        ],
+        "months_both_primary_modes_out": 6,
+        "first_month_out": 6,
+        "synchronized_six_month_pair": true
+      },
+      {
+        "id": 7910,
+        "events": [
+          [
+            0,
+            6,
+            6
+          ],
+          [
+            1,
+            6,
+            6
+          ]
+        ],
+        "extra_unmet_tons": 170.0,
+        "cost": 5210139485.714286,
+        "modes": [
+          0,
+          1
+        ],
+        "durations": [
+          6,
+          6
+        ],
+        "months_both_primary_modes_out": 6,
+        "first_month_out": 7,
+        "synchronized_six_month_pair": true
+      },
+      {
+        "id": 8925,
+        "events": [
+          [
+            0,
+            7,
+            6
+          ],
+          [
+            1,
+            7,
+            6
+          ]
+        ],
+        "extra_unmet_tons": 170.0,
+        "cost": 5210153840.336134,
+        "modes": [
+          0,
+          1
+        ],
+        "durations": [
+          6,
+          6
+        ],
+        "months_both_primary_modes_out": 6,
+        "first_month_out": 8,
+        "synchronized_six_month_pair": true
+      },
+      {
+        "id": 9915,
+        "events": [
+          [
+            0,
+            8,
+            6
+          ],
+          [
+            1,
+            8,
+            6
+          ]
+        ],
+        "extra_unmet_tons": 170.0,
+        "cost": 5210202963.305323,
+        "modes": [
+          0,
+          1
+        ],
+        "durations": [
+          6,
+          6
+        ],
+        "months_both_primary_modes_out": 6,
+        "first_month_out": 9,
+        "synchronized_six_month_pair": true
+      },
+      {
+        "id": 10880,
+        "events": [
+          [
+            0,
+            9,
+            6
+          ],
+          [
+            1,
+            9,
+            6
+          ]
+        ],
+        "extra_unmet_tons": 170.0,
+        "cost": 5210190547.899159,
+        "modes": [
+          0,
+          1
+        ],
+        "durations": [
+          6,
+          6
+        ],
+        "months_both_primary_modes_out": 6,
+        "first_month_out": 10,
+        "synchronized_six_month_pair": true
+      },
+      {
+        "id": 11820,
+        "events": [
+          [
+            0,
+            10,
+            6
+          ],
+          [
+            1,
+            10,
+            6
+          ]
+        ],
+        "extra_unmet_tons": 170.0,
+        "cost": 5210183902.240896,
+        "modes": [
+          0,
+          1
+        ],
+        "durations": [
+          6,
+          6
+        ],
+        "months_both_primary_modes_out": 6,
+        "first_month_out": 11,
+        "synchronized_six_month_pair": true
+      },
+      {
+        "id": 12735,
+        "events": [
+          [
+            0,
+            11,
+            6
+          ],
+          [
+            1,
+            11,
+            6
+          ]
+        ],
+        "extra_unmet_tons": 170.0,
+        "cost": 5210221648.459384,
+        "modes": [
+          0,
+          1
+        ],
+        "durations": [
+          6,
+          6
+        ],
+        "months_both_primary_modes_out": 6,
+        "first_month_out": 12,
+        "synchronized_six_month_pair": true
+      },
+      {
+        "id": 13625,
+        "events": [
+          [
+            0,
+            12,
+            6
+          ],
+          [
+            1,
+            12,
+            6
+          ]
+        ],
+        "extra_unmet_tons": 170.0,
+        "cost": 5210203117.927171,
+        "modes": [
+          0,
+          1
+        ],
+        "durations": [
+          6,
+          6
+        ],
+        "months_both_primary_modes_out": 6,
+        "first_month_out": 13,
+        "synchronized_six_month_pair": true
+      },
+      {
+        "id": 14490,
+        "events": [
+          [
+            0,
+            13,
+            6
+          ],
+          [
+            1,
+            13,
+            6
+          ]
+        ],
+        "extra_unmet_tons": 170.0,
+        "cost": 5210199295.238095,
+        "modes": [
+          0,
+          1
+        ],
+        "durations": [
+          6,
+          6
+        ],
+        "months_both_primary_modes_out": 6,
+        "first_month_out": 14,
+        "synchronized_six_month_pair": true
+      },
+      {
+        "id": 15331,
+        "events": [
+          [
+            0,
+            14,
+            6
+          ],
+          [
+            1,
+            14,
+            6
+          ]
+        ],
+        "extra_unmet_tons": 170.0,
+        "cost": 5210240049.019608,
+        "modes": [
+          0,
+          1
+        ],
+        "durations": [
+          6,
+          6
+        ],
+        "months_both_primary_modes_out": 6,
+        "first_month_out": 15,
+        "synchronized_six_month_pair": true
+      },
+      {
+        "id": 16150,
+        "events": [
+          [
+            0,
+            15,
+            6
+          ],
+          [
+            1,
+            15,
+            6
+          ]
+        ],
+        "extra_unmet_tons": 170.0,
+        "cost": 5210214949.019608,
+        "modes": [
+          0,
+          1
+        ],
+        "durations": [
+          6,
+          6
+        ],
+        "months_both_primary_modes_out": 6,
+        "first_month_out": 16,
+        "synchronized_six_month_pair": true
+      },
+      {
+        "id": 16950,
+        "events": [
+          [
+            0,
+            16,
+            6
+          ],
+          [
+            1,
+            16,
+            6
+          ]
+        ],
+        "extra_unmet_tons": 170.0,
+        "cost": 5210192179.831933,
+        "modes": [
+          0,
+          1
+        ],
+        "durations": [
+          6,
+          6
+        ],
+        "months_both_primary_modes_out": 6,
+        "first_month_out": 17,
+        "synchronized_six_month_pair": true
+      }
+    ]
+  },
+  "exact_minus_sampled": {
+    "nominal_scenario_difference_dollars": 33385.64048099518,
+    "nominal_scenario_difference_pct_of_net_total": 0.04391802217745552,
+    "nominal_scenario_difference_pct_of_total": 0.0009335981995917645,
+    "encodings_where_exact_costs_more": 29892,
+    "max_extra_cost_dollars": 4337278.0774559975,
+    "median_extra_cost_dollars": 75386.93702411652,
+    "encodings_where_exact_costs_less": 24,
+    "max_saving_dollars": 4697591383.547194,
+    "cheaper_ids_equal_failure_ids": true
+  },
+  "exact_extra_unmet_bound_tons": 1.2076,
+  "checks": {
+    "exact_never_beyond_startup": true,
+    "sampled_unique_maximizer_is_1295": true
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "closed_form_maximal_set": {
+    "maximum_duration_events": 61,
+    "maximum_duration_events_by_mode": [
+      19,
+      19,
+      23
+    ],
+    "closed_form_matrices": 1648,
+    "filter_matrices": 1648,
+    "sets_equal": true,
+    "closed_form_cells_histogram": {
+      "4": 231,
+      "8": 874,
+      "12": 543
+    }
+  },
+  "subset_extensive_forms": {
+    "ids_1220_1295": {
+      "dims": {
+        "variables": 1062,
+        "inequalities": 292,
+        "equalities": 288,
+        "nonzeros": 3460,
+        "scenarios": 2
+      },
+      "build_time_s": 0.0019359588623046875,
+      "solve_time_s": 0.010755062103271484,
+      "method": "highs",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "success": true,
+      "total_cost": 3581093473.035439,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        350.0,
+        188.18695428864922,
+        208.33333333333334
+      ],
+      "eta": 3512076000.0,
+      "investment_cost": 69017473.03543913,
+      "scenario_ids": [
+        1220,
+        1295
+      ],
+      "objective_minus_exact_optimum": 0.0,
+      "q_max_abs_difference_from_exact": 3.495870259939693e-12
+    },
+    "id_1295_only": {
+      "dims": {
+        "variables": 534,
+        "inequalities": 147,
+        "equalities": 144,
+        "nonzeros": 1731,
+        "scenarios": 1
+      },
+      "build_time_s": 0.0008938312530517578,
+      "solve_time_s": 0.0020890235900878906,
+      "method": "highs",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "success": true,
+      "total_cost": 3580491000.0,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        400.0,
+        0.0,
+        208.33333333333334
+      ],
+      "eta": 3512031000.0,
+      "investment_cost": 68460000.0,
+      "scenario_ids": [
+        1295
+      ],
+      "objective_minus_exact_optimum": -602473.0354390144,
+      "q_max_abs_difference_from_exact": 188.18695428865271
+    },
+    "id_1220_only": {
+      "dims": {
+        "variables": 534,
+        "inequalities": 147,
+        "equalities": 144,
+        "nonzeros": 1731,
+        "scenarios": 1
+      },
+      "build_time_s": 0.0008449554443359375,
+      "solve_time_s": 0.002107858657836914,
+      "method": "highs",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "success": true,
+      "total_cost": 3575539000.0,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        116.66666666666669,
+        283.3333333333333,
+        0.0
+      ],
+      "eta": 3508239000.0,
+      "investment_cost": 67300000.0,
+      "scenario_ids": [
+        1220
+      ],
+      "objective_minus_exact_optimum": -5554473.035439014,
+      "q_max_abs_difference_from_exact": 233.33333333333331
+    },
+    "nominal_plus_1220_1295": {
+      "dims": {
+        "variables": 1590,
+        "inequalities": 437,
+        "equalities": 432,
+        "nonzeros": 5189,
+        "scenarios": 3
+      },
+      "build_time_s": 0.001104116439819336,
+      "solve_time_s": 0.017188072204589844,
+      "method": "highs",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "success": true,
+      "total_cost": 3581093473.035439,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        350.0,
+        188.18695428864922,
+        208.33333333333334
+      ],
+      "eta": 3512076000.0,
+      "investment_cost": 69017473.03543913,
+      "scenario_ids": [
+        0,
+        1220,
+        1295
+      ],
+      "objective_minus_exact_optimum": 0.0,
+      "q_max_abs_difference_from_exact": 3.495870259939693e-12
+    }
+  },
+  "certificate": {
+    "lower_bound_two_encoding_relaxation": 3581093473.035439,
+    "upper_bound_complete_library_value_of_exact_design": 3581093473.0354395,
+    "upper_bound_source": "results/13_fixed_design_verification/verification_summary.json (29,916 encodings)",
+    "gap_dollars": 4.76837158203125e-07,
+    "variables_in_relaxation": 1062,
+    "closed": true
+  },
+  "leave_one_out_1295": {
+    "scenarios_in_design_set": 1647,
+    "design": {
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        309.8475568259153,
+        238.33537498298628,
+        168.61077083616894
+      ]
+    },
+    "in_set_total_cost": 3580103135.2933173,
+    "investment_cost": 68815639.03634137,
+    "complete_library_evaluation_on_maximal_set": {
+      "evaluated": 1648,
+      "failed_solves": 0,
+      "worst_recourse": 5894330410.099361,
+      "worst_scenario_id": 1295,
+      "worst_events": [
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          1,
+          0,
+          6
+        ]
+      ],
+      "worst_unmet_tons": 538.3353749829863,
+      "cost_maximizers_within_tolerance": [
+        1295
+      ],
+      "max_unmet_tons_in_cost_min_solutions": 538.3353749829863,
+      "max_unmet_scenario_id": 1295
+    },
+    "complete_library_total_cost": 5963146049.135703,
+    "gap_vs_exact_optimum": 2382052576.100264,
+    "probability_uniform_sample_of_999_maximal_matrices_omits_it_pct": 39.38106796116505
+  }
+}

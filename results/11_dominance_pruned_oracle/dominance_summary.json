@@ -1,0 +1,48 @@
+{
+  "proof_scope": {
+    "ordering": "Delta_a <= Delta_b componentwise",
+    "capacity_rhs": "q_m * (1 - Delta_mt)",
+    "assumptions": [
+      "q_m is nonnegative",
+      "Delta appears only by tightening mode-capacity constraints",
+      "all other recourse constraints and costs are Delta-independent",
+      "recourse minimizes operating cost"
+    ],
+    "consequence": "feasible(Delta_b) subset feasible(Delta_a), hence Q(Delta_a) <= Q(Delta_b); dominated matrices are exact-prunable"
+  },
+  "event_set_count": 29916,
+  "unique_matrix_count": 29207,
+  "duplicate_event_set_encodings": 709,
+  "maximal_matrix_count": 1648,
+  "dominated_unique_matrix_count": 27559,
+  "unique_matrix_pruning_pct": 94.35751703358784,
+  "event_set_pruning_pct": 94.49124214467174,
+  "maximal_severity_counts": {
+    "4": 231,
+    "8": 874,
+    "12": 543
+  },
+  "pruning_time_s": 1.89180588722229,
+  "canonical_sha256": "ac68a411a92f5d401c8b0e7f94b5aca8eb1188776ec4817edf2e306df4e02e0e",
+  "maximal_sha256": "010f5b5df4b27a886c0f36c69bf064090a907cb4b0b2f6920b3007da4dbe5b7a",
+  "python_version": "3.14.5",
+  "numpy_version": "2.4.6",
+  "scipy_version": "1.17.1",
+  "existing_ccg_reference": {
+    "source_path": "/Users/zhangyuxin/Desktop/MCM/results/09_burst_ccg/ccg_summary.csv",
+    "certified_total_cost_M": 3581.0934730354393,
+    "worst_unmet_tons": 300.0,
+    "iterations": 3,
+    "scenarios_used": 1002,
+    "total_wall_time_s": 287.736191034317,
+    "C_depot": [
+      600.0,
+      600.0
+    ],
+    "q_mode": [
+      350.0,
+      188.1869542886492,
+      208.33333333333337
+    ]
+  }
+}

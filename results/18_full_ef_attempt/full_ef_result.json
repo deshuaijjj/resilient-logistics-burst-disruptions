@@ -1,0 +1,42 @@
+{
+  "dims": {
+    "variables": 15421302,
+    "inequalities": 4235017,
+    "equalities": 4205808,
+    "nonzeros": 50498905,
+    "scenarios": 29207
+  },
+  "build_time_s": 3.774005889892578,
+  "solve_time_s": 2566.0131602287292,
+  "method": "highs",
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "success": true,
+  "total_cost": 3581093473.035439,
+  "C": [
+    600.0,
+    600.0
+  ],
+  "q": [
+    350.0,
+    188.18695428864922,
+    208.33333333333334
+  ],
+  "eta": 3512076000.0,
+  "investment_cost": 69017473.03543913,
+  "scenario_set": "all distinct matrices",
+  "agreement_with_frozen": {
+    "objective_difference": 0.0,
+    "C_max_abs_difference": 0.0,
+    "q_max_abs_difference": 3.495870259939693e-12,
+    "objective_within_tolerance": true
+  },
+  "final_complete_library_check": {
+    "complete_library_worst_recourse": 3512076000.0000005,
+    "complete_library_total_cost": 3581093473.0354395,
+    "worst_scenario_id": 1295,
+    "worst_unmet_tons": 300.0,
+    "evaluated_scenarios": 29916,
+    "eval_time_s": 52.078723192214966
+  }
+}

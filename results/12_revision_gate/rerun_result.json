@@ -1,0 +1,162 @@
+{
+  "ccg_rerun": {
+    "config_used": {
+      "initial_sample_size": 1000,
+      "max_iterations": 10,
+      "gap_tol_abs": 1.0,
+      "gap_tol_rel": 1e-08,
+      "scenario_limit": 0,
+      "progress_interval": 100000
+    },
+    "iterations": [
+      {
+        "iteration": 1,
+        "master_scenarios": 1000,
+        "added_scenario_id": 1295.0,
+        "new_scenario": true,
+        "lower_bound_M": 3578.9729509803924,
+        "upper_bound_M": 8278.684856582633,
+        "gap_M": 4699.71190560224,
+        "gap_pct": 56.768822427941046,
+        "master_objective_M": 3578.9729509803924,
+        "master_worst_operating_M": 3509.952648459384,
+        "adversarial_operating_M": 8209.664554061625,
+        "adversarial_total_cost_M": 8278.684856582633,
+        "C_depot_0": 600.0,
+        "C_depot_1": 600.0,
+        "q_mode_0": 418.45938375345594,
+        "q_mode_1": 300.0,
+        "q_mode_2": 130.0,
+        "worst_scenario_id": 1295,
+        "worst_events_json": "[[0, 0, 6], [1, 0, 6]]",
+        "worst_unmet_tons": 770.0,
+        "master_solve_time_s": 14.08660364151001,
+        "master_wall_time_s": 14.254037141799927,
+        "separation_time_s": 47.372936964035034,
+        "iteration_wall_time_s": 61.62704920768738,
+        "lp_status": "optimal",
+        "converged": false
+      },
+      {
+        "iteration": 2,
+        "master_scenarios": 1001,
+        "added_scenario_id": 1220.0,
+        "new_scenario": true,
+        "lower_bound_M": 3580.923250549382,
+        "upper_bound_M": 3583.107763200854,
+        "gap_M": 2.1845126514725686,
+        "gap_pct": 0.060966981621593884,
+        "master_objective_M": 3580.923250549382,
+        "master_worst_operating_M": 3512.0578333333333,
+        "adversarial_operating_M": 3514.242345984806,
+        "adversarial_total_cost_M": 3583.107763200854,
+        "C_depot_0": 600.0,
+        "C_depot_1": 600.0,
+        "q_mode_0": 358.3333333333333,
+        "q_mode_1": 140.39367112450256,
+        "q_mode_2": 208.33333333333334,
+        "worst_scenario_id": 1220,
+        "worst_events_json": "[[0, 0, 6], [0, 6, 6]]",
+        "worst_unmet_tons": 300.0,
+        "master_solve_time_s": 12.425511837005615,
+        "master_wall_time_s": 12.600255966186523,
+        "separation_time_s": 55.337125301361084,
+        "iteration_wall_time_s": 67.93748092651367,
+        "lp_status": "optimal",
+        "converged": false
+      },
+      {
+        "iteration": 3,
+        "master_scenarios": 1002,
+        "added_scenario_id": NaN,
+        "new_scenario": false,
+        "lower_bound_M": 3581.093473035439,
+        "upper_bound_M": 3581.0934730354393,
+        "gap_M": 4.76837158203125e-13,
+        "gap_pct": 1.33154066430705e-14,
+        "master_objective_M": 3581.093473035439,
+        "master_worst_operating_M": 3512.076,
+        "adversarial_operating_M": 3512.0760000000005,
+        "adversarial_total_cost_M": 3581.0934730354393,
+        "C_depot_0": 600.0,
+        "C_depot_1": 600.0,
+        "q_mode_0": 350.0,
+        "q_mode_1": 188.18695428864922,
+        "q_mode_2": 208.33333333333334,
+        "worst_scenario_id": 1295,
+        "worst_events_json": "[[0, 0, 6], [1, 0, 6]]",
+        "worst_unmet_tons": 300.0,
+        "master_solve_time_s": 11.609842777252197,
+        "master_wall_time_s": 11.778148174285889,
+        "separation_time_s": 52.91124987602234,
+        "iteration_wall_time_s": 64.68950200080872,
+        "lp_status": "optimal",
+        "converged": true
+      }
+    ],
+    "num_iterations": 3,
+    "total_cost": 3581093473.035439,
+    "C": [
+      600.0,
+      600.0
+    ],
+    "q": [
+      350.0,
+      188.18695428864922,
+      208.33333333333334
+    ],
+    "final_upper_bound": 3581093473.0354395,
+    "worst_scenario_id": 1295,
+    "worst_unmet_tons": 300.0,
+    "separation_time_total_s": 155.62131214141846,
+    "master_solve_time_total_s": 38.12195825576782,
+    "wall_time_s": 194.29921698570251,
+    "recourse_lps": 89748,
+    "agreement_with_frozen": {
+      "objective_difference": 4.76837158203125e-07,
+      "C_max_abs_difference": 0.0,
+      "q_max_abs_difference": 3.495870259939693e-12,
+      "objective_within_tolerance": true
+    }
+  },
+  "same_session_timing": {
+    "note": "Protocol-matched observations from one session on one machine; single observations, not statistics.  Do not divide these by the recorded June/August values.",
+    "reduced_ef": {
+      "pruning_time_s": 2.421844005584717,
+      "master_assembly_plus_lp_time_s": 23.983983993530273,
+      "maximal_set_certification_time_s": 2.9475529193878174,
+      "wall_time_excluding_pruning_s": 27.209967136383057,
+      "recourse_lps": 1648,
+      "master_solves": 1
+    },
+    "ccg_full_library_separation": {
+      "master_solve_time_total_s": 38.12195825576782,
+      "separation_time_total_s": 155.62131214141846,
+      "wall_time_s": 194.29921698570251,
+      "iterations": 3,
+      "recourse_lps": 89748,
+      "master_solves": 3
+    }
+  },
+  "stage": "rerun",
+  "wall_time_s": 194.30082726478577,
+  "environment": {
+    "timestamp": "2026-09-18T13:38:24.578655-04:00",
+    "python_version": "3.9.6",
+    "numpy_version": "2.0.2",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-15.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 12,
+    "thread_env": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "highs_version": null,
+    "git_commit": null,
+    "hardware_model": "Mac14,13",
+    "memory_bytes": 34359738368
+  }
+}

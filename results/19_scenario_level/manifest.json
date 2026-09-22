@@ -1,0 +1,25 @@
+{
+  "files": {
+    "scenario_level_summary.json": "ce5826c2d15eb28d7bcdfb770e5f6b4d16752c2e21022fc941cc8120beb7be3d",
+    "scenlevel_result.json": "49d313efddb95edf57b6b2547d9c9df15f651619fd4919f7ffefd91b54ec6ecb"
+  },
+  "environment": {
+    "timestamp": "2026-09-20T18:04:13.408266-04:00",
+    "python_version": "3.9.6",
+    "numpy_version": "2.0.2",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-15.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 12,
+    "thread_env": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": null,
+    "hardware_model": "Mac14,13",
+    "memory_bytes": 34359738368
+  }
+}

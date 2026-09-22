@@ -1,0 +1,9 @@
+Strategy,Definition,Total Cost ($M),Investment ($M),Worst Operating ($M),Depot Capacity (tons),Mode Capacity (t/mo),Worst Scenario,Num Scenarios,Solve Time (s),LP Status
+nominal,No disruptions; optimize C and q.,3544.0615000000003,36.86,3507.2015000000006,600 / 100,358 / 0 / 0,0 events,1,0.01,optimal
+independent,Independent single-period disruptions; optimize C and q.,3544.730676230898,37.28569916459532,3507.4449770663027,600 / 100,386 / 100 / 0,6 events,51,0.54,optimal
+burst_joint,Burst disruptions; optimize C and q.,3552.333400478362,39.11424710263168,3513.2191533757305,600 / 100,339 / 156 / 242,2 events,500,5.1,optimal
+inventory_only_nominal_q,Burst disruptions; fix q at nominal solution and optimize C.,38388.82475000001,51.776666666666664,38337.04808333334,658 / 300,358 / 0 / 0,2 events,500,3.33,optimal
+inventory_only_balanced_q,"Burst disruptions; fix q at exogenous balanced multi-mode portfolio (margin=2.0, shares=[0.5, 0.3, 0.2]) and optimize C.",3579.9568402006153,68.86884020061436,3511.088000000001,1205 / 100,352 / 211 / 141,2 events,500,3.55,optimal
+redundancy_only_nominal_C,Burst disruptions; fix C at nominal solution and optimize q.,3552.333400478362,39.11424710263171,3513.2191533757305,600 / 100,339 / 156 / 242,2 events,500,4.93,optimal
+budget_matched_inventory,Burst disruptions; fixed q=nominal and fixed C scaled in nominal proportions to match burst_joint investment cost.,40582.80627006565,39.11424710263169,40543.69202296302,638 / 106,358 / 0 / 0,2 events,500,3.07,optimal
+budget_matched_redundancy,Burst disruptions; fixed C=nominal and fixed q allocated by exogenous shares to match burst_joint investment cost.,8004.027386989728,39.11424710263168,7964.913139887097,600 / 100,419 / 251 / 167,2 events,500,3.18,optimal

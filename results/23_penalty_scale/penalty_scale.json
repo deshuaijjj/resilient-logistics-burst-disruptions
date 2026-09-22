@@ -1,0 +1,469 @@
+{
+  "scales": [
+    {
+      "penalty_scale": 0.001,
+      "p_unmet": [
+        [
+          10000.0,
+          15000.0
+        ]
+      ],
+      "startup_penalty_dollars": 3500000.0,
+      "exact": {
+        "design_set_size": 1648,
+        "design_set_total_cost": 84593473.03543913,
+        "investment_cost": 69017473.03543913,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          350.0,
+          188.1869542886492,
+          208.33333333333334
+        ],
+        "complete_library_total_cost": 84593473.03543913,
+        "maximal_set_evaluation": {
+          "evaluated": 1648,
+          "failed_solves": 0,
+          "worst_recourse": 15576000.0,
+          "worst_scenario_id": 1220,
+          "worst_events": [
+            [
+              0,
+              0,
+              6
+            ],
+            [
+              0,
+              6,
+              6
+            ]
+          ],
+          "worst_unmet_tons": 300.0,
+          "cost_maximizers_within_tolerance": [
+            1220,
+            1295
+          ],
+          "max_unmet_tons_in_cost_min_solutions": 300.0,
+          "max_unmet_scenario_id": 1220
+        }
+      },
+      "sampled": {
+        "design_set_size": 1000,
+        "design_set_total_cost": 82472950.98039216,
+        "investment_cost": 69020302.5210084,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          418.4593837535014,
+          300.0,
+          130.0
+        ],
+        "complete_library_total_cost": 86884856.58263305,
+        "maximal_set_evaluation": {
+          "evaluated": 1648,
+          "failed_solves": 0,
+          "worst_recourse": 17864554.06162465,
+          "worst_scenario_id": 1295,
+          "worst_events": [
+            [
+              0,
+              0,
+              6
+            ],
+            [
+              1,
+              0,
+              6
+            ]
+          ],
+          "worst_unmet_tons": 770.0,
+          "cost_maximizers_within_tolerance": [
+            1295
+          ],
+          "max_unmet_tons_in_cost_min_solutions": 770.0,
+          "max_unmet_scenario_id": 1295
+        }
+      },
+      "sampled_increase_pct": 5.349518296356117,
+      "exact_below_sampled_pct": 2.637264579028985,
+      "q_exact_max_abs_difference_from_baseline": 3.524291969370097e-12,
+      "q_sampled_max_abs_difference_from_baseline": 4.547473508864641e-11
+    },
+    {
+      "penalty_scale": 0.01,
+      "p_unmet": [
+        [
+          100000.0,
+          150000.0
+        ]
+      ],
+      "startup_penalty_dollars": 35000000.0,
+      "exact": {
+        "design_set_size": 1648,
+        "design_set_total_cost": 116093473.03543913,
+        "investment_cost": 69017473.03543913,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          350.0,
+          188.18695428864928,
+          208.33333333333334
+        ],
+        "complete_library_total_cost": 116093473.03543913,
+        "maximal_set_evaluation": {
+          "evaluated": 1648,
+          "failed_solves": 0,
+          "worst_recourse": 47076000.0,
+          "worst_scenario_id": 1220,
+          "worst_events": [
+            [
+              0,
+              0,
+              6
+            ],
+            [
+              0,
+              6,
+              6
+            ]
+          ],
+          "worst_unmet_tons": 300.0,
+          "cost_maximizers_within_tolerance": [
+            1220,
+            1295
+          ],
+          "max_unmet_tons_in_cost_min_solutions": 300.0,
+          "max_unmet_scenario_id": 1220
+        }
+      },
+      "sampled": {
+        "design_set_size": 1000,
+        "design_set_total_cost": 113972950.98039216,
+        "investment_cost": 69020302.5210084,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          418.4593837535014,
+          300.0,
+          130.0
+        ],
+        "complete_library_total_cost": 160684856.58263305,
+        "maximal_set_evaluation": {
+          "evaluated": 1648,
+          "failed_solves": 0,
+          "worst_recourse": 91664554.06162465,
+          "worst_scenario_id": 1295,
+          "worst_events": [
+            [
+              0,
+              0,
+              6
+            ],
+            [
+              1,
+              0,
+              6
+            ]
+          ],
+          "worst_unmet_tons": 770.0,
+          "cost_maximizers_within_tolerance": [
+            1295
+          ],
+          "max_unmet_tons_in_cost_min_solutions": 770.0,
+          "max_unmet_scenario_id": 1295
+        }
+      },
+      "sampled_increase_pct": 40.98508040761108,
+      "exact_below_sampled_pct": 27.750831344995202,
+      "q_exact_max_abs_difference_from_baseline": 3.439026841078885e-12,
+      "q_sampled_max_abs_difference_from_baseline": 4.547473508864641e-11
+    },
+    {
+      "penalty_scale": 0.1,
+      "p_unmet": [
+        [
+          1000000.0,
+          1500000.0
+        ]
+      ],
+      "startup_penalty_dollars": 350000000.0,
+      "exact": {
+        "design_set_size": 1648,
+        "design_set_total_cost": 431093473.03543913,
+        "investment_cost": 69017473.03543913,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          350.0,
+          188.18695428864876,
+          208.33333333333334
+        ],
+        "complete_library_total_cost": 431093473.03543913,
+        "maximal_set_evaluation": {
+          "evaluated": 1648,
+          "failed_solves": 0,
+          "worst_recourse": 362076000.0,
+          "worst_scenario_id": 1220,
+          "worst_events": [
+            [
+              0,
+              0,
+              6
+            ],
+            [
+              0,
+              6,
+              6
+            ]
+          ],
+          "worst_unmet_tons": 300.0,
+          "cost_maximizers_within_tolerance": [
+            1220,
+            1295
+          ],
+          "max_unmet_tons_in_cost_min_solutions": 300.0,
+          "max_unmet_scenario_id": 1220
+        }
+      },
+      "sampled": {
+        "design_set_size": 1000,
+        "design_set_total_cost": 428972950.98039216,
+        "investment_cost": 69020302.52100842,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          418.4593837535073,
+          300.0,
+          130.0
+        ],
+        "complete_library_total_cost": 898684856.582633,
+        "maximal_set_evaluation": {
+          "evaluated": 1648,
+          "failed_solves": 0,
+          "worst_recourse": 829664554.0616246,
+          "worst_scenario_id": 1295,
+          "worst_events": [
+            [
+              0,
+              0,
+              6
+            ],
+            [
+              1,
+              0,
+              6
+            ]
+          ],
+          "worst_unmet_tons": 770.0,
+          "cost_maximizers_within_tolerance": [
+            1295
+          ],
+          "max_unmet_tons_in_cost_min_solutions": 770.0,
+          "max_unmet_scenario_id": 1295
+        }
+      },
+      "sampled_increase_pct": 109.49685860815751,
+      "exact_below_sampled_pct": 52.03062899326817,
+      "q_exact_max_abs_difference_from_baseline": 3.950617610826157e-12,
+      "q_sampled_max_abs_difference_from_baseline": 5.1386450650170445e-11
+    },
+    {
+      "penalty_scale": 1.0,
+      "p_unmet": [
+        [
+          10000000.0,
+          15000000.0
+        ]
+      ],
+      "startup_penalty_dollars": 3500000000.0,
+      "exact": {
+        "design_set_size": 1648,
+        "design_set_total_cost": 3581093473.035439,
+        "investment_cost": 69017473.03543915,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          350.0,
+          188.18695428865271,
+          208.33333333333334
+        ],
+        "complete_library_total_cost": 3581093473.0354395,
+        "maximal_set_evaluation": {
+          "evaluated": 1648,
+          "failed_solves": 0,
+          "worst_recourse": 3512076000.0000005,
+          "worst_scenario_id": 1295,
+          "worst_events": [
+            [
+              0,
+              0,
+              6
+            ],
+            [
+              1,
+              0,
+              6
+            ]
+          ],
+          "worst_unmet_tons": 300.0,
+          "cost_maximizers_within_tolerance": [
+            1220,
+            1295
+          ],
+          "max_unmet_tons_in_cost_min_solutions": 300.0,
+          "max_unmet_scenario_id": 1220
+        }
+      },
+      "sampled": {
+        "design_set_size": 1000,
+        "design_set_total_cost": 3578972950.9803925,
+        "investment_cost": 69020302.5210083,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          418.45938375345594,
+          300.0,
+          130.0
+        ],
+        "complete_library_total_cost": 8278684856.582633,
+        "maximal_set_evaluation": {
+          "evaluated": 1648,
+          "failed_solves": 0,
+          "worst_recourse": 8209664554.061625,
+          "worst_scenario_id": 1295,
+          "worst_events": [
+            [
+              0,
+              0,
+              6
+            ],
+            [
+              1,
+              0,
+              6
+            ]
+          ],
+          "worst_unmet_tons": 770.0,
+          "cost_maximizers_within_tolerance": [
+            1295
+          ],
+          "max_unmet_tons_in_cost_min_solutions": 770.0,
+          "max_unmet_scenario_id": 1295
+        }
+      },
+      "sampled_increase_pct": 131.31454107008108,
+      "exact_below_sampled_pct": 56.7432081897887,
+      "q_exact_max_abs_difference_from_baseline": 0.0,
+      "q_sampled_max_abs_difference_from_baseline": 0.0
+    },
+    {
+      "penalty_scale": 10.0,
+      "p_unmet": [
+        [
+          100000000.0,
+          150000000.0
+        ]
+      ],
+      "startup_penalty_dollars": 35000000000.0,
+      "exact": {
+        "design_set_size": 1648,
+        "design_set_total_cost": 35081093473.03544,
+        "investment_cost": 69017473.03543934,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          350.0,
+          188.1869542887052,
+          208.33333333333334
+        ],
+        "complete_library_total_cost": 35081093473.035446,
+        "maximal_set_evaluation": {
+          "evaluated": 1648,
+          "failed_solves": 0,
+          "worst_recourse": 35012076000.00001,
+          "worst_scenario_id": 1295,
+          "worst_events": [
+            [
+              0,
+              0,
+              6
+            ],
+            [
+              1,
+              0,
+              6
+            ]
+          ],
+          "worst_unmet_tons": 300.0,
+          "cost_maximizers_within_tolerance": [
+            1220,
+            1295
+          ],
+          "max_unmet_tons_in_cost_min_solutions": 300.0,
+          "max_unmet_scenario_id": 1220
+        }
+      },
+      "sampled": {
+        "design_set_size": 1000,
+        "design_set_total_cost": 35078972950.98039,
+        "investment_cost": 69020302.5210084,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          418.4593837535014,
+          300.0,
+          130.0
+        ],
+        "complete_library_total_cost": 82078684856.58264,
+        "maximal_set_evaluation": {
+          "evaluated": 1648,
+          "failed_solves": 0,
+          "worst_recourse": 82009664554.06163,
+          "worst_scenario_id": 1295,
+          "worst_events": [
+            [
+              0,
+              0,
+              6
+            ],
+            [
+              1,
+              0,
+              6
+            ]
+          ],
+          "worst_unmet_tons": 770.0,
+          "cost_maximizers_within_tolerance": [
+            1295
+          ],
+          "max_unmet_tons_in_cost_min_solutions": 770.0,
+          "max_unmet_scenario_id": 1295
+        }
+      },
+      "sampled_increase_pct": 133.98257688809755,
+      "exact_below_sampled_pct": 57.259191549751094,
+      "q_exact_max_abs_difference_from_baseline": 5.24948973179562e-11,
+      "q_sampled_max_abs_difference_from_baseline": 4.547473508864641e-11
+    }
+  ]
+}

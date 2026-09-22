@@ -1,0 +1,27 @@
+{
+  "master_scenarios": 1648,
+  "master_total_cost": 3581093473.035439,
+  "certified_total_cost": 3581093473.0354395,
+  "certification_gap": 4.76837158203125e-07,
+  "C": [
+    600.0,
+    600.0
+  ],
+  "q": [
+    350.0,
+    188.18695428865271,
+    208.33333333333334
+  ],
+  "worst_scenario_id": 1295,
+  "worst_unmet_tons": 300.0,
+  "pruning_time_s": 2.421844005584717,
+  "master_assembly_plus_lp_time_s": 23.983983993530273,
+  "maximal_set_certification_time_s": 2.9475529193878174,
+  "wall_time_excluding_pruning_s": 27.209967136383057,
+  "agreement_with_frozen": {
+    "objective_difference": 4.76837158203125e-07,
+    "C_max_abs_difference": 0.0,
+    "q_max_abs_difference": 0.0,
+    "objective_within_tolerance": true
+  }
+}

@@ -1,0 +1,10 @@
+Statistic,Value
+Total event-set scenarios,29916.0
+Nominal no-disruption scenario,1.0
+Single-event scenarios,257.0
+Double-event scenarios,29658.0
+Total events,59573.0
+Average duration,3.39
+Mode 0 events,23815.0
+Mode 1 events,23815.0
+Mode 2 events,11943.0

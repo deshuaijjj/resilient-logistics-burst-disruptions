@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "scale_name": "small_T24_M3_J2_K2_Gamma2_N1000_sampled",
+    "sample_size": 1000,
+    "sample_method": "deterministic_even_sample_with_nominal",
+    "total_burst_scenarios_available": 29916,
+    "burst_scenarios_used": 1000,
+    "independent_scenarios_used": 51
+  },
+  "results": {
+    "nominal": {
+      "total_cost": 3573876500.0000005,
+      "investment_cost": 66860000.0,
+      "worst_case_cost": 3507016500.0000005,
+      "C_depot": [
+        600.0,
+        600.0
+      ],
+      "q_mode": [
+        358.3333333333333,
+        0.0,
+        0.0
+      ],
+      "worst_scenario_id": 0,
+      "worst_scenario_events": [],
+      "solve_time": 0.010300159454345703,
+      "num_scenarios": 1,
+      "lp_status": "optimal"
+    },
+    "independent": {
+      "total_cost": 3574270545.4545455,
+      "investment_cost": 67036363.63636363,
+      "worst_case_cost": 3507234181.818182,
+      "C_depot": [
+        600.0,
+        600.0
+      ],
+      "q_mode": [
+        431.8181818181818,
+        0.0,
+        0.0
+      ],
+      "worst_scenario_id": 8,
+      "worst_scenario_events": [
+        [
+          0,
+          7,
+          1
+        ],
+        [
+          0,
+          15,
+          1
+        ],
+        [
+          0,
+          17,
+          1
+        ],
+        [
+          2,
+          20,
+          1
+        ],
+        [
+          1,
+          12,
+          1
+        ],
+        [
+          0,
+          14,
+          1
+        ]
+      ],
+      "solve_time": 0.4021170139312744,
+      "num_scenarios": 51,
+      "lp_status": "optimal"
+    },
+    "burst": {
+      "total_cost": 3578972950.9803925,
+      "investment_cost": 69020302.5210083,
+      "worst_case_cost": 3509952648.459384,
+      "C_depot": [
+        600.0,
+        600.0
+      ],
+      "q_mode": [
+        418.45938375345594,
+        300.0,
+        130.0
+      ],
+      "worst_scenario_id": 230,
+      "worst_scenario_events": [
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          1,
+          4,
+          6
+        ]
+      ],
+      "solve_time": 19.24634289741516,
+      "num_scenarios": 1000,
+      "lp_status": "optimal"
+    },
+    "inventory_only": {
+      "total_cost": 3578972950.9803915,
+      "investment_cost": 69020302.5210083,
+      "worst_case_cost": 3509952648.459383,
+      "C_depot": [
+        600.0,
+        600.0
+      ],
+      "q_mode": [
+        418.45938375345594,
+        300.0,
+        130.0
+      ],
+      "worst_scenario_id": 230,
+      "worst_scenario_events": [
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          1,
+          4,
+          6
+        ]
+      ],
+      "solve_time": 8.571546077728271,
+      "num_scenarios": 1000,
+      "lp_status": "optimal"
+    },
+    "redundancy_only": {
+      "total_cost": 3578972950.9803925,
+      "investment_cost": 69020302.5210084,
+      "worst_case_cost": 3509952648.459384,
+      "C_depot": [
+        600.0,
+        600.0
+      ],
+      "q_mode": [
+        418.4593837535014,
+        300.0,
+        130.0
+      ],
+      "worst_scenario_id": 23,
+      "worst_scenario_events": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          1,
+          13,
+          2
+        ]
+      ],
+      "solve_time": 15.322516918182373,
+      "num_scenarios": 1000,
+      "lp_status": "optimal"
+    },
+    "joint": {
+      "total_cost": 3578972950.9803925,
+      "investment_cost": 69020302.5210083,
+      "worst_case_cost": 3509952648.459384,
+      "C_depot": [
+        600.0,
+        600.0
+      ],
+      "q_mode": [
+        418.45938375345594,
+        300.0,
+        130.0
+      ],
+      "worst_scenario_id": 230,
+      "worst_scenario_events": [
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          1,
+          4,
+          6
+        ]
+      ],
+      "solve_time": 19.27316403388977,
+      "num_scenarios": 1000,
+      "lp_status": "optimal"
+    }
+  }
+}
