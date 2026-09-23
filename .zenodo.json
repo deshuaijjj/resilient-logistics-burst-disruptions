@@ -2,7 +2,7 @@
   "title": "Resilient Logistics under Burst Disruptions: generator, dominance filter, and recorded result manifests",
   "description": "<p>Scenario generator, lossless dominance preprocessing, solver drivers, unit tests, and the recorded result manifests for every number reported in the accompanying IEEE Aerospace Conference paper, <em>Cislunar Logistics Design and Worst-Case Verification Under Sustained Transportation Outages</em>.</p><p>Each stage manifest under <code>results/</code> stores SHA-256 hashes of its outputs together with the software versions and, where recorded, the hardware of the producing session. Running <code>src/make_revision_numbers.py</code> against <code>results/</code> regenerates every numeric macro used in the manuscript.</p>",
   "upload_type": "software",
-  "license": "MIT",
+  "license": "mit",
   "creators": [
     {
       "name": "Zhang, Yuxin",
