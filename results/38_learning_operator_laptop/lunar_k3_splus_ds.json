@@ -1,0 +1,56 @@
+{
+  "instance": "lunar example, demand from month 2, at most 3 outages, outages may run past month T",
+  "environment": {
+    "timestamp": "2026-11-12T06:26:38.649887-05:00",
+    "python_version": "3.12.4",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 10,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": "43b81493c096cc972034c1143e88fac0b57ccad1",
+    "hardware_model": "MacBookPro18,1",
+    "memory_bytes": 17179869184
+  },
+  "runs": {
+    "learns_as_outages_happen__splus_set": {
+      "scenarios": 44652,
+      "nodes": 285077,
+      "variables": 6556777,
+      "rows": 3750647,
+      "nonzeros": 22228829,
+      "build_s": 15.635915994644165,
+      "solve_s": 3814.99618601799,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "total_cost": 83099522.18092927,
+      "worst_operating_cost": 12533143.555813577,
+      "investment_cost": 70566378.6251157,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        350.1851719828112,
+        401.67731016290844,
+        316.6522077458993
+      ],
+      "largest_unmet_tons_on_a_path": 0.3435974051459463,
+      "method": "highs-ds",
+      "solve_s_all_runs": [
+        3814.99618601799
+      ],
+      "median_solve_s": 3814.99618601799
+    }
+  },
+  "counts": {
+    "splus": 44652
+  }
+}

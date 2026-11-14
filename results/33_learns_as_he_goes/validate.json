@@ -1,0 +1,13 @@
+{
+  "scenarios": 40,
+  "recorded_model_total_cost": 77583867.78215222,
+  "tree_lp_without_sharing_total_cost": 77583867.78215222,
+  "difference": 0.0,
+  "tree_lp_with_sharing_total_cost": 77583867.78215222,
+  "sharing_minus_no_sharing": 0.0,
+  "counts": {
+    "thm1": 1648,
+    "splus": 2323,
+    "all": 29704
+  }
+}

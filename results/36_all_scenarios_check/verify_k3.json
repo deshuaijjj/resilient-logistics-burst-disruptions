@@ -1,0 +1,52 @@
+{
+  "k": 3,
+  "scenarios_checked": 1981386,
+  "design": {
+    "C": [
+      600.0,
+      600.0
+    ],
+    "q": [
+      353.24409466295003,
+      407.3071718538564,
+      316.65435056276056
+    ],
+    "total_cost": 83055559.71980657
+  },
+  "worst_operating_cost_all_scenarios": 12461556.749889737,
+  "worst_operating_cost_theorem1_scenarios": 12461556.749889735,
+  "difference": 1.862645149230957e-09,
+  "worst_scenario_events": [
+    [
+      0,
+      0,
+      12
+    ],
+    [
+      1,
+      0,
+      6
+    ]
+  ],
+  "wall_s": 448.44025802612305,
+  "processes": 8,
+  "environment": {
+    "timestamp": "2026-11-12T04:22:28.498009-05:00",
+    "python_version": "3.9.6",
+    "numpy_version": "2.0.2",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-15.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 12,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": null,
+    "hardware_model": "Mac14,13",
+    "memory_bytes": 34359738368
+  }
+}

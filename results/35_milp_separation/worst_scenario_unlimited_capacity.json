@@ -1,0 +1,135 @@
+{
+  "what": "capacity 1,000,000 tons per month on every line and at every depot",
+  "rows": [
+    {
+      "k": 2,
+      "worst_scenario_line_first_month_months": [
+        [
+          1,
+          1,
+          6
+        ],
+        [
+          1,
+          7,
+          6
+        ]
+      ],
+      "optimal_design": {
+        "operating_cost": 12076000.0,
+        "unmet_tons": 0.0,
+        "unmet_by_commodity": [
+          0.0,
+          0.0
+        ]
+      },
+      "unlimited_capacity": {
+        "operating_cost": 7671000.0,
+        "unmet_tons": 0.0,
+        "unmet_by_commodity": [
+          0.0,
+          0.0
+        ]
+      },
+      "total_cost_of_optimal_design": 81093473.03543913
+    },
+    {
+      "k": 3,
+      "worst_scenario_line_first_month_months": [
+        [
+          1,
+          1,
+          6
+        ],
+        [
+          1,
+          7,
+          6
+        ],
+        [
+          2,
+          3,
+          6
+        ]
+      ],
+      "optimal_design": {
+        "operating_cost": 12461556.749889735,
+        "unmet_tons": 0.0,
+        "unmet_by_commodity": [
+          0.0,
+          0.0
+        ]
+      },
+      "unlimited_capacity": {
+        "operating_cost": 7852500.0,
+        "unmet_tons": 0.0,
+        "unmet_by_commodity": [
+          0.0,
+          0.0
+        ]
+      },
+      "total_cost_of_optimal_design": 83055559.71980657
+    },
+    {
+      "k": 4,
+      "worst_scenario_line_first_month_months": [
+        [
+          1,
+          1,
+          6
+        ],
+        [
+          2,
+          1,
+          6
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          3,
+          3,
+          2
+        ]
+      ],
+      "optimal_design": {
+        "operating_cost": 5509544000.0,
+        "unmet_tons": 500.0,
+        "unmet_by_commodity": [
+          400.0,
+          100.0
+        ]
+      },
+      "unlimited_capacity": {
+        "operating_cost": 5509491000.0,
+        "unmet_tons": 500.0,
+        "unmet_by_commodity": [
+          400.0,
+          100.0
+        ]
+      },
+      "total_cost_of_optimal_design": 5580043826.359018
+    }
+  ],
+  "environment": {
+    "timestamp": "2026-11-12T11:46:02.883776-05:00",
+    "python_version": "3.9.6",
+    "numpy_version": "2.0.2",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-15.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 12,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": null,
+    "hardware_model": "Mac14,13",
+    "memory_bytes": 34359738368
+  }
+}

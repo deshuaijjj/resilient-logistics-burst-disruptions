@@ -1,0 +1,26 @@
+{
+  "files": {
+    "seeds.csv": "cd81cc3b8ee66f09e89cf15fe35cd8625d78091cc1d0f3768596923cd50c3c48",
+    "seeds_result.json": "1336d550bf007d14455e6b519dbd1444174ca1e2ce685b5fafeffcf014db5437",
+    "seeds_summary.json": "60c69cfe7aabf81c8f653c50a2e5adbcfb4e8e2b9d1c17da06a1267b3eaf4b92"
+  },
+  "environment": {
+    "timestamp": "2026-11-10T18:40:22.966228-05:00",
+    "python_version": "3.12.4",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 10,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": "43b81493c096cc972034c1143e88fac0b57ccad1",
+    "hardware_model": "MacBookPro18,1",
+    "memory_bytes": 17179869184
+  }
+}

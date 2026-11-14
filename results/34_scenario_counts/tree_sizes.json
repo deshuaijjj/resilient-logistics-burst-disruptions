@@ -1,0 +1,93 @@
+{
+  "instance": "lunar example: T = 24, shortest outages [2, 2, 1], longest outages [6, 6, 2]",
+  "tree": "one node per month and per distinct outage matrix up to that month",
+  "rows": [
+    {
+      "k": 1,
+      "all": {
+        "scenarios": 260,
+        "tree_nodes": 2968,
+        "count_s": 0.0012481212615966797
+      },
+      "splus": {
+        "scenarios": 72,
+        "tree_nodes": 923,
+        "count_s": 0.00020194053649902344
+      },
+      "thm1": {
+        "scenarios": 61,
+        "tree_nodes": 891,
+        "count_s": 0.00016307830810546875
+      }
+    },
+    {
+      "k": 2,
+      "all": {
+        "scenarios": 29704,
+        "tree_nodes": 220632,
+        "count_s": 0.07866096496582031
+      },
+      "splus": {
+        "scenarios": 2323,
+        "tree_nodes": 19855,
+        "count_s": 0.006244182586669922
+      },
+      "thm1": {
+        "scenarios": 1648,
+        "tree_nodes": 17945,
+        "count_s": 0.004275798797607422
+      }
+    },
+    {
+      "k": 3,
+      "all": {
+        "scenarios": 1981386,
+        "tree_nodes": 10770336,
+        "count_s": 5.316645860671997
+      },
+      "splus": {
+        "scenarios": 44652,
+        "tree_nodes": 285077,
+        "count_s": 0.15428996086120605
+      },
+      "thm1": {
+        "scenarios": 26223,
+        "tree_nodes": 234396,
+        "count_s": 0.0892789363861084
+      }
+    },
+    {
+      "k": 4,
+      "all": null,
+      "splus": {
+        "scenarios": 573588,
+        "tree_nodes": 2933114,
+        "count_s": 2.748987913131714
+      },
+      "thm1": {
+        "scenarios": 275691,
+        "tree_nodes": 2136948,
+        "count_s": 1.198564052581787
+      }
+    }
+  ],
+  "environment": {
+    "timestamp": "2026-11-12T11:46:02.429951-05:00",
+    "python_version": "3.9.6",
+    "numpy_version": "2.0.2",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-15.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 12,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": null,
+    "hardware_model": "Mac14,13",
+    "memory_bytes": 34359738368
+  }
+}

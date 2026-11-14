@@ -1,0 +1,2615 @@
+{
+  "k": 2,
+  "methods": [
+    "highs-ds",
+    "highs-ipm"
+  ],
+  "rows": [
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2435,
+          "nodes": 20328,
+          "variables": 467550,
+          "rows": 266694,
+          "nonzeros": 1570573,
+          "total_cost": 142413309.39951566,
+          "q": [
+            330.3480242946014,
+            145.55489487284774,
+            2.6545314558598507
+          ],
+          "C": [
+            1107.2149698289174,
+            1107.2149698289174
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            186454
+          ],
+          "solve_s_all_runs": [
+            57.17233490943909
+          ],
+          "median_solve_s": 57.17233490943909
+        },
+        "theorem_1": {
+          "scenarios": 2362,
+          "nodes": 20255,
+          "variables": 465871,
+          "rows": 265672,
+          "nonzeros": 1563711,
+          "total_cost": 142413309.3995148,
+          "q": [
+            330.3480242946013,
+            145.5548948720946,
+            2.654531455859838
+          ],
+          "C": [
+            1107.2149698289174,
+            1107.2149698289174
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            168803
+          ],
+          "solve_s_all_runs": [
+            41.59218192100525
+          ],
+          "median_solve_s": 41.59218192100525
+        },
+        "proposition_1": {
+          "scenarios": 1794,
+          "nodes": 18837,
+          "variables": 433257,
+          "rows": 246670,
+          "nonzeros": 1446569,
+          "total_cost": 142413309.39951536,
+          "q": [
+            330.3480242946013,
+            145.55489487259194,
+            2.654531455859845
+          ],
+          "C": [
+            1107.2149698289174,
+            1107.2149698289174
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            154947
+          ],
+          "solve_s_all_runs": [
+            98.70067286491394
+          ],
+          "median_solve_s": 98.70067286491394
+        }
+      },
+      "failed_attempts": [],
+      "seed": 1,
+      "L_max": [
+        6,
+        4,
+        2
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2434,
+          "nodes": 20308,
+          "variables": 467090,
+          "rows": 266433,
+          "nonzeros": 1569054,
+          "total_cost": 51907464.762478404,
+          "q": [
+            416.2553502523807,
+            221.58793660797716,
+            231.26811021277132
+          ],
+          "C": [
+            525.0933949580042,
+            525.0933949580042
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            212444
+          ],
+          "solve_s_all_runs": [
+            64.74765729904175
+          ],
+          "median_solve_s": 64.74765729904175
+        },
+        "theorem_1": {
+          "scenarios": 2361,
+          "nodes": 20235,
+          "variables": 465411,
+          "rows": 265411,
+          "nonzeros": 1562192,
+          "total_cost": 51907464.76247845,
+          "q": [
+            416.2553502523809,
+            221.5879366079863,
+            231.26811021277132
+          ],
+          "C": [
+            525.0933949580042,
+            525.0933949580042
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            205991
+          ],
+          "solve_s_all_runs": [
+            64.4245388507843
+          ],
+          "median_solve_s": 64.4245388507843
+        },
+        "proposition_1": {
+          "scenarios": 1791,
+          "nodes": 18864,
+          "variables": 433878,
+          "rows": 247018,
+          "nonzeros": 1448537,
+          "total_cost": 51907464.76247844,
+          "q": [
+            416.2553502523806,
+            221.58793660798636,
+            231.26811021277132
+          ],
+          "C": [
+            525.0933949580042,
+            525.0933949580042
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            198453
+          ],
+          "solve_s_all_runs": [
+            61.1488242149353
+          ],
+          "median_solve_s": 61.1488242149353
+        }
+      },
+      "failed_attempts": [],
+      "seed": 2,
+      "L_max": [
+        5,
+        5,
+        2
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2353,
+          "nodes": 19444,
+          "variables": 447218,
+          "rows": 255120,
+          "nonzeros": 1502715,
+          "total_cost": 100485943.09260003,
+          "q": [
+            236.9746002541637,
+            163.46445427569284,
+            12.957371508136612
+          ],
+          "C": [
+            1075.1102739320456,
+            1075.1102739320456
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            203693
+          ],
+          "solve_s_all_runs": [
+            100.90744924545288
+          ],
+          "median_solve_s": 100.90744924545288
+        },
+        "theorem_1": {
+          "scenarios": 2280,
+          "nodes": 19371,
+          "variables": 445539,
+          "rows": 254098,
+          "nonzeros": 1495853,
+          "total_cost": 100485943.09270343,
+          "q": [
+            236.97460025416376,
+            163.4644581707121,
+            12.957371508224837
+          ],
+          "C": [
+            1075.1102739320456,
+            1075.1102739320456
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            180646
+          ],
+          "solve_s_all_runs": [
+            54.03343391418457
+          ],
+          "median_solve_s": 54.03343391418457
+        },
+        "proposition_1": {
+          "scenarios": 1494,
+          "nodes": 17056,
+          "variables": 392294,
+          "rows": 223217,
+          "nonzeros": 1307294,
+          "total_cost": 100485943.09266606,
+          "q": [
+            236.97460025416348,
+            163.46445616593383,
+            12.95737150817924
+          ],
+          "C": [
+            1075.1102739320456,
+            1075.1102739320456
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            187728
+          ],
+          "solve_s_all_runs": [
+            97.03730821609497
+          ],
+          "median_solve_s": 97.03730821609497
+        }
+      },
+      "failed_attempts": [],
+      "seed": 3,
+      "L_max": [
+        6,
+        6,
+        4
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2353,
+          "nodes": 19444,
+          "variables": 447218,
+          "rows": 255120,
+          "nonzeros": 1502715,
+          "total_cost": 176033412.02444574,
+          "q": [
+            104.76718284060154,
+            104.76460848086286,
+            3.741024594008965e-14
+          ],
+          "C": [
+            1575.2870202131808,
+            1575.2870202131808
+          ],
+          "method": "highs-ipm",
+          "iterations_all_runs": [
+            991
+          ],
+          "solve_s_all_runs": [
+            201.33041095733643
+          ],
+          "median_solve_s": 201.33041095733643
+        },
+        "theorem_1": {
+          "scenarios": 2280,
+          "nodes": 19371,
+          "variables": 445539,
+          "rows": 254098,
+          "nonzeros": 1495853,
+          "total_cost": 176033412.02444598,
+          "q": [
+            104.7671828405422,
+            104.76460848091872,
+            -0.0
+          ],
+          "C": [
+            1575.2870202131808,
+            1575.2870202131808
+          ],
+          "method": "highs-ipm",
+          "iterations_all_runs": [
+            51
+          ],
+          "solve_s_all_runs": [
+            190.17475032806396
+          ],
+          "median_solve_s": 190.17475032806396
+        },
+        "proposition_1": {
+          "scenarios": 1494,
+          "nodes": 17056,
+          "variables": 392294,
+          "rows": 223217,
+          "nonzeros": 1307294,
+          "total_cost": 176033412.02444607,
+          "q": [
+            104.76718284058312,
+            104.76460848087606,
+            -0.0
+          ],
+          "C": [
+            1575.2870202131808,
+            1575.2870202131808
+          ],
+          "method": "highs-ipm",
+          "iterations_all_runs": [
+            12
+          ],
+          "solve_s_all_runs": [
+            159.83709907531738
+          ],
+          "median_solve_s": 159.83709907531738
+        }
+      },
+      "failed_attempts": [
+        {
+          "tree": "at_most_k_longest",
+          "method": "highs-ds",
+          "message": "(HiGHS Status 4: Error)",
+          "solve_s": 186.58538794517517
+        }
+      ],
+      "seed": 6,
+      "L_max": [
+        6,
+        6,
+        4
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2494,
+          "nodes": 20937,
+          "variables": 481557,
+          "rows": 274670,
+          "nonzeros": 1617369,
+          "total_cost": 84410173.58551174,
+          "q": [
+            359.27375524986695,
+            132.5457582636442,
+            0.0
+          ],
+          "C": [
+            717.6384181511598,
+            717.6384181511598
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            228428
+          ],
+          "solve_s_all_runs": [
+            95.07139492034912
+          ],
+          "median_solve_s": 95.07139492034912
+        },
+        "theorem_1": {
+          "scenarios": 2421,
+          "nodes": 20864,
+          "variables": 479878,
+          "rows": 273648,
+          "nonzeros": 1610507,
+          "total_cost": 84410173.58551027,
+          "q": [
+            359.27375524986695,
+            132.54575826381188,
+            -0.0
+          ],
+          "C": [
+            717.6384181511598,
+            717.6384181511598
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            244370
+          ],
+          "solve_s_all_runs": [
+            101.34814691543579
+          ],
+          "median_solve_s": 101.34814691543579
+        },
+        "proposition_1": {
+          "scenarios": 2022,
+          "nodes": 20133,
+          "variables": 463065,
+          "rows": 263746,
+          "nonzeros": 1548101,
+          "total_cost": 84410173.58551034,
+          "q": [
+            359.27375524986695,
+            132.54575826398576,
+            0.0
+          ],
+          "C": [
+            717.6384181511598,
+            717.6384181511598
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            223450
+          ],
+          "solve_s_all_runs": [
+            93.8637387752533
+          ],
+          "median_solve_s": 93.8637387752533
+        }
+      },
+      "failed_attempts": [],
+      "seed": 7,
+      "L_max": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2434,
+          "nodes": 20308,
+          "variables": 467090,
+          "rows": 266433,
+          "nonzeros": 1569054,
+          "total_cost": 80937300.75222926,
+          "q": [
+            281.95698320460696,
+            231.90716592021388,
+            233.23542063761465
+          ],
+          "C": [
+            685.7178728266947,
+            685.7178728266947
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            164965
+          ],
+          "solve_s_all_runs": [
+            23.358901977539062
+          ],
+          "median_solve_s": 23.358901977539062
+        },
+        "theorem_1": {
+          "scenarios": 2361,
+          "nodes": 20235,
+          "variables": 465411,
+          "rows": 265411,
+          "nonzeros": 1562192,
+          "total_cost": 80937300.75222926,
+          "q": [
+            281.95698320460696,
+            231.90716592021383,
+            233.23542063761465
+          ],
+          "C": [
+            685.7178728266947,
+            685.7178728266947
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            166815
+          ],
+          "solve_s_all_runs": [
+            19.8148090839386
+          ],
+          "median_solve_s": 19.8148090839386
+        },
+        "proposition_1": {
+          "scenarios": 1791,
+          "nodes": 18864,
+          "variables": 433878,
+          "rows": 247018,
+          "nonzeros": 1448537,
+          "total_cost": 80937300.75222926,
+          "q": [
+            281.956983204607,
+            231.9071659202138,
+            233.23542063761465
+          ],
+          "C": [
+            685.7178728266947,
+            685.7178728266947
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            163044
+          ],
+          "solve_s_all_runs": [
+            19.03410267829895
+          ],
+          "median_solve_s": 19.03410267829895
+        }
+      },
+      "failed_attempts": [],
+      "seed": 8,
+      "L_max": [
+        5,
+        5,
+        2
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2435,
+          "nodes": 20328,
+          "variables": 467550,
+          "rows": 266694,
+          "nonzeros": 1570573,
+          "total_cost": 77161612.59855735,
+          "q": [
+            181.72582974158186,
+            340.2970981261064,
+            261.82725652291276
+          ],
+          "C": [
+            397.73129605516124,
+            397.73129605516124
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            183576
+          ],
+          "solve_s_all_runs": [
+            33.141152143478394
+          ],
+          "median_solve_s": 33.141152143478394
+        },
+        "theorem_1": {
+          "scenarios": 2362,
+          "nodes": 20255,
+          "variables": 465871,
+          "rows": 265672,
+          "nonzeros": 1563711,
+          "total_cost": 77161612.59855735,
+          "q": [
+            181.72582974158183,
+            340.29709812610645,
+            261.82725652291276
+          ],
+          "C": [
+            397.73129605516124,
+            397.73129605516124
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            193208
+          ],
+          "solve_s_all_runs": [
+            46.26344108581543
+          ],
+          "median_solve_s": 46.26344108581543
+        },
+        "proposition_1": {
+          "scenarios": 1794,
+          "nodes": 18837,
+          "variables": 433257,
+          "rows": 246670,
+          "nonzeros": 1446569,
+          "total_cost": 77161612.59855737,
+          "q": [
+            181.72582974158547,
+            340.29709812610645,
+            261.8272565229128
+          ],
+          "C": [
+            397.73129605516124,
+            397.73129605516124
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            177572
+          ],
+          "solve_s_all_runs": [
+            27.69412899017334
+          ],
+          "median_solve_s": 27.69412899017334
+        }
+      },
+      "failed_attempts": [],
+      "seed": 9,
+      "L_max": [
+        6,
+        4,
+        2
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2435,
+          "nodes": 20328,
+          "variables": 467550,
+          "rows": 266694,
+          "nonzeros": 1570573,
+          "total_cost": 78165348.70653373,
+          "q": [
+            401.34252579382223,
+            217.1249537380885,
+            0.0
+          ],
+          "C": [
+            1067.085032704894,
+            1067.085032704894
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            179853
+          ],
+          "solve_s_all_runs": [
+            43.113802909851074
+          ],
+          "median_solve_s": 43.113802909851074
+        },
+        "theorem_1": {
+          "scenarios": 2362,
+          "nodes": 20255,
+          "variables": 465871,
+          "rows": 265672,
+          "nonzeros": 1563711,
+          "total_cost": 78165348.70653431,
+          "q": [
+            401.34252579382223,
+            217.12495373877215,
+            0.0
+          ],
+          "C": [
+            1067.085032704894,
+            1067.085032704894
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            188026
+          ],
+          "solve_s_all_runs": [
+            75.58812189102173
+          ],
+          "median_solve_s": 75.58812189102173
+        },
+        "proposition_1": {
+          "scenarios": 1794,
+          "nodes": 18837,
+          "variables": 433257,
+          "rows": 246670,
+          "nonzeros": 1446569,
+          "total_cost": 78165348.70653489,
+          "q": [
+            401.3425257938222,
+            217.1249537397122,
+            0.0
+          ],
+          "C": [
+            1067.085032704894,
+            1067.085032704894
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            198383
+          ],
+          "solve_s_all_runs": [
+            92.0288770198822
+          ],
+          "median_solve_s": 92.0288770198822
+        }
+      },
+      "failed_attempts": [],
+      "seed": 11,
+      "L_max": [
+        6,
+        4,
+        2
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2434,
+          "nodes": 20308,
+          "variables": 467090,
+          "rows": 266433,
+          "nonzeros": 1569054,
+          "total_cost": 141657809.8077277,
+          "q": [
+            64.02580927851817,
+            277.9199652371346,
+            0.0
+          ],
+          "C": [
+            1206.2187818458951,
+            1206.2187818458951
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            199257
+          ],
+          "solve_s_all_runs": [
+            75.65637826919556
+          ],
+          "median_solve_s": 75.65637826919556
+        },
+        "theorem_1": {
+          "scenarios": 2361,
+          "nodes": 20235,
+          "variables": 465411,
+          "rows": 265411,
+          "nonzeros": 1562192,
+          "total_cost": 141657809.8077277,
+          "q": [
+            64.02580927851814,
+            277.9199652371346,
+            0.0
+          ],
+          "C": [
+            1206.2187818458951,
+            1206.2187818458951
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            192241
+          ],
+          "solve_s_all_runs": [
+            67.46211576461792
+          ],
+          "median_solve_s": 67.46211576461792
+        },
+        "proposition_1": {
+          "scenarios": 1791,
+          "nodes": 18864,
+          "variables": 433878,
+          "rows": 247018,
+          "nonzeros": 1448537,
+          "total_cost": 141657809.8077277,
+          "q": [
+            64.02580927851815,
+            277.9199652371344,
+            0.0
+          ],
+          "C": [
+            1206.2187818458951,
+            1206.2187818458951
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            234961
+          ],
+          "solve_s_all_runs": [
+            115.67736601829529
+          ],
+          "median_solve_s": 115.67736601829529
+        }
+      },
+      "failed_attempts": [],
+      "seed": 17,
+      "L_max": [
+        5,
+        5,
+        2
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2494,
+          "nodes": 20937,
+          "variables": 481557,
+          "rows": 274670,
+          "nonzeros": 1617369,
+          "total_cost": 175901838.6380389,
+          "q": [
+            314.94241957559774,
+            -4.476553145472511e-13,
+            0.0
+          ],
+          "C": [
+            1404.312874027488,
+            1404.312874027488
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            200536
+          ],
+          "solve_s_all_runs": [
+            72.0687689781189
+          ],
+          "median_solve_s": 72.0687689781189
+        },
+        "theorem_1": {
+          "scenarios": 2421,
+          "nodes": 20864,
+          "variables": 479878,
+          "rows": 273648,
+          "nonzeros": 1610507,
+          "total_cost": 175901838.6380389,
+          "q": [
+            314.9424195755979,
+            0.0,
+            0.0
+          ],
+          "C": [
+            1404.312874027488,
+            1404.312874027488
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            198927
+          ],
+          "solve_s_all_runs": [
+            73.29700922966003
+          ],
+          "median_solve_s": 73.29700922966003
+        },
+        "proposition_1": {
+          "scenarios": 2022,
+          "nodes": 20133,
+          "variables": 463065,
+          "rows": 263746,
+          "nonzeros": 1548101,
+          "total_cost": 175901838.6380389,
+          "q": [
+            314.9424195755978,
+            -0.0,
+            0.0
+          ],
+          "C": [
+            1404.312874027488,
+            1404.312874027488
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            201410
+          ],
+          "solve_s_all_runs": [
+            82.26213717460632
+          ],
+          "median_solve_s": 82.26213717460632
+        }
+      },
+      "failed_attempts": [],
+      "seed": 18,
+      "L_max": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2353,
+          "nodes": 19444,
+          "variables": 447218,
+          "rows": 255120,
+          "nonzeros": 1502715,
+          "total_cost": 135898403.6389154,
+          "q": [
+            542.28493887596,
+            329.3902276042565,
+            203.54893155261934
+          ],
+          "C": [
+            954.7814635592414,
+            954.7814635592414
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            188408
+          ],
+          "solve_s_all_runs": [
+            38.90299892425537
+          ],
+          "median_solve_s": 38.90299892425537
+        },
+        "theorem_1": {
+          "scenarios": 2280,
+          "nodes": 19371,
+          "variables": 445539,
+          "rows": 254098,
+          "nonzeros": 1495853,
+          "total_cost": 135898403.63891542,
+          "q": [
+            542.2849388759595,
+            329.39022760425627,
+            203.54893155261934
+          ],
+          "C": [
+            954.7814635592414,
+            954.7814635592414
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            174180
+          ],
+          "solve_s_all_runs": [
+            50.43971920013428
+          ],
+          "median_solve_s": 50.43971920013428
+        },
+        "proposition_1": {
+          "scenarios": 1494,
+          "nodes": 17056,
+          "variables": 392294,
+          "rows": 223217,
+          "nonzeros": 1307294,
+          "total_cost": 135898403.63891542,
+          "q": [
+            542.2849388759596,
+            329.39022760425655,
+            203.54893155261928
+          ],
+          "C": [
+            954.7814635592414,
+            954.7814635592414
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            182519
+          ],
+          "solve_s_all_runs": [
+            53.09846782684326
+          ],
+          "median_solve_s": 53.09846782684326
+        }
+      },
+      "failed_attempts": [],
+      "seed": 19,
+      "L_max": [
+        6,
+        6,
+        4
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2494,
+          "nodes": 20937,
+          "variables": 481557,
+          "rows": 274670,
+          "nonzeros": 1617369,
+          "total_cost": 91992774.94514175,
+          "q": [
+            368.8698222399076,
+            178.64198044801876,
+            9.381958119187788
+          ],
+          "C": [
+            705.733284681746,
+            705.733284681746
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            190539
+          ],
+          "solve_s_all_runs": [
+            48.40592384338379
+          ],
+          "median_solve_s": 48.40592384338379
+        },
+        "theorem_1": {
+          "scenarios": 2421,
+          "nodes": 20864,
+          "variables": 479878,
+          "rows": 273648,
+          "nonzeros": 1610507,
+          "total_cost": 91992774.94514173,
+          "q": [
+            368.86982223990765,
+            178.64198044801878,
+            9.38195811918796
+          ],
+          "C": [
+            705.733284681746,
+            705.733284681746
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            194856
+          ],
+          "solve_s_all_runs": [
+            53.34735703468323
+          ],
+          "median_solve_s": 53.34735703468323
+        },
+        "proposition_1": {
+          "scenarios": 2022,
+          "nodes": 20133,
+          "variables": 463065,
+          "rows": 263746,
+          "nonzeros": 1548101,
+          "total_cost": 91992774.94514175,
+          "q": [
+            368.8698222399076,
+            178.64198044801861,
+            9.381958119187926
+          ],
+          "C": [
+            705.733284681746,
+            705.733284681746
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            193550
+          ],
+          "solve_s_all_runs": [
+            51.72418999671936
+          ],
+          "median_solve_s": 51.72418999671936
+        }
+      },
+      "failed_attempts": [],
+      "seed": 20,
+      "L_max": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2353,
+          "nodes": 19444,
+          "variables": 447218,
+          "rows": 255120,
+          "nonzeros": 1502715,
+          "total_cost": 72070465.16803741,
+          "q": [
+            308.5439426285961,
+            308.5426841427729,
+            350.8580873154221
+          ],
+          "C": [
+            375.21194260962443,
+            375.21194260962443
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            207152
+          ],
+          "solve_s_all_runs": [
+            33.473408937454224
+          ],
+          "median_solve_s": 33.473408937454224
+        },
+        "theorem_1": {
+          "scenarios": 2280,
+          "nodes": 19371,
+          "variables": 445539,
+          "rows": 254098,
+          "nonzeros": 1495853,
+          "total_cost": 72070465.16803743,
+          "q": [
+            308.543942628596,
+            308.5426841427731,
+            350.85808731542215
+          ],
+          "C": [
+            375.21194260962443,
+            375.21194260962443
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            214307
+          ],
+          "solve_s_all_runs": [
+            31.27205204963684
+          ],
+          "median_solve_s": 31.27205204963684
+        },
+        "proposition_1": {
+          "scenarios": 1494,
+          "nodes": 17056,
+          "variables": 392294,
+          "rows": 223217,
+          "nonzeros": 1307294,
+          "total_cost": 72070465.16803743,
+          "q": [
+            308.54394262859626,
+            308.54268414277306,
+            350.8580873154221
+          ],
+          "C": [
+            375.21194260962443,
+            375.21194260962443
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            191484
+          ],
+          "solve_s_all_runs": [
+            28.399062871932983
+          ],
+          "median_solve_s": 28.399062871932983
+        }
+      },
+      "failed_attempts": [],
+      "seed": 22,
+      "L_max": [
+        6,
+        6,
+        4
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2396,
+          "nodes": 19928,
+          "variables": 458350,
+          "rows": 261455,
+          "nonzeros": 1539832,
+          "total_cost": 76812997.9925724,
+          "q": [
+            291.3972763187557,
+            216.73332269029197,
+            154.6117548463287
+          ],
+          "C": [
+            823.7217070764293,
+            823.7217070764293
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            156075
+          ],
+          "solve_s_all_runs": [
+            24.06060481071472
+          ],
+          "median_solve_s": 24.06060481071472
+        },
+        "theorem_1": {
+          "scenarios": 2323,
+          "nodes": 19855,
+          "variables": 456671,
+          "rows": 260433,
+          "nonzeros": 1532970,
+          "total_cost": 76812997.9925724,
+          "q": [
+            291.3972763187557,
+            216.73332269029214,
+            154.61175484632867
+          ],
+          "C": [
+            823.7217070764293,
+            823.7217070764293
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            155566
+          ],
+          "solve_s_all_runs": [
+            21.705037117004395
+          ],
+          "median_solve_s": 21.705037117004395
+        },
+        "proposition_1": {
+          "scenarios": 1648,
+          "nodes": 17945,
+          "variables": 412741,
+          "rows": 234928,
+          "nonzeros": 1376895,
+          "total_cost": 76812997.9925724,
+          "q": [
+            291.3972763187557,
+            216.73332269029197,
+            154.61175484632872
+          ],
+          "C": [
+            823.7217070764293,
+            823.7217070764293
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            150199
+          ],
+          "solve_s_all_runs": [
+            23.17135190963745
+          ],
+          "median_solve_s": 23.17135190963745
+        }
+      },
+      "failed_attempts": [],
+      "seed": 23,
+      "L_max": [
+        6,
+        6,
+        2
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2434,
+          "nodes": 20308,
+          "variables": 467090,
+          "rows": 266433,
+          "nonzeros": 1569054,
+          "total_cost": 258164608.29156542,
+          "q": [
+            141.55176571742663,
+            141.5521513330555,
+            5.804011197545711e-14
+          ],
+          "C": [
+            1675.2573500484868,
+            1675.2573500484868
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            324017
+          ],
+          "solve_s_all_runs": [
+            198.48548221588135
+          ],
+          "median_solve_s": 198.48548221588135
+        },
+        "theorem_1": {
+          "scenarios": 2361,
+          "nodes": 20235,
+          "variables": 465411,
+          "rows": 265411,
+          "nonzeros": 1562192,
+          "total_cost": 258164608.29156524,
+          "q": [
+            141.55176571729933,
+            141.55215133318296,
+            6.4313447920001316e-15
+          ],
+          "C": [
+            1675.2573500484868,
+            1675.2573500484868
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            301502
+          ],
+          "solve_s_all_runs": [
+            342.4771680831909
+          ],
+          "median_solve_s": 342.4771680831909
+        },
+        "proposition_1": {
+          "scenarios": 1791,
+          "nodes": 18864,
+          "variables": 433878,
+          "rows": 247018,
+          "nonzeros": 1448537,
+          "total_cost": 258164608.29156536,
+          "q": [
+            141.55176571739622,
+            141.55215133308596,
+            0.0
+          ],
+          "C": [
+            1675.2573500484868,
+            1675.2573500484868
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            287626
+          ],
+          "solve_s_all_runs": [
+            297.7195072174072
+          ],
+          "median_solve_s": 297.7195072174072
+        }
+      },
+      "failed_attempts": [],
+      "seed": 25,
+      "L_max": [
+        5,
+        5,
+        2
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2474,
+          "nodes": 20728,
+          "variables": 476750,
+          "rows": 271933,
+          "nonzeros": 1601314,
+          "total_cost": 85992405.47799014,
+          "q": [
+            152.490359495229,
+            155.04107915916785,
+            27.632545738039894
+          ],
+          "C": [
+            813.0086569527975,
+            813.0086569527975
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            241085
+          ],
+          "solve_s_all_runs": [
+            108.435879945755
+          ],
+          "median_solve_s": 108.435879945755
+        },
+        "theorem_1": {
+          "scenarios": 2401,
+          "nodes": 20655,
+          "variables": 475071,
+          "rows": 270911,
+          "nonzeros": 1594452,
+          "total_cost": 85992405.4779983,
+          "q": [
+            152.4903595435774,
+            155.04107911081954,
+            27.632545738039887
+          ],
+          "C": [
+            813.0086569527975,
+            813.0086569527975
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            226108
+          ],
+          "solve_s_all_runs": [
+            97.8099467754364
+          ],
+          "median_solve_s": 97.8099467754364
+        },
+        "proposition_1": {
+          "scenarios": 1944,
+          "nodes": 19746,
+          "variables": 454164,
+          "rows": 258637,
+          "nonzeros": 1517594,
+          "total_cost": 85992405.47799511,
+          "q": [
+            152.4903595246346,
+            155.0410791297623,
+            27.632545738039898
+          ],
+          "C": [
+            813.0086569527975,
+            813.0086569527975
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            244246
+          ],
+          "solve_s_all_runs": [
+            118.63714504241943
+          ],
+          "median_solve_s": 118.63714504241943
+        }
+      },
+      "failed_attempts": [],
+      "seed": 26,
+      "L_max": [
+        4,
+        4,
+        2
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2434,
+          "nodes": 20308,
+          "variables": 467090,
+          "rows": 266433,
+          "nonzeros": 1569054,
+          "total_cost": 124851743.66166773,
+          "q": [
+            358.8811407936282,
+            116.38404450221397,
+            47.59584684733769
+          ],
+          "C": [
+            1226.3930727445018,
+            1226.3930727445018
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            202916
+          ],
+          "solve_s_all_runs": [
+            81.27849292755127
+          ],
+          "median_solve_s": 81.27849292755127
+        },
+        "theorem_1": {
+          "scenarios": 2361,
+          "nodes": 20235,
+          "variables": 465411,
+          "rows": 265411,
+          "nonzeros": 1562192,
+          "total_cost": 124851743.66166775,
+          "q": [
+            358.88114079362833,
+            116.3840445022138,
+            47.59584684733768
+          ],
+          "C": [
+            1226.3930727445018,
+            1226.3930727445018
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            190717
+          ],
+          "solve_s_all_runs": [
+            58.80209994316101
+          ],
+          "median_solve_s": 58.80209994316101
+        },
+        "proposition_1": {
+          "scenarios": 1791,
+          "nodes": 18864,
+          "variables": 433878,
+          "rows": 247018,
+          "nonzeros": 1448537,
+          "total_cost": 124851743.66166775,
+          "q": [
+            358.88114079362816,
+            116.38404450221404,
+            47.59584684733767
+          ],
+          "C": [
+            1226.3930727445018,
+            1226.3930727445018
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            190471
+          ],
+          "solve_s_all_runs": [
+            61.837708711624146
+          ],
+          "median_solve_s": 61.837708711624146
+        }
+      },
+      "failed_attempts": [],
+      "seed": 29,
+      "L_max": [
+        5,
+        5,
+        2
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2474,
+          "nodes": 20728,
+          "variables": 476750,
+          "rows": 271933,
+          "nonzeros": 1601314,
+          "total_cost": 105366133.53932248,
+          "q": [
+            338.28880416920373,
+            106.40110668809598,
+            0.0
+          ],
+          "C": [
+            1266.1661651731833,
+            1266.1661651731833
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            196511
+          ],
+          "solve_s_all_runs": [
+            51.908145904541016
+          ],
+          "median_solve_s": 51.908145904541016
+        },
+        "theorem_1": {
+          "scenarios": 2401,
+          "nodes": 20655,
+          "variables": 475071,
+          "rows": 270911,
+          "nonzeros": 1594452,
+          "total_cost": 105366133.53932804,
+          "q": [
+            338.2888041692036,
+            106.40110668841427,
+            0.0
+          ],
+          "C": [
+            1266.1661651731833,
+            1266.1661651731833
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            229783
+          ],
+          "solve_s_all_runs": [
+            81.37702798843384
+          ],
+          "median_solve_s": 81.37702798843384
+        },
+        "proposition_1": {
+          "scenarios": 1944,
+          "nodes": 19746,
+          "variables": 454164,
+          "rows": 258637,
+          "nonzeros": 1517594,
+          "total_cost": 105366133.53932405,
+          "q": [
+            338.28880416920373,
+            106.40110668641344,
+            0.0
+          ],
+          "C": [
+            1266.1661651731833,
+            1266.1661651731833
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            201259
+          ],
+          "solve_s_all_runs": [
+            49.67831993103027
+          ],
+          "median_solve_s": 49.67831993103027
+        }
+      },
+      "failed_attempts": [],
+      "seed": 30,
+      "L_max": [
+        4,
+        4,
+        2
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2494,
+          "nodes": 20937,
+          "variables": 481557,
+          "rows": 274670,
+          "nonzeros": 1617369,
+          "total_cost": 165871461.7124293,
+          "q": [
+            366.5312988284003,
+            49.81017106771581,
+            0.0
+          ],
+          "C": [
+            1113.8343424758286,
+            1113.8343424758286
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            259055
+          ],
+          "solve_s_all_runs": [
+            124.44561982154846
+          ],
+          "median_solve_s": 124.44561982154846
+        },
+        "theorem_1": {
+          "scenarios": 2421,
+          "nodes": 20864,
+          "variables": 479878,
+          "rows": 273648,
+          "nonzeros": 1610507,
+          "total_cost": 165871461.7124293,
+          "q": [
+            366.5312988284002,
+            49.8101710677159,
+            0.0
+          ],
+          "C": [
+            1113.8343424758286,
+            1113.8343424758286
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            293619
+          ],
+          "solve_s_all_runs": [
+            158.46585607528687
+          ],
+          "median_solve_s": 158.46585607528687
+        },
+        "proposition_1": {
+          "scenarios": 2022,
+          "nodes": 20133,
+          "variables": 463065,
+          "rows": 263746,
+          "nonzeros": 1548101,
+          "total_cost": 165871461.7124293,
+          "q": [
+            366.5312988284002,
+            49.81017106771573,
+            0.0
+          ],
+          "C": [
+            1113.8343424758286,
+            1113.8343424758286
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            269886
+          ],
+          "solve_s_all_runs": [
+            148.16946005821228
+          ],
+          "median_solve_s": 148.16946005821228
+        }
+      },
+      "failed_attempts": [],
+      "seed": 32,
+      "L_max": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2396,
+          "nodes": 19928,
+          "variables": 458350,
+          "rows": 261455,
+          "nonzeros": 1539832,
+          "total_cost": 68083014.87037426,
+          "q": [
+            327.865323619876,
+            256.8151829127472,
+            309.25317487060494
+          ],
+          "C": [
+            374.3573625247672,
+            374.3573625247672
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            190506
+          ],
+          "solve_s_all_runs": [
+            21.45115375518799
+          ],
+          "median_solve_s": 21.45115375518799
+        },
+        "theorem_1": {
+          "scenarios": 2323,
+          "nodes": 19855,
+          "variables": 456671,
+          "rows": 260433,
+          "nonzeros": 1532970,
+          "total_cost": 68083014.87037426,
+          "q": [
+            327.865323619876,
+            256.8151829127473,
+            309.25317487060494
+          ],
+          "C": [
+            374.3573625247672,
+            374.3573625247672
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            180423
+          ],
+          "solve_s_all_runs": [
+            17.660283088684082
+          ],
+          "median_solve_s": 17.660283088684082
+        },
+        "proposition_1": {
+          "scenarios": 1648,
+          "nodes": 17945,
+          "variables": 412741,
+          "rows": 234928,
+          "nonzeros": 1376895,
+          "total_cost": 68083014.87037426,
+          "q": [
+            327.865323619876,
+            256.8151829127473,
+            309.25317487060494
+          ],
+          "C": [
+            374.3573625247672,
+            374.3573625247672
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            168839
+          ],
+          "solve_s_all_runs": [
+            13.771279096603394
+          ],
+          "median_solve_s": 13.771279096603394
+        }
+      },
+      "failed_attempts": [],
+      "seed": 33,
+      "L_max": [
+        6,
+        6,
+        2
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2353,
+          "nodes": 19444,
+          "variables": 447218,
+          "rows": 255120,
+          "nonzeros": 1502715,
+          "total_cost": 130672652.38327244,
+          "q": [
+            278.1864627346393,
+            133.05482147956164,
+            77.12085751601035
+          ],
+          "C": [
+            912.7423388475343,
+            912.7423388475343
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            156724
+          ],
+          "solve_s_all_runs": [
+            25.038712978363037
+          ],
+          "median_solve_s": 25.038712978363037
+        },
+        "theorem_1": {
+          "scenarios": 2280,
+          "nodes": 19371,
+          "variables": 445539,
+          "rows": 254098,
+          "nonzeros": 1495853,
+          "total_cost": 130672652.38327244,
+          "q": [
+            278.1864627346393,
+            133.05482147956167,
+            77.12085751601035
+          ],
+          "C": [
+            912.7423388475343,
+            912.7423388475343
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            161762
+          ],
+          "solve_s_all_runs": [
+            27.620107173919678
+          ],
+          "median_solve_s": 27.620107173919678
+        },
+        "proposition_1": {
+          "scenarios": 1494,
+          "nodes": 17056,
+          "variables": 392294,
+          "rows": 223217,
+          "nonzeros": 1307294,
+          "total_cost": 130672652.38327244,
+          "q": [
+            278.18646273463935,
+            133.05482147956175,
+            77.12085751601035
+          ],
+          "C": [
+            912.7423388475343,
+            912.7423388475343
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            152889
+          ],
+          "solve_s_all_runs": [
+            25.222116947174072
+          ],
+          "median_solve_s": 25.222116947174072
+        }
+      },
+      "failed_attempts": [],
+      "seed": 36,
+      "L_max": [
+        6,
+        6,
+        4
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2353,
+          "nodes": 19444,
+          "variables": 447218,
+          "rows": 255120,
+          "nonzeros": 1502715,
+          "total_cost": 153694602.11220688,
+          "q": [
+            144.7019955982886,
+            150.69020452410984,
+            51.6371280573924
+          ],
+          "C": [
+            1349.0075042590233,
+            1349.0075042590233
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            289982
+          ],
+          "solve_s_all_runs": [
+            139.53829979896545
+          ],
+          "median_solve_s": 139.53829979896545
+        },
+        "theorem_1": {
+          "scenarios": 2280,
+          "nodes": 19371,
+          "variables": 445539,
+          "rows": 254098,
+          "nonzeros": 1495853,
+          "total_cost": 153694602.11220688,
+          "q": [
+            144.7019955982883,
+            150.69020452410973,
+            51.637128057392374
+          ],
+          "C": [
+            1349.0075042590233,
+            1349.0075042590233
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            275110
+          ],
+          "solve_s_all_runs": [
+            150.984925031662
+          ],
+          "median_solve_s": 150.984925031662
+        },
+        "proposition_1": {
+          "scenarios": 1494,
+          "nodes": 17056,
+          "variables": 392294,
+          "rows": 223217,
+          "nonzeros": 1307294,
+          "total_cost": 153694602.11220688,
+          "q": [
+            144.701995598288,
+            150.69020452411021,
+            51.63712805739239
+          ],
+          "C": [
+            1349.0075042590233,
+            1349.0075042590233
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            267922
+          ],
+          "solve_s_all_runs": [
+            132.6444809436798
+          ],
+          "median_solve_s": 132.6444809436798
+        }
+      },
+      "failed_attempts": [],
+      "seed": 37,
+      "L_max": [
+        6,
+        6,
+        4
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2435,
+          "nodes": 20328,
+          "variables": 467550,
+          "rows": 266694,
+          "nonzeros": 1570573,
+          "total_cost": 65339888.98021982,
+          "q": [
+            183.48609487329887,
+            393.4014000929461,
+            179.17019523667213
+          ],
+          "C": [
+            410.37158679655175,
+            410.37158679655175
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            193441
+          ],
+          "solve_s_all_runs": [
+            39.35156798362732
+          ],
+          "median_solve_s": 39.35156798362732
+        },
+        "theorem_1": {
+          "scenarios": 2362,
+          "nodes": 20255,
+          "variables": 465871,
+          "rows": 265672,
+          "nonzeros": 1563711,
+          "total_cost": 65339888.98022077,
+          "q": [
+            183.48609487327377,
+            393.4014000929462,
+            179.1701952366721
+          ],
+          "C": [
+            410.37158679655175,
+            410.37158679655175
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            202951
+          ],
+          "solve_s_all_runs": [
+            35.605212926864624
+          ],
+          "median_solve_s": 35.605212926864624
+        },
+        "proposition_1": {
+          "scenarios": 1794,
+          "nodes": 18837,
+          "variables": 433257,
+          "rows": 246670,
+          "nonzeros": 1446569,
+          "total_cost": 65339888.98020765,
+          "q": [
+            183.48609487361676,
+            393.4014000929459,
+            179.1701952366725
+          ],
+          "C": [
+            410.37158679655175,
+            410.37158679655175
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            199563
+          ],
+          "solve_s_all_runs": [
+            44.347403049468994
+          ],
+          "median_solve_s": 44.347403049468994
+        }
+      },
+      "failed_attempts": [],
+      "seed": 38,
+      "L_max": [
+        6,
+        4,
+        2
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2435,
+          "nodes": 20328,
+          "variables": 467550,
+          "rows": 266694,
+          "nonzeros": 1570573,
+          "total_cost": 243505573.11632663,
+          "q": [
+            46.12451201673298,
+            265.0964849878703,
+            0.0
+          ],
+          "C": [
+            1690.1474832729025,
+            1690.1474832729025
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            313345
+          ],
+          "solve_s_all_runs": [
+            185.40288996696472
+          ],
+          "median_solve_s": 185.40288996696472
+        },
+        "theorem_1": {
+          "scenarios": 2362,
+          "nodes": 20255,
+          "variables": 465871,
+          "rows": 265672,
+          "nonzeros": 1563711,
+          "total_cost": 243505573.11632663,
+          "q": [
+            46.12451201673295,
+            265.0964849878705,
+            -0.0
+          ],
+          "C": [
+            1690.1474832729025,
+            1690.1474832729025
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            283764
+          ],
+          "solve_s_all_runs": [
+            170.42350912094116
+          ],
+          "median_solve_s": 170.42350912094116
+        },
+        "proposition_1": {
+          "scenarios": 1794,
+          "nodes": 18837,
+          "variables": 433257,
+          "rows": 246670,
+          "nonzeros": 1446569,
+          "total_cost": 243505573.11632663,
+          "q": [
+            46.12451201673298,
+            265.0964849878704,
+            0.0
+          ],
+          "C": [
+            1690.1474832729025,
+            1690.1474832729025
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            313819
+          ],
+          "solve_s_all_runs": [
+            163.69162321090698
+          ],
+          "median_solve_s": 163.69162321090698
+        }
+      },
+      "failed_attempts": [],
+      "seed": 42,
+      "L_max": [
+        6,
+        4,
+        2
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2474,
+          "nodes": 20728,
+          "variables": 476750,
+          "rows": 271933,
+          "nonzeros": 1601314,
+          "total_cost": 181167063.26630446,
+          "q": [
+            320.15383186471564,
+            48.41315606765472,
+            0.0
+          ],
+          "C": [
+            1489.4673298257871,
+            1489.4673298257871
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            241589
+          ],
+          "solve_s_all_runs": [
+            118.00266170501709
+          ],
+          "median_solve_s": 118.00266170501709
+        },
+        "theorem_1": {
+          "scenarios": 2401,
+          "nodes": 20655,
+          "variables": 475071,
+          "rows": 270911,
+          "nonzeros": 1594452,
+          "total_cost": 181167063.26630446,
+          "q": [
+            320.1538318647156,
+            48.41315606765473,
+            0.0
+          ],
+          "C": [
+            1489.4673298257871,
+            1489.4673298257871
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            232015
+          ],
+          "solve_s_all_runs": [
+            108.06075596809387
+          ],
+          "median_solve_s": 108.06075596809387
+        },
+        "proposition_1": {
+          "scenarios": 1944,
+          "nodes": 19746,
+          "variables": 454164,
+          "rows": 258637,
+          "nonzeros": 1517594,
+          "total_cost": 181167063.26630446,
+          "q": [
+            320.1538318647155,
+            48.413156067654725,
+            -0.0
+          ],
+          "C": [
+            1489.4673298257871,
+            1489.4673298257871
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            223467
+          ],
+          "solve_s_all_runs": [
+            110.00498390197754
+          ],
+          "median_solve_s": 110.00498390197754
+        }
+      },
+      "failed_attempts": [],
+      "seed": 47,
+      "L_max": [
+        4,
+        4,
+        2
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2494,
+          "nodes": 20937,
+          "variables": 481557,
+          "rows": 274670,
+          "nonzeros": 1617369,
+          "total_cost": 60123846.61694665,
+          "q": [
+            260.64568381349267,
+            159.4121930868406,
+            159.47206814069105
+          ],
+          "C": [
+            428.27209908283197,
+            428.27209908283197
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            189888
+          ],
+          "solve_s_all_runs": [
+            27.118948936462402
+          ],
+          "median_solve_s": 27.118948936462402
+        },
+        "theorem_1": {
+          "scenarios": 2421,
+          "nodes": 20864,
+          "variables": 479878,
+          "rows": 273648,
+          "nonzeros": 1610507,
+          "total_cost": 60123846.61694666,
+          "q": [
+            260.64568381349267,
+            159.4121930868405,
+            159.47206814069094
+          ],
+          "C": [
+            428.27209908283197,
+            428.27209908283197
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            189730
+          ],
+          "solve_s_all_runs": [
+            26.8659188747406
+          ],
+          "median_solve_s": 26.8659188747406
+        },
+        "proposition_1": {
+          "scenarios": 2022,
+          "nodes": 20133,
+          "variables": 463065,
+          "rows": 263746,
+          "nonzeros": 1548101,
+          "total_cost": 60123846.61694665,
+          "q": [
+            260.64568381349267,
+            159.41219308684055,
+            159.47206814069094
+          ],
+          "C": [
+            428.27209908283197,
+            428.27209908283197
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            189535
+          ],
+          "solve_s_all_runs": [
+            25.361827850341797
+          ],
+          "median_solve_s": 25.361827850341797
+        }
+      },
+      "failed_attempts": [],
+      "seed": 48,
+      "L_max": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2353,
+          "nodes": 19444,
+          "variables": 447218,
+          "rows": 255120,
+          "nonzeros": 1502715,
+          "total_cost": 96621277.26219669,
+          "q": [
+            333.41706819835775,
+            181.5446640912215,
+            138.60208667021382
+          ],
+          "C": [
+            895.9765014563193,
+            895.9765014563193
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            195924
+          ],
+          "solve_s_all_runs": [
+            40.543814182281494
+          ],
+          "median_solve_s": 40.543814182281494
+        },
+        "theorem_1": {
+          "scenarios": 2280,
+          "nodes": 19371,
+          "variables": 445539,
+          "rows": 254098,
+          "nonzeros": 1495853,
+          "total_cost": 96621277.26219669,
+          "q": [
+            333.41706819835775,
+            181.54466409122134,
+            138.60208667021382
+          ],
+          "C": [
+            895.9765014563193,
+            895.9765014563193
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            243880
+          ],
+          "solve_s_all_runs": [
+            70.92266178131104
+          ],
+          "median_solve_s": 70.92266178131104
+        },
+        "proposition_1": {
+          "scenarios": 1494,
+          "nodes": 17056,
+          "variables": 392294,
+          "rows": 223217,
+          "nonzeros": 1307294,
+          "total_cost": 96621277.26219669,
+          "q": [
+            333.41706819835775,
+            181.54466409122148,
+            138.60208667021382
+          ],
+          "C": [
+            895.9765014563193,
+            895.9765014563193
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            180837
+          ],
+          "solve_s_all_runs": [
+            28.262447834014893
+          ],
+          "median_solve_s": 28.262447834014893
+        }
+      },
+      "failed_attempts": [],
+      "seed": 50,
+      "L_max": [
+        6,
+        6,
+        4
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2494,
+          "nodes": 20937,
+          "variables": 481557,
+          "rows": 274670,
+          "nonzeros": 1617369,
+          "total_cost": 185388893.9631355,
+          "q": [
+            347.96734405669235,
+            6.5752384791522855,
+            0.0
+          ],
+          "C": [
+            1202.875339169566,
+            1202.875339169566
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            377810
+          ],
+          "solve_s_all_runs": [
+            236.61268782615662
+          ],
+          "median_solve_s": 236.61268782615662
+        },
+        "theorem_1": {
+          "scenarios": 2421,
+          "nodes": 20864,
+          "variables": 479878,
+          "rows": 273648,
+          "nonzeros": 1610507,
+          "total_cost": 185388893.96313557,
+          "q": [
+            347.96734405669224,
+            6.575238479152227,
+            0.0
+          ],
+          "C": [
+            1202.875339169566,
+            1202.875339169566
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            397593
+          ],
+          "solve_s_all_runs": [
+            308.8721489906311
+          ],
+          "median_solve_s": 308.8721489906311
+        },
+        "proposition_1": {
+          "scenarios": 2022,
+          "nodes": 20133,
+          "variables": 463065,
+          "rows": 263746,
+          "nonzeros": 1548101,
+          "total_cost": 185388893.9631355,
+          "q": [
+            347.96734405669224,
+            6.575238479152238,
+            0.0
+          ],
+          "C": [
+            1202.875339169566,
+            1202.875339169566
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            345583
+          ],
+          "solve_s_all_runs": [
+            248.71946787834167
+          ],
+          "median_solve_s": 248.71946787834167
+        }
+      },
+      "failed_attempts": [],
+      "seed": 55,
+      "L_max": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2353,
+          "nodes": 19444,
+          "variables": 447218,
+          "rows": 255120,
+          "nonzeros": 1502715,
+          "total_cost": 133067348.40748516,
+          "q": [
+            111.55882799003356,
+            306.15771686945044,
+            0.0
+          ],
+          "C": [
+            1190.2287746267605,
+            1190.2287746267605
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            171738
+          ],
+          "solve_s_all_runs": [
+            44.055867195129395
+          ],
+          "median_solve_s": 44.055867195129395
+        },
+        "theorem_1": {
+          "scenarios": 2280,
+          "nodes": 19371,
+          "variables": 445539,
+          "rows": 254098,
+          "nonzeros": 1495853,
+          "total_cost": 133067348.40748516,
+          "q": [
+            111.55882799003359,
+            306.1577168694504,
+            0.0
+          ],
+          "C": [
+            1190.2287746267605,
+            1190.2287746267605
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            163715
+          ],
+          "solve_s_all_runs": [
+            35.603097915649414
+          ],
+          "median_solve_s": 35.603097915649414
+        },
+        "proposition_1": {
+          "scenarios": 1494,
+          "nodes": 17056,
+          "variables": 392294,
+          "rows": 223217,
+          "nonzeros": 1307294,
+          "total_cost": 133067348.40748514,
+          "q": [
+            111.55882799003354,
+            306.1577168694505,
+            0.0
+          ],
+          "C": [
+            1190.2287746267605,
+            1190.2287746267605
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            156829
+          ],
+          "solve_s_all_runs": [
+            79.23759603500366
+          ],
+          "median_solve_s": 79.23759603500366
+        }
+      },
+      "failed_attempts": [],
+      "seed": 56,
+      "L_max": [
+        6,
+        6,
+        4
+      ]
+    },
+    {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 2474,
+          "nodes": 20728,
+          "variables": 476750,
+          "rows": 271933,
+          "nonzeros": 1601314,
+          "total_cost": 130202036.08650802,
+          "q": [
+            158.48799088510276,
+            158.48605536721416,
+            5.8510996801605245e-15
+          ],
+          "C": [
+            1023.7883608513577,
+            1023.7883608513577
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            336544
+          ],
+          "solve_s_all_runs": [
+            216.1658022403717
+          ],
+          "median_solve_s": 216.1658022403717
+        },
+        "theorem_1": {
+          "scenarios": 2401,
+          "nodes": 20655,
+          "variables": 475071,
+          "rows": 270911,
+          "nonzeros": 1594452,
+          "total_cost": 130202036.08650796,
+          "q": [
+            158.487990885175,
+            158.486055367142,
+            -1.9987033204065792e-14
+          ],
+          "C": [
+            1023.7883608513577,
+            1023.7883608513577
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            323956
+          ],
+          "solve_s_all_runs": [
+            194.67868328094482
+          ],
+          "median_solve_s": 194.67868328094482
+        },
+        "proposition_1": {
+          "scenarios": 1944,
+          "nodes": 19746,
+          "variables": 454164,
+          "rows": 258637,
+          "nonzeros": 1517594,
+          "total_cost": 130202036.086508,
+          "q": [
+            158.4879908851046,
+            158.48605536721232,
+            0.0
+          ],
+          "C": [
+            1023.7883608513577,
+            1023.7883608513577
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            306264
+          ],
+          "solve_s_all_runs": [
+            150.06953978538513
+          ],
+          "median_solve_s": 150.06953978538513
+        }
+      },
+      "failed_attempts": [],
+      "seed": 57,
+      "L_max": [
+        4,
+        4,
+        2
+      ]
+    }
+  ],
+  "environment": {
+    "timestamp": "2026-11-12T22:39:37.036144-05:00",
+    "python_version": "3.9.6",
+    "numpy_version": "2.0.2",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-15.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 12,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": null,
+    "hardware_model": "Mac14,13",
+    "memory_bytes": 34359738368
+  }
+}

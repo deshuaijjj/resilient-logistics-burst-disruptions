@@ -1,0 +1,68 @@
+{
+ "what": "sensitivity check on the laptop while another run was going; single runs",
+ "python": "3.14.5",
+ "numpy": "2.4.6",
+ "scipy": "1.17.1",
+ "runs": [
+  {
+   "set": "splus",
+   "method": "highs-ds",
+   "scenarios": 2323,
+   "nodes": 19855,
+   "status": 0,
+   "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+   "total_cost": 81094050.49426612,
+   "solve_s": 40.64877104759216,
+   "wall_s": 41.71272826194763,
+   "q": [
+    350.0,
+    188.34735951836677,
+    208.33333333333334
+   ]
+  },
+  {
+   "set": "splus",
+   "method": "highs-ipm",
+   "scenarios": 2323,
+   "nodes": 19855,
+   "status": 0,
+   "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+   "total_cost": 81094050.49426612,
+   "solve_s": 149.28154706954956,
+   "wall_s": 150.3449947834015,
+   "q": [
+    350.0,
+    188.34735951836686,
+    208.33333333333334
+   ]
+  },
+  {
+   "set": "all",
+   "method": "highs-ipm",
+   "scenarios": 29704,
+   "nodes": 220632,
+   "status": 0,
+   "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+   "total_cost": 81094050.49426612,
+   "solve_s": 6644.568132162094,
+   "wall_s": 6658.73136806488,
+   "q": [
+    350.0,
+    188.34735951836706,
+    208.33333333333334
+   ]
+  },
+  {
+   "set": "all",
+   "method": "highs-ds",
+   "scenarios": 29704,
+   "nodes": 220632,
+   "status": 1,
+   "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+   "total_cost": null,
+   "solve_s": 14406.755639076233,
+   "wall_s": 14419.867136001587,
+   "q": null
+  }
+ ]
+}

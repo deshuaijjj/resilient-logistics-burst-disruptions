@@ -1,0 +1,49 @@
+{
+  "sample_size": 1648,
+  "random_samples": 100,
+  "even_index_regression": {
+    "in_sample_total_cost": 3579696759.0549293,
+    "complete_library_total_cost": 6579181688.774285,
+    "in_sample_ok": false,
+    "complete_library_ok": false
+  },
+  "random_samples_with_gap_over_1e9": 96,
+  "random_samples_with_gap_over_1e6": 97,
+  "random_samples_containing_1295": 4,
+  "random_samples_containing_both_reference_ids": 0,
+  "complete_library_total_cost_min": 3581862491.2583857,
+  "complete_library_total_cost_max": 10078379447.368422,
+  "in_sample_rel_dev_from_exact_pct_max": 0.09124542985848338,
+  "worst_unmet_distribution": {
+    "600.0": 42,
+    "770.0": 31,
+    "410.0": 9,
+    "300.0": 4,
+    "950.0": 3,
+    "564.854": 2,
+    "410.035": 2,
+    "410.025": 1,
+    "582.318": 1,
+    "410.026": 1,
+    "410.04": 1,
+    "410.019": 1,
+    "410.037": 1,
+    "747.035": 1
+  },
+  "q_mode_2_distribution": {
+    "158.333": 42,
+    "130.0": 31,
+    "190.0": 9,
+    "208.333": 4,
+    "100.0": 3,
+    "189.994": 3,
+    "189.996": 2,
+    "164.191": 2,
+    "161.28": 1,
+    "189.993": 1,
+    "189.997": 1,
+    "133.827": 1
+  },
+  "inclusion_probability_single_encoding": 0.05505599197726893,
+  "inclusion_probability_both_reference_ids": 0.0030294231060568515
+}

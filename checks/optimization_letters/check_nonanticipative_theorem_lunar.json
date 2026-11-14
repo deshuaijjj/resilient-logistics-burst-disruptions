@@ -1,0 +1,16 @@
+{
+ "lunar": [
+  {
+   "k": 2,
+   "scenarios": 29704,
+   "S_plus": 2323,
+   "scenarios_of_S_plus_the_rule_arrives_at": 2323
+  },
+  {
+   "k": 3,
+   "scenarios": 1981386,
+   "S_plus": 44652,
+   "scenarios_of_S_plus_the_rule_arrives_at": 44652
+  }
+ ]
+}

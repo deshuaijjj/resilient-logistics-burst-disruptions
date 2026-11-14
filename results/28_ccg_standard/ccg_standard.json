@@ -1,0 +1,249 @@
+{
+  "instance": "lunar example, demand from month 2, at most 2 outages per scenario",
+  "scenarios": 29916,
+  "kept": 1648,
+  "summary": {
+    "kept": {
+      "runs": 5,
+      "rounds": 4,
+      "operating_problems_total": 6592,
+      "median_wall_s": 14.808699131011963,
+      "median_design_lp_s": 0.05615806579589844,
+      "median_check_s": 14.751850128173828,
+      "wall_s_all_runs": [
+        14.792563915252686,
+        14.808699131011963,
+        14.772172927856445,
+        14.851095914840698,
+        15.00333309173584
+      ],
+      "total_cost": 81093473.03543913,
+      "q": [
+        350.0,
+        188.1869542886492,
+        208.33333333333334
+      ]
+    },
+    "all": {
+      "runs": 3,
+      "rounds": 4,
+      "operating_problems_total": 119664,
+      "median_wall_s": 261.5554461479187,
+      "median_design_lp_s": 0.054618120193481445,
+      "median_check_s": 261.48836946487427,
+      "wall_s_all_runs": [
+        268.79954719543457,
+        261.5554461479187,
+        245.09608697891235
+      ],
+      "total_cost": 81093473.03543913,
+      "q": [
+        350.0,
+        188.1869542886492,
+        208.33333333333334
+      ]
+    }
+  },
+  "same_design": true,
+  "first_run_logs": {
+    "kept": [
+      {
+        "round": 1,
+        "scenarios_in_design_lp": 1,
+        "design_lp_s": 0.006555795669555664,
+        "check_s": 3.463634967803955,
+        "operating_problems": 1648,
+        "reported_worst_operating_cost": 7016499.999999998,
+        "true_worst_operating_cost": 40836850666.666664,
+        "worst_events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            6,
+            6
+          ]
+        ],
+        "converged": false
+      },
+      {
+        "round": 2,
+        "scenarios_in_design_lp": 2,
+        "design_lp_s": 0.008851051330566406,
+        "check_s": 4.067065000534058,
+        "operating_problems": 1648,
+        "reported_worst_operating_cost": 8239000.000000001,
+        "true_worst_operating_cost": 20005551333.333332,
+        "worst_events": [
+          [
+            1,
+            2,
+            6
+          ],
+          [
+            1,
+            8,
+            6
+          ]
+        ],
+        "converged": false
+      },
+      {
+        "round": 3,
+        "scenarios_in_design_lp": 3,
+        "design_lp_s": 0.02120518684387207,
+        "check_s": 3.646066904067993,
+        "operating_problems": 1648,
+        "reported_worst_operating_cost": 7948292.8464188045,
+        "true_worst_operating_cost": 14756050535.220936,
+        "worst_events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ],
+        "converged": false
+      },
+      {
+        "round": 4,
+        "scenarios_in_design_lp": 4,
+        "design_lp_s": 0.019884109497070312,
+        "check_s": 3.5586659908294678,
+        "operating_problems": 1648,
+        "reported_worst_operating_cost": 12076000.0,
+        "true_worst_operating_cost": 12076000.0,
+        "worst_events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            6,
+            6
+          ]
+        ],
+        "converged": true
+      }
+    ],
+    "all": [
+      {
+        "round": 1,
+        "scenarios_in_design_lp": 1,
+        "design_lp_s": 0.005127906799316406,
+        "check_s": 64.83242225646973,
+        "operating_problems": 29916,
+        "reported_worst_operating_cost": 7016499.999999998,
+        "true_worst_operating_cost": 40836850666.666664,
+        "worst_events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            6,
+            6
+          ]
+        ],
+        "converged": false
+      },
+      {
+        "round": 2,
+        "scenarios_in_design_lp": 2,
+        "design_lp_s": 0.009638309478759766,
+        "check_s": 73.39062070846558,
+        "operating_problems": 29916,
+        "reported_worst_operating_cost": 8239000.000000001,
+        "true_worst_operating_cost": 20005551333.333332,
+        "worst_events": [
+          [
+            1,
+            2,
+            6
+          ],
+          [
+            1,
+            8,
+            6
+          ]
+        ],
+        "converged": false
+      },
+      {
+        "round": 3,
+        "scenarios_in_design_lp": 3,
+        "design_lp_s": 0.022823333740234375,
+        "check_s": 66.10682272911072,
+        "operating_problems": 29916,
+        "reported_worst_operating_cost": 7948292.8464188045,
+        "true_worst_operating_cost": 14756050535.220936,
+        "worst_events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ],
+        "converged": false
+      },
+      {
+        "round": 4,
+        "scenarios_in_design_lp": 4,
+        "design_lp_s": 0.02019786834716797,
+        "check_s": 64.3992760181427,
+        "operating_problems": 29916,
+        "reported_worst_operating_cost": 12076000.0,
+        "true_worst_operating_cost": 12076000.0,
+        "worst_events": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            6,
+            6
+          ]
+        ],
+        "converged": true
+      }
+    ]
+  },
+  "environment": {
+    "timestamp": "2026-11-10T20:46:43.818659-05:00",
+    "python_version": "3.12.4",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 10,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": "43b81493c096cc972034c1143e88fac0b57ccad1",
+    "hardware_model": "MacBookPro18,1",
+    "memory_bytes": 17179869184
+  }
+}

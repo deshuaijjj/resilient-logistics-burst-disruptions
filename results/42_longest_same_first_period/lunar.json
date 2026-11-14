@@ -1,0 +1,257 @@
+{
+  "what": "at most k longest outages, each beginning in any period of the horizon",
+  "two_stage": {
+    "2": {
+      "summary": {
+        "longest_any_start": {
+          "runs": 3,
+          "finished_runs": 3,
+          "zero_one_variables": 72,
+          "rounds": 4,
+          "total_cost": 81093473.03543913,
+          "q": [
+            350.0,
+            188.1869542886492,
+            208.33333333333334
+          ],
+          "C": [
+            600.0,
+            600.0
+          ],
+          "wall_s_all_runs": [
+            7.67291522026062,
+            7.674332857131958,
+            7.711259126663208
+          ],
+          "median_wall_s": 7.674332857131958,
+          "median_milp_s": 7.611080169677734,
+          "median_design_lp_s": 0.05092597007751465
+        },
+        "longest_ending_inside": {
+          "runs": 3,
+          "finished_runs": 3,
+          "zero_one_variables": 61,
+          "rounds": 4,
+          "total_cost": 81093473.03543913,
+          "q": [
+            350.0,
+            188.1869542886492,
+            208.33333333333334
+          ],
+          "C": [
+            600.0,
+            600.0
+          ],
+          "wall_s_all_runs": [
+            6.658342123031616,
+            6.610244274139404,
+            6.670098304748535
+          ],
+          "median_wall_s": 6.658342123031616,
+          "median_milp_s": 6.595062732696533,
+          "median_design_lp_s": 0.051108598709106445
+        }
+      },
+      "time_limit_per_milp_s": 28800.0
+    },
+    "4": {
+      "summary": {
+        "longest_any_start": {
+          "runs": 3,
+          "finished_runs": 3,
+          "zero_one_variables": 72,
+          "rounds": 6,
+          "total_cost": 5580043826.359018,
+          "q": [
+            350.0,
+            116.6184330606615,
+            450.0
+          ],
+          "C": [
+            600.0,
+            600.0
+          ],
+          "wall_s_all_runs": [
+            17.35575795173645,
+            17.241360187530518,
+            17.366739988327026
+          ],
+          "median_wall_s": 17.35575795173645,
+          "median_milp_s": 17.215996742248535,
+          "median_design_lp_s": 0.12261652946472168
+        },
+        "longest_ending_inside": {
+          "runs": 3,
+          "finished_runs": 3,
+          "zero_one_variables": 61,
+          "rounds": 6,
+          "total_cost": 5580043826.359018,
+          "q": [
+            350.0,
+            116.6184330606615,
+            450.0
+          ],
+          "C": [
+            600.0,
+            600.0
+          ],
+          "wall_s_all_runs": [
+            13.279305934906006,
+            13.273378133773804,
+            13.263155937194824
+          ],
+          "median_wall_s": 13.273378133773804,
+          "median_milp_s": 13.131985902786255,
+          "median_design_lp_s": 0.12292361259460449
+        }
+      },
+      "time_limit_per_milp_s": 28800.0
+    },
+    "3": {
+      "summary": {
+        "longest_any_start": {
+          "runs": 3,
+          "finished_runs": 3,
+          "zero_one_variables": 72,
+          "rounds": 8,
+          "total_cost": 83055559.71980657,
+          "q": [
+            353.24409466295003,
+            407.3071718538564,
+            316.65435056276056
+          ],
+          "C": [
+            600.0,
+            600.0
+          ],
+          "wall_s_all_runs": [
+            135.01501274108887,
+            134.96557879447937,
+            135.4044029712677
+          ],
+          "median_wall_s": 135.01501274108887,
+          "median_milp_s": 134.74617552757263,
+          "median_design_lp_s": 0.24451494216918945
+        },
+        "longest_ending_inside": {
+          "runs": 3,
+          "finished_runs": 3,
+          "zero_one_variables": 61,
+          "rounds": 8,
+          "total_cost": 83055559.71980657,
+          "q": [
+            353.24409466295003,
+            407.3071718538564,
+            316.65435056276056
+          ],
+          "C": [
+            600.0,
+            600.0
+          ],
+          "wall_s_all_runs": [
+            152.7252049446106,
+            153.08535408973694,
+            152.5645501613617
+          ],
+          "median_wall_s": 152.7252049446106,
+          "median_milp_s": 152.45137763023376,
+          "median_design_lp_s": 0.2450578212738037
+        }
+      },
+      "time_limit_per_milp_s": 28800.0
+    }
+  },
+  "multi_stage": {
+    "2": {
+      "at_most_k": {
+        "scenarios": 2396,
+        "nodes": 19928,
+        "variables": 458350,
+        "total_cost": 81094050.49426612,
+        "q": [
+          350.0,
+          188.34735951836677,
+          208.33333333333334
+        ],
+        "solve_s_all_runs": [
+          17.571805953979492,
+          17.688551902770996,
+          17.624902963638306
+        ],
+        "median_solve_s": 17.624902963638306,
+        "method": "highs-ds"
+      },
+      "exactly_k": {
+        "scenarios": 2323,
+        "nodes": 19855,
+        "variables": 456671,
+        "total_cost": 81094050.49426612,
+        "q": [
+          350.0,
+          188.34735951836686,
+          208.33333333333334
+        ],
+        "solve_s_all_runs": [
+          36.85972619056702,
+          36.76426434516907,
+          36.62463617324829
+        ],
+        "median_solve_s": 36.76426434516907,
+        "method": "highs-ds"
+      }
+    },
+    "3": {
+      "at_most_k": {
+        "scenarios": 47048,
+        "nodes": 287473,
+        "variables": 6611885,
+        "total_cost": 83099522.18092942,
+        "q": [
+          350.1851719827884,
+          401.6773101628313,
+          316.6522077458993
+        ],
+        "solve_s_all_runs": [
+          1916.3388891220093
+        ],
+        "median_solve_s": 1916.3388891220093,
+        "method": "highs-ds"
+      },
+      "exactly_k": {
+        "scenarios": 44652,
+        "nodes": 285077,
+        "variables": 6556777,
+        "total_cost": 83099522.18092914,
+        "q": [
+          350.18517198282524,
+          401.6773101629452,
+          316.6522077458993
+        ],
+        "solve_s_all_runs": [
+          2889.8226227760315
+        ],
+        "median_solve_s": 2889.8226227760315,
+        "method": "highs-ds"
+      }
+    }
+  },
+  "environment": {
+    "timestamp": "2026-11-12T15:25:10.441329-05:00",
+    "python_version": "3.9.6",
+    "numpy_version": "2.0.2",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-15.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 12,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": null,
+    "hardware_model": "Mac14,13",
+    "memory_bytes": 34359738368
+  }
+}

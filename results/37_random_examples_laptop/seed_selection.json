@@ -1,0 +1,726 @@
+{
+  "rule": "seeds are tried in the order 0, 1, 2, ...; a seed is used if all of its demand can be served when no line fails and capacity is unlimited",
+  "instances": 30,
+  "seeds_used": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    8,
+    9,
+    11,
+    17,
+    18,
+    19,
+    20,
+    22,
+    23,
+    25,
+    26,
+    29,
+    30,
+    32,
+    33,
+    36,
+    37,
+    38,
+    42,
+    47,
+    48,
+    50,
+    55,
+    56,
+    57
+  ],
+  "seeds_tried": 58,
+  "seeds_not_used": [
+    0,
+    4,
+    5,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    21,
+    24,
+    27,
+    28,
+    31,
+    34,
+    35,
+    39,
+    40,
+    41,
+    43,
+    44,
+    45,
+    46,
+    49,
+    51,
+    52,
+    53,
+    54
+  ],
+  "tried": [
+    {
+      "seed": 0,
+      "total_demand_tons": 10080.793017372896,
+      "unmet_tons": 222.5420429018804,
+      "unmet_by_commodity": [
+        222.5420429018804,
+        0.0
+      ],
+      "operating_cost_dollars": 2233968227.4635253,
+      "used": false
+    },
+    {
+      "seed": 1,
+      "total_demand_tons": 7037.588156220973,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 5086480.625836528,
+      "used": true
+    },
+    {
+      "seed": 2,
+      "total_demand_tons": 8762.821311784628,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 5897748.726480947,
+      "used": true
+    },
+    {
+      "seed": 3,
+      "total_demand_tons": 6718.82385886319,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 2931537.2189076943,
+      "used": true
+    },
+    {
+      "seed": 4,
+      "total_demand_tons": 8956.025020005116,
+      "unmet_tons": 34.67884096619895,
+      "unmet_by_commodity": [
+        34.67884096619895,
+        0.0
+      ],
+      "operating_cost_dollars": 355319713.6071686,
+      "used": false
+    },
+    {
+      "seed": 5,
+      "total_demand_tons": 10018.739646931012,
+      "unmet_tons": 32.75650054600672,
+      "unmet_by_commodity": [
+        32.75650054600672,
+        0.0
+      ],
+      "operating_cost_dollars": 338917956.6629683,
+      "used": false
+    },
+    {
+      "seed": 6,
+      "total_demand_tons": 6188.783727407725,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 3545226.367956992,
+      "used": true
+    },
+    {
+      "seed": 7,
+      "total_demand_tons": 7721.112751465522,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 7169734.12783798,
+      "used": true
+    },
+    {
+      "seed": 8,
+      "total_demand_tons": 7655.079110876928,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 5223793.499920792,
+      "used": true
+    },
+    {
+      "seed": 9,
+      "total_demand_tons": 7921.841659932134,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 6733977.659257003,
+      "used": true
+    },
+    {
+      "seed": 10,
+      "total_demand_tons": 10167.239546723824,
+      "unmet_tons": 53.63105637212374,
+      "unmet_by_commodity": [
+        53.63105637212374,
+        0.0
+      ],
+      "operating_cost_dollars": 543591029.6733916,
+      "used": false
+    },
+    {
+      "seed": 11,
+      "total_demand_tons": 8328.741494814436,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 4125532.722168768,
+      "used": true
+    },
+    {
+      "seed": 12,
+      "total_demand_tons": 8490.007387739788,
+      "unmet_tons": 56.120939311335405,
+      "unmet_by_commodity": [
+        56.120939311335405,
+        0.0
+      ],
+      "operating_cost_dollars": 566130235.3630468,
+      "used": false
+    },
+    {
+      "seed": 13,
+      "total_demand_tons": 9368.15265664386,
+      "unmet_tons": 103.53063030698354,
+      "unmet_by_commodity": [
+        103.53063030698354,
+        0.0
+      ],
+      "operating_cost_dollars": 1044219467.5757315,
+      "used": false
+    },
+    {
+      "seed": 14,
+      "total_demand_tons": 8791.198853862443,
+      "unmet_tons": 32.16948676931406,
+      "unmet_by_commodity": [
+        32.16948676931406,
+        0.0
+      ],
+      "operating_cost_dollars": 329935457.2051514,
+      "used": false
+    },
+    {
+      "seed": 15,
+      "total_demand_tons": 10156.457700968018,
+      "unmet_tons": 131.11305463996393,
+      "unmet_by_commodity": [
+        131.11305463996393,
+        0.0
+      ],
+      "operating_cost_dollars": 1319621732.1122284,
+      "used": false
+    },
+    {
+      "seed": 16,
+      "total_demand_tons": 8609.75593613883,
+      "unmet_tons": 107.3374815540559,
+      "unmet_by_commodity": [
+        107.3374815540559,
+        0.0
+      ],
+      "operating_cost_dollars": 1079713101.4493256,
+      "used": false
+    },
+    {
+      "seed": 17,
+      "total_demand_tons": 6173.705995131202,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 3241019.5546222003,
+      "used": true
+    },
+    {
+      "seed": 18,
+      "total_demand_tons": 6619.016047125368,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 3751868.474444805,
+      "used": true
+    },
+    {
+      "seed": 19,
+      "total_demand_tons": 10205.297717228279,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 7715623.55221211,
+      "used": true
+    },
+    {
+      "seed": 20,
+      "total_demand_tons": 8215.04234542561,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 5371305.999812543,
+      "used": true
+    },
+    {
+      "seed": 21,
+      "total_demand_tons": 8220.55029345549,
+      "unmet_tons": 24.067288537906393,
+      "unmet_by_commodity": [
+        24.067288537906393,
+        0.0
+      ],
+      "operating_cost_dollars": 248173672.47151458,
+      "used": false
+    },
+    {
+      "seed": 22,
+      "total_demand_tons": 8506.634771853292,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 6516192.79597806,
+      "used": true
+    },
+    {
+      "seed": 23,
+      "total_demand_tons": 7915.183118525625,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 7575845.298716872,
+      "used": true
+    },
+    {
+      "seed": 24,
+      "total_demand_tons": 9538.054052313408,
+      "unmet_tons": 258.71215396841455,
+      "unmet_by_commodity": [
+        258.71215396841455,
+        0.0
+      ],
+      "operating_cost_dollars": 2593403028.0743647,
+      "used": false
+    },
+    {
+      "seed": 25,
+      "total_demand_tons": 7701.762871907045,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 2858350.2680231254,
+      "used": true
+    },
+    {
+      "seed": 26,
+      "total_demand_tons": 7110.468825103379,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 4927076.027362745,
+      "used": true
+    },
+    {
+      "seed": 27,
+      "total_demand_tons": 9427.338046845973,
+      "unmet_tons": 100.62599410628894,
+      "unmet_by_commodity": [
+        100.62599410628894,
+        0.0
+      ],
+      "operating_cost_dollars": 1014271622.6020815,
+      "used": false
+    },
+    {
+      "seed": 28,
+      "total_demand_tons": 8792.227544410423,
+      "unmet_tons": 116.38296027981357,
+      "unmet_by_commodity": [
+        116.38296027981357,
+        0.0
+      ],
+      "operating_cost_dollars": 1171708134.1449544,
+      "used": false
+    },
+    {
+      "seed": 29,
+      "total_demand_tons": 7777.1815829781035,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 3021620.625531115,
+      "used": true
+    },
+    {
+      "seed": 30,
+      "total_demand_tons": 8034.578188684866,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 4275399.371134847,
+      "used": true
+    },
+    {
+      "seed": 31,
+      "total_demand_tons": 7657.9520401921145,
+      "unmet_tons": 116.05972579930437,
+      "unmet_by_commodity": [
+        116.05972579930437,
+        0.0
+      ],
+      "operating_cost_dollars": 1163881885.6671147,
+      "used": false
+    },
+    {
+      "seed": 32,
+      "total_demand_tons": 7717.644334926814,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 3883855.8388659805,
+      "used": true
+    },
+    {
+      "seed": 33,
+      "total_demand_tons": 7776.573345597346,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 6641747.100801261,
+      "used": true
+    },
+    {
+      "seed": 34,
+      "total_demand_tons": 10332.62609069787,
+      "unmet_tons": 136.0808214042326,
+      "unmet_by_commodity": [
+        136.0808214042326,
+        0.0
+      ],
+      "operating_cost_dollars": 1364819153.5761747,
+      "used": false
+    },
+    {
+      "seed": 35,
+      "total_demand_tons": 9976.514131792796,
+      "unmet_tons": 45.46596529428135,
+      "unmet_by_commodity": [
+        45.46596529428135,
+        0.0
+      ],
+      "operating_cost_dollars": 462095679.2677577,
+      "used": false
+    },
+    {
+      "seed": 36,
+      "total_demand_tons": 6707.781692108903,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 3409709.2490330483,
+      "used": true
+    },
+    {
+      "seed": 37,
+      "total_demand_tons": 7456.167518597207,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 5901352.32801638,
+      "used": true
+    },
+    {
+      "seed": 38,
+      "total_demand_tons": 7497.819568665545,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 6026695.044942362,
+      "used": true
+    },
+    {
+      "seed": 39,
+      "total_demand_tons": 9125.028436605673,
+      "unmet_tons": 65.39339396631306,
+      "unmet_by_commodity": [
+        65.39339396631306,
+        0.0
+      ],
+      "operating_cost_dollars": 660698005.2944821,
+      "used": false
+    },
+    {
+      "seed": 40,
+      "total_demand_tons": 8257.46722176959,
+      "unmet_tons": 179.2764694157567,
+      "unmet_by_commodity": [
+        179.2764694157567,
+        0.0
+      ],
+      "operating_cost_dollars": 1801581886.2017667,
+      "used": false
+    },
+    {
+      "seed": 41,
+      "total_demand_tons": 8928.252451289289,
+      "unmet_tons": 43.182616671387905,
+      "unmet_by_commodity": [
+        43.182616671387905,
+        0.0
+      ],
+      "operating_cost_dollars": 440377421.6565198,
+      "used": false
+    },
+    {
+      "seed": 42,
+      "total_demand_tons": 7776.067178765397,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 5201967.490456819,
+      "used": true
+    },
+    {
+      "seed": 43,
+      "total_demand_tons": 8742.610749598634,
+      "unmet_tons": 27.987360956859106,
+      "unmet_by_commodity": [
+        27.987360956859106,
+        0.0
+      ],
+      "operating_cost_dollars": 283682893.6309152,
+      "used": false
+    },
+    {
+      "seed": 44,
+      "total_demand_tons": 9278.21538658009,
+      "unmet_tons": 32.22452519794402,
+      "unmet_by_commodity": [
+        32.22452519794402,
+        0.0
+      ],
+      "operating_cost_dollars": 326956979.28690064,
+      "used": false
+    },
+    {
+      "seed": 45,
+      "total_demand_tons": 8915.257584225963,
+      "unmet_tons": 48.75441534436669,
+      "unmet_by_commodity": [
+        48.75441534436669,
+        0.0
+      ],
+      "operating_cost_dollars": 493997018.7335638,
+      "used": false
+    },
+    {
+      "seed": 46,
+      "total_demand_tons": 9582.975946516759,
+      "unmet_tons": 266.71557411993217,
+      "unmet_by_commodity": [
+        266.71557411993217,
+        0.0
+      ],
+      "operating_cost_dollars": 2672272957.272195,
+      "used": false
+    },
+    {
+      "seed": 47,
+      "total_demand_tons": 7524.004328901638,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 6013331.016890827,
+      "used": true
+    },
+    {
+      "seed": 48,
+      "total_demand_tons": 6560.52992068676,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 5080988.551719298,
+      "used": true
+    },
+    {
+      "seed": 49,
+      "total_demand_tons": 7539.651934337595,
+      "unmet_tons": 115.69577020986333,
+      "unmet_by_commodity": [
+        115.69577020986333,
+        0.0
+      ],
+      "operating_cost_dollars": 1161431405.0447023,
+      "used": false
+    },
+    {
+      "seed": 50,
+      "total_demand_tons": 8194.754978799232,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 8326739.940734894,
+      "used": true
+    },
+    {
+      "seed": 51,
+      "total_demand_tons": 8798.788035398002,
+      "unmet_tons": 55.595148125074786,
+      "unmet_by_commodity": [
+        55.595148125074786,
+        0.0
+      ],
+      "operating_cost_dollars": 561759168.2579979,
+      "used": false
+    },
+    {
+      "seed": 52,
+      "total_demand_tons": 10249.917620067888,
+      "unmet_tons": 578.3672668445406,
+      "unmet_by_commodity": [
+        578.3672668445406,
+        0.0
+      ],
+      "operating_cost_dollars": 5792276756.609631,
+      "used": false
+    },
+    {
+      "seed": 53,
+      "total_demand_tons": 8677.39860465782,
+      "unmet_tons": 104.03904977802722,
+      "unmet_by_commodity": [
+        104.03904977802722,
+        0.0
+      ],
+      "operating_cost_dollars": 1044102713.79221,
+      "used": false
+    },
+    {
+      "seed": 54,
+      "total_demand_tons": 9506.433423642113,
+      "unmet_tons": 102.05903450439052,
+      "unmet_by_commodity": [
+        102.05903450439052,
+        0.0
+      ],
+      "operating_cost_dollars": 1025746834.6711617,
+      "used": false
+    },
+    {
+      "seed": 55,
+      "total_demand_tons": 7854.496345767184,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 7368900.836725229,
+      "used": true
+    },
+    {
+      "seed": 56,
+      "total_demand_tons": 6601.205677925841,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 2874366.5059566945,
+      "used": true
+    },
+    {
+      "seed": 57,
+      "total_demand_tons": 7106.61141048669,
+      "unmet_tons": 0.0,
+      "unmet_by_commodity": [
+        0.0,
+        0.0
+      ],
+      "operating_cost_dollars": 5984439.69545297,
+      "used": true
+    }
+  ],
+  "environment": {
+    "timestamp": "2026-11-12T10:29:55.095479-05:00",
+    "python_version": "3.12.4",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 10,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": "43b81493c096cc972034c1143e88fac0b57ccad1",
+    "hardware_model": "MacBookPro18,1",
+    "memory_bytes": 17179869184
+  }
+}

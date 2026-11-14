@@ -1,0 +1,192 @@
+{
+  "source": "results/40_late_demand_variants/variants.json",
+  "rows": [
+    {
+      "variant": "from19_x2_h100",
+      "first_demand_month": 19,
+      "demand_factor": 2.0,
+      "holding_factor": 100.0,
+      "multi_stage_total_cost": 147929529.88843676,
+      "cost_reported_with_proposition_1_set": 147861102.2151916,
+      "true_cost_of_that_design": 148319829.1472466,
+      "extra_cost_of_that_design": 390299.2588098347,
+      "extra_cost_pct": 0.2638413433100103,
+      "q": [
+        303.8830406548955,
+        308.8285882277359,
+        600.0
+      ],
+      "C": [
+        600.0,
+        600.0
+      ],
+      "solve_s": 4.306504964828491
+    },
+    {
+      "variant": "from19_x2_h1000",
+      "first_demand_month": 19,
+      "demand_factor": 2.0,
+      "holding_factor": 1000.0,
+      "multi_stage_total_cost": 679474069.6873053,
+      "cost_reported_with_proposition_1_set": 679281572.9765099,
+      "true_cost_of_that_design": 681085483.7742656,
+      "extra_cost_of_that_design": 1611414.0869603157,
+      "extra_cost_pct": 0.2371560827482188,
+      "q": [
+        762.1921613775153,
+        764.5310525566413,
+        1000.0
+      ],
+      "C": [
+        600.0,
+        600.0
+      ],
+      "solve_s": 4.401041746139526
+    },
+    {
+      "variant": "from19_x3_h1000",
+      "first_demand_month": 19,
+      "demand_factor": 3.0,
+      "holding_factor": 1000.0,
+      "multi_stage_total_cost": 691959501.9624563,
+      "cost_reported_with_proposition_1_set": 691489628.4009279,
+      "true_cost_of_that_design": 695900961.7246327,
+      "extra_cost_of_that_design": 3941459.7621763945,
+      "extra_cost_pct": 0.5696084454361964,
+      "q": [
+        1068.3933576934628,
+        1076.5234284621,
+        1500.0
+      ],
+      "C": [
+        600.0,
+        600.0
+      ],
+      "solve_s": 4.297322034835815
+    },
+    {
+      "variant": "from22_x2_h100",
+      "first_demand_month": 22,
+      "demand_factor": 2.0,
+      "holding_factor": 100.0,
+      "multi_stage_total_cost": 144506157.23054338,
+      "cost_reported_with_proposition_1_set": 144479563.86887604,
+      "true_cost_of_that_design": 144722736.6061351,
+      "extra_cost_of_that_design": 216579.3755917251,
+      "extra_cost_pct": 0.14987553453947086,
+      "q": [
+        199.86209169235698,
+        199.86609021371768,
+        400.3141033708453
+      ],
+      "C": [
+        600.0,
+        600.0
+      ],
+      "solve_s": 4.53796911239624
+    },
+    {
+      "variant": "from22_x2_h300",
+      "first_demand_month": 22,
+      "demand_factor": 2.0,
+      "holding_factor": 300.0,
+      "multi_stage_total_cost": 283649489.4400781,
+      "cost_reported_with_proposition_1_set": 282822040.81632656,
+      "true_cost_of_that_design": 284021320.02345437,
+      "extra_cost_of_that_design": 371830.5833762884,
+      "extra_cost_pct": 0.13108804958904707,
+      "q": [
+        300.0,
+        306.1224489795918,
+        500.0
+      ],
+      "C": [
+        600.0,
+        600.0
+      ],
+      "solve_s": 5.74336576461792
+    },
+    {
+      "variant": "from22_x2_h1000",
+      "first_demand_month": 22,
+      "demand_factor": 2.0,
+      "holding_factor": 1000.0,
+      "multi_stage_total_cost": 764341289.4303838,
+      "cost_reported_with_proposition_1_set": 764132000.0,
+      "true_cost_of_that_design": 766031329.0788096,
+      "extra_cost_of_that_design": 1690039.6484258175,
+      "extra_cost_pct": 0.22111060488244713,
+      "q": [
+        466.66666666666663,
+        470.00000000000006,
+        600.0
+      ],
+      "C": [
+        600.0,
+        600.0
+      ],
+      "solve_s": 5.8160929679870605
+    },
+    {
+      "variant": "from22_x3_h300",
+      "first_demand_month": 22,
+      "demand_factor": 3.0,
+      "holding_factor": 300.0,
+      "multi_stage_total_cost": 291673202.8371303,
+      "cost_reported_with_proposition_1_set": 291418174.4027972,
+      "true_cost_of_that_design": 292141897.0996822,
+      "extra_cost_of_that_design": 468694.2625519037,
+      "extra_cost_pct": 0.16069157467771272,
+      "q": [
+        599.6849369873976,
+        599.7029316742851,
+        849.9999999999997
+      ],
+      "C": [
+        600.0,
+        600.0
+      ],
+      "solve_s": 5.296773910522461
+    },
+    {
+      "variant": "from22_x3_h1000",
+      "first_demand_month": 22,
+      "demand_factor": 3.0,
+      "holding_factor": 1000.0,
+      "multi_stage_total_cost": 770789831.9556953,
+      "cost_reported_with_proposition_1_set": 770365200.0,
+      "true_cost_of_that_design": 773293459.4654276,
+      "extra_cost_of_that_design": 2503627.5097323656,
+      "extra_cost_pct": 0.3248132507638312,
+      "q": [
+        726.6666666666666,
+        733.6666666666666,
+        900.0
+      ],
+      "C": [
+        600.0,
+        600.0
+      ],
+      "solve_s": 6.162434101104736
+    }
+  ],
+  "environment": {
+    "timestamp": "2026-11-12T18:34:27.782857-05:00",
+    "python_version": "3.12.4",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 10,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": "43b81493c096cc972034c1143e88fac0b57ccad1",
+    "hardware_model": "MacBookPro18,1",
+    "memory_bytes": 17179869184
+  }
+}

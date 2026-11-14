@@ -1,0 +1,319 @@
+{
+ "values": [
+  {
+   "M": 1,
+   "K": 1,
+   "T": 5,
+   "lmin": [
+    1
+   ],
+   "L": [
+    2
+   ],
+   "k": 2,
+   "scenarios": 28,
+   "S_plus": 6,
+   "theorem1_set": 3,
+   "trials": 100,
+   "gap_with_S_plus": 0,
+   "gap_with_theorem1_set": 0,
+   "largest_gap_theorem1_set": 0.0
+  },
+  {
+   "M": 1,
+   "K": 2,
+   "T": 6,
+   "lmin": [
+    2
+   ],
+   "L": [
+    3
+   ],
+   "k": 2,
+   "scenarios": 27,
+   "S_plus": 6,
+   "theorem1_set": 1,
+   "trials": 100,
+   "gap_with_S_plus": 0,
+   "gap_with_theorem1_set": 0,
+   "largest_gap_theorem1_set": 0.0
+  },
+  {
+   "M": 2,
+   "K": 1,
+   "T": 3,
+   "lmin": [
+    1,
+    1
+   ],
+   "L": [
+    2,
+    2
+   ],
+   "k": 1,
+   "scenarios": 11,
+   "S_plus": 6,
+   "theorem1_set": 4,
+   "trials": 100,
+   "gap_with_S_plus": 0,
+   "gap_with_theorem1_set": 3,
+   "largest_gap_theorem1_set": 0.625
+  },
+  {
+   "M": 2,
+   "K": 2,
+   "T": 4,
+   "lmin": [
+    1,
+    1
+   ],
+   "L": [
+    3,
+    2
+   ],
+   "k": 1,
+   "scenarios": 17,
+   "S_plus": 8,
+   "theorem1_set": 5,
+   "trials": 100,
+   "gap_with_S_plus": 0,
+   "gap_with_theorem1_set": 2,
+   "largest_gap_theorem1_set": 0.5925925925925881
+  },
+  {
+   "M": 2,
+   "K": 2,
+   "T": 4,
+   "lmin": [
+    1,
+    1
+   ],
+   "L": [
+    2,
+    2
+   ],
+   "k": 2,
+   "scenarios": 80,
+   "S_plus": 22,
+   "theorem1_set": 11,
+   "trials": 100,
+   "gap_with_S_plus": 0,
+   "gap_with_theorem1_set": 0,
+   "largest_gap_theorem1_set": 0.0
+  },
+  {
+   "M": 2,
+   "K": 1,
+   "T": 6,
+   "lmin": [
+    1,
+    1
+   ],
+   "L": [
+    2,
+    2
+   ],
+   "k": 3,
+   "scenarios": 952,
+   "S_plus": 128,
+   "theorem1_set": 62,
+   "trials": 100,
+   "gap_with_S_plus": 0,
+   "gap_with_theorem1_set": 1,
+   "largest_gap_theorem1_set": 0.13333333333333286
+  },
+  {
+   "M": 2,
+   "K": 1,
+   "T": 5,
+   "lmin": [
+    1,
+    2
+   ],
+   "L": [
+    3,
+    2
+   ],
+   "k": 2,
+   "scenarios": 102,
+   "S_plus": 34,
+   "theorem1_set": 15,
+   "trials": 100,
+   "gap_with_S_plus": 0,
+   "gap_with_theorem1_set": 11,
+   "largest_gap_theorem1_set": 54.0
+  },
+  {
+   "M": 2,
+   "K": 2,
+   "T": 6,
+   "lmin": [
+    2,
+    1
+   ],
+   "L": [
+    3,
+    2
+   ],
+   "k": 2,
+   "scenarios": 180,
+   "S_plus": 52,
+   "theorem1_set": 27,
+   "trials": 100,
+   "gap_with_S_plus": 0,
+   "gap_with_theorem1_set": 1,
+   "largest_gap_theorem1_set": 0.07777777777777573
+  },
+  {
+   "M": 2,
+   "K": 1,
+   "T": 5,
+   "lmin": [
+    2,
+    2
+   ],
+   "L": [
+    3,
+    3
+   ],
+   "k": 2,
+   "scenarios": 95,
+   "S_plus": 31,
+   "theorem1_set": 9,
+   "trials": 100,
+   "gap_with_S_plus": 0,
+   "gap_with_theorem1_set": 19,
+   "largest_gap_theorem1_set": 72.0
+  },
+  {
+   "M": 3,
+   "K": 1,
+   "T": 4,
+   "lmin": [
+    1,
+    1,
+    1
+   ],
+   "L": [
+    2,
+    2,
+    2
+   ],
+   "k": 2,
+   "scenarios": 193,
+   "S_plus": 57,
+   "theorem1_set": 30,
+   "trials": 100,
+   "gap_with_S_plus": 0,
+   "gap_with_theorem1_set": 2,
+   "largest_gap_theorem1_set": 0.7272727272727266
+  },
+  {
+   "M": 3,
+   "K": 1,
+   "T": 5,
+   "lmin": [
+    2,
+    1,
+    2
+   ],
+   "L": [
+    3,
+    2,
+    3
+   ],
+   "k": 2,
+   "scenarios": 266,
+   "S_plus": 87,
+   "theorem1_set": 36,
+   "trials": 100,
+   "gap_with_S_plus": 0,
+   "gap_with_theorem1_set": 12,
+   "largest_gap_theorem1_set": 13.0
+  },
+  {
+   "M": 2,
+   "K": 1,
+   "T": 7,
+   "lmin": [
+    1,
+    1
+   ],
+   "L": [
+    3,
+    2
+   ],
+   "k": 3,
+   "scenarios": 2277,
+   "S_plus": 186,
+   "theorem1_set": 72,
+   "trials": 100,
+   "gap_with_S_plus": 0,
+   "gap_with_theorem1_set": 3,
+   "largest_gap_theorem1_set": 10.0
+  },
+  {
+   "M": 1,
+   "K": 1,
+   "T": 7,
+   "lmin": [
+    1
+   ],
+   "L": [
+    3
+   ],
+   "k": 3,
+   "scenarios": 127,
+   "S_plus": 1,
+   "theorem1_set": 0,
+   "trials": 100,
+   "gap_with_S_plus": 0,
+   "gap_with_theorem1_set": 0,
+   "largest_gap_theorem1_set": 0.0
+  },
+  {
+   "M": 2,
+   "K": 1,
+   "T": 4,
+   "lmin": [
+    1,
+    1
+   ],
+   "L": [
+    2,
+    2
+   ],
+   "k": 4,
+   "scenarios": 256,
+   "S_plus": 9,
+   "theorem1_set": 1,
+   "trials": 100,
+   "gap_with_S_plus": 0,
+   "gap_with_theorem1_set": 0,
+   "largest_gap_theorem1_set": 0.0
+  },
+  {
+   "M": 3,
+   "K": 2,
+   "T": 3,
+   "lmin": [
+    1,
+    1,
+    1
+   ],
+   "L": [
+    2,
+    2,
+    2
+   ],
+   "k": 1,
+   "scenarios": 16,
+   "S_plus": 9,
+   "theorem1_set": 6,
+   "trials": 100,
+   "gap_with_S_plus": 0,
+   "gap_with_theorem1_set": 0,
+   "largest_gap_theorem1_set": 0.0
+  }
+ ]
+}

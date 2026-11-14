@@ -1,0 +1,174 @@
+{
+  "instance": "lunar example, demand from month 2, at most 3 outages, outages may run past month T",
+  "environment": {
+    "timestamp": "2026-11-12T09:52:06.124733-05:00",
+    "python_version": "3.9.6",
+    "numpy_version": "2.0.2",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-15.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 12,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": null,
+    "hardware_model": "Mac14,13",
+    "memory_bytes": 34359738368
+  },
+  "runs": {
+    "knows_scenario__column_and_constraint_generation": {
+      "status": 0,
+      "method": "column-and-constraint generation with the longest outages that end within the horizon",
+      "zero_one_variables": 61,
+      "rounds": 8,
+      "wall_s": 151.7891390323639,
+      "total_cost": 83055559.71980657,
+      "worst_operating_cost": 12461556.749889735,
+      "investment_cost": 70594002.96991684,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        353.24409466295003,
+        407.3071718538564,
+        316.65435056276056
+      ]
+    },
+    "learns_as_outages_happen__splus_set": {
+      "scenarios": 44652,
+      "nodes": 285077,
+      "variables": 6556777,
+      "rows": 3750647,
+      "nonzeros": 22228829,
+      "build_s": 19.49387788772583,
+      "solve_s": 2696.454134941101,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "total_cost": 83099522.18092914,
+      "worst_operating_cost": 12533143.555813286,
+      "investment_cost": 70566378.62511586,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        350.18517198282524,
+        401.6773101629452,
+        316.6522077458993
+      ],
+      "largest_unmet_tons_on_a_path": 0.448467433636588,
+      "method": "highs-ds"
+    },
+    "learns_as_outages_happen__thm1_set": {
+      "scenarios": 26223,
+      "nodes": 234396,
+      "variables": 5391114,
+      "rows": 3073365,
+      "nonzeros": 18077603,
+      "build_s": 15.304803848266602,
+      "solve_s": 3188.05415391922,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "total_cost": 83099522.18092914,
+      "worst_operating_cost": 12533143.555813286,
+      "investment_cost": 70566378.62511586,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        350.18517198282484,
+        401.6773101629449,
+        316.6522077458994
+      ],
+      "largest_unmet_tons_on_a_path": 0.3961094243239179,
+      "method": "highs-ds"
+    },
+    "design_for_knowing__operated_learning__splus_set": {
+      "scenarios": 44652,
+      "nodes": 285077,
+      "variables": 6556777,
+      "rows": 3750647,
+      "nonzeros": 22228829,
+      "build_s": 18.70287585258484,
+      "solve_s": 504.64348435401917,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "total_cost": 83122832.50132628,
+      "worst_operating_cost": 12528829.531409437,
+      "investment_cost": 70594002.96991684,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        353.24409466295003,
+        407.3071718538564,
+        316.65435056276056
+      ],
+      "largest_unmet_tons_on_a_path": 0.04361234467410213,
+      "method": "highs-ds"
+    },
+    "design_for_learning__operated_knowing__thm1_set_scenario_by_scenario": {
+      "status": 0,
+      "method": "the operating problem solved scenario by scenario",
+      "scenarios": 26223,
+      "worst_operating_cost": 12532477.072067952,
+      "investment_cost": 70566378.62511586,
+      "total_cost": 83098855.6971838,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        350.18517198282524,
+        401.6773101629452,
+        316.6522077458993
+      ],
+      "worst_scenario_events": [
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          1,
+          0,
+          6
+        ],
+        [
+          2,
+          3,
+          2
+        ]
+      ],
+      "wall_s": 7.094495058059692,
+      "processes": 8
+    }
+  },
+  "counts": {
+    "thm1": 26223,
+    "splus": 44652
+  },
+  "summary": {
+    "two_stage_total_cost": 83055559.71980657,
+    "multi_stage_total_cost": 83099522.18092914,
+    "multi_stage_minus_two_stage": 43962.46112257242,
+    "multi_stage_on_thm1_set_total_cost": 83099522.18092914,
+    "thm1_set_understates_by": 0.0,
+    "two_stage_design_operated_multi_stage_extra_cost": 23310.320397138596,
+    "multi_stage_design_operated_two_stage_extra_cost": 43295.97737723589,
+    "tolerance_dollars": 83.05555971980657,
+    "checks": {
+      "multi_stage_at_least_two_stage": true,
+      "thm1_set_value_between_the_two": true,
+      "two_stage_design_no_better_for_multi_stage": true,
+      "multi_stage_design_between_for_two_stage": true
+    }
+  }
+}

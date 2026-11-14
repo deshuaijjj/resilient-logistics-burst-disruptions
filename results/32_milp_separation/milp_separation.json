@@ -1,0 +1,359 @@
+{
+  "instance": "lunar example, demand from month 2",
+  "runs": {
+    "k2": {
+      "all_outages_at_most_k": [
+        {
+          "finished": true,
+          "rounds": 4,
+          "binaries": 257,
+          "design_lp_s_total": 0.058263540267944336,
+          "milp_s_total": 56.50787425041199,
+          "wall_s": 56.58279991149902,
+          "total_cost": 81093473.03543913,
+          "worst_operating_cost": 12076000.0,
+          "C": [
+            600.0,
+            600.0
+          ],
+          "q": [
+            350.0,
+            188.1869542886492,
+            208.33333333333334
+          ],
+          "round_log": [
+            {
+              "round": 1,
+              "scenarios_in_design_lp": 1,
+              "design_lp_s": 0.0057680606842041016,
+              "milp_s": 1.0765891075134277,
+              "reported_worst_operating_cost": 7016499.999999998,
+              "milp_bound": 40836850666.66667,
+              "true_worst_operating_cost": 40836850666.666664,
+              "worst_events": [
+                [
+                  0,
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  6,
+                  6
+                ]
+              ],
+              "converged": false
+            },
+            {
+              "round": 2,
+              "scenarios_in_design_lp": 2,
+              "design_lp_s": 0.009634971618652344,
+              "milp_s": 1.3038573265075684,
+              "reported_worst_operating_cost": 8239000.000000001,
+              "milp_bound": 20005551333.333336,
+              "true_worst_operating_cost": 20005551333.333332,
+              "worst_events": [
+                [
+                  1,
+                  2,
+                  6
+                ],
+                [
+                  1,
+                  8,
+                  6
+                ]
+              ],
+              "converged": false
+            },
+            {
+              "round": 3,
+              "scenarios_in_design_lp": 3,
+              "design_lp_s": 0.0221712589263916,
+              "milp_s": 1.6362619400024414,
+              "reported_worst_operating_cost": 7948292.8464188045,
+              "milp_bound": 14756050535.220938,
+              "true_worst_operating_cost": 14756050535.220936,
+              "worst_events": [
+                [
+                  0,
+                  0,
+                  6
+                ],
+                [
+                  1,
+                  0,
+                  6
+                ]
+              ],
+              "converged": false
+            },
+            {
+              "round": 4,
+              "scenarios_in_design_lp": 4,
+              "design_lp_s": 0.02068924903869629,
+              "milp_s": 52.49116587638855,
+              "reported_worst_operating_cost": 12076000.0,
+              "milp_bound": 12076000.000005813,
+              "true_worst_operating_cost": 12076000.0,
+              "worst_events": [
+                [
+                  0,
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  6,
+                  6
+                ]
+              ],
+              "converged": true
+            }
+          ]
+        }
+      ],
+      "longest_outages_at_most_k": [
+        {
+          "finished": true,
+          "rounds": 4,
+          "binaries": 61,
+          "design_lp_s_total": 0.05801200866699219,
+          "milp_s_total": 8.595093250274658,
+          "wall_s": 8.668071031570435,
+          "total_cost": 81093473.03543913,
+          "worst_operating_cost": 12076000.0,
+          "C": [
+            600.0,
+            600.0
+          ],
+          "q": [
+            350.0,
+            188.1869542886492,
+            208.33333333333334
+          ],
+          "round_log": [
+            {
+              "round": 1,
+              "scenarios_in_design_lp": 1,
+              "design_lp_s": 0.004760026931762695,
+              "milp_s": 0.26995420455932617,
+              "reported_worst_operating_cost": 7016499.999999998,
+              "milp_bound": 40836850666.66667,
+              "true_worst_operating_cost": 40836850666.666664,
+              "worst_events": [
+                [
+                  0,
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  6,
+                  6
+                ]
+              ],
+              "converged": false
+            },
+            {
+              "round": 2,
+              "scenarios_in_design_lp": 2,
+              "design_lp_s": 0.009437799453735352,
+              "milp_s": 0.9707779884338379,
+              "reported_worst_operating_cost": 8239000.000000001,
+              "milp_bound": 20005551333.333332,
+              "true_worst_operating_cost": 20005551333.333332,
+              "worst_events": [
+                [
+                  1,
+                  2,
+                  6
+                ],
+                [
+                  1,
+                  8,
+                  6
+                ]
+              ],
+              "converged": false
+            },
+            {
+              "round": 3,
+              "scenarios_in_design_lp": 3,
+              "design_lp_s": 0.022692203521728516,
+              "milp_s": 0.7675530910491943,
+              "reported_worst_operating_cost": 7948292.8464188045,
+              "milp_bound": 14756050535.220943,
+              "true_worst_operating_cost": 14756050535.220936,
+              "worst_events": [
+                [
+                  0,
+                  0,
+                  6
+                ],
+                [
+                  1,
+                  0,
+                  6
+                ]
+              ],
+              "converged": false
+            },
+            {
+              "round": 4,
+              "scenarios_in_design_lp": 4,
+              "design_lp_s": 0.021121978759765625,
+              "milp_s": 6.5868079662323,
+              "reported_worst_operating_cost": 12076000.0,
+              "milp_bound": 12076000.000014858,
+              "true_worst_operating_cost": 12076000.0,
+              "worst_events": [
+                [
+                  0,
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  6,
+                  6
+                ]
+              ],
+              "converged": true
+            }
+          ]
+        }
+      ],
+      "longest_outages_exactly_k": [
+        {
+          "finished": true,
+          "rounds": 4,
+          "binaries": 61,
+          "design_lp_s_total": 0.057700157165527344,
+          "milp_s_total": 9.661602258682251,
+          "wall_s": 9.734222173690796,
+          "total_cost": 81093473.03543913,
+          "worst_operating_cost": 12076000.0,
+          "C": [
+            600.0,
+            600.0
+          ],
+          "q": [
+            350.0,
+            188.1869542886492,
+            208.33333333333334
+          ],
+          "round_log": [
+            {
+              "round": 1,
+              "scenarios_in_design_lp": 1,
+              "design_lp_s": 0.004873991012573242,
+              "milp_s": 0.8580112457275391,
+              "reported_worst_operating_cost": 7016499.999999998,
+              "milp_bound": 40836850666.66935,
+              "true_worst_operating_cost": 40836850666.666664,
+              "worst_events": [
+                [
+                  0,
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  6,
+                  6
+                ]
+              ],
+              "converged": false
+            },
+            {
+              "round": 2,
+              "scenarios_in_design_lp": 2,
+              "design_lp_s": 0.009799003601074219,
+              "milp_s": 1.1159791946411133,
+              "reported_worst_operating_cost": 8239000.000000001,
+              "milp_bound": 20005551333.333332,
+              "true_worst_operating_cost": 20005551333.333332,
+              "worst_events": [
+                [
+                  1,
+                  2,
+                  6
+                ],
+                [
+                  1,
+                  8,
+                  6
+                ]
+              ],
+              "converged": false
+            },
+            {
+              "round": 3,
+              "scenarios_in_design_lp": 3,
+              "design_lp_s": 0.02289104461669922,
+              "milp_s": 1.5942070484161377,
+              "reported_worst_operating_cost": 7948292.8464188045,
+              "milp_bound": 14756050535.220963,
+              "true_worst_operating_cost": 14756050535.220936,
+              "worst_events": [
+                [
+                  0,
+                  0,
+                  6
+                ],
+                [
+                  1,
+                  0,
+                  6
+                ]
+              ],
+              "converged": false
+            },
+            {
+              "round": 4,
+              "scenarios_in_design_lp": 4,
+              "design_lp_s": 0.020136117935180664,
+              "milp_s": 6.093404769897461,
+              "reported_worst_operating_cost": 12076000.0,
+              "milp_bound": 12076000.000000745,
+              "true_worst_operating_cost": 12076000.0,
+              "worst_events": [
+                [
+                  0,
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  6,
+                  6
+                ]
+              ],
+              "converged": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "environment": {
+    "timestamp": "2026-11-10T22:01:17.685366-05:00",
+    "python_version": "3.12.4",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 10,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": "43b81493c096cc972034c1143e88fac0b57ccad1",
+    "hardware_model": "MacBookPro18,1",
+    "memory_bytes": 17179869184
+  }
+}

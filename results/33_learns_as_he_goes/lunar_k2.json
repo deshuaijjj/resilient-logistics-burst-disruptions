@@ -1,0 +1,148 @@
+{
+  "instance": "lunar example, demand from month 2, at most 2 outages, outages may run past month T",
+  "environment": {
+    "timestamp": "2026-11-11T19:54:17.827843-05:00",
+    "python_version": "3.12.4",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 10,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": "43b81493c096cc972034c1143e88fac0b57ccad1",
+    "hardware_model": "MacBookPro18,1",
+    "memory_bytes": 17179869184
+  },
+  "runs": {
+    "knows_scenario__thm1_set": {
+      "scenarios": 1648,
+      "nodes": 39552,
+      "variables": 909702,
+      "rows": 514178,
+      "nonzeros": 2928498,
+      "build_s": 1.9923348426818848,
+      "solve_s": 30.39917016029358,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "total_cost": 81093473.03543913,
+      "worst_operating_cost": 12076000.0,
+      "investment_cost": 69017473.03543913,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        350.0,
+        188.1869542886492,
+        208.33333333333334
+      ],
+      "largest_unmet_tons_on_a_path": 0.0
+    },
+    "learns_as_he_goes__splus_set": {
+      "scenarios": 2323,
+      "nodes": 19855,
+      "variables": 456671,
+      "rows": 260433,
+      "nonzeros": 1532970,
+      "build_s": 0.9272379875183105,
+      "solve_s": 49.595441818237305,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "total_cost": 81094050.49426612,
+      "worst_operating_cost": 12076000.0,
+      "investment_cost": 69018050.49426612,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        350.0,
+        188.34735951836686,
+        208.33333333333334
+      ],
+      "largest_unmet_tons_on_a_path": 0.4295093294200197
+    },
+    "learns_as_he_goes__thm1_set": {
+      "scenarios": 1648,
+      "nodes": 17945,
+      "variables": 412741,
+      "rows": 234928,
+      "nonzeros": 1376895,
+      "build_s": 0.8862361907958984,
+      "solve_s": 23.628971099853516,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "total_cost": 81094050.49426612,
+      "worst_operating_cost": 12076000.0,
+      "investment_cost": 69018050.49426612,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        350.0,
+        188.347359518367,
+        208.33333333333334
+      ],
+      "largest_unmet_tons_on_a_path": 0.42950932942005693
+    },
+    "design_for_knowing__operated_learning__splus_set": {
+      "scenarios": 2323,
+      "nodes": 19855,
+      "variables": 456671,
+      "rows": 260433,
+      "nonzeros": 1532970,
+      "build_s": 0.9399380683898926,
+      "solve_s": 16.02279281616211,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "total_cost": 81100811.51654351,
+      "worst_operating_cost": 12083338.481104376,
+      "investment_cost": 69017473.03543913,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        350.0,
+        188.1869542886492,
+        208.33333333333334
+      ],
+      "largest_unmet_tons_on_a_path": 0.4298765201809941
+    },
+    "design_for_learning__operated_knowing__thm1_set": {
+      "scenarios": 1648,
+      "nodes": 39552,
+      "variables": 909702,
+      "rows": 514178,
+      "nonzeros": 2928498,
+      "build_s": 1.9270288944244385,
+      "solve_s": 14.007528066635132,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "total_cost": 81094050.49426612,
+      "worst_operating_cost": 12075999.999999998,
+      "investment_cost": 69018050.49426612,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        350.0,
+        188.34735951836686,
+        208.33333333333334
+      ],
+      "largest_unmet_tons_on_a_path": 0.31917917987887306
+    }
+  },
+  "counts": {
+    "thm1": 1648,
+    "splus": 2323
+  }
+}

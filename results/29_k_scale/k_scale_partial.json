@@ -1,0 +1,48 @@
+{
+  "rows": [
+    {
+      "k": 1,
+      "scenarios": 258,
+      "kept": 61,
+      "kept_share_pct": 23.643410852713178,
+      "write_down_kept_s": 5.91278076171875e-05,
+      "T_at_least_k_times_longest": true,
+      "list_all_s": 0.00016570091247558594,
+      "distinct_matrices": 258,
+      "pairwise_filter_s": 0.0014951229095458984,
+      "filter_equals_direct": true
+    },
+    {
+      "k": 2,
+      "scenarios": 29916,
+      "kept": 1648,
+      "kept_share_pct": 5.508757855328253,
+      "write_down_kept_s": 0.0010690689086914062,
+      "T_at_least_k_times_longest": true,
+      "list_all_s": 0.017200946807861328,
+      "distinct_matrices": 29207,
+      "pairwise_filter_s": 0.1815319061279297,
+      "filter_equals_direct": true
+    },
+    {
+      "k": 3,
+      "scenarios": 2076358,
+      "kept": 26223,
+      "kept_share_pct": 1.262932500079466,
+      "write_down_kept_s": 0.047477006912231445,
+      "T_at_least_k_times_longest": true,
+      "list_all_s": 1.2244071960449219,
+      "distinct_matrices": 1927368,
+      "pairwise_filter_s": 33.8986611366272,
+      "filter_equals_direct": true
+    },
+    {
+      "k": 4,
+      "scenarios": 97054549,
+      "kept": 275691,
+      "kept_share_pct": 0.28405778280418365,
+      "write_down_kept_s": 0.5817883014678955,
+      "T_at_least_k_times_longest": true
+    }
+  ]
+}

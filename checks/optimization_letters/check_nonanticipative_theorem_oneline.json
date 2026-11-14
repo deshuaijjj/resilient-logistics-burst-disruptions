@@ -1,0 +1,63 @@
+{
+ "oneline": {
+  "settings": 286,
+  "scenarios": 39449,
+  "values": [
+   {
+    "K": 1,
+    "T": 5,
+    "lmin": 1,
+    "L": 2,
+    "k": 2,
+    "scenarios": 28,
+    "theorem1_set": 3,
+    "trials": 200,
+    "gap_with_theorem1_set": 0
+   },
+   {
+    "K": 2,
+    "T": 6,
+    "lmin": 2,
+    "L": 3,
+    "k": 2,
+    "scenarios": 27,
+    "theorem1_set": 1,
+    "trials": 200,
+    "gap_with_theorem1_set": 0
+   },
+   {
+    "K": 1,
+    "T": 6,
+    "lmin": 1,
+    "L": 3,
+    "k": 1,
+    "scenarios": 16,
+    "theorem1_set": 4,
+    "trials": 200,
+    "gap_with_theorem1_set": 0
+   },
+   {
+    "K": 2,
+    "T": 7,
+    "lmin": 1,
+    "L": 2,
+    "k": 3,
+    "scenarios": 120,
+    "theorem1_set": 4,
+    "trials": 200,
+    "gap_with_theorem1_set": 0
+   },
+   {
+    "K": 1,
+    "T": 8,
+    "lmin": 2,
+    "L": 4,
+    "k": 2,
+    "scenarios": 75,
+    "theorem1_set": 1,
+    "trials": 200,
+    "gap_with_theorem1_set": 0
+   }
+  ]
+ }
+}

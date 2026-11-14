@@ -1,0 +1,86 @@
+{
+  "instance": "lunar example: T = 24, shortest outages [2, 2, 1], longest outages [6, 6, 2]",
+  "single_outages": {
+    "all": 259,
+    "thm1": 61,
+    "splus": 72
+  },
+  "rows": [
+    {
+      "k": 1,
+      "scenarios": 260,
+      "thm1": 61,
+      "splus": 72,
+      "thm1_share_pct": 23.46153846153846,
+      "splus_share_pct": 27.692307692307693,
+      "write_down_thm1_s": 7.200241088867188e-05,
+      "write_down_splus_s": 7.486343383789062e-05,
+      "T_at_least_k_times_longest": true,
+      "k_at_most_sum_of_ceil_T_over_longest": true,
+      "list_all_s": 0.0008199214935302734,
+      "pairwise_filter_s": 0.0016050338745117188,
+      "filter_equals_thm1": true
+    },
+    {
+      "k": 2,
+      "scenarios": 29704,
+      "thm1": 1648,
+      "splus": 2323,
+      "thm1_share_pct": 5.548074333423108,
+      "splus_share_pct": 7.820495556154054,
+      "write_down_thm1_s": 0.0022041797637939453,
+      "write_down_splus_s": 0.0027408599853515625,
+      "T_at_least_k_times_longest": true,
+      "k_at_most_sum_of_ceil_T_over_longest": true,
+      "list_all_s": 0.023881912231445312,
+      "pairwise_filter_s": 0.15383219718933105,
+      "filter_equals_thm1": true
+    },
+    {
+      "k": 3,
+      "scenarios": 1981386,
+      "thm1": 26223,
+      "splus": 44652,
+      "thm1_share_pct": 1.3234675121354447,
+      "splus_share_pct": 2.2535740133421758,
+      "write_down_thm1_s": 0.0534977912902832,
+      "write_down_splus_s": 0.07436418533325195,
+      "T_at_least_k_times_longest": true,
+      "k_at_most_sum_of_ceil_T_over_longest": true,
+      "list_all_s": 0.9749250411987305,
+      "pairwise_filter_s": 31.817731142044067,
+      "filter_equals_thm1": true
+    },
+    {
+      "k": 4,
+      "scenarios": 86659918,
+      "thm1": 275691,
+      "splus": 573588,
+      "thm1_share_pct": 0.318129772520671,
+      "splus_share_pct": 0.6618838480784162,
+      "write_down_thm1_s": 0.9566142559051514,
+      "write_down_splus_s": 1.662034273147583,
+      "T_at_least_k_times_longest": true,
+      "k_at_most_sum_of_ceil_T_over_longest": true
+    }
+  ],
+  "environment": {
+    "timestamp": "2026-11-11T23:33:23.263532-05:00",
+    "python_version": "3.9.6",
+    "numpy_version": "2.0.2",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-15.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 12,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": null,
+    "hardware_model": "Mac14,13",
+    "memory_bytes": 34359738368
+  }
+}

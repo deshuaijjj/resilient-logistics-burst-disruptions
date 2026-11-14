@@ -1,0 +1,2023 @@
+{
+  "instance": "lunar example, demand from month 2, at most 4 outages",
+  "time_limit_per_milp_s": 1800.0,
+  "summary": {
+    "all_single_outages": {
+      "runs": 3,
+      "finished_runs": 3,
+      "zero_one_variables": 259,
+      "rounds": 6,
+      "total_cost": 5580043826.359018,
+      "q": [
+        350.0,
+        116.6184330606615,
+        450.0
+      ],
+      "C": [
+        600.0,
+        600.0
+      ],
+      "wall_s_all_runs": [
+        36.55780625343323,
+        37.18453598022461,
+        37.023508071899414
+      ],
+      "median_wall_s": 37.023508071899414,
+      "median_milp_s": 36.87811517715454,
+      "median_design_lp_s": 0.1252739429473877
+    },
+    "longest_ending_inside": {
+      "runs": 3,
+      "finished_runs": 3,
+      "zero_one_variables": 61,
+      "rounds": 6,
+      "total_cost": 5580043826.359018,
+      "q": [
+        350.0,
+        116.6184330606615,
+        450.0
+      ],
+      "C": [
+        600.0,
+        600.0
+      ],
+      "wall_s_all_runs": [
+        13.44020414352417,
+        13.4890718460083,
+        13.474055290222168
+      ],
+      "median_wall_s": 13.474055290222168,
+      "median_milp_s": 13.32945704460144,
+      "median_design_lp_s": 0.1261906623840332
+    },
+    "longest_ending_inside_exactly_k": {
+      "runs": 3,
+      "finished_runs": 3,
+      "zero_one_variables": 61,
+      "rounds": 6,
+      "total_cost": 5580043826.359018,
+      "q": [
+        350.0,
+        116.6184330606615,
+        450.0
+      ],
+      "C": [
+        600.0,
+        600.0
+      ],
+      "wall_s_all_runs": [
+        22.14522385597229,
+        23.010245084762573,
+        23.074591875076294
+      ],
+      "median_wall_s": 23.010245084762573,
+      "median_milp_s": 22.863329648971558,
+      "median_design_lp_s": 0.12804317474365234
+    }
+  },
+  "same_cost_in_all_finished_variants": true,
+  "runs": {
+    "all_single_outages": [
+      {
+        "finished": true,
+        "rounds": 6,
+        "binaries": 259,
+        "design_lp_s_total": 0.1246798038482666,
+        "milp_s_total": 36.40929079055786,
+        "wall_s": 36.55780625343323,
+        "total_cost": 5580043826.359018,
+        "worst_operating_cost": 5509543999.999999,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          350.0,
+          116.6184330606615,
+          450.0
+        ],
+        "round_log": [
+          {
+            "round": 1,
+            "scenarios_in_design_lp": 1,
+            "design_lp_s": 0.005107879638671875,
+            "milp_s": 0.004892110824584961,
+            "reported_worst_operating_cost": 7016499.999999998,
+            "milp_bound": 81250041000.0,
+            "true_worst_operating_cost": 81250041000.0,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                6,
+                6
+              ],
+              [
+                0,
+                12,
+                4
+              ],
+              [
+                0,
+                16,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 2,
+            "scenarios_in_design_lp": 2,
+            "design_lp_s": 0.011133909225463867,
+            "milp_s": 0.0035986900329589844,
+            "reported_worst_operating_cost": 8487000.0,
+            "milp_bound": 81250041000.00009,
+            "true_worst_operating_cost": 81250041000.00008,
+            "worst_events": [
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                1,
+                6,
+                6
+              ],
+              [
+                1,
+                12,
+                4
+              ],
+              [
+                1,
+                16,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 3,
+            "scenarios_in_design_lp": 3,
+            "design_lp_s": 0.0137939453125,
+            "milp_s": 1.1446950435638428,
+            "reported_worst_operating_cost": 8486999.999999998,
+            "milp_bound": 40003675459.616005,
+            "true_worst_operating_cost": 40003675459.61599,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                6,
+                6
+              ],
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                1,
+                6,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 4,
+            "scenarios_in_design_lp": 4,
+            "design_lp_s": 0.021116018295288086,
+            "milp_s": 18.833651065826416,
+            "reported_worst_operating_cost": 20924637.306507587,
+            "milp_bound": 7342307353.023748,
+            "true_worst_operating_cost": 7342307353.0237465,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 5,
+            "scenarios_in_design_lp": 5,
+            "design_lp_s": 0.03548383712768555,
+            "milp_s": 2.371222972869873,
+            "reported_worst_operating_cost": 5509499000.0,
+            "milp_bound": 14755749000.000002,
+            "true_worst_operating_cost": 14755749000.0,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                4,
+                2
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 6,
+            "scenarios_in_design_lp": 6,
+            "design_lp_s": 0.03804421424865723,
+            "milp_s": 14.051230907440186,
+            "reported_worst_operating_cost": 5509544000.0,
+            "milp_bound": 5509544000.000007,
+            "true_worst_operating_cost": 5509543999.999999,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                4,
+                2
+              ]
+            ],
+            "converged": true
+          }
+        ]
+      },
+      {
+        "finished": true,
+        "rounds": 6,
+        "binaries": 259,
+        "design_lp_s_total": 0.1252739429473877,
+        "milp_s_total": 37.0403151512146,
+        "wall_s": 37.18453598022461,
+        "total_cost": 5580043826.359018,
+        "worst_operating_cost": 5509543999.999999,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          350.0,
+          116.6184330606615,
+          450.0
+        ],
+        "round_log": [
+          {
+            "round": 1,
+            "scenarios_in_design_lp": 1,
+            "design_lp_s": 0.0044460296630859375,
+            "milp_s": 0.003835916519165039,
+            "reported_worst_operating_cost": 7016499.999999998,
+            "milp_bound": 81250041000.0,
+            "true_worst_operating_cost": 81250041000.0,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                6,
+                6
+              ],
+              [
+                0,
+                12,
+                4
+              ],
+              [
+                0,
+                16,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 2,
+            "scenarios_in_design_lp": 2,
+            "design_lp_s": 0.011256694793701172,
+            "milp_s": 0.0035560131072998047,
+            "reported_worst_operating_cost": 8487000.0,
+            "milp_bound": 81250041000.00009,
+            "true_worst_operating_cost": 81250041000.00008,
+            "worst_events": [
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                1,
+                6,
+                6
+              ],
+              [
+                1,
+                12,
+                4
+              ],
+              [
+                1,
+                16,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 3,
+            "scenarios_in_design_lp": 3,
+            "design_lp_s": 0.013901710510253906,
+            "milp_s": 1.1525850296020508,
+            "reported_worst_operating_cost": 8486999.999999998,
+            "milp_bound": 40003675459.616005,
+            "true_worst_operating_cost": 40003675459.61599,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                6,
+                6
+              ],
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                1,
+                6,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 4,
+            "scenarios_in_design_lp": 4,
+            "design_lp_s": 0.02115631103515625,
+            "milp_s": 19.37835431098938,
+            "reported_worst_operating_cost": 20924637.306507587,
+            "milp_bound": 7342307353.023748,
+            "true_worst_operating_cost": 7342307353.0237465,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 5,
+            "scenarios_in_design_lp": 5,
+            "design_lp_s": 0.03569507598876953,
+            "milp_s": 2.353023052215576,
+            "reported_worst_operating_cost": 5509499000.0,
+            "milp_bound": 14755749000.000002,
+            "true_worst_operating_cost": 14755749000.0,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                4,
+                2
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 6,
+            "scenarios_in_design_lp": 6,
+            "design_lp_s": 0.0388181209564209,
+            "milp_s": 14.148960828781128,
+            "reported_worst_operating_cost": 5509544000.0,
+            "milp_bound": 5509544000.000007,
+            "true_worst_operating_cost": 5509543999.999999,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                4,
+                2
+              ]
+            ],
+            "converged": true
+          }
+        ]
+      },
+      {
+        "finished": true,
+        "rounds": 6,
+        "binaries": 259,
+        "design_lp_s_total": 0.12668204307556152,
+        "milp_s_total": 36.87811517715454,
+        "wall_s": 37.023508071899414,
+        "total_cost": 5580043826.359018,
+        "worst_operating_cost": 5509543999.999999,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          350.0,
+          116.6184330606615,
+          450.0
+        ],
+        "round_log": [
+          {
+            "round": 1,
+            "scenarios_in_design_lp": 1,
+            "design_lp_s": 0.004255056381225586,
+            "milp_s": 0.0036630630493164062,
+            "reported_worst_operating_cost": 7016499.999999998,
+            "milp_bound": 81250041000.0,
+            "true_worst_operating_cost": 81250041000.0,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                6,
+                6
+              ],
+              [
+                0,
+                12,
+                4
+              ],
+              [
+                0,
+                16,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 2,
+            "scenarios_in_design_lp": 2,
+            "design_lp_s": 0.011196136474609375,
+            "milp_s": 0.0034160614013671875,
+            "reported_worst_operating_cost": 8487000.0,
+            "milp_bound": 81250041000.00009,
+            "true_worst_operating_cost": 81250041000.00008,
+            "worst_events": [
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                1,
+                6,
+                6
+              ],
+              [
+                1,
+                12,
+                4
+              ],
+              [
+                1,
+                16,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 3,
+            "scenarios_in_design_lp": 3,
+            "design_lp_s": 0.01380300521850586,
+            "milp_s": 1.145341157913208,
+            "reported_worst_operating_cost": 8486999.999999998,
+            "milp_bound": 40003675459.616005,
+            "true_worst_operating_cost": 40003675459.61599,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                6,
+                6
+              ],
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                1,
+                6,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 4,
+            "scenarios_in_design_lp": 4,
+            "design_lp_s": 0.0211179256439209,
+            "milp_s": 19.28252100944519,
+            "reported_worst_operating_cost": 20924637.306507587,
+            "milp_bound": 7342307353.023748,
+            "true_worst_operating_cost": 7342307353.0237465,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 5,
+            "scenarios_in_design_lp": 5,
+            "design_lp_s": 0.03778886795043945,
+            "milp_s": 2.364576816558838,
+            "reported_worst_operating_cost": 5509499000.0,
+            "milp_bound": 14755749000.000002,
+            "true_worst_operating_cost": 14755749000.0,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                4,
+                2
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 6,
+            "scenarios_in_design_lp": 6,
+            "design_lp_s": 0.03852105140686035,
+            "milp_s": 14.078597068786621,
+            "reported_worst_operating_cost": 5509544000.0,
+            "milp_bound": 5509544000.000007,
+            "true_worst_operating_cost": 5509543999.999999,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                4,
+                2
+              ]
+            ],
+            "converged": true
+          }
+        ]
+      }
+    ],
+    "longest_ending_inside": [
+      {
+        "finished": true,
+        "rounds": 6,
+        "binaries": 61,
+        "design_lp_s_total": 0.12585115432739258,
+        "milp_s_total": 13.29655385017395,
+        "wall_s": 13.44020414352417,
+        "total_cost": 5580043826.359018,
+        "worst_operating_cost": 5509544000.0,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          350.0,
+          116.6184330606615,
+          450.0
+        ],
+        "round_log": [
+          {
+            "round": 1,
+            "scenarios_in_design_lp": 1,
+            "design_lp_s": 0.004129886627197266,
+            "milp_s": 0.0023589134216308594,
+            "reported_worst_operating_cost": 7016499.999999998,
+            "milp_bound": 81250041000.0,
+            "true_worst_operating_cost": 81250041000.0,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                6,
+                6
+              ],
+              [
+                0,
+                12,
+                6
+              ],
+              [
+                0,
+                18,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 2,
+            "scenarios_in_design_lp": 2,
+            "design_lp_s": 0.010847806930541992,
+            "milp_s": 0.0022499561309814453,
+            "reported_worst_operating_cost": 8487000.0,
+            "milp_bound": 81250041000.00009,
+            "true_worst_operating_cost": 81250041000.00008,
+            "worst_events": [
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                1,
+                6,
+                6
+              ],
+              [
+                1,
+                12,
+                6
+              ],
+              [
+                1,
+                18,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 3,
+            "scenarios_in_design_lp": 3,
+            "design_lp_s": 0.013707876205444336,
+            "milp_s": 0.47250986099243164,
+            "reported_worst_operating_cost": 8486999.999999998,
+            "milp_bound": 40003675459.61599,
+            "true_worst_operating_cost": 40003675459.61599,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                6,
+                6
+              ],
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                1,
+                6,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 4,
+            "scenarios_in_design_lp": 4,
+            "design_lp_s": 0.020686864852905273,
+            "milp_s": 6.405199289321899,
+            "reported_worst_operating_cost": 20924637.306507587,
+            "milp_bound": 7342307353.023747,
+            "true_worst_operating_cost": 7342307353.0237465,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 5,
+            "scenarios_in_design_lp": 5,
+            "design_lp_s": 0.03777170181274414,
+            "milp_s": 1.114391803741455,
+            "reported_worst_operating_cost": 5509499000.0,
+            "milp_bound": 14755749000.000002,
+            "true_worst_operating_cost": 14755749000.0,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                4,
+                2
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 6,
+            "scenarios_in_design_lp": 6,
+            "design_lp_s": 0.03870701789855957,
+            "milp_s": 5.299844026565552,
+            "reported_worst_operating_cost": 5509544000.0,
+            "milp_bound": 5509544000.000001,
+            "true_worst_operating_cost": 5509544000.0,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ]
+            ],
+            "converged": true
+          }
+        ]
+      },
+      {
+        "finished": true,
+        "rounds": 6,
+        "binaries": 61,
+        "design_lp_s_total": 0.13961434364318848,
+        "milp_s_total": 13.331148624420166,
+        "wall_s": 13.4890718460083,
+        "total_cost": 5580043826.359018,
+        "worst_operating_cost": 5509544000.0,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          350.0,
+          116.6184330606615,
+          450.0
+        ],
+        "round_log": [
+          {
+            "round": 1,
+            "scenarios_in_design_lp": 1,
+            "design_lp_s": 0.004127025604248047,
+            "milp_s": 0.002338886260986328,
+            "reported_worst_operating_cost": 7016499.999999998,
+            "milp_bound": 81250041000.0,
+            "true_worst_operating_cost": 81250041000.0,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                6,
+                6
+              ],
+              [
+                0,
+                12,
+                6
+              ],
+              [
+                0,
+                18,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 2,
+            "scenarios_in_design_lp": 2,
+            "design_lp_s": 0.010919332504272461,
+            "milp_s": 0.0022988319396972656,
+            "reported_worst_operating_cost": 8487000.0,
+            "milp_bound": 81250041000.00009,
+            "true_worst_operating_cost": 81250041000.00008,
+            "worst_events": [
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                1,
+                6,
+                6
+              ],
+              [
+                1,
+                12,
+                6
+              ],
+              [
+                1,
+                18,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 3,
+            "scenarios_in_design_lp": 3,
+            "design_lp_s": 0.013581037521362305,
+            "milp_s": 0.4710509777069092,
+            "reported_worst_operating_cost": 8486999.999999998,
+            "milp_bound": 40003675459.61599,
+            "true_worst_operating_cost": 40003675459.61599,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                6,
+                6
+              ],
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                1,
+                6,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 4,
+            "scenarios_in_design_lp": 4,
+            "design_lp_s": 0.020850181579589844,
+            "milp_s": 6.382289886474609,
+            "reported_worst_operating_cost": 20924637.306507587,
+            "milp_bound": 7342307353.023747,
+            "true_worst_operating_cost": 7342307353.0237465,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 5,
+            "scenarios_in_design_lp": 5,
+            "design_lp_s": 0.05299186706542969,
+            "milp_s": 1.1146411895751953,
+            "reported_worst_operating_cost": 5509499000.0,
+            "milp_bound": 14755749000.000002,
+            "true_worst_operating_cost": 14755749000.0,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                4,
+                2
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 6,
+            "scenarios_in_design_lp": 6,
+            "design_lp_s": 0.03714489936828613,
+            "milp_s": 5.3585288524627686,
+            "reported_worst_operating_cost": 5509544000.0,
+            "milp_bound": 5509544000.000001,
+            "true_worst_operating_cost": 5509544000.0,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ]
+            ],
+            "converged": true
+          }
+        ]
+      },
+      {
+        "finished": true,
+        "rounds": 6,
+        "binaries": 61,
+        "design_lp_s_total": 0.1261906623840332,
+        "milp_s_total": 13.32945704460144,
+        "wall_s": 13.474055290222168,
+        "total_cost": 5580043826.359018,
+        "worst_operating_cost": 5509544000.0,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          350.0,
+          116.6184330606615,
+          450.0
+        ],
+        "round_log": [
+          {
+            "round": 1,
+            "scenarios_in_design_lp": 1,
+            "design_lp_s": 0.004237174987792969,
+            "milp_s": 0.0024640560150146484,
+            "reported_worst_operating_cost": 7016499.999999998,
+            "milp_bound": 81250041000.0,
+            "true_worst_operating_cost": 81250041000.0,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                6,
+                6
+              ],
+              [
+                0,
+                12,
+                6
+              ],
+              [
+                0,
+                18,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 2,
+            "scenarios_in_design_lp": 2,
+            "design_lp_s": 0.011059761047363281,
+            "milp_s": 0.0022492408752441406,
+            "reported_worst_operating_cost": 8487000.0,
+            "milp_bound": 81250041000.00009,
+            "true_worst_operating_cost": 81250041000.00008,
+            "worst_events": [
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                1,
+                6,
+                6
+              ],
+              [
+                1,
+                12,
+                6
+              ],
+              [
+                1,
+                18,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 3,
+            "scenarios_in_design_lp": 3,
+            "design_lp_s": 0.013930797576904297,
+            "milp_s": 0.47667980194091797,
+            "reported_worst_operating_cost": 8486999.999999998,
+            "milp_bound": 40003675459.61599,
+            "true_worst_operating_cost": 40003675459.61599,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                6,
+                6
+              ],
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                1,
+                6,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 4,
+            "scenarios_in_design_lp": 4,
+            "design_lp_s": 0.020966053009033203,
+            "milp_s": 6.3827080726623535,
+            "reported_worst_operating_cost": 20924637.306507587,
+            "milp_bound": 7342307353.023747,
+            "true_worst_operating_cost": 7342307353.0237465,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 5,
+            "scenarios_in_design_lp": 5,
+            "design_lp_s": 0.03777790069580078,
+            "milp_s": 1.1115729808807373,
+            "reported_worst_operating_cost": 5509499000.0,
+            "milp_bound": 14755749000.000002,
+            "true_worst_operating_cost": 14755749000.0,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                4,
+                2
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 6,
+            "scenarios_in_design_lp": 6,
+            "design_lp_s": 0.03821897506713867,
+            "milp_s": 5.353782892227173,
+            "reported_worst_operating_cost": 5509544000.0,
+            "milp_bound": 5509544000.000001,
+            "true_worst_operating_cost": 5509544000.0,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ]
+            ],
+            "converged": true
+          }
+        ]
+      }
+    ],
+    "longest_ending_inside_exactly_k": [
+      {
+        "finished": true,
+        "rounds": 6,
+        "binaries": 61,
+        "design_lp_s_total": 0.12547993659973145,
+        "milp_s_total": 22.00124454498291,
+        "wall_s": 22.14522385597229,
+        "total_cost": 5580043826.359018,
+        "worst_operating_cost": 5509544000.0,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          350.0,
+          116.6184330606615,
+          450.0
+        ],
+        "round_log": [
+          {
+            "round": 1,
+            "scenarios_in_design_lp": 1,
+            "design_lp_s": 0.004139900207519531,
+            "milp_s": 0.0030639171600341797,
+            "reported_worst_operating_cost": 7016499.999999998,
+            "milp_bound": 81250041000.0,
+            "true_worst_operating_cost": 81250041000.0,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                6,
+                6
+              ],
+              [
+                0,
+                12,
+                6
+              ],
+              [
+                0,
+                18,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 2,
+            "scenarios_in_design_lp": 2,
+            "design_lp_s": 0.011147022247314453,
+            "milp_s": 0.0028960704803466797,
+            "reported_worst_operating_cost": 8487000.0,
+            "milp_bound": 81250041000.00009,
+            "true_worst_operating_cost": 81250041000.00008,
+            "worst_events": [
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                1,
+                6,
+                6
+              ],
+              [
+                1,
+                12,
+                6
+              ],
+              [
+                1,
+                18,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 3,
+            "scenarios_in_design_lp": 3,
+            "design_lp_s": 0.013656854629516602,
+            "milp_s": 0.9343571662902832,
+            "reported_worst_operating_cost": 8486999.999999998,
+            "milp_bound": 40003675459.61601,
+            "true_worst_operating_cost": 40003675459.61599,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                6,
+                6
+              ],
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                1,
+                6,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 4,
+            "scenarios_in_design_lp": 4,
+            "design_lp_s": 0.021692991256713867,
+            "milp_s": 11.335681200027466,
+            "reported_worst_operating_cost": 20924637.306507587,
+            "milp_bound": 7342307353.023747,
+            "true_worst_operating_cost": 7342307353.0237465,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 5,
+            "scenarios_in_design_lp": 5,
+            "design_lp_s": 0.03705334663391113,
+            "milp_s": 1.8644721508026123,
+            "reported_worst_operating_cost": 5509499000.0,
+            "milp_bound": 14755749000.000029,
+            "true_worst_operating_cost": 14755749000.0,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                4,
+                2
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 6,
+            "scenarios_in_design_lp": 6,
+            "design_lp_s": 0.03778982162475586,
+            "milp_s": 7.860774040222168,
+            "reported_worst_operating_cost": 5509544000.0,
+            "milp_bound": 5509544000.000001,
+            "true_worst_operating_cost": 5509544000.0,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ]
+            ],
+            "converged": true
+          }
+        ]
+      },
+      {
+        "finished": true,
+        "rounds": 6,
+        "binaries": 61,
+        "design_lp_s_total": 0.12804317474365234,
+        "milp_s_total": 22.863329648971558,
+        "wall_s": 23.010245084762573,
+        "total_cost": 5580043826.359018,
+        "worst_operating_cost": 5509544000.0,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          350.0,
+          116.6184330606615,
+          450.0
+        ],
+        "round_log": [
+          {
+            "round": 1,
+            "scenarios_in_design_lp": 1,
+            "design_lp_s": 0.0041790008544921875,
+            "milp_s": 0.003240823745727539,
+            "reported_worst_operating_cost": 7016499.999999998,
+            "milp_bound": 81250041000.0,
+            "true_worst_operating_cost": 81250041000.0,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                6,
+                6
+              ],
+              [
+                0,
+                12,
+                6
+              ],
+              [
+                0,
+                18,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 2,
+            "scenarios_in_design_lp": 2,
+            "design_lp_s": 0.011229991912841797,
+            "milp_s": 0.0028710365295410156,
+            "reported_worst_operating_cost": 8487000.0,
+            "milp_bound": 81250041000.00009,
+            "true_worst_operating_cost": 81250041000.00008,
+            "worst_events": [
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                1,
+                6,
+                6
+              ],
+              [
+                1,
+                12,
+                6
+              ],
+              [
+                1,
+                18,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 3,
+            "scenarios_in_design_lp": 3,
+            "design_lp_s": 0.013761043548583984,
+            "milp_s": 0.9292259216308594,
+            "reported_worst_operating_cost": 8486999.999999998,
+            "milp_bound": 40003675459.61601,
+            "true_worst_operating_cost": 40003675459.61599,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                6,
+                6
+              ],
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                1,
+                6,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 4,
+            "scenarios_in_design_lp": 4,
+            "design_lp_s": 0.02095317840576172,
+            "milp_s": 11.655679941177368,
+            "reported_worst_operating_cost": 20924637.306507587,
+            "milp_bound": 7342307353.023747,
+            "true_worst_operating_cost": 7342307353.0237465,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 5,
+            "scenarios_in_design_lp": 5,
+            "design_lp_s": 0.03881406784057617,
+            "milp_s": 1.9453279972076416,
+            "reported_worst_operating_cost": 5509499000.0,
+            "milp_bound": 14755749000.000029,
+            "true_worst_operating_cost": 14755749000.0,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                4,
+                2
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 6,
+            "scenarios_in_design_lp": 6,
+            "design_lp_s": 0.039105892181396484,
+            "milp_s": 8.32698392868042,
+            "reported_worst_operating_cost": 5509544000.0,
+            "milp_bound": 5509544000.000001,
+            "true_worst_operating_cost": 5509544000.0,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ]
+            ],
+            "converged": true
+          }
+        ]
+      },
+      {
+        "finished": true,
+        "rounds": 6,
+        "binaries": 61,
+        "design_lp_s_total": 0.1290745735168457,
+        "milp_s_total": 22.925937175750732,
+        "wall_s": 23.074591875076294,
+        "total_cost": 5580043826.359018,
+        "worst_operating_cost": 5509544000.0,
+        "C": [
+          600.0,
+          600.0
+        ],
+        "q": [
+          350.0,
+          116.6184330606615,
+          450.0
+        ],
+        "round_log": [
+          {
+            "round": 1,
+            "scenarios_in_design_lp": 1,
+            "design_lp_s": 0.004348039627075195,
+            "milp_s": 0.003016948699951172,
+            "reported_worst_operating_cost": 7016499.999999998,
+            "milp_bound": 81250041000.0,
+            "true_worst_operating_cost": 81250041000.0,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                6,
+                6
+              ],
+              [
+                0,
+                12,
+                6
+              ],
+              [
+                0,
+                18,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 2,
+            "scenarios_in_design_lp": 2,
+            "design_lp_s": 0.011461019515991211,
+            "milp_s": 0.0029082298278808594,
+            "reported_worst_operating_cost": 8487000.0,
+            "milp_bound": 81250041000.00009,
+            "true_worst_operating_cost": 81250041000.00008,
+            "worst_events": [
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                1,
+                6,
+                6
+              ],
+              [
+                1,
+                12,
+                6
+              ],
+              [
+                1,
+                18,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 3,
+            "scenarios_in_design_lp": 3,
+            "design_lp_s": 0.014177083969116211,
+            "milp_s": 0.9620029926300049,
+            "reported_worst_operating_cost": 8486999.999999998,
+            "milp_bound": 40003675459.61601,
+            "true_worst_operating_cost": 40003675459.61599,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                6,
+                6
+              ],
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                1,
+                6,
+                6
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 4,
+            "scenarios_in_design_lp": 4,
+            "design_lp_s": 0.021551132202148438,
+            "milp_s": 11.820060968399048,
+            "reported_worst_operating_cost": 20924637.306507587,
+            "milp_bound": 7342307353.023747,
+            "true_worst_operating_cost": 7342307353.0237465,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 5,
+            "scenarios_in_design_lp": 5,
+            "design_lp_s": 0.03850197792053223,
+            "milp_s": 1.9422879219055176,
+            "reported_worst_operating_cost": 5509499000.0,
+            "milp_bound": 14755749000.000029,
+            "true_worst_operating_cost": 14755749000.0,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                4,
+                2
+              ]
+            ],
+            "converged": false
+          },
+          {
+            "round": 6,
+            "scenarios_in_design_lp": 6,
+            "design_lp_s": 0.03903532028198242,
+            "milp_s": 8.19566011428833,
+            "reported_worst_operating_cost": 5509544000.0,
+            "milp_bound": 5509544000.000001,
+            "true_worst_operating_cost": 5509544000.0,
+            "worst_events": [
+              [
+                0,
+                0,
+                6
+              ],
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ]
+            ],
+            "converged": true
+          }
+        ]
+      }
+    ]
+  },
+  "environment": {
+    "timestamp": "2026-11-11T23:41:02.434035-05:00",
+    "python_version": "3.9.6",
+    "numpy_version": "2.0.2",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-15.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 12,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": null,
+    "hardware_model": "Mac14,13",
+    "memory_bytes": 34359738368
+  }
+}

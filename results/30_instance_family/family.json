@@ -1,0 +1,2956 @@
+{
+  "description": "random examples around the lunar one; see random_instance()",
+  "rows": [
+    {
+      "transport_cost": [
+        1.1369616873214543,
+        0.7697867137638703,
+        0.5409735239361947
+      ],
+      "line_cost": [
+        0.5165276355285291,
+        1.3132702392002724,
+        1.4127555772777218
+      ],
+      "depot_cost": [
+        1.1066357757671799,
+        1.2294965609839985
+      ],
+      "holding_cost": 1.043624991465423,
+      "demand_level": [
+        1.261043454272661,
+        1.1895121324729194
+      ],
+      "initial_stock": 0.5068462504253702,
+      "seed": 0,
+      "L_max": [
+        6,
+        6,
+        2
+      ],
+      "peak_periods_commodity_1": [
+        2,
+        9,
+        14,
+        20
+      ],
+      "peak_periods_commodity_2": [
+        3,
+        5,
+        21
+      ],
+      "total_demand_tons": 10080.793017372896,
+      "scenarios": 29916,
+      "kept": 1648,
+      "rounds": 6,
+      "operating_problems_kept": 9888,
+      "operating_problems_if_all": 179496,
+      "wall_s_kept": 20.258946657180786,
+      "total_cost": 2284235595.5412245,
+      "investment_cost": 45878520.50893353,
+      "q": [
+        391.4255201538163,
+        391.3757142564791,
+        420.9814678637933
+      ],
+      "C": [
+        304.10775025522213,
+        304.10775025522213
+      ],
+      "worst_unmet_tons": 222.95082813495702,
+      "worst_unmet_share_pct": 2.21163977626295,
+      "deciding_scenarios": [
+        [
+          [
+            1,
+            0,
+            6
+          ],
+          [
+            2,
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            2,
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ]
+      ],
+      "n_deciding": 3,
+      "earliest_start_period_of_deciding": [
+        1,
+        1,
+        1
+      ],
+      "a_deciding_scenario_starts_in_period_1": true,
+      "wall_s_all": 369.77730321884155,
+      "rounds_all": 6,
+      "operating_problems_all_measured": 179496,
+      "same_cost_with_all_scenarios": true
+    },
+    {
+      "transport_cost": [
+        1.0118216247002567,
+        1.4504636963259352,
+        0.6441596127196337
+      ],
+      "line_cost": [
+        1.4486494471372438,
+        0.8118314520104855,
+        0.9233264489725757
+      ],
+      "depot_cost": [
+        1.3277025938204416,
+        0.9091991363691613
+      ],
+      "holding_cost": 1.0495936876730596,
+      "demand_level": [
+        0.716535467945841,
+        1.152107865204884
+      ],
+      "initial_stock": 1.8453582830481956,
+      "seed": 1,
+      "L_max": [
+        6,
+        4,
+        2
+      ],
+      "peak_periods_commodity_1": [
+        8,
+        11,
+        18,
+        20
+      ],
+      "peak_periods_commodity_2": [
+        5,
+        11,
+        23
+      ],
+      "total_demand_tons": 7037.588156220973,
+      "scenarios": 21790,
+      "kept": 1794,
+      "rounds": 4,
+      "operating_problems_kept": 7176,
+      "operating_problems_if_all": 87160,
+      "wall_s_kept": 17.351919174194336,
+      "total_cost": 142352096.6889426,
+      "investment_cost": 135494933.40228352,
+      "q": [
+        330.3480242946013,
+        145.55430884411857,
+        2.6555519751047503
+      ],
+      "C": [
+        1107.2149698289174,
+        1107.2149698289174
+      ],
+      "worst_unmet_tons": 0.10459126347733161,
+      "worst_unmet_share_pct": 0.0014861805089415002,
+      "deciding_scenarios": [
+        [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            4
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            6,
+            6
+          ]
+        ],
+        [
+          [
+            0,
+            9,
+            6
+          ],
+          [
+            0,
+            15,
+            6
+          ]
+        ]
+      ],
+      "n_deciding": 3,
+      "earliest_start_period_of_deciding": [
+        1,
+        1,
+        10
+      ],
+      "a_deciding_scenario_starts_in_period_1": true,
+      "wall_s_all": 200.9118790626526,
+      "rounds_all": 4,
+      "operating_problems_all_measured": 87160,
+      "same_cost_with_all_scenarios": true
+    },
+    {
+      "transport_cost": [
+        0.7616121342493164,
+        0.7984911434141233,
+        1.3142257405942803
+      ],
+      "line_cost": [
+        0.5919159421350969,
+        1.100100525965654,
+        1.2285605268117945
+      ],
+      "depot_cost": [
+        0.6879010733666034,
+        0.5551466273330682
+      ],
+      "holding_cost": 0.7749693679060381,
+      "demand_level": [
+        1.0944598089253557,
+        1.037359397668257
+      ],
+      "initial_stock": 0.8751556582633403,
+      "seed": 2,
+      "L_max": [
+        5,
+        5,
+        2
+      ],
+      "peak_periods_commodity_1": [
+        11,
+        16,
+        17,
+        23
+      ],
+      "peak_periods_commodity_2": [
+        15,
+        22,
+        24
+      ],
+      "total_demand_tons": 8762.821311784628,
+      "scenarios": 22225,
+      "kept": 1791,
+      "rounds": 4,
+      "operating_problems_kept": 7164,
+      "operating_problems_if_all": 88900,
+      "wall_s_kept": 16.342796087265015,
+      "total_cost": 51876380.99017259,
+      "investment_cost": 39038480.66551575,
+      "q": [
+        398.3564417069751,
+        221.1963482073708,
+        231.26811021277135
+      ],
+      "C": [
+        525.0933949580042,
+        525.0933949580042
+      ],
+      "worst_unmet_tons": 0.0,
+      "worst_unmet_share_pct": 0.0,
+      "deciding_scenarios": [
+        [
+          [
+            0,
+            10,
+            5
+          ],
+          [
+            1,
+            10,
+            5
+          ]
+        ],
+        [
+          [
+            0,
+            12,
+            5
+          ],
+          [
+            0,
+            17,
+            5
+          ]
+        ]
+      ],
+      "n_deciding": 2,
+      "earliest_start_period_of_deciding": [
+        11,
+        13
+      ],
+      "a_deciding_scenario_starts_in_period_1": false,
+      "wall_s_all": 201.42964386940002,
+      "rounds_all": 4,
+      "operating_problems_all_measured": 88900,
+      "same_cost_with_all_scenarios": true
+    },
+    {
+      "transport_cost": [
+        0.5856491671436244,
+        0.7368105065960997,
+        1.3012744652063968
+      ],
+      "line_cost": [
+        1.0821620360643678,
+        0.5941286422403992,
+        0.9331269402364738
+      ],
+      "depot_cost": [
+        0.979051298140834,
+        0.6597389146370786
+      ],
+      "holding_cost": 1.2345771514092145,
+      "demand_level": [
+        0.768203211952842,
+        0.9347369142973972
+      ],
+      "initial_stock": 1.7918504565534092,
+      "seed": 3,
+      "L_max": [
+        6,
+        6,
+        4
+      ],
+      "peak_periods_commodity_1": [
+        10,
+        11,
+        15,
+        16
+      ],
+      "peak_periods_commodity_2": [
+        8,
+        19,
+        22
+      ],
+      "total_demand_tons": 6718.82385886319,
+      "scenarios": 41356,
+      "kept": 1494,
+      "rounds": 8,
+      "operating_problems_kept": 11952,
+      "operating_problems_if_all": 330848,
+      "wall_s_kept": 27.937539100646973,
+      "total_cost": 100297447.48642245,
+      "investment_cost": 96156987.921928,
+      "q": [
+        169.91548661968864,
+        206.49700758183397,
+        12.962076929222084
+      ],
+      "C": [
+        1075.1102739320456,
+        1075.1102739320456
+      ],
+      "worst_unmet_tons": 0.01373295609155889,
+      "worst_unmet_share_pct": 0.00020439523910785294,
+      "deciding_scenarios": [
+        [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ],
+        [
+          [
+            0,
+            14,
+            6
+          ],
+          [
+            1,
+            14,
+            6
+          ]
+        ],
+        [
+          [
+            0,
+            10,
+            6
+          ],
+          [
+            0,
+            16,
+            6
+          ]
+        ]
+      ],
+      "n_deciding": 3,
+      "earliest_start_period_of_deciding": [
+        1,
+        15,
+        11
+      ],
+      "a_deciding_scenario_starts_in_period_1": true,
+      "wall_s_all": 750.2883021831512,
+      "rounds_all": 8,
+      "operating_problems_all_measured": 330848,
+      "same_cost_with_all_scenarios": true
+    },
+    {
+      "transport_cost": [
+        1.4430561055723676,
+        1.0113275528143615,
+        1.476243705707704
+      ],
+      "line_cost": [
+        0.5808360238956022,
+        1.1073558319950296,
+        0.8764865843772726
+      ],
+      "depot_cost": [
+        1.3019012069858071,
+        0.6745278161440285
+      ],
+      "holding_cost": 1.3716352741876565,
+      "demand_level": [
+        1.026364840458099,
+        1.241329047829593
+      ],
+      "initial_stock": 1.6928838095980157,
+      "seed": 4,
+      "L_max": [
+        6,
+        6,
+        4
+      ],
+      "peak_periods_commodity_1": [
+        5,
+        11,
+        19,
+        20
+      ],
+      "peak_periods_commodity_2": [
+        9,
+        18,
+        24
+      ],
+      "total_demand_tons": 8956.025020005116,
+      "scenarios": 41356,
+      "kept": 1494,
+      "rounds": 5,
+      "operating_problems_kept": 7470,
+      "operating_problems_if_all": 206780,
+      "wall_s_kept": 16.498887300491333,
+      "total_cost": 469106467.91196036,
+      "investment_cost": 109334265.75581507,
+      "q": [
+        199.9175520954965,
+        315.68767795352153,
+        90.28665984792237
+      ],
+      "C": [
+        1015.7302857588095,
+        1015.7302857588095
+      ],
+      "worst_unmet_tons": 34.67884096619889,
+      "worst_unmet_share_pct": 0.3872124172134021,
+      "deciding_scenarios": [
+        [
+          [
+            1,
+            6,
+            6
+          ],
+          [
+            1,
+            12,
+            6
+          ]
+        ],
+        [
+          [
+            0,
+            16,
+            6
+          ],
+          [
+            1,
+            16,
+            6
+          ]
+        ]
+      ],
+      "n_deciding": 2,
+      "earliest_start_period_of_deciding": [
+        7,
+        17
+      ],
+      "a_deciding_scenario_starts_in_period_1": false,
+      "wall_s_all": 443.97110390663147,
+      "rounds_all": 5,
+      "operating_problems_all_measured": 206780,
+      "same_cost_with_all_scenarios": true
+    },
+    {
+      "transport_cost": [
+        1.3050029237453802,
+        1.3079407897364939,
+        1.0153255610421419
+      ],
+      "line_cost": [
+        0.7858013800881416,
+        0.5539307023816564,
+        0.8833688807855182
+      ],
+      "depot_cost": [
+        0.9084732054199987,
+        0.5452751939024452
+      ],
+      "holding_cost": 0.5487577107271681,
+      "demand_level": [
+        1.2995056690390427,
+        1.0914214669527926
+      ],
+      "initial_stock": 1.08627550417456,
+      "seed": 5,
+      "L_max": [
+        6,
+        6,
+        4
+      ],
+      "peak_periods_commodity_1": [
+        7,
+        11,
+        23,
+        24
+      ],
+      "peak_periods_commodity_2": [
+        4,
+        11,
+        19
+      ],
+      "total_demand_tons": 10018.739646931012,
+      "scenarios": 41356,
+      "kept": 1494,
+      "rounds": 3,
+      "operating_problems_kept": 4482,
+      "operating_problems_if_all": 124068,
+      "wall_s_kept": 9.626095294952393,
+      "total_cost": 399309929.99736285,
+      "investment_cost": 53964137.10177585,
+      "q": [
+        421.62139493835974,
+        235.18756953462895,
+        278.43836863614393
+      ],
+      "C": [
+        651.7653025047359,
+        651.7653025047359
+      ],
+      "worst_unmet_tons": 32.75650054600672,
+      "worst_unmet_share_pct": 0.3269523083778392,
+      "deciding_scenarios": [
+        [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            6,
+            6
+          ]
+        ]
+      ],
+      "n_deciding": 2,
+      "earliest_start_period_of_deciding": [
+        1,
+        1
+      ],
+      "a_deciding_scenario_starts_in_period_1": true
+    },
+    {
+      "transport_cost": [
+        1.0381643514719432,
+        0.8432708698133384,
+        0.8690672397953783
+      ],
+      "line_cost": [
+        0.8744967655878824,
+        1.4874449901864666,
+        1.132756272607146
+      ],
+      "depot_cost": [
+        1.1743239305044937,
+        0.8299634553854583
+      ],
+      "holding_cost": 1.1799176611640223,
+      "demand_level": [
+        0.773783424932314,
+        0.731037539190265
+      ],
+      "initial_stock": 2.6254783670219677,
+      "seed": 6,
+      "L_max": [
+        6,
+        6,
+        4
+      ],
+      "peak_periods_commodity_1": [
+        2,
+        18,
+        23,
+        24
+      ],
+      "peak_periods_commodity_2": [
+        3,
+        5,
+        18
+      ],
+      "total_demand_tons": 6188.783727407725,
+      "scenarios": 41356,
+      "kept": 1494,
+      "rounds": 6,
+      "operating_problems_kept": 8964,
+      "operating_problems_if_all": 248136,
+      "wall_s_kept": 18.351089000701904,
+      "total_cost": 175917662.03013572,
+      "investment_cost": 171724079.37688413,
+      "q": [
+        147.15688136670252,
+        88.61688743084497,
+        0.0
+      ],
+      "C": [
+        1575.2870202131808,
+        1575.2870202131808
+      ],
+      "worst_unmet_tons": 0.0,
+      "worst_unmet_share_pct": 0.0,
+      "deciding_scenarios": [
+        [
+          [
+            0,
+            16,
+            6
+          ],
+          [
+            1,
+            16,
+            6
+          ]
+        ],
+        [
+          [
+            0,
+            10,
+            6
+          ],
+          [
+            0,
+            16,
+            6
+          ]
+        ]
+      ],
+      "n_deciding": 2,
+      "earliest_start_period_of_deciding": [
+        17,
+        11
+      ],
+      "a_deciding_scenario_starts_in_period_1": false
+    },
+    {
+      "transport_cost": [
+        1.1250954666046669,
+        1.3972138009695754,
+        1.2756856902451936
+      ],
+      "line_cost": [
+        0.7252071899905919,
+        0.8001662849112254,
+        1.373553445396262
+      ],
+      "depot_cost": [
+        0.5052653045655747,
+        1.3212284183827663
+      ],
+      "holding_cost": 1.2970694287520463,
+      "demand_level": [
+        0.9807609717062324,
+        0.8818194560915881
+      ],
+      "initial_stock": 1.1960640302519332,
+      "seed": 7,
+      "L_max": [
+        3,
+        3,
+        3
+      ],
+      "peak_periods_commodity_1": [
+        7,
+        12,
+        16,
+        23
+      ],
+      "peak_periods_commodity_2": [
+        13,
+        23,
+        24
+      ],
+      "total_demand_tons": 7721.112751465522,
+      "scenarios": 12162,
+      "kept": 2022,
+      "rounds": 5,
+      "operating_problems_kept": 10110,
+      "operating_problems_if_all": 60810,
+      "wall_s_kept": 20.28199005126953,
+      "total_cost": 84174252.67553453,
+      "investment_cost": 76206553.46789464,
+      "q": [
+        462.50269844118264,
+        132.54979716455532,
+        0.0
+      ],
+      "C": [
+        717.6384181511598,
+        717.6384181511598
+      ],
+      "worst_unmet_tons": 0.0065275090112209,
+      "worst_unmet_share_pct": 8.454103989068069e-05,
+      "deciding_scenarios": [
+        [
+          [
+            0,
+            8,
+            3
+          ],
+          [
+            0,
+            11,
+            3
+          ]
+        ],
+        [
+          [
+            0,
+            16,
+            3
+          ],
+          [
+            0,
+            19,
+            3
+          ]
+        ]
+      ],
+      "n_deciding": 2,
+      "earliest_start_period_of_deciding": [
+        9,
+        17
+      ],
+      "a_deciding_scenario_starts_in_period_1": false
+    },
+    {
+      "transport_cost": [
+        0.8269722766055607,
+        1.4872768433379255,
+        0.8187108384855167
+      ],
+      "line_cost": [
+        1.288548935820029,
+        1.369896511696216,
+        0.891084806539194
+      ],
+      "depot_cost": [
+        0.9378818731227988,
+        0.872748903089353
+      ],
+      "holding_cost": 0.6069535964727744,
+      "demand_level": [
+        0.9873792724976302,
+        0.8448112870508093
+      ],
+      "initial_stock": 1.1428631213778244,
+      "seed": 8,
+      "L_max": [
+        5,
+        5,
+        2
+      ],
+      "peak_periods_commodity_1": [
+        4,
+        5,
+        6,
+        10
+      ],
+      "peak_periods_commodity_2": [
+        2,
+        7,
+        10
+      ],
+      "total_demand_tons": 7655.079110876928,
+      "scenarios": 22225,
+      "kept": 1791,
+      "rounds": 3,
+      "operating_problems_kept": 5373,
+      "operating_problems_if_all": 66675,
+      "wall_s_kept": 10.353157997131348,
+      "total_cost": 80937255.9404307,
+      "investment_cost": 71575675.4266661,
+      "q": [
+        281.95698320460696,
+        231.89805688382646,
+        233.23542063761468
+      ],
+      "C": [
+        685.7178728266947,
+        685.7178728266947
+      ],
+      "worst_unmet_tons": 0.0,
+      "worst_unmet_share_pct": 0.0,
+      "deciding_scenarios": [
+        [
+          [
+            0,
+            0,
+            5
+          ],
+          [
+            1,
+            0,
+            5
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            5
+          ],
+          [
+            0,
+            5,
+            5
+          ]
+        ]
+      ],
+      "n_deciding": 2,
+      "earliest_start_period_of_deciding": [
+        1,
+        1
+      ],
+      "a_deciding_scenario_starts_in_period_1": true
+    },
+    {
+      "transport_cost": [
+        1.3702492039700847,
+        0.7868172090875554,
+        1.1031481500515619
+      ],
+      "line_cost": [
+        1.277534082920179,
+        1.2160746296035652,
+        1.4153801204905077
+      ],
+      "depot_cost": [
+        1.3603936491828845,
+        1.4182376290487624
+      ],
+      "holding_cost": 0.5265877344675972,
+      "demand_level": [
+        0.9623488000777052,
+        0.9909665961863728
+      ],
+      "initial_stock": 0.6628854934252688,
+      "seed": 9,
+      "L_max": [
+        6,
+        4,
+        2
+      ],
+      "peak_periods_commodity_1": [
+        2,
+        5,
+        15,
+        21
+      ],
+      "peak_periods_commodity_2": [
+        9,
+        18,
+        23
+      ],
+      "total_demand_tons": 7921.841659932134,
+      "scenarios": 21790,
+      "kept": 1794,
+      "rounds": 3,
+      "operating_problems_kept": 5382,
+      "operating_problems_if_all": 65370,
+      "wall_s_kept": 11.08439588546753,
+      "total_cost": 77160975.17572428,
+      "investment_cost": 65612743.396013685,
+      "q": [
+        181.5179348206811,
+        340.29709812610645,
+        261.82725652291276
+      ],
+      "C": [
+        397.73129605516124,
+        397.73129605516124
+      ],
+      "worst_unmet_tons": 0.0,
+      "worst_unmet_share_pct": 0.0,
+      "deciding_scenarios": [
+        [
+          [
+            1,
+            0,
+            4
+          ],
+          [
+            1,
+            4,
+            4
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            4
+          ]
+        ]
+      ],
+      "n_deciding": 2,
+      "earliest_start_period_of_deciding": [
+        1,
+        1
+      ],
+      "a_deciding_scenario_starts_in_period_1": true
+    },
+    {
+      "transport_cost": [
+        1.4560017096289752,
+        0.7076818100791469,
+        1.3284448852745308
+      ],
+      "line_cost": [
+        0.6492821230820203,
+        1.012804616436565,
+        0.6359196040205066
+      ],
+      "depot_cost": [
+        1.189036479781131,
+        1.3417477243122788
+      ],
+      "holding_cost": 0.9255089974049766,
+      "demand_level": [
+        1.2741556020720197,
+        1.195199743830879
+      ],
+      "initial_stock": 1.34553828117894,
+      "seed": 10,
+      "L_max": [
+        4,
+        4,
+        2
+      ],
+      "peak_periods_commodity_1": [
+        14,
+        16,
+        19,
+        22
+      ],
+      "peak_periods_commodity_2": [
+        5,
+        20,
+        21
+      ],
+      "total_demand_tons": 10167.239546723824,
+      "scenarios": 15185,
+      "kept": 1944,
+      "rounds": 4,
+      "operating_problems_kept": 7776,
+      "operating_problems_if_all": 60740,
+      "wall_s_kept": 16.767462015151978,
+      "total_cost": 664373729.3143133,
+      "investment_cost": 115968245.07415693,
+      "q": [
+        245.01864124829328,
+        476.2835429632534,
+        187.74515143832775
+      ],
+      "C": [
+        807.322968707364,
+        807.322968707364
+      ],
+      "worst_unmet_tons": 53.63105637212374,
+      "worst_unmet_share_pct": 0.5274888638716613,
+      "deciding_scenarios": [
+        [
+          [
+            1,
+            12,
+            4
+          ],
+          [
+            1,
+            16,
+            4
+          ]
+        ],
+        [
+          [
+            0,
+            16,
+            4
+          ],
+          [
+            1,
+            16,
+            4
+          ]
+        ]
+      ],
+      "n_deciding": 2,
+      "earliest_start_period_of_deciding": [
+        13,
+        17
+      ],
+      "a_deciding_scenario_starts_in_period_1": false
+    },
+    {
+      "transport_cost": [
+        0.6285702027691996,
+        0.999277862440115,
+        1.1014983576233575
+      ],
+      "line_cost": [
+        0.5286890083719445,
+        0.6479260845774559,
+        1.4282110229603695
+      ],
+      "depot_cost": [
+        0.5704205761541968,
+        0.629773949399298
+      ],
+      "holding_cost": 1.448328453291775,
+      "demand_level": [
+        1.0731301556778297,
+        0.9213958742378746
+      ],
+      "initial_stock": 1.7784750545081567,
+      "seed": 11,
+      "L_max": [
+        6,
+        4,
+        2
+      ],
+      "peak_periods_commodity_1": [
+        8,
+        10,
+        15,
+        23
+      ],
+      "peak_periods_commodity_2": [
+        7,
+        17,
+        18
+      ],
+      "total_demand_tons": 8328.741494814436,
+      "scenarios": 21790,
+      "kept": 1794,
+      "rounds": 5,
+      "operating_problems_kept": 8970,
+      "operating_problems_if_all": 108950,
+      "wall_s_kept": 17.32775330543518,
+      "total_cost": 78050806.39967333,
+      "investment_cost": 71844794.60220635,
+      "q": [
+        459.18317604892684,
+        217.12614100907413,
+        0.0
+      ],
+      "C": [
+        1067.085032704894,
+        1067.085032704894
+      ],
+      "worst_unmet_tons": 0.009902007304276594,
+      "worst_unmet_share_pct": 0.00011888959827173998,
+      "deciding_scenarios": [
+        [
+          [
+            0,
+            4,
+            6
+          ],
+          [
+            0,
+            10,
+            6
+          ]
+        ],
+        [
+          [
+            0,
+            9,
+            6
+          ],
+          [
+            0,
+            15,
+            6
+          ]
+        ],
+        [
+          [
+            0,
+            10,
+            6
+          ],
+          [
+            0,
+            16,
+            6
+          ]
+        ]
+      ],
+      "n_deciding": 3,
+      "earliest_start_period_of_deciding": [
+        5,
+        10,
+        11
+      ],
+      "a_deciding_scenario_starts_in_period_1": false
+    },
+    {
+      "transport_cost": [
+        0.7508244581084461,
+        1.4467529428594246,
+        0.6893203845397613
+      ],
+      "line_cost": [
+        0.6792914104181076,
+        0.8498892405959575,
+        0.7305412465899059
+      ],
+      "depot_cost": [
+        1.1704457427727846,
+        0.6150793821234475
+      ],
+      "holding_cost": 1.3963093737046806,
+      "demand_level": [
+        1.2148782934503455,
+        0.701696219311972
+      ],
+      "initial_stock": 1.8536654042969856,
+      "seed": 12,
+      "L_max": [
+        4,
+        4,
+        2
+      ],
+      "peak_periods_commodity_1": [
+        4,
+        7,
+        11,
+        17
+      ],
+      "peak_periods_commodity_2": [
+        11,
+        12,
+        20
+      ],
+      "total_demand_tons": 8490.007387739788,
+      "scenarios": 15185,
+      "kept": 1944,
+      "rounds": 6,
+      "operating_problems_kept": 11664,
+      "operating_problems_if_all": 91110,
+      "wall_s_kept": 22.175918102264404,
+      "total_cost": 674944490.9786918,
+      "investment_cost": 107291093.3407386,
+      "q": [
+        443.86564692162193,
+        141.70691109588125,
+        0.0
+      ],
+      "C": [
+        1112.1992425781914,
+        1112.1992425781914
+      ],
+      "worst_unmet_tons": 56.14463338612194,
+      "worst_unmet_share_pct": 0.6613025268646884,
+      "deciding_scenarios": [
+        [
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            4,
+            4
+          ]
+        ],
+        [
+          [
+            0,
+            8,
+            4
+          ],
+          [
+            0,
+            12,
+            4
+          ]
+        ],
+        [
+          [
+            0,
+            10,
+            4
+          ],
+          [
+            0,
+            14,
+            4
+          ]
+        ]
+      ],
+      "n_deciding": 3,
+      "earliest_start_period_of_deciding": [
+        1,
+        9,
+        11
+      ],
+      "a_deciding_scenario_starts_in_period_1": true
+    },
+    {
+      "transport_cost": [
+        1.3647975870165865,
+        1.355302514932059,
+        1.311023398784342
+      ],
+      "line_cost": [
+        0.7614463614164766,
+        0.5771994577184214,
+        1.4464657804460632
+      ],
+      "depot_cost": [
+        1.1137916910471017,
+        0.5026307536262997
+      ],
+      "holding_cost": 1.4104071780658378,
+      "demand_level": [
+        1.2908820851425333,
+        0.8717779624997022
+      ],
+      "initial_stock": 2.5341528075974487,
+      "seed": 13,
+      "L_max": [
+        6,
+        4,
+        2
+      ],
+      "peak_periods_commodity_1": [
+        3,
+        12,
+        16,
+        20
+      ],
+      "peak_periods_commodity_2": [
+        10,
+        13,
+        21
+      ],
+      "total_demand_tons": 9368.15265664386,
+      "scenarios": 21790,
+      "kept": 1794,
+      "rounds": 6,
+      "operating_problems_kept": 10764,
+      "operating_problems_if_all": 130740,
+      "wall_s_kept": 22.801238775253296,
+      "total_cost": 1177294792.8267205,
+      "investment_cost": 131582459.5161351,
+      "q": [
+        200.60707303820956,
+        329.9228999673896,
+        0.0
+      ],
+      "C": [
+        1520.4916845584692,
+        1520.4916845584692
+      ],
+      "worst_unmet_tons": 103.53063030698354,
+      "worst_unmet_share_pct": 1.1051338946057843,
+      "deciding_scenarios": [
+        [
+          [
+            0,
+            13,
+            6
+          ],
+          [
+            1,
+            15,
+            4
+          ]
+        ],
+        [
+          [
+            0,
+            9,
+            6
+          ],
+          [
+            0,
+            15,
+            6
+          ]
+        ],
+        [
+          [
+            0,
+            10,
+            6
+          ],
+          [
+            0,
+            16,
+            6
+          ]
+        ]
+      ],
+      "n_deciding": 3,
+      "earliest_start_period_of_deciding": [
+        14,
+        10,
+        11
+      ],
+      "a_deciding_scenario_starts_in_period_1": false
+    },
+    {
+      "transport_cost": [
+        1.3309833188891114,
+        0.8609466668342566,
+        1.202739305582055
+      ],
+      "line_cost": [
+        1.3601187866525946,
+        1.1413174807881648,
+        1.048363208813314
+      ],
+      "depot_cost": [
+        1.2623134225311934,
+        1.2163143826400404
+      ],
+      "holding_cost": 0.967168753910852,
+      "demand_level": [
+        1.0434753629095883,
+        1.1477934160547871
+      ],
+      "initial_stock": 0.6589097978479923,
+      "seed": 14,
+      "L_max": [
+        6,
+        4,
+        2
+      ],
+      "peak_periods_commodity_1": [
+        2,
+        15,
+        17,
+        18
+      ],
+      "peak_periods_commodity_2": [
+        5,
+        7,
+        12
+      ],
+      "total_demand_tons": 8791.198853862443,
+      "scenarios": 21790,
+      "kept": 1794,
+      "rounds": 4,
+      "operating_problems_kept": 7176,
+      "operating_problems_if_all": 87160,
+      "wall_s_kept": 13.693289756774902,
+      "total_cost": 394509891.3136444,
+      "investment_cost": 58708400.1549868,
+      "q": [
+        194.74944926377026,
+        499.00264772928756,
+        293.8437279350532
+      ],
+      "C": [
+        395.34587870879534,
+        395.34587870879534
+      ],
+      "worst_unmet_tons": 32.16948676931406,
+      "worst_unmet_share_pct": 0.3659283256365005,
+      "deciding_scenarios": [
+        [
+          [
+            1,
+            0,
+            4
+          ],
+          [
+            1,
+            4,
+            4
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            4
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            1,
+            4
+          ]
+        ]
+      ],
+      "n_deciding": 3,
+      "earliest_start_period_of_deciding": [
+        1,
+        1,
+        1
+      ],
+      "a_deciding_scenario_starts_in_period_1": true
+    },
+    {
+      "transport_cost": [
+        1.1927433679651522,
+        1.3158171113360575,
+        0.8444067577928567
+      ],
+      "line_cost": [
+        0.5448381756904188,
+        1.0715972570337309,
+        0.6462454267235975
+      ],
+      "depot_cost": [
+        1.218771376875471,
+        0.8453565040758397
+      ],
+      "holding_cost": 0.9570096756088713,
+      "demand_level": [
+        1.2855627324341052,
+        1.1688796166632185
+      ],
+      "initial_stock": 2.60947511315994,
+      "seed": 15,
+      "L_max": [
+        4,
+        4,
+        2
+      ],
+      "peak_periods_commodity_1": [
+        4,
+        13,
+        23,
+        24
+      ],
+      "peak_periods_commodity_2": [
+        9,
+        10,
+        20
+      ],
+      "total_demand_tons": 10156.457700968018,
+      "scenarios": 15185,
+      "kept": 1944,
+      "rounds": 3,
+      "operating_problems_kept": 5832,
+      "operating_problems_if_all": 45555,
+      "wall_s_kept": 11.279073238372803,
+      "total_cost": 1496565653.395127,
+      "investment_cost": 175996822.42650157,
+      "q": [
+        634.3783545629786,
+        88.90448576053255,
+        0.0
+      ],
+      "C": [
+        1565.685067895964,
+        1565.685067895964
+      ],
+      "worst_unmet_tons": 131.17498298788382,
+      "worst_unmet_share_pct": 1.291542650498918,
+      "deciding_scenarios": [
+        [
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            4,
+            4
+          ]
+        ],
+        [
+          [
+            0,
+            14,
+            4
+          ],
+          [
+            0,
+            18,
+            4
+          ]
+        ]
+      ],
+      "n_deciding": 2,
+      "earliest_start_period_of_deciding": [
+        1,
+        15
+      ],
+      "a_deciding_scenario_starts_in_period_1": true
+    },
+    {
+      "transport_cost": [
+        1.066916838879365,
+        0.9307441454901856,
+        0.5940738254615245
+      ],
+      "line_cost": [
+        0.8480795504359955,
+        1.1215090383806794,
+        0.5216550031827105
+      ],
+      "depot_cost": [
+        1.3746323779455376,
+        1.3540495315269423
+      ],
+      "holding_cost": 0.5443042157882848,
+      "demand_level": [
+        1.1814525777195426,
+        0.8108770968921091
+      ],
+      "initial_stock": 2.239059787246485,
+      "seed": 16,
+      "L_max": [
+        6,
+        4,
+        2
+      ],
+      "peak_periods_commodity_1": [
+        5,
+        6,
+        12,
+        17
+      ],
+      "peak_periods_commodity_2": [
+        9,
+        17,
+        22
+      ],
+      "total_demand_tons": 8609.75593613883,
+      "scenarios": 21790,
+      "kept": 1794,
+      "rounds": 5,
+      "operating_problems_kept": 8970,
+      "operating_problems_if_all": 108950,
+      "wall_s_kept": 19.08359718322754,
+      "total_cost": 1282842132.8529108,
+      "investment_cost": 202613895.0815508,
+      "q": [
+        161.29130999228212,
+        199.22537391010826,
+        -0.0
+      ],
+      "C": [
+        1343.4358723478908,
+        1343.4358723478908
+      ],
+      "worst_unmet_tons": 107.35051164892565,
+      "worst_unmet_share_pct": 1.2468473258147725,
+      "deciding_scenarios": [
+        [
+          [
+            0,
+            16,
+            6
+          ],
+          [
+            1,
+            18,
+            4
+          ]
+        ],
+        [
+          [
+            0,
+            3,
+            6
+          ],
+          [
+            0,
+            9,
+            6
+          ]
+        ],
+        [
+          [
+            0,
+            10,
+            6
+          ],
+          [
+            0,
+            16,
+            6
+          ]
+        ]
+      ],
+      "n_deciding": 3,
+      "earliest_start_period_of_deciding": [
+        17,
+        4,
+        11
+      ],
+      "a_deciding_scenario_starts_in_period_1": false
+    },
+    {
+      "transport_cost": [
+        1.3450747927979014,
+        0.660973091169107,
+        1.0577445473656921
+      ],
+      "line_cost": [
+        0.8680799416642713,
+        0.7149419635617684,
+        0.8858240375891985
+      ],
+      "depot_cost": [
+        0.9281644990936084,
+        1.1113431084989807
+      ],
+      "holding_cost": 1.2363858705132866,
+      "demand_level": [
+        0.7091737939580269,
+        0.8524245482755836
+      ],
+      "initial_stock": 2.0103646364098253,
+      "seed": 17,
+      "L_max": [
+        5,
+        5,
+        2
+      ],
+      "peak_periods_commodity_1": [
+        3,
+        5,
+        17,
+        24
+      ],
+      "peak_periods_commodity_2": [
+        2,
+        15,
+        16
+      ],
+      "total_demand_tons": 6173.705995131202,
+      "scenarios": 22225,
+      "kept": 1791,
+      "rounds": 3,
+      "operating_problems_kept": 5373,
+      "operating_problems_if_all": 66675,
+      "wall_s_kept": 10.543792009353638,
+      "total_cost": 141604941.34235188,
+      "investment_cost": 137234786.62199563,
+      "q": [
+        49.687290952148594,
+        280.29474807280644,
+        0.0
+      ],
+      "C": [
+        1206.2187818458951,
+        1206.2187818458951
+      ],
+      "worst_unmet_tons": 0.0720764220733372,
+      "worst_unmet_share_pct": 0.0011674741578264198,
+      "deciding_scenarios": [
+        [
+          [
+            1,
+            0,
+            5
+          ],
+          [
+            1,
+            5,
+            5
+          ]
+        ],
+        [
+          [
+            1,
+            12,
+            5
+          ],
+          [
+            1,
+            17,
+            5
+          ]
+        ]
+      ],
+      "n_deciding": 2,
+      "earliest_start_period_of_deciding": [
+        1,
+        13
+      ],
+      "a_deciding_scenario_starts_in_period_1": true
+    },
+    {
+      "transport_cost": [
+        0.8993057692175728,
+        1.2174146792882161,
+        0.7808233280360034
+      ],
+      "line_cost": [
+        0.5827249179981163,
+        1.4697713192928599,
+        1.0639267453679522
+      ],
+      "depot_cost": [
+        1.1443209621512465,
+        1.076871463502609
+      ],
+      "holding_cost": 0.975360969729936,
+      "demand_level": [
+        0.7734411939087141,
+        0.8881576727339309
+      ],
+      "initial_stock": 2.34052145671248,
+      "seed": 18,
+      "L_max": [
+        3,
+        3,
+        3
+      ],
+      "peak_periods_commodity_1": [
+        15,
+        17,
+        21,
+        22
+      ],
+      "peak_periods_commodity_2": [
+        2,
+        15,
+        18
+      ],
+      "total_demand_tons": 6619.016047125368,
+      "scenarios": 12162,
+      "kept": 2022,
+      "rounds": 4,
+      "operating_problems_kept": 8088,
+      "operating_problems_if_all": 48648,
+      "wall_s_kept": 15.553248167037964,
+      "total_cost": 175773685.50584742,
+      "investment_cost": 171571373.06134608,
+      "q": [
+        347.70015814852087,
+        0.0,
+        0.0
+      ],
+      "C": [
+        1404.312874027488,
+        1404.312874027488
+      ],
+      "worst_unmet_tons": 0.0,
+      "worst_unmet_share_pct": 0.0,
+      "deciding_scenarios": [
+        [
+          [
+            0,
+            14,
+            3
+          ],
+          [
+            0,
+            17,
+            3
+          ]
+        ],
+        [
+          [
+            0,
+            15,
+            3
+          ],
+          [
+            0,
+            18,
+            3
+          ]
+        ]
+      ],
+      "n_deciding": 2,
+      "earliest_start_period_of_deciding": [
+        15,
+        16
+      ],
+      "a_deciding_scenario_starts_in_period_1": false
+    },
+    {
+      "transport_cost": [
+        0.9203787957292608,
+        1.4258693448167037,
+        0.7738699878982821
+      ],
+      "line_cost": [
+        0.5600486041225267,
+        0.8105434583131119,
+        1.218185257872077
+      ],
+      "depot_cost": [
+        1.280965581768183,
+        1.038699836079593
+      ],
+      "holding_cost": 0.8116654178238205,
+      "demand_level": [
+        1.2498098376334899,
+        1.2568453069117944
+      ],
+      "initial_stock": 1.5913024392654023,
+      "seed": 19,
+      "L_max": [
+        6,
+        6,
+        4
+      ],
+      "peak_periods_commodity_1": [
+        9,
+        10,
+        16,
+        17
+      ],
+      "peak_periods_commodity_2": [
+        11,
+        15,
+        20
+      ],
+      "total_demand_tons": 10205.297717228279,
+      "scenarios": 41356,
+      "kept": 1494,
+      "rounds": 4,
+      "operating_problems_kept": 5976,
+      "operating_problems_if_all": 165424,
+      "wall_s_kept": 12.514665126800537,
+      "total_cost": 135811592.89329866,
+      "investment_cost": 124086538.86690381,
+      "q": [
+        506.53229162932473,
+        330.50374581947295,
+        203.5489315526193
+      ],
+      "C": [
+        954.7814635592414,
+        954.7814635592414
+      ],
+      "worst_unmet_tons": 0.0,
+      "worst_unmet_share_pct": 0.0,
+      "deciding_scenarios": [
+        [
+          [
+            0,
+            12,
+            6
+          ],
+          [
+            1,
+            12,
+            6
+          ]
+        ],
+        [
+          [
+            0,
+            6,
+            6
+          ],
+          [
+            0,
+            12,
+            6
+          ]
+        ]
+      ],
+      "n_deciding": 2,
+      "earliest_start_period_of_deciding": [
+        13,
+        7
+      ],
+      "a_deciding_scenario_starts_in_period_1": false
+    },
+    {
+      "transport_cost": [
+        0.7800759626301593,
+        0.9611467098029421,
+        0.6217196925764419
+      ],
+      "line_cost": [
+        1.0226083517189326,
+        0.9091684087742049,
+        0.5716395472046649
+      ],
+      "depot_cost": [
+        0.5989666758185318,
+        1.486288363966747
+      ],
+      "holding_cost": 1.1940678823575865,
+      "demand_level": [
+        0.9692130761578712,
+        1.084106085153857
+      ],
+      "initial_stock": 1.1762221411362432,
+      "seed": 20,
+      "L_max": [
+        3,
+        3,
+        3
+      ],
+      "peak_periods_commodity_1": [
+        3,
+        8,
+        14,
+        16
+      ],
+      "peak_periods_commodity_2": [
+        18,
+        20,
+        21
+      ],
+      "total_demand_tons": 8215.04234542561,
+      "scenarios": 12162,
+      "kept": 2022,
+      "rounds": 4,
+      "operating_problems_kept": 8088,
+      "operating_problems_if_all": 48648,
+      "wall_s_kept": 16.18399477005005,
+      "total_cost": 91920070.13650762,
+      "investment_cost": 85648172.2485262,
+      "q": [
+        386.0374269756097,
+        180.62385444484627,
+        9.385014061997012
+      ],
+      "C": [
+        705.733284681746,
+        705.733284681746
+      ],
+      "worst_unmet_tons": 0.08032106288561636,
+      "worst_unmet_share_pct": 0.0009777315746928754,
+      "deciding_scenarios": [
+        [
+          [
+            0,
+            0,
+            3
+          ],
+          [
+            1,
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            0,
+            13,
+            3
+          ],
+          [
+            0,
+            16,
+            3
+          ]
+        ]
+      ],
+      "n_deciding": 2,
+      "earliest_start_period_of_deciding": [
+        1,
+        14
+      ],
+      "a_deciding_scenario_starts_in_period_1": true
+    },
+    {
+      "transport_cost": [
+        1.2811175888174708,
+        1.1058470295709681,
+        1.2098011904084252
+      ],
+      "line_cost": [
+        0.5890978729222089,
+        1.1307144158739044,
+        1.4808107022244528
+      ],
+      "depot_cost": [
+        0.923405172359756,
+        0.6124030833473423
+      ],
+      "holding_cost": 1.4582664453658425,
+      "demand_level": [
+        1.1055893109530242,
+        0.8183156415669673
+      ],
+      "initial_stock": 2.1801481413169674,
+      "seed": 21,
+      "L_max": [
+        5,
+        5,
+        2
+      ],
+      "peak_periods_commodity_1": [
+        6,
+        12,
+        20,
+        22
+      ],
+      "peak_periods_commodity_2": [
+        7,
+        16,
+        19
+      ],
+      "total_demand_tons": 8220.55029345549,
+      "scenarios": 22225,
+      "kept": 1791,
+      "rounds": 7,
+      "operating_problems_kept": 12537,
+      "operating_problems_if_all": 155575,
+      "wall_s_kept": 25.866069793701172,
+      "total_cost": 358529624.21985734,
+      "investment_cost": 109619193.75659384,
+      "q": [
+        279.67762271255793,
+        187.76567696369264,
+        0.0
+      ],
+      "C": [
+        1308.0888847901804,
+        1308.0888847901804
+      ],
+      "worst_unmet_tons": 24.067288537906393,
+      "worst_unmet_share_pct": 0.2927697985993315,
+      "deciding_scenarios": [
+        [
+          [
+            0,
+            15,
+            5
+          ],
+          [
+            1,
+            15,
+            5
+          ]
+        ],
+        [
+          [
+            0,
+            10,
+            5
+          ],
+          [
+            0,
+            15,
+            5
+          ]
+        ]
+      ],
+      "n_deciding": 2,
+      "earliest_start_period_of_deciding": [
+        16,
+        11
+      ],
+      "a_deciding_scenario_starts_in_period_1": false
+    },
+    {
+      "transport_cost": [
+        0.8663469154320761,
+        0.6992953793750829,
+        0.5885583732612789
+      ],
+      "line_cost": [
+        1.1531916876009198,
+        0.9593370447439468,
+        1.4876756188802016
+      ],
+      "depot_cost": [
+        1.3515680698511308,
+        1.3369613232370445
+      ],
+      "holding_cost": 0.5514387674752593,
+      "demand_level": [
+        1.0332070932169244,
+        1.0644787158116005
+      ],
+      "initial_stock": 0.6253532376827073,
+      "seed": 22,
+      "L_max": [
+        6,
+        6,
+        4
+      ],
+      "peak_periods_commodity_1": [
+        8,
+        9,
+        12,
+        22
+      ],
+      "peak_periods_commodity_2": [
+        9,
+        11,
+        18
+      ],
+      "total_demand_tons": 8506.634771853292,
+      "scenarios": 41356,
+      "kept": 1494,
+      "rounds": 6,
+      "operating_problems_kept": 8964,
+      "operating_problems_if_all": 248136,
+      "wall_s_kept": 18.61371421813965,
+      "total_cost": 72068023.59559348,
+      "investment_cost": 61132520.998260446,
+      "q": [
+        308.54394074876376,
+        308.54268226242664,
+        350.8580873154221
+      ],
+      "C": [
+        375.21194260962443,
+        375.21194260962443
+      ],
+      "worst_unmet_tons": 0.3889986594741117,
+      "worst_unmet_share_pct": 0.004572885399538116,
+      "deciding_scenarios": [
+        [
+          [
+            1,
+            4,
+            6
+          ],
+          [
+            2,
+            6,
+            4
+          ]
+        ],
+        [
+          [
+            0,
+            4,
+            6
+          ],
+          [
+            2,
+            6,
+            4
+          ]
+        ],
+        [
+          [
+            0,
+            4,
+            6
+          ],
+          [
+            1,
+            4,
+            6
+          ]
+        ]
+      ],
+      "n_deciding": 3,
+      "earliest_start_period_of_deciding": [
+        5,
+        5,
+        5
+      ],
+      "a_deciding_scenario_starts_in_period_1": false
+    },
+    {
+      "transport_cost": [
+        1.1939330806573643,
+        1.1414582208782305,
+        0.6286442243176362
+      ],
+      "line_cost": [
+        0.6137080501313293,
+        1.1533455213345873,
+        1.3534571059651608
+      ],
+      "depot_cost": [
+        0.7017791344404063,
+        0.718018637085736
+      ],
+      "holding_cost": 1.2165846359235828,
+      "demand_level": [
+        0.9824198024015651,
+        0.9491331583844269
+      ],
+      "initial_stock": 1.3728695117940488,
+      "seed": 23,
+      "L_max": [
+        6,
+        6,
+        2
+      ],
+      "peak_periods_commodity_1": [
+        3,
+        6,
+        11,
+        12
+      ],
+      "peak_periods_commodity_2": [
+        5,
+        10,
+        14
+      ],
+      "total_demand_tons": 7915.183118525625,
+      "scenarios": 29916,
+      "kept": 1648,
+      "rounds": 3,
+      "operating_problems_kept": 4944,
+      "operating_problems_if_all": 89748,
+      "wall_s_kept": 9.707436084747314,
+      "total_cost": 76773979.52515693,
+      "investment_cost": 67235970.4531338,
+      "q": [
+        291.3972763187557,
+        219.0972430687868,
+        154.61256913278686
+      ],
+      "C": [
+        823.7217070764293,
+        823.7217070764293
+      ],
+      "worst_unmet_tons": 0.0,
+      "worst_unmet_share_pct": 0.0,
+      "deciding_scenarios": [
+        [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            6,
+            6
+          ]
+        ]
+      ],
+      "n_deciding": 2,
+      "earliest_start_period_of_deciding": [
+        1,
+        1
+      ],
+      "a_deciding_scenario_starts_in_period_1": true
+    },
+    {
+      "transport_cost": [
+        0.8302688366693154,
+        0.9051773156391438,
+        1.0747378193271921
+      ],
+      "line_cost": [
+        1.006399767270148,
+        1.0642125074302506,
+        1.069687310508402
+      ],
+      "depot_cost": [
+        1.374116531240741,
+        0.5864304609909731
+      ],
+      "holding_cost": 1.2424752706865627,
+      "demand_level": [
+        1.1922203586608493,
+        1.1272960420162994
+      ],
+      "initial_stock": 1.5248140179662444,
+      "seed": 24,
+      "L_max": [
+        6,
+        6,
+        2
+      ],
+      "peak_periods_commodity_1": [
+        2,
+        7,
+        17,
+        21
+      ],
+      "peak_periods_commodity_2": [
+        2,
+        14,
+        17
+      ],
+      "total_demand_tons": 9538.054052313408,
+      "scenarios": 29916,
+      "kept": 1648,
+      "rounds": 5,
+      "operating_problems_kept": 8240,
+      "operating_problems_if_all": 149580,
+      "wall_s_kept": 17.58624792098999,
+      "total_cost": 2696352853.268431,
+      "investment_cost": 98052193.93536335,
+      "q": [
+        386.11954331104437,
+        200.0779997547674,
+        169.2828802016897
+      ],
+      "C": [
+        914.8884107797466,
+        914.8884107797466
+      ],
+      "worst_unmet_tons": 258.7241785337518,
+      "worst_unmet_share_pct": 2.7125467848549207,
+      "deciding_scenarios": [
+        [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ],
+        [
+          [
+            0,
+            13,
+            6
+          ],
+          [
+            1,
+            13,
+            6
+          ]
+        ],
+        [
+          [
+            0,
+            10,
+            6
+          ],
+          [
+            0,
+            16,
+            6
+          ]
+        ]
+      ],
+      "n_deciding": 3,
+      "earliest_start_period_of_deciding": [
+        1,
+        14,
+        11
+      ],
+      "a_deciding_scenario_starts_in_period_1": true
+    },
+    {
+      "transport_cost": [
+        0.6607212332320078,
+        0.5003120351710036,
+        0.7165984644628169
+      ],
+      "line_cost": [
+        0.8680292969901653,
+        0.5020262080143022,
+        0.6930828803676011
+      ],
+      "depot_cost": [
+        1.490862178909207,
+        1.286934281826405
+      ],
+      "holding_cost": 0.621281127371162,
+      "demand_level": [
+        0.8354627891260806,
+        1.160095931136804
+      ],
+      "initial_stock": 2.7920955834141448,
+      "seed": 25,
+      "L_max": [
+        5,
+        5,
+        2
+      ],
+      "peak_periods_commodity_1": [
+        5,
+        7,
+        9,
+        20
+      ],
+      "peak_periods_commodity_2": [
+        11,
+        13,
+        15
+      ],
+      "total_demand_tons": 7701.762871907045,
+      "scenarios": 22225,
+      "kept": 1791,
+      "rounds": 6,
+      "operating_problems_kept": 10746,
+      "operating_problems_if_all": 133350,
+      "wall_s_kept": 24.21808910369873,
+      "total_cost": 258106098.30056676,
+      "investment_cost": 254815246.19460618,
+      "q": [
+        143.27059998770667,
+        155.54564824811786,
+        0.0
+      ],
+      "C": [
+        1675.2573500484868,
+        1675.2573500484868
+      ],
+      "worst_unmet_tons": 0.0,
+      "worst_unmet_share_pct": 0.0,
+      "deciding_scenarios": [
+        [
+          [
+            1,
+            12,
+            5
+          ],
+          [
+            1,
+            17,
+            5
+          ]
+        ],
+        [
+          [
+            0,
+            17,
+            5
+          ],
+          [
+            1,
+            17,
+            5
+          ]
+        ]
+      ],
+      "n_deciding": 2,
+      "earliest_start_period_of_deciding": [
+        13,
+        18
+      ],
+      "a_deciding_scenario_starts_in_period_1": false
+    },
+    {
+      "transport_cost": [
+        0.9915989176049045,
+        0.7343995239479165,
+        0.5676077581923261
+      ],
+      "line_cost": [
+        1.2128582038821136,
+        1.3131152013694403,
+        1.048336684584875
+      ],
+      "depot_cost": [
+        1.1343088042786582,
+        0.6691999157604527
+      ],
+      "holding_cost": 1.054331750359026,
+      "demand_level": [
+        0.8054871801378644,
+        1.0039411099486952
+      ],
+      "initial_stock": 1.3550144282546626,
+      "seed": 26,
+      "L_max": [
+        4,
+        4,
+        2
+      ],
+      "peak_periods_commodity_1": [
+        3,
+        13,
+        22,
+        23
+      ],
+      "peak_periods_commodity_2": [
+        6,
+        7,
+        14
+      ],
+      "total_demand_tons": 7110.468825103379,
+      "scenarios": 15185,
+      "kept": 1944,
+      "rounds": 7,
+      "operating_problems_kept": 13608,
+      "operating_problems_if_all": 106295,
+      "wall_s_kept": 30.3454909324646,
+      "total_cost": 85884380.08679105,
+      "investment_cost": 80253587.08653261,
+      "q": [
+        164.3603869855817,
+        171.87732625748225,
+        27.635400850387207
+      ],
+      "C": [
+        813.0086569527975,
+        813.0086569527975
+      ],
+      "worst_unmet_tons": 0.014346763238023641,
+      "worst_unmet_share_pct": 0.0002017695821599366,
+      "deciding_scenarios": [
+        [
+          [
+            1,
+            13,
+            4
+          ],
+          [
+            1,
+            17,
+            4
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            1,
+            0,
+            4
+          ]
+        ],
+        [
+          [
+            0,
+            17,
+            4
+          ],
+          [
+            1,
+            17,
+            4
+          ]
+        ]
+      ],
+      "n_deciding": 3,
+      "earliest_start_period_of_deciding": [
+        14,
+        1,
+        18
+      ],
+      "a_deciding_scenario_starts_in_period_1": true
+    },
+    {
+      "transport_cost": [
+        1.1977362164767853,
+        0.8138142722224316,
+        0.6211970988616273
+      ],
+      "line_cost": [
+        0.8235915216141276,
+        1.4312118653756336,
+        1.2896673132657908
+      ],
+      "depot_cost": [
+        0.5100191239603168,
+        0.6989332171864752
+      ],
+      "holding_cost": 0.7931136934362363,
+      "demand_level": [
+        1.266049426978031,
+        0.9420622331507655
+      ],
+      "initial_stock": 0.9545402414201732,
+      "seed": 27,
+      "L_max": [
+        6,
+        6,
+        4
+      ],
+      "peak_periods_commodity_1": [
+        2,
+        9,
+        20,
+        22
+      ],
+      "peak_periods_commodity_2": [
+        9,
+        12,
+        19
+      ],
+      "total_demand_tons": 9427.338046845973,
+      "scenarios": 41356,
+      "kept": 1494,
+      "rounds": 7,
+      "operating_problems_kept": 10458,
+      "operating_problems_if_all": 289492,
+      "wall_s_kept": 23.823516130447388,
+      "total_cost": 1061313238.9437784,
+      "investment_cost": 43109559.27689251,
+      "q": [
+        222.9226838239658,
+        308.68533275797387,
+        264.46291138728606
+      ],
+      "C": [
+        572.7241448521039,
+        572.7241448521039
+      ],
+      "worst_unmet_tons": 100.88050971277625,
+      "worst_unmet_share_pct": 1.0700847812127305,
+      "deciding_scenarios": [
+        [
+          [
+            1,
+            14,
+            6
+          ],
+          [
+            2,
+            16,
+            4
+          ]
+        ],
+        [
+          [
+            0,
+            1,
+            6
+          ],
+          [
+            1,
+            1,
+            6
+          ]
+        ],
+        [
+          [
+            0,
+            14,
+            6
+          ],
+          [
+            1,
+            14,
+            6
+          ]
+        ]
+      ],
+      "n_deciding": 3,
+      "earliest_start_period_of_deciding": [
+        15,
+        2,
+        15
+      ],
+      "a_deciding_scenario_starts_in_period_1": false
+    },
+    {
+      "transport_cost": [
+        1.3518339359821576,
+        1.3848929540768635,
+        1.2657085265575656
+      ],
+      "line_cost": [
+        0.5321986008831554,
+        0.5501997273282678,
+        0.8294150344639729
+      ],
+      "depot_cost": [
+        1.376003777457226,
+        1.450879510323719
+      ],
+      "holding_cost": 1.032611649789559,
+      "demand_level": [
+        1.1710782427566095,
+        0.8976018303726294
+      ],
+      "initial_stock": 2.5452082505894524,
+      "seed": 28,
+      "L_max": [
+        6,
+        4,
+        2
+      ],
+      "peak_periods_commodity_1": [
+        3,
+        5,
+        15,
+        19
+      ],
+      "peak_periods_commodity_2": [
+        6,
+        9,
+        13
+      ],
+      "total_demand_tons": 8792.227544410423,
+      "scenarios": 21790,
+      "kept": 1794,
+      "rounds": 3,
+      "operating_problems_kept": 5382,
+      "operating_problems_if_all": 65370,
+      "wall_s_kept": 10.095314979553223,
+      "total_cost": 1411829516.005161,
+      "investment_cost": 238871661.88260046,
+      "q": [
+        429.7426163039665,
+        159.44646697159703,
+        0.0
+      ],
+      "C": [
+        1527.1249503536715,
+        1527.1249503536715
+      ],
+      "worst_unmet_tons": 116.43042705542308,
+      "worst_unmet_share_pct": 1.324242650310417,
+      "deciding_scenarios": [
+        [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            6,
+            6
+          ]
+        ],
+        [
+          [
+            0,
+            10,
+            6
+          ],
+          [
+            0,
+            16,
+            6
+          ]
+        ]
+      ],
+      "n_deciding": 2,
+      "earliest_start_period_of_deciding": [
+        1,
+        11
+      ],
+      "a_deciding_scenario_starts_in_period_1": true
+    },
+    {
+      "transport_cost": [
+        0.5500469703540689,
+        1.0063222985714493,
+        1.0192340296297115
+      ],
+      "line_cost": [
+        0.765203213937211,
+        0.6292216448518341,
+        0.5207310325768659
+      ],
+      "depot_cost": [
+        0.8938279609236582,
+        0.8802286018765796
+      ],
+      "holding_cost": 0.5234519533400015,
+      "demand_level": [
+        0.8429270431871507,
+        1.1728638362790873
+      ],
+      "initial_stock": 2.04398845457417,
+      "seed": 29,
+      "L_max": [
+        5,
+        5,
+        2
+      ],
+      "peak_periods_commodity_1": [
+        4,
+        18,
+        21,
+        22
+      ],
+      "peak_periods_commodity_2": [
+        3,
+        5,
+        21
+      ],
+      "total_demand_tons": 7777.1815829781035,
+      "scenarios": 22225,
+      "kept": 1791,
+      "rounds": 5,
+      "operating_problems_kept": 8955,
+      "operating_problems_if_all": 111125,
+      "wall_s_kept": 18.023397207260132,
+      "total_cost": 124818197.18054113,
+      "investment_cost": 120681930.93720113,
+      "q": [
+        362.2181275008045,
+        114.19496898158759,
+        47.5962896996844
+      ],
+      "C": [
+        1226.393072744502,
+        1226.393072744502
+      ],
+      "worst_unmet_tons": 0.0006223230885638031,
+      "worst_unmet_share_pct": 8.001910228325903e-06,
+      "deciding_scenarios": [
+        [
+          [
+            0,
+            0,
+            5
+          ],
+          [
+            1,
+            0,
+            5
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            5
+          ],
+          [
+            0,
+            5,
+            5
+          ]
+        ],
+        [
+          [
+            0,
+            10,
+            5
+          ],
+          [
+            0,
+            15,
+            5
+          ]
+        ],
+        [
+          [
+            0,
+            12,
+            5
+          ],
+          [
+            0,
+            17,
+            5
+          ]
+        ]
+      ],
+      "n_deciding": 4,
+      "earliest_start_period_of_deciding": [
+        1,
+        1,
+        11,
+        13
+      ],
+      "a_deciding_scenario_starts_in_period_1": true
+    }
+  ],
+  "environment": {
+    "timestamp": "2026-11-10T21:28:33.145858-05:00",
+    "python_version": "3.12.4",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 10,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": "43b81493c096cc972034c1143e88fac0b57ccad1",
+    "hardware_model": "MacBookPro18,1",
+    "memory_bytes": 17179869184
+  }
+}

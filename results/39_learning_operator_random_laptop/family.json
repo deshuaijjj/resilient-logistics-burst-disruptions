@@ -1,0 +1,1184 @@
+{
+  "rows": [
+    {
+      "seed": 1,
+      "L_max": [
+        6,
+        4,
+        2
+      ],
+      "thm1_set": 1794,
+      "splus_set": 2362,
+      "knows_total_cost": 142352096.6889426,
+      "learns_total_cost": 142413309.39951465,
+      "learns_total_cost_on_thm1_set": 142413309.39951617,
+      "design_for_knowing_operated_learning_total_cost": 142413314.93690097,
+      "learns_minus_knows": 61212.71057203412,
+      "thm1_set_understates_by": -1.519918441772461e-06,
+      "knows_q": [
+        330.34802429460126,
+        145.5543088441185,
+        2.6555519751047614
+      ],
+      "learns_q": [
+        330.3480242946014,
+        145.5548948719459,
+        2.654531455859828
+      ],
+      "knows_C": [
+        1107.2149698289174,
+        1107.2149698289174
+      ],
+      "learns_C": [
+        1107.2149698289174,
+        1107.2149698289174
+      ],
+      "solve_s": {
+        "knows": 18.325703859329224,
+        "learns": 43.60985493659973,
+        "learns_thm1": 61.5962028503418
+      },
+      "nodes": {
+        "knows": 43056,
+        "learns": 20255
+      }
+    },
+    {
+      "seed": 2,
+      "L_max": [
+        5,
+        5,
+        2
+      ],
+      "thm1_set": 1791,
+      "splus_set": 2361,
+      "knows_total_cost": 51876380.990172595,
+      "learns_total_cost": 51907464.76247844,
+      "learns_total_cost_on_thm1_set": 51907464.76247844,
+      "design_for_knowing_operated_learning_total_cost": 51918293.51801036,
+      "learns_minus_knows": 31083.772305846214,
+      "thm1_set_understates_by": 0.0,
+      "knows_q": [
+        398.35644170697515,
+        221.19634820737053,
+        231.26811021277135
+      ],
+      "learns_q": [
+        416.2553502523807,
+        221.58793660798642,
+        231.26811021277132
+      ],
+      "knows_C": [
+        525.0933949580042,
+        525.0933949580042
+      ],
+      "learns_C": [
+        525.0933949580042,
+        525.0933949580042
+      ],
+      "solve_s": {
+        "knows": 23.989279985427856,
+        "learns": 87.06860375404358,
+        "learns_thm1": 60.061296224594116
+      },
+      "nodes": {
+        "knows": 42984,
+        "learns": 20235
+      }
+    },
+    {
+      "seed": 3,
+      "L_max": [
+        6,
+        6,
+        4
+      ],
+      "thm1_set": 1494,
+      "splus_set": 2280,
+      "knows_total_cost": 100297447.48642245,
+      "learns_total_cost": 100485943.09270608,
+      "learns_total_cost_on_thm1_set": 100485943.09265137,
+      "design_for_knowing_operated_learning_total_cost": 100595852.23622707,
+      "learns_minus_knows": 188495.6062836349,
+      "thm1_set_understates_by": 5.4717063903808594e-05,
+      "knows_q": [
+        169.91548661968852,
+        206.49700758183397,
+        12.962076929222103
+      ],
+      "learns_q": [
+        236.97460025416373,
+        163.46445902061816,
+        12.957371508244329
+      ],
+      "knows_C": [
+        1075.1102739320456,
+        1075.1102739320456
+      ],
+      "learns_C": [
+        1075.1102739320456,
+        1075.1102739320456
+      ],
+      "solve_s": {
+        "knows": 18.8117618560791,
+        "learns": 112.05891275405884,
+        "learns_thm1": 135.02518320083618
+      },
+      "nodes": {
+        "knows": 35856,
+        "learns": 19371
+      }
+    },
+    {
+      "seed": 6,
+      "L_max": [
+        6,
+        6,
+        4
+      ],
+      "thm1_set": 1494,
+      "splus_set": 2280,
+      "knows_total_cost": 175917662.03013572,
+      "learns_total_cost": 176033412.02444577,
+      "learns_total_cost_on_thm1_set": 176033412.0244457,
+      "design_for_knowing_operated_learning_total_cost": 176065864.48400092,
+      "learns_minus_knows": 115749.9943100512,
+      "thm1_set_understates_by": 5.960464477539063e-08,
+      "knows_q": [
+        147.15688136670335,
+        88.61688743084459,
+        0.0
+      ],
+      "learns_q": [
+        104.76718284059939,
+        104.76460848086487,
+        -0.0
+      ],
+      "knows_C": [
+        1575.2870202131808,
+        1575.2870202131808
+      ],
+      "learns_C": [
+        1575.2870202131808,
+        1575.2870202131808
+      ],
+      "solve_s": {
+        "knows": 32.81104779243469,
+        "learns": 216.02678990364075,
+        "learns_thm1": 1193.4481480121613
+      },
+      "nodes": {
+        "knows": 35856,
+        "learns": 19371
+      }
+    },
+    {
+      "seed": 7,
+      "L_max": [
+        3,
+        3,
+        3
+      ],
+      "thm1_set": 2022,
+      "splus_set": 2421,
+      "knows_total_cost": 84174252.67553453,
+      "learns_total_cost": 84410173.58551082,
+      "learns_total_cost_on_thm1_set": 84410173.58552505,
+      "design_for_knowing_operated_learning_total_cost": 84529185.90714327,
+      "learns_minus_knows": 235920.90997628868,
+      "thm1_set_understates_by": -1.4230608940124512e-05,
+      "knows_q": [
+        462.50269844118264,
+        132.54979716455532,
+        0.0
+      ],
+      "learns_q": [
+        359.27375524986695,
+        132.54575826380957,
+        0.0
+      ],
+      "knows_C": [
+        717.6384181511598,
+        717.6384181511598
+      ],
+      "learns_C": [
+        717.6384181511598,
+        717.6384181511598
+      ],
+      "solve_s": {
+        "knows": 45.64451503753662,
+        "learns": 139.79683184623718,
+        "learns_thm1": 154.47070002555847
+      },
+      "nodes": {
+        "knows": 48528,
+        "learns": 20864
+      }
+    },
+    {
+      "seed": 8,
+      "L_max": [
+        5,
+        5,
+        2
+      ],
+      "thm1_set": 1791,
+      "splus_set": 2361,
+      "knows_total_cost": 80937255.94043069,
+      "learns_total_cost": 80937300.75222926,
+      "learns_total_cost_on_thm1_set": 80937300.75222926,
+      "design_for_knowing_operated_learning_total_cost": 80937466.58281063,
+      "learns_minus_knows": 44.81179857254028,
+      "thm1_set_understates_by": 0.0,
+      "knows_q": [
+        281.95698320460696,
+        231.89805688382677,
+        233.23542063761465
+      ],
+      "learns_q": [
+        281.95698320460696,
+        231.90716592021403,
+        233.23542063761465
+      ],
+      "knows_C": [
+        685.7178728266947,
+        685.7178728266947
+      ],
+      "learns_C": [
+        685.7178728266947,
+        685.7178728266947
+      ],
+      "solve_s": {
+        "knows": 39.30558395385742,
+        "learns": 45.201578855514526,
+        "learns_thm1": 30.344966888427734
+      },
+      "nodes": {
+        "knows": 42984,
+        "learns": 20235
+      }
+    },
+    {
+      "seed": 9,
+      "L_max": [
+        6,
+        4,
+        2
+      ],
+      "thm1_set": 1794,
+      "splus_set": 2362,
+      "knows_total_cost": 77160975.17572427,
+      "learns_total_cost": 77161612.59855735,
+      "learns_total_cost_on_thm1_set": 77161612.59855735,
+      "design_for_knowing_operated_learning_total_cost": 77167885.10076845,
+      "learns_minus_knows": 637.4228330850601,
+      "thm1_set_understates_by": 0.0,
+      "knows_q": [
+        181.51793482068132,
+        340.29709812610645,
+        261.82725652291276
+      ],
+      "learns_q": [
+        181.725829741582,
+        340.29709812610645,
+        261.8272565229128
+      ],
+      "knows_C": [
+        397.73129605516124,
+        397.73129605516124
+      ],
+      "learns_C": [
+        397.73129605516124,
+        397.73129605516124
+      ],
+      "solve_s": {
+        "knows": 38.52906274795532,
+        "learns": 57.10550403594971,
+        "learns_thm1": 33.99987483024597
+      },
+      "nodes": {
+        "knows": 43056,
+        "learns": 20255
+      }
+    },
+    {
+      "seed": 11,
+      "L_max": [
+        6,
+        4,
+        2
+      ],
+      "thm1_set": 1794,
+      "splus_set": 2362,
+      "knows_total_cost": 78050806.39967333,
+      "learns_total_cost": 78165348.7065343,
+      "learns_total_cost_on_thm1_set": 78165348.70653166,
+      "design_for_knowing_operated_learning_total_cost": 78211264.67212974,
+      "learns_minus_knows": 114542.30686096847,
+      "thm1_set_understates_by": 2.637505531311035e-06,
+      "knows_q": [
+        459.18317604892684,
+        217.12614100907413,
+        0.0
+      ],
+      "learns_q": [
+        401.34252579382223,
+        217.12495373880708,
+        0.0
+      ],
+      "knows_C": [
+        1067.085032704894,
+        1067.085032704894
+      ],
+      "learns_C": [
+        1067.085032704894,
+        1067.085032704894
+      ],
+      "solve_s": {
+        "knows": 24.976580142974854,
+        "learns": 89.67689299583435,
+        "learns_thm1": 59.99028301239014
+      },
+      "nodes": {
+        "knows": 43056,
+        "learns": 20255
+      }
+    },
+    {
+      "seed": 17,
+      "L_max": [
+        5,
+        5,
+        2
+      ],
+      "thm1_set": 1791,
+      "splus_set": 2361,
+      "knows_total_cost": 141604941.34235188,
+      "learns_total_cost": 141657809.8077277,
+      "learns_total_cost_on_thm1_set": 141657809.80772758,
+      "design_for_knowing_operated_learning_total_cost": 141737444.89344174,
+      "learns_minus_knows": 52868.46537581086,
+      "thm1_set_understates_by": 1.1920928955078125e-07,
+      "knows_q": [
+        49.68729095214858,
+        280.2947480728065,
+        0.0
+      ],
+      "learns_q": [
+        64.02580927851818,
+        277.9199652371345,
+        0.0
+      ],
+      "knows_C": [
+        1206.2187818458951,
+        1206.2187818458951
+      ],
+      "learns_C": [
+        1206.2187818458951,
+        1206.2187818458951
+      ],
+      "solve_s": {
+        "knows": 29.305393934249878,
+        "learns": 182.4716351032257,
+        "learns_thm1": 184.36670684814453
+      },
+      "nodes": {
+        "knows": 42984,
+        "learns": 20235
+      }
+    },
+    {
+      "seed": 18,
+      "L_max": [
+        3,
+        3,
+        3
+      ],
+      "thm1_set": 2022,
+      "splus_set": 2421,
+      "knows_total_cost": 175773685.50584745,
+      "learns_total_cost": 175901838.6380389,
+      "learns_total_cost_on_thm1_set": 175901838.6380389,
+      "design_for_knowing_operated_learning_total_cost": 175925631.34953794,
+      "learns_minus_knows": 128153.1321914494,
+      "thm1_set_understates_by": 0.0,
+      "knows_q": [
+        347.70015814852746,
+        0.0,
+        0.0
+      ],
+      "learns_q": [
+        314.94241957559785,
+        -4.145981823183715e-14,
+        0.0
+      ],
+      "knows_C": [
+        1404.312874027488,
+        1404.312874027488
+      ],
+      "learns_C": [
+        1404.312874027488,
+        1404.312874027488
+      ],
+      "solve_s": {
+        "knows": 26.297863245010376,
+        "learns": 93.72830104827881,
+        "learns_thm1": 101.64161372184753
+      },
+      "nodes": {
+        "knows": 48528,
+        "learns": 20864
+      }
+    },
+    {
+      "seed": 19,
+      "L_max": [
+        6,
+        6,
+        4
+      ],
+      "thm1_set": 1494,
+      "splus_set": 2280,
+      "knows_total_cost": 135811592.89329863,
+      "learns_total_cost": 135898403.63891542,
+      "learns_total_cost_on_thm1_set": 135898403.6389154,
+      "design_for_knowing_operated_learning_total_cost": 135940142.6219749,
+      "learns_minus_knows": 86810.74561679363,
+      "thm1_set_understates_by": 2.9802322387695312e-08,
+      "knows_q": [
+        506.53229162932456,
+        330.503745819473,
+        203.54893155261934
+      ],
+      "learns_q": [
+        542.2849388759598,
+        329.3902276042565,
+        203.54893155261934
+      ],
+      "knows_C": [
+        954.7814635592414,
+        954.7814635592414
+      ],
+      "learns_C": [
+        954.7814635592414,
+        954.7814635592414
+      ],
+      "solve_s": {
+        "knows": 21.103436946868896,
+        "learns": 68.64084601402283,
+        "learns_thm1": 57.8641619682312
+      },
+      "nodes": {
+        "knows": 35856,
+        "learns": 19371
+      }
+    },
+    {
+      "seed": 20,
+      "L_max": [
+        3,
+        3,
+        3
+      ],
+      "thm1_set": 2022,
+      "splus_set": 2421,
+      "knows_total_cost": 91920070.13650763,
+      "learns_total_cost": 91992774.94514173,
+      "learns_total_cost_on_thm1_set": 91992774.94514173,
+      "design_for_knowing_operated_learning_total_cost": 91997136.42139758,
+      "learns_minus_knows": 72704.80863410234,
+      "thm1_set_understates_by": 0.0,
+      "knows_q": [
+        386.03742697560966,
+        180.62385444484627,
+        9.385014061997019
+      ],
+      "learns_q": [
+        368.8698222399076,
+        178.6419804480186,
+        9.381958119187905
+      ],
+      "knows_C": [
+        705.733284681746,
+        705.733284681746
+      ],
+      "learns_C": [
+        705.733284681746,
+        705.733284681746
+      ],
+      "solve_s": {
+        "knows": 38.73347210884094,
+        "learns": 55.933807134628296,
+        "learns_thm1": 89.1106948852539
+      },
+      "nodes": {
+        "knows": 48528,
+        "learns": 20864
+      }
+    },
+    {
+      "seed": 22,
+      "L_max": [
+        6,
+        6,
+        4
+      ],
+      "thm1_set": 1494,
+      "splus_set": 2280,
+      "knows_total_cost": 72068023.5955935,
+      "learns_total_cost": 72070465.16803743,
+      "learns_total_cost_on_thm1_set": 72070465.16803743,
+      "design_for_knowing_operated_learning_total_cost": 72070540.37218279,
+      "learns_minus_knows": 2441.572443932295,
+      "thm1_set_understates_by": 0.0,
+      "knows_q": [
+        308.54394074876376,
+        308.5426822624278,
+        350.8580873154221
+      ],
+      "learns_q": [
+        308.54394262859626,
+        308.5426841427731,
+        350.8580873154222
+      ],
+      "knows_C": [
+        375.21194260962443,
+        375.21194260962443
+      ],
+      "learns_C": [
+        375.21194260962443,
+        375.21194260962443
+      ],
+      "solve_s": {
+        "knows": 33.59742331504822,
+        "learns": 55.93940997123718,
+        "learns_thm1": 52.756064891815186
+      },
+      "nodes": {
+        "knows": 35856,
+        "learns": 19371
+      }
+    },
+    {
+      "seed": 23,
+      "L_max": [
+        6,
+        6,
+        2
+      ],
+      "thm1_set": 1648,
+      "splus_set": 2323,
+      "knows_total_cost": 76773979.52515692,
+      "learns_total_cost": 76812997.99257241,
+      "learns_total_cost_on_thm1_set": 76812997.9925724,
+      "design_for_knowing_operated_learning_total_cost": 76822210.75219595,
+      "learns_minus_knows": 39018.46741549671,
+      "thm1_set_understates_by": 1.4901161193847656e-08,
+      "knows_q": [
+        291.3972763187557,
+        219.0972430687866,
+        154.61256913278686
+      ],
+      "learns_q": [
+        291.3972763187557,
+        216.73332269029166,
+        154.61175484632867
+      ],
+      "knows_C": [
+        823.7217070764293,
+        823.7217070764293
+      ],
+      "learns_C": [
+        823.7217070764293,
+        823.7217070764293
+      ],
+      "solve_s": {
+        "knows": 27.34281587600708,
+        "learns": 27.4302179813385,
+        "learns_thm1": 25.647149085998535
+      },
+      "nodes": {
+        "knows": 39552,
+        "learns": 19855
+      }
+    },
+    {
+      "seed": 25,
+      "L_max": [
+        5,
+        5,
+        2
+      ],
+      "thm1_set": 1791,
+      "splus_set": 2361,
+      "knows_total_cost": 258106098.30056676,
+      "learns_total_cost": 258164608.2915653,
+      "learns_total_cost_on_thm1_set": 258164608.2915653,
+      "design_for_knowing_operated_learning_total_cost": 258175230.2795873,
+      "learns_minus_knows": 58509.99099853635,
+      "thm1_set_understates_by": 0.0,
+      "knows_q": [
+        143.27059998770702,
+        155.54564824811757,
+        0.0
+      ],
+      "learns_q": [
+        141.55176571732116,
+        141.55215133316096,
+        0.0
+      ],
+      "knows_C": [
+        1675.2573500484868,
+        1675.2573500484868
+      ],
+      "learns_C": [
+        1675.2573500484868,
+        1675.2573500484868
+      ],
+      "solve_s": {
+        "knows": 49.644407749176025,
+        "learns": 390.5987129211426,
+        "learns_thm1": 408.66420102119446
+      },
+      "nodes": {
+        "knows": 42984,
+        "learns": 20235
+      }
+    },
+    {
+      "seed": 26,
+      "L_max": [
+        4,
+        4,
+        2
+      ],
+      "thm1_set": 1944,
+      "splus_set": 2401,
+      "knows_total_cost": 85884380.08679105,
+      "learns_total_cost": 85992405.4779983,
+      "learns_total_cost_on_thm1_set": 85992405.47799595,
+      "design_for_knowing_operated_learning_total_cost": 86039267.03087999,
+      "learns_minus_knows": 108025.39120724797,
+      "thm1_set_understates_by": 2.3543834686279297e-06,
+      "knows_q": [
+        164.3603869855813,
+        171.8773262574825,
+        27.635400850387207
+      ],
+      "learns_q": [
+        152.4903595435773,
+        155.04107911081948,
+        27.63254573803989
+      ],
+      "knows_C": [
+        813.0086569527975,
+        813.0086569527975
+      ],
+      "learns_C": [
+        813.0086569527975,
+        813.0086569527975
+      ],
+      "solve_s": {
+        "knows": 70.05321002006531,
+        "learns": 161.328537940979,
+        "learns_thm1": 147.94453501701355
+      },
+      "nodes": {
+        "knows": 46656,
+        "learns": 20655
+      }
+    },
+    {
+      "seed": 29,
+      "L_max": [
+        5,
+        5,
+        2
+      ],
+      "thm1_set": 1791,
+      "splus_set": 2361,
+      "knows_total_cost": 124818197.18054113,
+      "learns_total_cost": 124851743.66166776,
+      "learns_total_cost_on_thm1_set": 124851743.66166776,
+      "design_for_knowing_operated_learning_total_cost": 124855230.87646206,
+      "learns_minus_knows": 33546.48112663627,
+      "thm1_set_understates_by": 0.0,
+      "knows_q": [
+        362.2181275008037,
+        114.19496898158751,
+        47.5962896996844
+      ],
+      "learns_q": [
+        358.88114079362856,
+        116.38404450221371,
+        47.595846847337675
+      ],
+      "knows_C": [
+        1226.393072744502,
+        1226.393072744502
+      ],
+      "learns_C": [
+        1226.393072744502,
+        1226.393072744502
+      ],
+      "solve_s": {
+        "knows": 34.21104383468628,
+        "learns": 89.86878108978271,
+        "learns_thm1": 81.50752282142639
+      },
+      "nodes": {
+        "knows": 42984,
+        "learns": 20235
+      }
+    },
+    {
+      "seed": 30,
+      "L_max": [
+        4,
+        4,
+        2
+      ],
+      "thm1_set": 1944,
+      "splus_set": 2401,
+      "knows_total_cost": 105292048.80324917,
+      "learns_total_cost": 105366133.53932837,
+      "learns_total_cost_on_thm1_set": 105366133.5393234,
+      "design_for_knowing_operated_learning_total_cost": 105371182.67789274,
+      "learns_minus_knows": 74084.7360792011,
+      "thm1_set_understates_by": 4.9620866775512695e-06,
+      "knows_q": [
+        332.2168392158569,
+        106.4012636645629,
+        0.0
+      ],
+      "learns_q": [
+        338.28880416920373,
+        106.40110668858087,
+        0.0
+      ],
+      "knows_C": [
+        1266.1661651731833,
+        1266.1661651731833
+      ],
+      "learns_C": [
+        1266.1661651731833,
+        1266.1661651731833
+      ],
+      "solve_s": {
+        "knows": 31.920403957366943,
+        "learns": 68.55940699577332,
+        "learns_thm1": 92.71419596672058
+      },
+      "nodes": {
+        "knows": 46656,
+        "learns": 20655
+      }
+    },
+    {
+      "seed": 32,
+      "L_max": [
+        3,
+        3,
+        3
+      ],
+      "thm1_set": 2022,
+      "splus_set": 2421,
+      "knows_total_cost": 165606454.1645812,
+      "learns_total_cost": 165871461.7124293,
+      "learns_total_cost_on_thm1_set": 165871461.7124293,
+      "design_for_knowing_operated_learning_total_cost": 165986714.21737647,
+      "learns_minus_knows": 265007.54784810543,
+      "thm1_set_understates_by": 0.0,
+      "knows_q": [
+        466.44833101698606,
+        44.735590680882716,
+        0.0
+      ],
+      "learns_q": [
+        366.53129882840017,
+        49.81017106771591,
+        0.0
+      ],
+      "knows_C": [
+        1113.8343424758286,
+        1113.8343424758286
+      ],
+      "learns_C": [
+        1113.8343424758286,
+        1113.8343424758286
+      ],
+      "solve_s": {
+        "knows": 32.204296827316284,
+        "learns": 138.10364317893982,
+        "learns_thm1": 162.65236806869507
+      },
+      "nodes": {
+        "knows": 48528,
+        "learns": 20864
+      }
+    },
+    {
+      "seed": 33,
+      "L_max": [
+        6,
+        6,
+        2
+      ],
+      "thm1_set": 1648,
+      "splus_set": 2323,
+      "knows_total_cost": 68083014.87037426,
+      "learns_total_cost": 68083014.87037426,
+      "learns_total_cost_on_thm1_set": 68083014.87037426,
+      "design_for_knowing_operated_learning_total_cost": 68083014.87037434,
+      "learns_minus_knows": 0.0,
+      "thm1_set_understates_by": 0.0,
+      "knows_q": [
+        327.865323619876,
+        256.8151829127473,
+        309.25317487060494
+      ],
+      "learns_q": [
+        327.865323619876,
+        256.8151829127473,
+        309.25317487060494
+      ],
+      "knows_C": [
+        374.3573625247672,
+        374.3573625247672
+      ],
+      "learns_C": [
+        374.3573625247672,
+        374.3573625247672
+      ],
+      "solve_s": {
+        "knows": 35.521169900894165,
+        "learns": 32.07713508605957,
+        "learns_thm1": 14.15083909034729
+      },
+      "nodes": {
+        "knows": 39552,
+        "learns": 19855
+      }
+    },
+    {
+      "seed": 36,
+      "L_max": [
+        6,
+        6,
+        4
+      ],
+      "thm1_set": 1494,
+      "splus_set": 2280,
+      "knows_total_cost": 130672411.37883757,
+      "learns_total_cost": 130672652.38327244,
+      "learns_total_cost_on_thm1_set": 130672652.38327244,
+      "design_for_knowing_operated_learning_total_cost": 130676714.13632867,
+      "learns_minus_knows": 241.00443486869335,
+      "thm1_set_understates_by": 0.0,
+      "knows_q": [
+        278.18646273463935,
+        132.99823194892932,
+        77.12085751601036
+      ],
+      "learns_q": [
+        278.1864627346393,
+        133.0548214795616,
+        77.12085751601035
+      ],
+      "knows_C": [
+        912.7423388475343,
+        912.7423388475343
+      ],
+      "learns_C": [
+        912.7423388475343,
+        912.7423388475343
+      ],
+      "solve_s": {
+        "knows": 19.868103981018066,
+        "learns": 29.155155897140503,
+        "learns_thm1": 25.93791103363037
+      },
+      "nodes": {
+        "knows": 35856,
+        "learns": 19371
+      }
+    },
+    {
+      "seed": 37,
+      "L_max": [
+        6,
+        6,
+        4
+      ],
+      "thm1_set": 1494,
+      "splus_set": 2280,
+      "knows_total_cost": 153637484.75995132,
+      "learns_total_cost": 153694602.11220688,
+      "learns_total_cost_on_thm1_set": 153694602.11220688,
+      "design_for_knowing_operated_learning_total_cost": 153704891.40123272,
+      "learns_minus_knows": 57117.35225555301,
+      "thm1_set_understates_by": 0.0,
+      "knows_q": [
+        145.73505312159915,
+        158.7798117738637,
+        51.63796345431738
+      ],
+      "learns_q": [
+        144.70199559828802,
+        150.69020452410996,
+        51.63712805739234
+      ],
+      "knows_C": [
+        1349.0075042590233,
+        1349.0075042590233
+      ],
+      "learns_C": [
+        1349.0075042590233,
+        1349.0075042590233
+      ],
+      "solve_s": {
+        "knows": 53.58594512939453,
+        "learns": 239.3946816921234,
+        "learns_thm1": 128.5241060256958
+      },
+      "nodes": {
+        "knows": 35856,
+        "learns": 19371
+      }
+    },
+    {
+      "seed": 38,
+      "L_max": [
+        6,
+        4,
+        2
+      ],
+      "thm1_set": 1794,
+      "splus_set": 2362,
+      "knows_total_cost": 65288013.585942805,
+      "learns_total_cost": 65339888.98022095,
+      "learns_total_cost_on_thm1_set": 65339888.980209745,
+      "design_for_knowing_operated_learning_total_cost": 65349852.469050825,
+      "learns_minus_knows": 51875.39427814633,
+      "thm1_set_understates_by": 1.1205673217773438e-05,
+      "knows_q": [
+        190.0110754266563,
+        438.2539200467537,
+        179.17681735305294
+      ],
+      "learns_q": [
+        183.48609487326735,
+        393.4014000929339,
+        179.1701952366721
+      ],
+      "knows_C": [
+        410.37158679655175,
+        410.37158679655175
+      ],
+      "learns_C": [
+        410.37158679655175,
+        410.37158679655175
+      ],
+      "solve_s": {
+        "knows": 29.677278995513916,
+        "learns": 61.96021008491516,
+        "learns_thm1": 54.616131067276
+      },
+      "nodes": {
+        "knows": 43056,
+        "learns": 20255
+      }
+    },
+    {
+      "seed": 42,
+      "L_max": [
+        6,
+        4,
+        2
+      ],
+      "thm1_set": 1794,
+      "splus_set": 2362,
+      "knows_total_cost": 243456153.2690913,
+      "learns_total_cost": 243505573.11632663,
+      "learns_total_cost_on_thm1_set": 243505573.11632663,
+      "design_for_knowing_operated_learning_total_cost": 243533742.589843,
+      "learns_minus_knows": 49419.847235322,
+      "thm1_set_understates_by": 0.0,
+      "knows_q": [
+        0.0,
+        325.0585392896918,
+        0.0
+      ],
+      "learns_q": [
+        46.12451201673298,
+        265.0964849878704,
+        0.0
+      ],
+      "knows_C": [
+        1690.1474832729025,
+        1690.1474832729025
+      ],
+      "learns_C": [
+        1690.1474832729025,
+        1690.1474832729025
+      ],
+      "solve_s": {
+        "knows": 24.381016969680786,
+        "learns": 219.3740451335907,
+        "learns_thm1": 273.88060903549194
+      },
+      "nodes": {
+        "knows": 43056,
+        "learns": 20255
+      }
+    },
+    {
+      "seed": 47,
+      "L_max": [
+        4,
+        4,
+        2
+      ],
+      "thm1_set": 1944,
+      "splus_set": 2401,
+      "knows_total_cost": 181033138.5624138,
+      "learns_total_cost": 181167063.26630446,
+      "learns_total_cost_on_thm1_set": 181167063.26630446,
+      "design_for_knowing_operated_learning_total_cost": 181238069.37948975,
+      "learns_minus_knows": 133924.70389065146,
+      "thm1_set_understates_by": 0.0,
+      "knows_q": [
+        410.93336854160754,
+        48.41510931488767,
+        0.0
+      ],
+      "learns_q": [
+        320.1538318647156,
+        48.413156067654725,
+        0.0
+      ],
+      "knows_C": [
+        1489.4673298257871,
+        1489.4673298257871
+      ],
+      "learns_C": [
+        1489.4673298257871,
+        1489.4673298257871
+      ],
+      "solve_s": {
+        "knows": 29.83117389678955,
+        "learns": 180.48255062103271,
+        "learns_thm1": 189.65757393836975
+      },
+      "nodes": {
+        "knows": 46656,
+        "learns": 20655
+      }
+    },
+    {
+      "seed": 48,
+      "L_max": [
+        3,
+        3,
+        3
+      ],
+      "thm1_set": 2022,
+      "splus_set": 2421,
+      "knows_total_cost": 60096170.106202014,
+      "learns_total_cost": 60123846.616946645,
+      "learns_total_cost_on_thm1_set": 60123846.61694665,
+      "design_for_knowing_operated_learning_total_cost": 60124243.79568016,
+      "learns_minus_knows": 27676.51074463129,
+      "thm1_set_understates_by": -7.450580596923828e-09,
+      "knows_q": [
+        264.46091215171293,
+        159.41219311222537,
+        159.47206814069094
+      ],
+      "learns_q": [
+        260.64568381349267,
+        159.41219308684043,
+        159.47206814069094
+      ],
+      "knows_C": [
+        428.27209908283197,
+        428.27209908283197
+      ],
+      "learns_C": [
+        428.27209908283197,
+        428.27209908283197
+      ],
+      "solve_s": {
+        "knows": 153.6788890361786,
+        "learns": 5761.433374881744,
+        "learns_thm1": 192.2849543094635
+      },
+      "nodes": {
+        "knows": 48528,
+        "learns": 20864
+      }
+    },
+    {
+      "seed": 50,
+      "L_max": [
+        6,
+        6,
+        4
+      ],
+      "thm1_set": 1494,
+      "splus_set": 2280,
+      "knows_total_cost": 96621277.26219669,
+      "learns_total_cost": 96621277.26219669,
+      "learns_total_cost_on_thm1_set": 96621277.26219669,
+      "design_for_knowing_operated_learning_total_cost": 96621277.26219669,
+      "learns_minus_knows": 0.0,
+      "thm1_set_understates_by": 0.0,
+      "knows_q": [
+        333.41706819835775,
+        181.5446640912213,
+        138.60208667021382
+      ],
+      "learns_q": [
+        333.41706819835775,
+        181.5446640912213,
+        138.60208667021382
+      ],
+      "knows_C": [
+        895.9765014563193,
+        895.9765014563193
+      ],
+      "learns_C": [
+        895.9765014563193,
+        895.9765014563193
+      ],
+      "solve_s": {
+        "knows": 339.36188101768494,
+        "learns": 1084.6988201141357,
+        "learns_thm1": 2196.8186321258545
+      },
+      "nodes": {
+        "knows": 35856,
+        "learns": 19371
+      }
+    }
+  ],
+  "environment": {
+    "timestamp": "2026-11-12T16:29:41.625660-05:00",
+    "python_version": "3.12.4",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 10,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": "43b81493c096cc972034c1143e88fac0b57ccad1",
+    "hardware_model": "MacBookPro18,1",
+    "memory_bytes": 17179869184
+  }
+}

@@ -2,10 +2,12 @@ cff-version: 1.2.0
 message: "If you use this software or its recorded results, please cite the paper below."
 title: "Resilient Logistics under Burst Disruptions: generator, dominance filter, and recorded result manifests"
 abstract: >-
-  Scenario generator, lossless dominance preprocessing, solver drivers, unit
-  tests, and the recorded result manifests for every number reported in the
-  accompanying IEEE Aerospace Conference paper on cislunar logistics design and
-  worst-case verification under sustained transportation outages.
+  Code, brute-force checks and recorded results for the manuscript "Outage
+  scenarios that suffice for two-stage and multi-stage robust capacity design",
+  together with the material of version 1 (scenario generator, dominance
+  preprocessing, solver drivers and recorded result manifests of an earlier
+  manuscript on the same cislunar instance).
+version: 2.0.0
 type: software
 authors:
   - family-names: Zhang
@@ -16,16 +18,17 @@ license: MIT
 repository-code: "https://github.com/deshuaijjj/resilient-logistics-burst-disruptions"
 keywords:
   - robust optimization
-  - two-stage robust network design
+  - multi-stage optimization
   - scenario reduction
-  - space logistics
-  - cislunar
+  - column-and-constraint generation
+  - capacity design
+  - outages
 preferred-citation:
-  type: conference-paper
-  title: "Cislunar Logistics Design and Worst-Case Verification Under Sustained Transportation Outages"
+  type: unpublished
+  title: "Outage scenarios that suffice for two-stage and multi-stage robust capacity design"
   authors:
     - family-names: Zhang
       given-names: Yuxin
       affiliation: Rochester Institute of Technology
-  collection-title: "2027 IEEE Aerospace Conference"
-  year: 2027
+  year: 2026
+  notes: "Manuscript submitted for publication"

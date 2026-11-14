@@ -1,0 +1,47 @@
+{
+  "label": "random_seed_0",
+  "source": "24_same_size_samples",
+  "C": [
+    600.0,
+    600.0
+  ],
+  "q": [
+    482.48704663208554,
+    300.0,
+    130.0
+  ],
+  "scenarios": 29916,
+  "all_optimal": true,
+  "startup_unmet_tons": 300.0,
+  "worst_operating_cost": 8209659450.777203,
+  "matches_recorded_worst": true,
+  "scenarios_with_unmet_after_month_1": 22,
+  "share_pct": 0.07353924321433347,
+  "min_lines01_overlap_among_them": 5,
+  "scenarios_costing_more_than_reported": 55,
+  "share_costing_more_pct": 0.18384810803583368,
+  "no_outage_total_cost_sampled": 3576166019.6891193,
+  "no_outage_total_cost_optimal": 3576051473.0354385,
+  "investment_sampled": 69173968.911917,
+  "investment_optimal": 69017473.03543854,
+  "environment": {
+    "timestamp": "2026-11-10T18:53:41.382464-05:00",
+    "python_version": "3.12.4",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 10,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": "43b81493c096cc972034c1143e88fac0b57ccad1",
+    "hardware_model": "MacBookPro18,1",
+    "memory_bytes": 17179869184
+  },
+  "no_outage_difference": -114546.65368080139
+}

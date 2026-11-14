@@ -1,0 +1,72 @@
+{
+  "change": "D_demand[:, :, 0] = 0 (no demand in month 1); everything else as generate_small_instance()",
+  "startup_penalty_removed_dollars": 3500000000.0,
+  "startup_tons_removed": 300.0,
+  "library": {
+    "event_set_count": 29916,
+    "unique_matrix_count": 29207,
+    "maximal_matrix_count": 1648,
+    "single_event_count": 257,
+    "canonical_sha256": "ac68a411a92f5d401c8b0e7f94b5aca8eb1188776ec4817edf2e306df4e02e0e",
+    "maximal_sha256": "010f5b5df4b27a886c0f36c69bf064090a907cb4b0b2f6920b3007da4dbe5b7a",
+    "prune_time_s": 1.9951248168945312
+  },
+  "ccg": {
+    "num_iterations": 4,
+    "converged": true,
+    "recourse_lps": 6592,
+    "total_cost": 81093473.03543913,
+    "worst_recourse": 12076000.0,
+    "investment_cost": 69017473.03543913,
+    "worst_scenario_id": 1220,
+    "worst_unmet_tons": 0.0,
+    "wall_time_s": 14.93057894706726
+  },
+  "q": [
+    350.0,
+    188.1869542886492,
+    208.33333333333331
+  ],
+  "recorded_optimum_with_month_1_demand": 3581093473.035439,
+  "difference_from_recorded_minus_constant": 1.1920928955078125e-07,
+  "keys": [
+    "C",
+    "active_ids_final",
+    "converged",
+    "final_upper_bound",
+    "gap_tol_abs",
+    "gap_tol_rel",
+    "investment_cost",
+    "iterations",
+    "master_solves",
+    "max_iterations",
+    "num_iterations",
+    "q",
+    "recourse_lps",
+    "separation_scenarios_per_iteration",
+    "total_cost",
+    "wall_time_s",
+    "worst_recourse",
+    "worst_scenario_id",
+    "worst_unmet_tons"
+  ],
+  "environment": {
+    "timestamp": "2026-11-10T20:14:26.761640-05:00",
+    "python_version": "3.12.4",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 10,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": "43b81493c096cc972034c1143e88fac0b57ccad1",
+    "hardware_model": "MacBookPro18,1",
+    "memory_bytes": 17179869184
+  }
+}

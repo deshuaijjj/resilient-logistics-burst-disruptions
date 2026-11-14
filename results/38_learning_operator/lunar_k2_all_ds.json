@@ -1,0 +1,87 @@
+{
+  "instance": "lunar example, demand from month 2, at most 2 outages, outages may run past month T",
+  "environment": {
+    "timestamp": "2026-11-12T06:40:52.973213-05:00",
+    "python_version": "3.9.6",
+    "numpy_version": "2.0.2",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-15.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 12,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": null,
+    "hardware_model": "Mac14,13",
+    "memory_bytes": 34359738368
+  },
+  "runs": {
+    "learns_as_outages_happen__splus_set": {
+      "scenarios": 2323,
+      "nodes": 19855,
+      "variables": 456671,
+      "rows": 260433,
+      "nonzeros": 1532970,
+      "build_s": 1.1931579113006592,
+      "solve_s": 36.776870012283325,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "total_cost": 81094050.49426612,
+      "worst_operating_cost": 12076000.0,
+      "investment_cost": 69018050.49426612,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        350.0,
+        188.34735951836686,
+        208.33333333333334
+      ],
+      "largest_unmet_tons_on_a_path": 0.4295093294200197,
+      "method": "highs-ds",
+      "solve_s_all_runs": [
+        36.776870012283325
+      ],
+      "median_solve_s": 36.776870012283325
+    },
+    "learns_as_outages_happen__all_scenarios": {
+      "scenarios": 29704,
+      "nodes": 220632,
+      "variables": 5074542,
+      "rows": 2897915,
+      "nonzeros": 17111484,
+      "build_s": 15.674737691879272,
+      "solve_s": 10866.176963090897,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "total_cost": 81094050.49426612,
+      "worst_operating_cost": 12076000.0,
+      "investment_cost": 69018050.49426612,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        350.0,
+        188.3473595183668,
+        208.33333333333334
+      ],
+      "largest_unmet_tons_on_a_path": 0.4295093294200285,
+      "method": "highs-ds",
+      "solve_s_all_runs": [
+        10866.176963090897
+      ],
+      "median_solve_s": 10866.176963090897
+    }
+  },
+  "counts": {
+    "thm1": 1648,
+    "splus": 2323,
+    "all": 29704
+  }
+}

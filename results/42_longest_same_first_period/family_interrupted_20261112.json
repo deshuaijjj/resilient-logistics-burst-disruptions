@@ -1,0 +1,257 @@
+{
+  "what": "at most k longest outages, each beginning in any period, on the random examples",
+  "k": 2,
+  "time_limit_s": 7200.0,
+  "rows": [
+    {
+      "seed": 1,
+      "L_max": [
+        6,
+        4,
+        2
+      ],
+      "two_stage": {
+        "longest_any_start": {
+          "runs": 3,
+          "finished_runs": 3,
+          "zero_one_variables": 72,
+          "rounds": 4,
+          "total_cost": 142352096.6889426,
+          "q": [
+            330.3480242946013,
+            145.55430884411857,
+            2.6555519751047503
+          ],
+          "C": [
+            1107.2149698289174,
+            1107.2149698289174
+          ],
+          "wall_s_all_runs": [
+            7.499188184738159,
+            7.494374752044678,
+            7.508565902709961
+          ],
+          "median_wall_s": 7.499188184738159,
+          "median_milp_s": 7.424074649810791,
+          "median_design_lp_s": 0.061144113540649414
+        },
+        "longest_ending_inside": {
+          "runs": 3,
+          "finished_runs": 3,
+          "zero_one_variables": 63,
+          "rounds": 4,
+          "total_cost": 142352096.6889426,
+          "q": [
+            330.3480242946013,
+            145.55430884411857,
+            2.6555519751047503
+          ],
+          "C": [
+            1107.2149698289174,
+            1107.2149698289174
+          ],
+          "wall_s_all_runs": [
+            6.3404700756073,
+            6.338684797286987,
+            6.352497339248657
+          ],
+          "median_wall_s": 6.3404700756073,
+          "median_milp_s": 6.267000198364258,
+          "median_design_lp_s": 0.0608067512512207
+        }
+      },
+      "multi_stage": {
+        "at_most_k": {
+          "scenarios": 2435,
+          "nodes": 20328,
+          "variables": 467550,
+          "total_cost": 142413309.39951566,
+          "solve_s": 54.20657992362976,
+          "method": "highs-ds"
+        },
+        "exactly_k": {
+          "scenarios": 2362,
+          "nodes": 20255,
+          "variables": 465871,
+          "total_cost": 142413309.3995148,
+          "solve_s": 39.13860487937927,
+          "method": "highs-ds"
+        }
+      },
+      "two_stage_time_ratio_any_start_over_ending_inside": 1.1827495588361208
+    },
+    {
+      "seed": 2,
+      "L_max": [
+        5,
+        5,
+        2
+      ],
+      "two_stage": {
+        "longest_any_start": {
+          "runs": 3,
+          "finished_runs": 3,
+          "zero_one_variables": 72,
+          "rounds": 4,
+          "total_cost": 51876380.99017259,
+          "q": [
+            398.3564417069751,
+            221.1963482073708,
+            231.26811021277135
+          ],
+          "C": [
+            525.0933949580042,
+            525.0933949580042
+          ],
+          "wall_s_all_runs": [
+            11.520519733428955,
+            11.506532192230225,
+            11.487471103668213
+          ],
+          "median_wall_s": 11.506532192230225,
+          "median_milp_s": 11.425968885421753,
+          "median_design_lp_s": 0.06523585319519043
+        },
+        "longest_ending_inside": {
+          "runs": 3,
+          "finished_runs": 3,
+          "zero_one_variables": 63,
+          "rounds": 4,
+          "total_cost": 51876380.99017259,
+          "q": [
+            398.3564417069751,
+            221.1963482073708,
+            231.26811021277135
+          ],
+          "C": [
+            525.0933949580042,
+            525.0933949580042
+          ],
+          "wall_s_all_runs": [
+            11.353214979171753,
+            11.415175914764404,
+            11.382272958755493
+          ],
+          "median_wall_s": 11.382272958755493,
+          "median_milp_s": 11.3007071018219,
+          "median_design_lp_s": 0.06447339057922363
+        }
+      },
+      "multi_stage": {
+        "at_most_k": {
+          "scenarios": 2434,
+          "nodes": 20308,
+          "variables": 467090,
+          "total_cost": 51907464.762478404,
+          "solve_s": 60.899203062057495,
+          "method": "highs-ds"
+        },
+        "exactly_k": {
+          "scenarios": 2361,
+          "nodes": 20235,
+          "variables": 465411,
+          "total_cost": 51907464.76247845,
+          "solve_s": 60.638582706451416,
+          "method": "highs-ds"
+        }
+      },
+      "two_stage_time_ratio_any_start_over_ending_inside": 1.0109169085933007
+    },
+    {
+      "seed": 3,
+      "L_max": [
+        6,
+        6,
+        4
+      ],
+      "two_stage": {
+        "longest_any_start": {
+          "runs": 3,
+          "finished_runs": 3,
+          "zero_one_variables": 72,
+          "rounds": 8,
+          "total_cost": 100297447.48642245,
+          "q": [
+            169.91548661968864,
+            206.49700758183397,
+            12.962076929222084
+          ],
+          "C": [
+            1075.1102739320456,
+            1075.1102739320456
+          ],
+          "wall_s_all_runs": [
+            26.025514841079712,
+            25.50787591934204,
+            25.682850122451782
+          ],
+          "median_wall_s": 25.682850122451782,
+          "median_milp_s": 25.373016595840454,
+          "median_design_lp_s": 0.28325700759887695
+        },
+        "longest_ending_inside": {
+          "runs": 3,
+          "finished_runs": 3,
+          "zero_one_variables": 59,
+          "rounds": 8,
+          "total_cost": 100297447.48642245,
+          "q": [
+            169.91548661968864,
+            206.49700758183397,
+            12.962076929222084
+          ],
+          "C": [
+            1075.1102739320456,
+            1075.1102739320456
+          ],
+          "wall_s_all_runs": [
+            21.209296703338623,
+            20.97596001625061,
+            21.00874090194702
+          ],
+          "median_wall_s": 21.00874090194702,
+          "median_milp_s": 20.702862977981567,
+          "median_design_lp_s": 0.27873969078063965
+        }
+      },
+      "multi_stage": {
+        "at_most_k": {
+          "scenarios": 2353,
+          "nodes": 19444,
+          "variables": 447218,
+          "total_cost": 100485943.09260003,
+          "solve_s": 95.52084493637085,
+          "method": "highs-ds"
+        },
+        "exactly_k": {
+          "scenarios": 2280,
+          "nodes": 19371,
+          "variables": 445539,
+          "total_cost": 100485943.09270343,
+          "solve_s": 51.00059485435486,
+          "method": "highs-ds"
+        }
+      },
+      "two_stage_time_ratio_any_start_over_ending_inside": 1.2224840242601869
+    }
+  ],
+  "environment": {
+    "timestamp": "2026-11-12T18:07:57.846612-05:00",
+    "python_version": "3.9.6",
+    "numpy_version": "2.0.2",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-15.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 12,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": null,
+    "hardware_model": "Mac14,13",
+    "memory_bytes": 34359738368
+  }
+}

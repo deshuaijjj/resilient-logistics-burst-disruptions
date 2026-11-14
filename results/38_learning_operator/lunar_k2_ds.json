@@ -1,0 +1,183 @@
+{
+  "instance": "lunar example, demand from month 2, at most 2 outages, outages may run past month T",
+  "environment": {
+    "timestamp": "2026-11-12T02:15:59.845490-05:00",
+    "python_version": "3.9.6",
+    "numpy_version": "2.0.2",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-15.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 12,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": null,
+    "hardware_model": "Mac14,13",
+    "memory_bytes": 34359738368
+  },
+  "runs": {
+    "knows_scenario__thm1_set": {
+      "scenarios": 1648,
+      "nodes": 39552,
+      "variables": 909702,
+      "rows": 514178,
+      "nonzeros": 2928498,
+      "build_s": 2.3815741539001465,
+      "solve_s": 24.836711883544922,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "total_cost": 81093473.03543913,
+      "worst_operating_cost": 12076000.0,
+      "investment_cost": 69017473.03543913,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        350.0,
+        188.1869542886492,
+        208.33333333333334
+      ],
+      "largest_unmet_tons_on_a_path": 0.0,
+      "method": "highs-ds",
+      "solve_s_all_runs": [
+        24.836711883544922,
+        24.706395864486694,
+        25.08780598640442
+      ],
+      "median_solve_s": 24.836711883544922
+    },
+    "learns_as_outages_happen__splus_set": {
+      "scenarios": 2323,
+      "nodes": 19855,
+      "variables": 456671,
+      "rows": 260433,
+      "nonzeros": 1532970,
+      "build_s": 1.168004035949707,
+      "solve_s": 36.75820970535278,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "total_cost": 81094050.49426612,
+      "worst_operating_cost": 12076000.0,
+      "investment_cost": 69018050.49426612,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        350.0,
+        188.34735951836686,
+        208.33333333333334
+      ],
+      "largest_unmet_tons_on_a_path": 0.4295093294200197,
+      "method": "highs-ds",
+      "solve_s_all_runs": [
+        36.75820970535278,
+        37.47160005569458,
+        37.08596587181091
+      ],
+      "median_solve_s": 37.08596587181091
+    },
+    "learns_as_outages_happen__thm1_set": {
+      "scenarios": 1648,
+      "nodes": 17945,
+      "variables": 412741,
+      "rows": 234928,
+      "nonzeros": 1376895,
+      "build_s": 1.0613148212432861,
+      "solve_s": 17.321296215057373,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "total_cost": 81094050.49426612,
+      "worst_operating_cost": 12076000.0,
+      "investment_cost": 69018050.49426612,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        350.0,
+        188.3473595183669,
+        208.33333333333334
+      ],
+      "largest_unmet_tons_on_a_path": 0.42950932942005693,
+      "method": "highs-ds",
+      "solve_s_all_runs": [
+        17.321296215057373,
+        17.352669954299927,
+        17.093241214752197
+      ],
+      "median_solve_s": 17.321296215057373
+    },
+    "design_for_knowing__operated_learning__splus_set": {
+      "scenarios": 2323,
+      "nodes": 19855,
+      "variables": 456671,
+      "rows": 260433,
+      "nonzeros": 1532970,
+      "build_s": 1.1819381713867188,
+      "solve_s": 11.62992000579834,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "total_cost": 81100811.51654351,
+      "worst_operating_cost": 12083338.481104376,
+      "investment_cost": 69017473.03543913,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        350.0,
+        188.1869542886492,
+        208.33333333333334
+      ],
+      "largest_unmet_tons_on_a_path": 0.4298765201809945,
+      "method": "highs-ds",
+      "solve_s_all_runs": [
+        11.62992000579834,
+        11.778048038482666,
+        12.018345832824707
+      ],
+      "median_solve_s": 11.778048038482666
+    },
+    "design_for_learning__operated_knowing__thm1_set": {
+      "scenarios": 1648,
+      "nodes": 39552,
+      "variables": 909702,
+      "rows": 514178,
+      "nonzeros": 2928498,
+      "build_s": 2.3381881713867188,
+      "solve_s": 11.397710084915161,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "total_cost": 81094050.49426612,
+      "worst_operating_cost": 12075999.999999998,
+      "investment_cost": 69018050.49426612,
+      "C": [
+        600.0,
+        600.0
+      ],
+      "q": [
+        350.0,
+        188.34735951836686,
+        208.33333333333334
+      ],
+      "largest_unmet_tons_on_a_path": 0.31917917987887306,
+      "method": "highs-ds",
+      "solve_s_all_runs": [
+        11.397710084915161,
+        11.195062160491943,
+        11.173296213150024
+      ],
+      "median_solve_s": 11.195062160491943
+    }
+  },
+  "counts": {
+    "thm1": 1648,
+    "splus": 2323
+  }
+}

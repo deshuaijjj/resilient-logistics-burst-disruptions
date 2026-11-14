@@ -1,0 +1,108 @@
+{
+  "instance": "lunar example, demand from month 2",
+  "methods": [
+    "highs-ds",
+    "highs-ipm"
+  ],
+  "runs": {
+    "3": {
+      "trees": {
+        "at_most_k_longest": {
+          "scenarios": 47048,
+          "nodes": 287473,
+          "variables": 6611885,
+          "rows": 3784191,
+          "nonzeros": 22454053,
+          "total_cost": 83099522.18092942,
+          "q": [
+            350.1851719827884,
+            401.6773101628313,
+            316.6522077458993
+          ],
+          "C": [
+            600.0,
+            600.0
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            2298110
+          ],
+          "solve_s_all_runs": [
+            1935.6570160388947
+          ],
+          "median_solve_s": 1935.6570160388947
+        },
+        "theorem_1": {
+          "scenarios": 44652,
+          "nodes": 285077,
+          "variables": 6556777,
+          "rows": 3750647,
+          "nonzeros": 22228829,
+          "total_cost": 83099522.18092914,
+          "q": [
+            350.18517198282524,
+            401.6773101629452,
+            316.6522077458993
+          ],
+          "C": [
+            600.0,
+            600.0
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            2414934
+          ],
+          "solve_s_all_runs": [
+            2697.9938399791718
+          ],
+          "median_solve_s": 2697.9938399791718
+        },
+        "proposition_1": {
+          "scenarios": 26223,
+          "nodes": 234396,
+          "variables": 5391114,
+          "rows": 3073365,
+          "nonzeros": 18077603,
+          "total_cost": 83099522.18092914,
+          "q": [
+            350.18517198282484,
+            401.6773101629449,
+            316.6522077458994
+          ],
+          "C": [
+            600.0,
+            600.0
+          ],
+          "method": "highs-ds",
+          "iterations_all_runs": [
+            2132956
+          ],
+          "solve_s_all_runs": [
+            3188.2482509613037
+          ],
+          "median_solve_s": 3188.2482509613037
+        }
+      },
+      "failed_attempts": []
+    }
+  },
+  "environment": {
+    "timestamp": "2026-11-13T03:22:00.450520-05:00",
+    "python_version": "3.9.6",
+    "numpy_version": "2.0.2",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-15.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 12,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": null,
+    "hardware_model": "Mac14,13",
+    "memory_bytes": 34359738368
+  }
+}

@@ -1,0 +1,1007 @@
+{
+  "rows": [
+    {
+      "variant": "from13_x2_h1",
+      "first_demand_month": 13,
+      "demand_factor": 2.0,
+      "holding_factor": 1.0,
+      "total_demand_tons": 8600.0,
+      "two_stage_total_cost": 93047763.45016588,
+      "multi_stage_total_cost": 93092355.81925239,
+      "multi_stage_total_cost_on_thm1_set": 93092355.81925239,
+      "thm1_set_understates_by": 0.0,
+      "thm1_set_understates_by_pct": 0.0,
+      "multi_minus_two_stage": 44592.36908650398,
+      "q_two_stage": [
+        628.9196595990218,
+        371.08034040098096,
+        516.6666666666666
+      ],
+      "q_multi_stage": [
+        622.3174569460502,
+        370.8879622620508,
+        517.7990967986498
+      ],
+      "q_multi_stage_on_thm1_set": [
+        622.3174569460504,
+        370.88796226205056,
+        517.7990967986499
+      ],
+      "C_multi_stage": [
+        600.0,
+        600.0
+      ],
+      "C_multi_stage_on_thm1_set": [
+        600.0,
+        600.0
+      ],
+      "solve_s": [
+        24.27262306213379,
+        39.720064878463745,
+        29.6179940700531
+      ]
+    },
+    {
+      "variant": "from13_x2_h100",
+      "first_demand_month": 13,
+      "demand_factor": 2.0,
+      "holding_factor": 100.0,
+      "total_demand_tons": 8600.0,
+      "two_stage_total_cost": 137909206.34920636,
+      "multi_stage_total_cost": 140088473.87411815,
+      "multi_stage_total_cost_on_thm1_set": 140088473.87411812,
+      "thm1_set_understates_by": 2.9802322387695312e-08,
+      "thm1_set_understates_by_pct": 2.1273928941845228e-14,
+      "multi_minus_two_stage": 2179267.524911791,
+      "q_two_stage": [
+        600.0,
+        268.25396825396825,
+        800.0
+      ],
+      "q_multi_stage": [
+        798.399151490223,
+        798.4421246300295,
+        800.0
+      ],
+      "q_multi_stage_on_thm1_set": [
+        798.3991514902231,
+        798.4421246300296,
+        800.0
+      ],
+      "C_multi_stage": [
+        600.0,
+        600.0
+      ],
+      "C_multi_stage_on_thm1_set": [
+        600.0,
+        600.0
+      ],
+      "solve_s": [
+        25.69512438774109,
+        12.934719800949097,
+        11.941936254501343
+      ]
+    },
+    {
+      "variant": "from13_x2_h300",
+      "first_demand_month": 13,
+      "demand_factor": 2.0,
+      "holding_factor": 300.0,
+      "total_demand_tons": 8600.0,
+      "two_stage_total_cost": 215237522.12389383,
+      "multi_stage_total_cost": 218269992.53371897,
+      "multi_stage_total_cost_on_thm1_set": 218269992.53371897,
+      "thm1_set_understates_by": 0.0,
+      "thm1_set_understates_by_pct": 0.0,
+      "multi_minus_two_stage": 3032470.409825146,
+      "q_two_stage": [
+        601.7699115044247,
+        398.2300884955752,
+        900.0
+      ],
+      "q_multi_stage": [
+        898.3205038488451,
+        898.4044148521384,
+        900.0
+      ],
+      "q_multi_stage_on_thm1_set": [
+        898.3205038488452,
+        898.4044148521384,
+        900.0
+      ],
+      "C_multi_stage": [
+        600.0,
+        600.0
+      ],
+      "C_multi_stage_on_thm1_set": [
+        600.0,
+        600.0
+      ],
+      "solve_s": [
+        23.73836898803711,
+        8.905961036682129,
+        7.969552993774414
+      ]
+    },
+    {
+      "variant": "from13_x2_h1000",
+      "first_demand_month": 13,
+      "demand_factor": 2.0,
+      "holding_factor": 1000.0,
+      "total_demand_tons": 8600.0,
+      "two_stage_total_cost": 483637379.6192609,
+      "multi_stage_total_cost": 485790332.5155895,
+      "multi_stage_total_cost_on_thm1_set": 485790332.5155895,
+      "thm1_set_understates_by": 0.0,
+      "thm1_set_understates_by_pct": 0.0,
+      "multi_minus_two_stage": 2152952.8963285685,
+      "q_two_stage": [
+        621.0526315789476,
+        630.8510638297872,
+        1000.0000000000009
+      ],
+      "q_multi_stage": [
+        998.2798279827982,
+        998.3658038964678,
+        1000.0
+      ],
+      "q_multi_stage_on_thm1_set": [
+        998.2798279827983,
+        998.3658038964675,
+        1000.0
+      ],
+      "C_multi_stage": [
+        600.0,
+        600.0
+      ],
+      "C_multi_stage_on_thm1_set": [
+        600.0,
+        600.0
+      ],
+      "solve_s": [
+        17.421711921691895,
+        9.885203123092651,
+        6.647906064987183
+      ]
+    },
+    {
+      "variant": "from13_x3_h1",
+      "first_demand_month": 13,
+      "demand_factor": 3.0,
+      "holding_factor": 1.0,
+      "total_demand_tons": 12900.0,
+      "two_stage_total_cost": 110093944.24786122,
+      "multi_stage_total_cost": 110129985.08944283,
+      "multi_stage_total_cost_on_thm1_set": 110129985.08943504,
+      "thm1_set_understates_by": 7.793307304382324e-06,
+      "thm1_set_understates_by_pct": 7.0764626891149904e-12,
+      "multi_minus_two_stage": 36040.841581612825,
+      "q_two_stage": [
+        900.6836398632271,
+        599.3163601367729,
+        875.0
+      ],
+      "q_multi_stage": [
+        898.1244951908773,
+        599.3184005329709,
+        875.4261840460252
+      ],
+      "q_multi_stage_on_thm1_set": [
+        898.1244951942078,
+        599.3184005296357,
+        875.4261840460262
+      ],
+      "C_multi_stage": [
+        600.0,
+        600.0
+      ],
+      "C_multi_stage_on_thm1_set": [
+        600.0,
+        600.0
+      ],
+      "solve_s": [
+        30.464536905288696,
+        31.08176898956299,
+        33.38456678390503
+      ]
+    },
+    {
+      "variant": "from13_x3_h100",
+      "first_demand_month": 13,
+      "demand_factor": 3.0,
+      "holding_factor": 100.0,
+      "total_demand_tons": 12900.0,
+      "two_stage_total_cost": 155279290.01888886,
+      "multi_stage_total_cost": 158292968.8939937,
+      "multi_stage_total_cost_on_thm1_set": 158292968.89399368,
+      "thm1_set_understates_by": 2.9802322387695312e-08,
+      "thm1_set_understates_by_pct": 1.8827319113367226e-14,
+      "multi_minus_two_stage": 3013678.8751048446,
+      "q_two_stage": [
+        900.2218690972327,
+        599.5562618055346,
+        1200.0
+      ],
+      "q_multi_stage": [
+        1197.5987272353345,
+        1197.6631869450448,
+        1200.0
+      ],
+      "q_multi_stage_on_thm1_set": [
+        1197.5987272353345,
+        1197.6631869450443,
+        1200.0
+      ],
+      "C_multi_stage": [
+        600.0,
+        600.0
+      ],
+      "C_multi_stage_on_thm1_set": [
+        600.0,
+        600.0
+      ],
+      "solve_s": [
+        18.644360065460205,
+        10.681384086608887,
+        8.02584171295166
+      ]
+    },
+    {
+      "variant": "from13_x3_h300",
+      "first_demand_month": 13,
+      "demand_factor": 3.0,
+      "holding_factor": 300.0,
+      "total_demand_tons": 12900.0,
+      "two_stage_total_cost": 232007787.6106195,
+      "multi_stage_total_cost": 236504988.80057847,
+      "multi_stage_total_cost_on_thm1_set": 236504988.8005785,
+      "thm1_set_understates_by": -2.9802322387695312e-08,
+      "thm1_set_understates_by_pct": -1.2601139002959763e-14,
+      "multi_minus_two_stage": 4497201.18995899,
+      "q_two_stage": [
+        876.1061946902796,
+        623.8938053097345,
+        1350.0
+      ],
+      "q_multi_stage": [
+        1347.4807557732681,
+        1347.6066222782094,
+        1350.0
+      ],
+      "q_multi_stage_on_thm1_set": [
+        1347.480755773268,
+        1347.6066222782079,
+        1350.0
+      ],
+      "C_multi_stage": [
+        600.0,
+        600.0
+      ],
+      "C_multi_stage_on_thm1_set": [
+        600.0,
+        600.0
+      ],
+      "solve_s": [
+        24.564274072647095,
+        8.525993347167969,
+        10.604273080825806
+      ]
+    },
+    {
+      "variant": "from13_x3_h1000",
+      "first_demand_month": 13,
+      "demand_factor": 3.0,
+      "holding_factor": 1000.0,
+      "total_demand_tons": 12900.0,
+      "two_stage_total_cost": 498056069.42889136,
+      "multi_stage_total_cost": 501285498.77338415,
+      "multi_stage_total_cost_on_thm1_set": 501285498.7733842,
+      "thm1_set_understates_by": -5.960464477539063e-08,
+      "thm1_set_understates_by_pct": -1.1890358871589074e-14,
+      "multi_minus_two_stage": 3229429.344492793,
+      "q_two_stage": [
+        931.5789473684214,
+        946.2765957446823,
+        1500.0
+      ],
+      "q_multi_stage": [
+        1497.4197419741974,
+        1497.5487058447013,
+        1500.0
+      ],
+      "q_multi_stage_on_thm1_set": [
+        1497.4197419741974,
+        1497.5487058447018,
+        1500.0
+      ],
+      "C_multi_stage": [
+        600.0,
+        600.0
+      ],
+      "C_multi_stage_on_thm1_set": [
+        600.0,
+        600.0
+      ],
+      "solve_s": [
+        14.946379899978638,
+        11.997421979904175,
+        11.970046997070312
+      ]
+    },
+    {
+      "variant": "from19_x2_h1",
+      "first_demand_month": 19,
+      "demand_factor": 2.0,
+      "holding_factor": 1.0,
+      "total_demand_tons": 4300.0,
+      "two_stage_total_cost": 87250183.315208,
+      "multi_stage_total_cost": 87250183.315208,
+      "multi_stage_total_cost_on_thm1_set": 87250183.315208,
+      "thm1_set_understates_by": 0.0,
+      "thm1_set_understates_by_pct": 0.0,
+      "multi_minus_two_stage": 0.0,
+      "q_two_stage": [
+        258.17759216569283,
+        216.5436372250951,
+        516.6666666666666
+      ],
+      "q_multi_stage": [
+        258.17759216569266,
+        216.54363722509513,
+        516.6666666666666
+      ],
+      "q_multi_stage_on_thm1_set": [
+        258.1775921656929,
+        216.543637225095,
+        516.6666666666666
+      ],
+      "C_multi_stage": [
+        600.0,
+        600.0
+      ],
+      "C_multi_stage_on_thm1_set": [
+        600.0,
+        600.0
+      ],
+      "solve_s": [
+        45.21365189552307,
+        24.061075925827026,
+        20.816642999649048
+      ]
+    },
+    {
+      "variant": "from19_x2_h100",
+      "first_demand_month": 19,
+      "demand_factor": 2.0,
+      "holding_factor": 100.0,
+      "total_demand_tons": 4300.0,
+      "two_stage_total_cost": 147423527.85432982,
+      "multi_stage_total_cost": 147929529.88843676,
+      "multi_stage_total_cost_on_thm1_set": 147861102.2151916,
+      "thm1_set_understates_by": 68427.67324516177,
+      "thm1_set_understates_by_pct": 0.04625693956897416,
+      "multi_minus_two_stage": 506002.03410694003,
+      "q_two_stage": [
+        254.68744252159692,
+        220.0772200772201,
+        600.0
+      ],
+      "q_multi_stage": [
+        314.8875934573126,
+        320.4999067053354,
+        600.0
+      ],
+      "q_multi_stage_on_thm1_set": [
+        303.8830406548955,
+        308.8285882277359,
+        600.0
+      ],
+      "C_multi_stage": [
+        600.0,
+        600.0
+      ],
+      "C_multi_stage_on_thm1_set": [
+        600.0,
+        600.0
+      ],
+      "solve_s": [
+        35.957314014434814,
+        12.948084831237793,
+        9.980175971984863
+      ]
+    },
+    {
+      "variant": "from19_x2_h300",
+      "first_demand_month": 19,
+      "demand_factor": 2.0,
+      "holding_factor": 300.0,
+      "total_demand_tons": 4300.0,
+      "two_stage_total_cost": 266615274.74560592,
+      "multi_stage_total_cost": 267739017.45214784,
+      "multi_stage_total_cost_on_thm1_set": 267739017.45214784,
+      "thm1_set_understates_by": 0.0,
+      "thm1_set_understates_by_pct": 0.0,
+      "multi_minus_two_stage": 1123742.7065419257,
+      "q_two_stage": [
+        387.2340425531915,
+        396.0869565217391,
+        800.0
+      ],
+      "q_multi_stage": [
+        574.7055440246069,
+        583.2567073579934,
+        800.0
+      ],
+      "q_multi_stage_on_thm1_set": [
+        574.7055440246069,
+        583.2567073579928,
+        799.9999999999999
+      ],
+      "C_multi_stage": [
+        600.0,
+        600.0
+      ],
+      "C_multi_stage_on_thm1_set": [
+        600.0,
+        600.0
+      ],
+      "solve_s": [
+        46.06120491027832,
+        11.533556938171387,
+        8.569941997528076
+      ]
+    },
+    {
+      "variant": "from19_x2_h1000",
+      "first_demand_month": 19,
+      "demand_factor": 2.0,
+      "holding_factor": 1000.0,
+      "total_demand_tons": 4300.0,
+      "two_stage_total_cost": 678697200.0,
+      "multi_stage_total_cost": 679474069.6873053,
+      "multi_stage_total_cost_on_thm1_set": 679281572.9765099,
+      "thm1_set_understates_by": 192496.71079540253,
+      "thm1_set_understates_by_pct": 0.02833025120207894,
+      "multi_minus_two_stage": 776869.6873053312,
+      "q_two_stage": [
+        660.0,
+        670.3333333333335,
+        1000.0
+      ],
+      "q_multi_stage": [
+        794.7332907869577,
+        796.3082748379763,
+        1000.0
+      ],
+      "q_multi_stage_on_thm1_set": [
+        762.1921613775153,
+        764.5310525566412,
+        1000.0
+      ],
+      "C_multi_stage": [
+        600.0,
+        600.0
+      ],
+      "C_multi_stage_on_thm1_set": [
+        600.0,
+        600.0
+      ],
+      "solve_s": [
+        24.26201295852661,
+        11.390576839447021,
+        14.866127967834473
+      ]
+    },
+    {
+      "variant": "from19_x3_h1",
+      "first_demand_month": 19,
+      "demand_factor": 3.0,
+      "holding_factor": 1.0,
+      "total_demand_tons": 6450.0,
+      "two_stage_total_cost": 102770317.555248,
+      "multi_stage_total_cost": 102770322.94540001,
+      "multi_stage_total_cost_on_thm1_set": 102770322.94540492,
+      "thm1_set_understates_by": -4.902482032775879e-06,
+      "thm1_set_understates_by_pct": -4.770328527020858e-12,
+      "multi_minus_two_stage": 5.390152007341385,
+      "q_two_stage": [
+        599.2813655441191,
+        599.3172994283658,
+        875.0
+      ],
+      "q_multi_stage": [
+        599.2822638382376,
+        599.3181978300671,
+        875.0
+      ],
+      "q_multi_stage_on_thm1_set": [
+        599.2822638379798,
+        599.3181978316018,
+        875.0
+      ],
+      "C_multi_stage": [
+        600.0,
+        600.0
+      ],
+      "C_multi_stage_on_thm1_set": [
+        600.0,
+        600.0
+      ],
+      "solve_s": [
+        44.73462700843811,
+        24.57452893257141,
+        28.706270933151245
+      ]
+    },
+    {
+      "variant": "from19_x3_h100",
+      "first_demand_month": 19,
+      "demand_factor": 3.0,
+      "holding_factor": 100.0,
+      "total_demand_tons": 6450.0,
+      "two_stage_total_cost": 163087021.4319467,
+      "multi_stage_total_cost": 163087550.48926055,
+      "multi_stage_total_cost_on_thm1_set": 163087550.48926055,
+      "thm1_set_understates_by": 0.0,
+      "thm1_set_understates_by_pct": 0.0,
+      "multi_minus_two_stage": 529.0573138594627,
+      "q_two_stage": [
+        599.4820033644799,
+        599.5179510755321,
+        1033.3333333333333
+      ],
+      "q_multi_stage": [
+        599.570175332812,
+        599.6061301282818,
+        1033.3333333333335
+      ],
+      "q_multi_stage_on_thm1_set": [
+        599.5701753328121,
+        599.6061301282821,
+        1033.3333333333333
+      ],
+      "C_multi_stage": [
+        600.0,
+        600.0
+      ],
+      "C_multi_stage_on_thm1_set": [
+        600.0,
+        600.0
+      ],
+      "solve_s": [
+        41.765085220336914,
+        14.8752121925354,
+        8.752585887908936
+      ]
+    },
+    {
+      "variant": "from19_x3_h300",
+      "first_demand_month": 19,
+      "demand_factor": 3.0,
+      "holding_factor": 300.0,
+      "total_demand_tons": 6450.0,
+      "two_stage_total_cost": 280971341.5596528,
+      "multi_stage_total_cost": 282344706.62047166,
+      "multi_stage_total_cost_on_thm1_set": 282344706.62047166,
+      "thm1_set_understates_by": 0.0,
+      "thm1_set_understates_by_pct": 0.0,
+      "multi_minus_two_stage": 1373365.060818851,
+      "q_two_stage": [
+        605.6603773584906,
+        618.8212927756654,
+        1200.0
+      ],
+      "q_multi_stage": [
+        835.9130944856469,
+        846.8097760294723,
+        1199.9999999999998
+      ],
+      "q_multi_stage_on_thm1_set": [
+        835.913094485647,
+        846.8097760294723,
+        1200.0
+      ],
+      "C_multi_stage": [
+        600.0,
+        600.0
+      ],
+      "C_multi_stage_on_thm1_set": [
+        600.0,
+        600.0
+      ],
+      "solve_s": [
+        26.844831943511963,
+        13.165352821350098,
+        11.293052911758423
+      ]
+    },
+    {
+      "variant": "from19_x3_h1000",
+      "first_demand_month": 19,
+      "demand_factor": 3.0,
+      "holding_factor": 1000.0,
+      "total_demand_tons": 6450.0,
+      "two_stage_total_cost": 690884173.6694678,
+      "multi_stage_total_cost": 691959501.9624563,
+      "multi_stage_total_cost_on_thm1_set": 691489628.4009279,
+      "thm1_set_understates_by": 469873.5615284443,
+      "thm1_set_understates_by_pct": 0.0679047776923133,
+      "multi_minus_two_stage": 1075328.2929885387,
+      "q_two_stage": [
+        963.8888888888889,
+        978.0112044817927,
+        1500.0
+      ],
+      "q_multi_stage": [
+        1148.1047261859362,
+        1153.9029498916946,
+        1500.0
+      ],
+      "q_multi_stage_on_thm1_set": [
+        1068.3933576934628,
+        1076.5234284621,
+        1500.0
+      ],
+      "C_multi_stage": [
+        600.0,
+        600.0
+      ],
+      "C_multi_stage_on_thm1_set": [
+        600.0,
+        600.0
+      ],
+      "solve_s": [
+        17.23754906654358,
+        11.481558084487915,
+        12.525870084762573
+      ]
+    },
+    {
+      "variant": "from22_x2_h1",
+      "first_demand_month": 22,
+      "demand_factor": 2.0,
+      "holding_factor": 1.0,
+      "total_demand_tons": 2200.0,
+      "two_stage_total_cost": 75430817.58560525,
+      "multi_stage_total_cost": 75430817.58560525,
+      "multi_stage_total_cost_on_thm1_set": 75430817.58560525,
+      "thm1_set_understates_by": 0.0,
+      "thm1_set_understates_by_pct": 0.0,
+      "multi_minus_two_stage": 0.0,
+      "q_two_stage": [
+        222.13359833822994,
+        222.13804155375007,
+        333.3333333333333
+      ],
+      "q_multi_stage": [
+        222.13359833823074,
+        222.13804155375013,
+        333.3333333333333
+      ],
+      "q_multi_stage_on_thm1_set": [
+        222.13359833823006,
+        222.1380415537501,
+        333.3333333333333
+      ],
+      "C_multi_stage": [
+        600.0,
+        600.0
+      ],
+      "C_multi_stage_on_thm1_set": [
+        600.0,
+        600.0
+      ],
+      "solve_s": [
+        23.1553738117218,
+        15.540849924087524,
+        15.850499153137207
+      ]
+    },
+    {
+      "variant": "from22_x2_h100",
+      "first_demand_month": 22,
+      "demand_factor": 2.0,
+      "holding_factor": 100.0,
+      "total_demand_tons": 2200.0,
+      "two_stage_total_cost": 144479563.86887604,
+      "multi_stage_total_cost": 144506157.23054335,
+      "multi_stage_total_cost_on_thm1_set": 144479563.86887604,
+      "thm1_set_understates_by": 26593.36166730523,
+      "thm1_set_understates_by_pct": 0.018402926336819343,
+      "multi_minus_two_stage": 26593.36166730523,
+      "q_two_stage": [
+        199.86209169235698,
+        199.86609021371763,
+        400.31410337084554
+      ],
+      "q_multi_stage": [
+        210.96345900159153,
+        210.9676797621069,
+        366.967734829955
+      ],
+      "q_multi_stage_on_thm1_set": [
+        199.86209169235696,
+        199.86609021371765,
+        400.3141033708453
+      ],
+      "C_multi_stage": [
+        600.0,
+        600.0
+      ],
+      "C_multi_stage_on_thm1_set": [
+        600.0,
+        600.0
+      ],
+      "solve_s": [
+        25.007857084274292,
+        14.327922821044922,
+        12.76318907737732
+      ]
+    },
+    {
+      "variant": "from22_x2_h300",
+      "first_demand_month": 22,
+      "demand_factor": 2.0,
+      "holding_factor": 300.0,
+      "total_demand_tons": 2200.0,
+      "two_stage_total_cost": 282822040.81632656,
+      "multi_stage_total_cost": 283649489.4400781,
+      "multi_stage_total_cost_on_thm1_set": 282822040.81632656,
+      "thm1_set_understates_by": 827448.6237515211,
+      "thm1_set_understates_by_pct": 0.29171518178470845,
+      "multi_minus_two_stage": 827448.6237515211,
+      "q_two_stage": [
+        300.0,
+        306.1224489795918,
+        500.0
+      ],
+      "q_multi_stage": [
+        329.10127324318836,
+        333.26996134308604,
+        438.90050708710015
+      ],
+      "q_multi_stage_on_thm1_set": [
+        300.0,
+        306.1224489795918,
+        500.0
+      ],
+      "C_multi_stage": [
+        600.0,
+        600.0
+      ],
+      "C_multi_stage_on_thm1_set": [
+        600.0,
+        600.0
+      ],
+      "solve_s": [
+        35.34674406051636,
+        14.294615983963013,
+        25.964890241622925
+      ]
+    },
+    {
+      "variant": "from22_x2_h1000",
+      "first_demand_month": 22,
+      "demand_factor": 2.0,
+      "holding_factor": 1000.0,
+      "total_demand_tons": 2200.0,
+      "two_stage_total_cost": 764132000.0,
+      "multi_stage_total_cost": 764341289.4303838,
+      "multi_stage_total_cost_on_thm1_set": 764132000.0,
+      "thm1_set_understates_by": 209289.43038380146,
+      "thm1_set_understates_by_pct": 0.027381672726298996,
+      "multi_minus_two_stage": 209289.43038380146,
+      "q_two_stage": [
+        466.6666666666667,
+        470.00000000000006,
+        600.0
+      ],
+      "q_multi_stage": [
+        499.89988987886676,
+        505.9804707429089,
+        600.0
+      ],
+      "q_multi_stage_on_thm1_set": [
+        466.6666666666667,
+        470.00000000000006,
+        600.0
+      ],
+      "C_multi_stage": [
+        600.0,
+        600.0
+      ],
+      "C_multi_stage_on_thm1_set": [
+        600.0,
+        600.0
+      ],
+      "solve_s": [
+        27.53409481048584,
+        14.79403018951416,
+        14.01498794555664
+      ]
+    },
+    {
+      "variant": "from22_x3_h1",
+      "first_demand_month": 22,
+      "demand_factor": 3.0,
+      "holding_factor": 1.0,
+      "total_demand_tons": 3300.0,
+      "two_stage_total_cost": 85830903.17062026,
+      "multi_stage_total_cost": 85830903.17062026,
+      "multi_stage_total_cost_on_thm1_set": 85830903.17062026,
+      "thm1_set_understates_by": 0.0,
+      "thm1_set_understates_by_pct": 0.0,
+      "multi_minus_two_stage": 0.0,
+      "q_two_stage": [
+        599.639735666169,
+        599.6577236170706,
+        700.0
+      ],
+      "q_multi_stage": [
+        599.639735666169,
+        599.6577236170705,
+        700.0000000000001
+      ],
+      "q_multi_stage_on_thm1_set": [
+        599.6397356661689,
+        599.6577236170705,
+        699.9999999999998
+      ],
+      "C_multi_stage": [
+        600.0,
+        600.0
+      ],
+      "C_multi_stage_on_thm1_set": [
+        600.0,
+        600.0
+      ],
+      "solve_s": [
+        31.562089204788208,
+        13.88442325592041,
+        13.06334400177002
+      ]
+    },
+    {
+      "variant": "from22_x3_h100",
+      "first_demand_month": 22,
+      "demand_factor": 3.0,
+      "holding_factor": 100.0,
+      "total_demand_tons": 3300.0,
+      "two_stage_total_cost": 154437724.7598228,
+      "multi_stage_total_cost": 154437724.7598228,
+      "multi_stage_total_cost_on_thm1_set": 154437724.7598228,
+      "thm1_set_understates_by": 0.0,
+      "thm1_set_understates_by_pct": 0.0,
+      "multi_minus_two_stage": 0.0,
+      "q_two_stage": [
+        599.6099999999999,
+        599.6279888396651,
+        700.0
+      ],
+      "q_multi_stage": [
+        599.61,
+        599.6279888396651,
+        700.0
+      ],
+      "q_multi_stage_on_thm1_set": [
+        599.61,
+        599.6279888396652,
+        700.0
+      ],
+      "C_multi_stage": [
+        600.0,
+        600.0
+      ],
+      "C_multi_stage_on_thm1_set": [
+        600.0,
+        600.0
+      ],
+      "solve_s": [
+        38.19019627571106,
+        14.090643167495728,
+        10.843644857406616
+      ]
+    },
+    {
+      "variant": "from22_x3_h300",
+      "first_demand_month": 22,
+      "demand_factor": 3.0,
+      "holding_factor": 300.0,
+      "total_demand_tons": 3300.0,
+      "two_stage_total_cost": 291418174.4027972,
+      "multi_stage_total_cost": 291673202.8371303,
+      "multi_stage_total_cost_on_thm1_set": 291418174.4027972,
+      "thm1_set_understates_by": 255028.434333086,
+      "thm1_set_understates_by_pct": 0.08743636091776773,
+      "multi_minus_two_stage": 255028.434333086,
+      "q_two_stage": [
+        599.6849369873976,
+        599.702931674285,
+        850.0000000000017
+      ],
+      "q_multi_stage": [
+        637.3564799759861,
+        645.4298014410942,
+        850.0
+      ],
+      "q_multi_stage_on_thm1_set": [
+        599.6849369873976,
+        599.702931674285,
+        850.0000000000005
+      ],
+      "C_multi_stage": [
+        600.0,
+        600.0
+      ],
+      "C_multi_stage_on_thm1_set": [
+        600.0,
+        600.0
+      ],
+      "solve_s": [
+        31.866748332977295,
+        13.265062093734741,
+        16.678366899490356
+      ]
+    },
+    {
+      "variant": "from22_x3_h1000",
+      "first_demand_month": 22,
+      "demand_factor": 3.0,
+      "holding_factor": 1000.0,
+      "total_demand_tons": 3300.0,
+      "two_stage_total_cost": 770365200.0,
+      "multi_stage_total_cost": 770789831.9556953,
+      "multi_stage_total_cost_on_thm1_set": 770365200.0,
+      "thm1_set_understates_by": 424631.9556952715,
+      "thm1_set_understates_by_pct": 0.05509049783620903,
+      "multi_minus_two_stage": 424631.9556952715,
+      "q_two_stage": [
+        726.6666666666667,
+        733.6666666666667,
+        900.0
+      ],
+      "q_multi_stage": [
+        799.7797577335068,
+        802.8779269819235,
+        900.0
+      ],
+      "q_multi_stage_on_thm1_set": [
+        726.6666666666666,
+        733.6666666666666,
+        900.0
+      ],
+      "C_multi_stage": [
+        600.0,
+        600.0
+      ],
+      "C_multi_stage_on_thm1_set": [
+        600.0,
+        600.0
+      ],
+      "solve_s": [
+        20.153982877731323,
+        16.939854621887207,
+        19.832551956176758
+      ]
+    }
+  ],
+  "environment": {
+    "timestamp": "2026-11-12T00:28:16.879481-05:00",
+    "python_version": "3.12.4",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.13.1",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 10,
+    "thread_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "highs_version": null,
+    "git_commit": "43b81493c096cc972034c1143e88fac0b57ccad1",
+    "hardware_model": "MacBookPro18,1",
+    "memory_bytes": 17179869184
+  }
+}
